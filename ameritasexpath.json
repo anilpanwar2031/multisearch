@@ -1,0 +1,91 @@
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "ExceptionClicks": [
+                    "//td[normalize-space()='SMILEY TOOTH LLLP']//following-sibling::td[normalize-space()='3018 RIDGE RD STE 120']//span[1]",
+                    "//td[normalize-space()='SAINT LOUIS PEDIATRIC DENTISTRY LLC']//following-sibling::td[normalize-space()='2325 DOUGHERTY FERRY RD STE 200']//span[1]"
+                ],
+                "Clicks": [
+                    "//a[normalize-space()='Find A Member']"
+                ],
+                "AdditonalInfo": {}
+            },
+            "SearchFilter": {
+                "js": "let vale=arguments[1]rnlet newD = vale rnconsole.log(newD)          rntry{ let nx =arguments[0].replace('%s',newD)rndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()rnreturn true   rn}rncatch{return false}",
+                "arg1": "//td[normalize-space()='%s']//following-sibling::td//a",
+                "arg2": "BirthDate"
+            },
+            "SearchButtonXpath": "//input[@value='Submit']",
+            "PostSteps": {
+                "AdditonalInfo": {
+                    "aftersleep": 2
+                },
+                "Clicks": [
+                    "//span[text()='Benefits Summary']",
+                    "//a[text()='benefits summary']",
+                    "//h2[text()='Benefits Summary']//following-sibling::div//i",
+                    "//h5[normalize-space()='Patient Details']"
+                ]
+            }
+        },
+        "Queries": [
+            {
+                "Data": "PatientMemberId",
+                "Xpath": "//div[normalize-space()='Member ID #']//following-sibling::div//input"
+            },
+            {
+                "Data": "LastName",
+                "Xpath": "((//div[normalize-space()='Member ID #']//parent::div)[1]//following-sibling::div)[3]//input"
+            }
+        ]
+    }
+}
+
+
+
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//select",
+                    "//select/option[contains(text(),'Date of Birth, Name & State')]"
+                ],
+                "AdditonalInfo": {}
+            },
+            "SearchFilter": {
+                "js": "let vale=arguments[1]rnlet newD = vale rnconsole.log(newD)          rntry{ let nx =arguments[0].replace('%s',newD)rndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()rnreturn true   rn}rncatch{return false}",
+                "arg1": "//td[normalize-space()='%s']//following-sibling::td//a",
+                "arg2": "BirthDate"
+            },
+            "SearchButtonXpath": "//input[@value='Submit']",
+            "PostSteps": {
+                "AdditonalInfo": {
+                    "aftersleep": 2
+                },
+                "Clicks": [
+                    "//span[text()='Benefits Summary']",
+                    "//a[text()='benefits summary']",
+                    "//h2[text()='Benefits Summary']//following-sibling::div//i",
+                    "//h5[normalize-space()='Patient Details']"
+                ]
+            }
+        },
+        "Queries": [
+            {
+                "Data": "DateOfBirth",
+                "Xpath": "//label[contains(text(),'Date of Birth')]//parent::div//following-sibling::div/input"
+            },
+            {
+                "Data": "LastName",
+                "Xpath": "//label[contains(@id,'lastNameDob')]//parent::div//following-sibling::div/input"
+            },
+            
+        ]
+    }
+}
+
+
+
+

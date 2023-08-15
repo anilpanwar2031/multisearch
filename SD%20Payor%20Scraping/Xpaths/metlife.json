@@ -1,0 +1,89 @@
+{
+    "InputParameters": {
+        "PayorName": "metlife",
+        "PayorId": 13,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "RcmClaimNumber": "234378",
+        "RcmClinicId": "41e9bf05-7b4c-46ac-8d15-8cfecd970297"
+    },
+    "PatientData": [
+        {
+            "FirstName": "Vedaant",
+            "LastName": "Patel",
+            "Dob": "08/09/2015",
+            "SubscriberID": "634744609"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.metdental.com/",
+        "LoginId": "thesmileytooth2",
+        "Password": "Hake2020",
+        "OtpRequired": false,
+        "OtpEmail": "",
+        "OtpEmailPassword": "",
+        "EmailProvierUrl": ""
+    },
+    "Xpaths": [
+        {
+            "Id": 16,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 196,
+            "XPath": "{\r\n   \"DataContextId\":\"1\",\r\n   \"DataContextName\":\"EligibilityLogin\",\r\n   \"Click\":null,\r\n   \"Xpaths\":[\r\n      {\r\n         \"UsernameXpath\":\"//div[@id='signIn']//input[@name='username']\",\r\n         \"PasswordXpath\":\"//div[@id='signIn']//input[@name='password']\",\r\n         \"LoginButtonXpath\":\"//input[@alt='Sign in']\",\r\n         \"OtpInputXpath\":\"\",\r\n         \"OtpSubmitXpath\":\"\",\r\n         \"PreSteps\":[  ],\r\n         \"PostSteps\":[] ,\r\n         \"OtpXpath\":\"\"\r\n      }\r\n   ]\r\n}",
+            "IsActive": true,
+            "DataContextName": "EligibilityLogin",
+            "ProductCategoryId": 0
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Type\",\"BenefitPeriodIndividual\",\"LifetimeIndividual\",\"BenefitPeriodFamily\",\"LifetimeFamily\"],\"type\":\"headless\"},\"headingname\":\"BasicPlanInfo\",\"xpath\":\"/html/body/div/div[3]/div/div[4]/table[1]/tbody/tr[2]/td/table/tbody/tr/td/div/table[3]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PlanNotes\"},\"headingname\":\"BasicPlanNotes\",\"xpath\":\"/html/body/div/div[3]/div/div[4]/table[1]/tbody/tr[2]/td/table/tbody/tr/td/div/table[5]/tbody\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Type\",\"BenefitPeriodIndividual\",\"LifetimeIndividual\",\"BenefitPeriodFamily\",\"LifetimeFamily\"]},\"headingname\":\"Orthodontics\",\"xpath\":\"/html/body/div/div[3]/div/div[4]/table[2]/tbody/tr[2]/td/table/tbody/tr/td/div/table[3]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"OrthodonticsNotes\"},\"xpath\":\"/html/body/div/div[3]/div/div[4]/table[2]/tbody/tr[2]/td/table/tbody/tr/td/div/table[5]/tbody\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Type\",\"BenefitPeriodIndividual\",\"LifetimeIndividual\",\"BenefitPeriodFamily\",\"LifetimeFamily\"]},\"headingname\":\"Periodontics\",\"xpath\":\"/html/body/div/div[3]/div/div[4]/table[2]/tbody/tr[2]/td/table/tbody/tr/td/div/table[3]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PeriodonticsNotes\"},\"xpath\":\"/html/body/div/div[3]/div/div[4]/table[4]/tbody/tr[2]/td/table/tbody/tr/td/div/table[5]/tbody\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"headingname\":\"Tmj\",\"xpath\":\"/html/body/div/div[3]/div/div[4]/table[3]\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityMaximumAndDedecibles",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//*[contains(text(),'Benefit Levels')]\"],\"fileds\":[]},\"xpath\":\"/html/body/div/div[3]/div[1]/div[3]/div[2]/table[1]/tbody/tr[2]/td/table/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Notes\"},\"xpath\":\"/html/body/div/div[3]/div[1]/div[3]/div[2]/table[1]/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[42]/td\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityBenefitsAndLimitations",
+            "ProductCategoryId": 2
+        },        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"/html/body/div/div[3]/div/div[1]/div/p[4]/a\"],\"fileds\":[]},\"xpath\":\"/html/body/div/div[3]/div[1]/div[3]/table/tbody/tr[2]/td/table/tbody/tr/td/center/table/tbody/tr[2]/td[1]/p/table[1]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"AdditonalInfo\"},\"xpath\":\"/html/body/div/div[3]/div[1]/div[3]/table/tbody/tr[2]/td/table/tbody/tr/td/center/table/tbody/tr[2]/td[1]/p/table[2]/tbody/tr/td/table/tbody\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"GeneralInformation\"},\"xpath\":\"/html/body/div/div[3]/div[1]/div[3]/table/tbody/tr[2]/td/table/tbody/tr/td/center/table/tbody/tr[2]/td[3]/table[1]/tbody/tr/td/table/tbody\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Address\"},\"xpath\":\"/html/body/div/div[3]/div[1]/div[3]/table/tbody/tr[2]/td/table/tbody/tr/td/center/table/tbody/tr[2]/td[3]/table[2]/tbody/tr/td/table/tbody\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"SubscriberName\"},\"xpath\":\"/html/body/div/div[3]/div[1]/div[3]/table/tbody/tr[2]/td/table/tbody/tr/td/center/table/tbody/tr[2]/td[1]/table/tbody/tr/td[1]/table/tbody/tr/td\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PlanBenefitSummary\"},\"xpath\":\"/html/body/div/div[3]/div[1]/div[3]/table/tbody/tr[2]/td/table/tbody/tr/td/center/table/tbody/tr[1]/td\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityPatientSummary",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath":"{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//*[contains(text(),'Benefit Levels')]\",\"/html/body/div/div[3]/div[1]/div[3]/div[2]/table[1]/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[3]/td[5]/a\"],\"fileds\":[]},\"xpath\":\"\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='ORAL EXAMS']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='TOPICAL APPLICATION - FLUORIDE']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='BITEWING-SINGLE IMAGE']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='PERIODONTAL MAINTENANCE']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='SPACE MAINTAINER']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='PALLIATIVE TREATMENT']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='INLAY/ ONLAY']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='DENTURE']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='BRIDGE']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='PERIODONTAL SCALING/ ROOT PLANING']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='PERIODONTAL SURGERY']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='SEALANTS']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='AMALGAMS/ FILLINGS']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='COMPOSITES/ FILLINGS']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='EXTRACTIONS']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='ENDODONTICS/ ROOT CANAL']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='ORAL SURGERY']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='RECEMENT/BOND INLAY ONLAY VENEER']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='CROWN REPAIR']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='IMPLANTS AND SUPPORTED PROSTHETICS']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='TMJ']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='ORTHODONTICS']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='BLEACHING']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='OCCLUSAL GUARDS']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":[\"//select[@name='parms']\",\"//*[text()='REMOVAL OF PLAQUE/CALCULUS/STAINS']\",\"//input[@name='submitButton']\"],\"fileds\":[\"procedureCode\",\"Description\",\"NetworkFee\",\"PlanBenefit\",\"PatientObligation\"],\"type\":\"headless\"},\"xpath\":\"//table[@class='standardTable2']/tbody/tr/td/table\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilitySummary",
+            "ProductCategoryId": 2
+        }
+   
+   
+],
+"SearchParameters": [
+    {
+        "Id": 2,
+        "EligibilityPayorInfoId": 12,
+        "JsonSettings": "{\r\n   \"Search\":{\r\n      \"Settings\":{\r\n         \"PreSteps\":{\r\n            \"Clicks\":[\"//span[normalize-space()='Eligibility & Plan Detail']\"],\r\n            \"AdditonalInfo\":{\r\n               \"aftersleep\":5\r\n            }\r\n         },\r\n         \"SearchFilter\": { \r\n            \"js\": \"let vale=arguments[1]\\r\\nlet newD = vale \\r\\nconsole.log(newD)          \\r\\ntry{ let nx =arguments[0].replace('%s',newD)\\r\\ndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()\\r\\nreturn true   \\r\\n}\\r\\ncatch{return false}\",\r\n            \"arg1\": \"//td[contains(normalize-space(), '%s')]//a\",\r\n            \"arg2\": \"Dob\",\r\n            \"Clicks\":[\"(//tr[contains(normalize-space(), '75087')][contains(normalize-space(), 'HAKE, KAREN')])//a\"]\r\n            },\r\n\r\n         \"SearchButtonXpath\":\"//input[@id='InputID']/following-sibling::a\",\r\n         \"PostSteps\":{\r\n            \"AdditonalInfo\":{\r\n               \"aftersleep\":5\r\n            },\r\n            \"Clicks\":null\r\n         }\r\n      },\r\n      \"Queries\":[\r\n         {\r\n            \"Data\":\"SubscriberID\",\r\n            \"Xpath\":\"//input[@id='InputID']\"\r\n         }\r\n      ]\r\n   }\r\n}",
+        "IsActive": true,
+        "ProductCategoryId": 2
+    }
+]
+}

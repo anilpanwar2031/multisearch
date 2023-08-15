@@ -1,0 +1,751 @@
+{
+    "EligibilityMaximums": [
+        {
+            "Type": "Maximum",
+            "Category": "Orthodontic",
+            "Name": "On orthodontics",
+            "CategoryHistoryAccumator": "No",
+            "Individual": "Amount\u00a0$2,000.00 Used\u00a0$0 Remaining\u00a0$2,000.00",
+            "Family": "Amount\u00a0$0 Used\u00a0$0 Remaining\u00a0$0",
+            "AccumPeriodFrom": null
+        },
+        {
+            "Type": "Deductible",
+            "Category": "General",
+            "Name": "All, except diagnostic, preventive, X-rays, sealants, periodontal maintenance, and orthodontics",
+            "CategoryHistoryAccumator": "No",
+            "Individual": "Amount\u00a0$50.00 Used\u00a0$0 Remaining\u00a0$50.00",
+            "Family": "Amount\u00a0$0 Used\u00a0$0 Remaining\u00a0$0",
+            "AccumPeriodFrom": "12/31/2023"
+        },
+        {
+            "Type": "Maximum",
+            "Category": "General",
+            "Name": "All, except diagnostic, preventive, X-rays, sealants, periodontal maintenance, and orthodontics",
+            "CategoryHistoryAccumator": "No",
+            "Individual": "Amount\u00a0$2,000.00 Used\u00a0$0 Remaining\u00a0$2,000.00",
+            "Family": "Amount\u00a0$0 Used\u00a0$0 Remaining\u00a0$0",
+            "AccumPeriodFrom": "12/31/2023"
+        }
+    ],
+    "EligibilityPatientVerification": [
+        {
+            "FamilyMembers": [
+                {
+                    "PatientName": "NATASHA HAMPTON",
+                    "Birthdate": "03/03/1981",
+                    "Relationship": "Subscriber",
+                    "Eligibility": "Active",
+                    "EffectiveDate": "09/01/2011"
+                },
+                {
+                    "PatientName": "JUSTIN HAMPTON",
+                    "Birthdate": "11/13/1981",
+                    "Relationship": "Spouse",
+                    "Eligibility": "Active",
+                    "EffectiveDate": "09/01/2011"
+                },
+                {
+                    "PatientName": "BRAYDEN HAMPTON",
+                    "Birthdate": "08/05/2011",
+                    "Relationship": "Dependent",
+                    "Eligibility": "Active",
+                    "EffectiveDate": "09/01/2011"
+                },
+                {
+                    "PatientName": "KEIRA HAMPTON",
+                    "Birthdate": "06/03/2009",
+                    "Relationship": "Dependent",
+                    "Eligibility": "Active",
+                    "EffectiveDate": "09/01/2011"
+                },
+                {
+                    "PatientName": "TRINITY CAMPBELL",
+                    "Birthdate": "11/10/2000",
+                    "Relationship": "Dependent",
+                    "Eligibility": "Active",
+                    "EffectiveDate": "09/01/2011"
+                },
+                {
+                    "PatientName": "LEGEND HAMPTON",
+                    "Birthdate": "03/28/2018",
+                    "Relationship": "Dependent",
+                    "Eligibility": "Active",
+                    "EffectiveDate": "01/01/2020"
+                },
+                {
+                    "PatientName": "PSALM HAMPTON",
+                    "Birthdate": "10/16/2021",
+                    "Relationship": "Dependent",
+                    "Eligibility": "Active",
+                    "EffectiveDate": "09/01/2022"
+                },
+                {
+                    "PatientName": "JAXON HAMPTON",
+                    "Birthdate": "04/12/2016",
+                    "Relationship": "Dependent",
+                    "Eligibility": "Active",
+                    "EffectiveDate": "01/01/2021"
+                },
+                {
+                    "PatientName": "ZECHARIAH HAMPTON",
+                    "Birthdate": "01/06/2020",
+                    "Relationship": "Dependent",
+                    "Eligibility": "Active",
+                    "EffectiveDate": "01/01/2021"
+                },
+                {
+                    "PatientName": "JUSTUS HAMPTON",
+                    "Birthdate": "03/02/2015",
+                    "Relationship": "Dependent",
+                    "Eligibility": "Active",
+                    "EffectiveDate": "01/01/2021"
+                }
+            ]
+        },
+        {
+            "CobInformation": "Payment Order: Birthday\nInternal COB: Coordination of benefits is allowed when the other member is covered within this group.\nInternal COB applies to following Member Type(s):\nSubscriber\nSpouse\nDependent\nPayment Option Type: Carveout\nExternal COB: Coordination of benefits is allowed when the other member is covered with another dental plan.\nExternal COB applies to following Member Type(s):\nSubscriber\nSpouse\nDependent",
+            "ClientBenefitInformation": "Plan: DDMN\nProduct: Delta Dental PPO plus Premier\nPayor ID: 07000\nGroup Number: 051054\nSub Group Number: 0001\nGroup Name: Wells Fargo and Company\nSub Group Name: Active Employees - WFC"
+        }
+    ],
+    "EligibilityServiceTreatmentHistory": [
+        {
+            "Procedures": "Procedures",
+            "Eligible": "Eligible",
+            "ServiceDates": "Service Dates"
+        },
+        {
+            "Procedures": "Exam",
+            "Eligible": "Yes",
+            "ServiceDates": ""
+        },
+        {
+            "Procedures": "Cleaning",
+            "Eligible": "Yes",
+            "ServiceDates": ""
+        },
+        {
+            "Procedures": "Perio Maintenance Cleaning",
+            "Eligible": "Yes",
+            "ServiceDates": ""
+        },
+        {
+            "Procedures": "Bitewings",
+            "Eligible": "No",
+            "ServiceDates": "11/17/2022"
+        },
+        {
+            "Procedures": "Full Mouth X-rays",
+            "Eligible": "No",
+            "ServiceDates": "06/11/2019"
+        },
+        {
+            "Procedures": "Perio Risk Test",
+            "Eligible": "No",
+            "ServiceDates": ""
+        },
+        {
+            "Procedures": "Fluoride",
+            "Eligible": "No",
+            "ServiceDates": ""
+        },
+        {
+            "Procedures": "Occlusal Guard",
+            "Eligible": "Yes",
+            "ServiceDates": ""
+        }
+    ],
+    "EligibilityAgeLimitation": [
+        {
+            "AgeLimitations": "Eligibility Age Limits\nName Age Rule\nChild Max Age Limit\n26\nEnd of Birth Month\nIRS Max Age Limit\n26\nEnd of Birth Month\nStudent Max Age Limit\n26\nEnd of Birth Month\nStudent Document Required: No\n\n\nOverage Dependent Options\nAuto Term: No\nSend Notification: No\nReturn Verification: Client\nOverage Notification Time Limit: 2 Months"
+        }
+    ],
+    "EligibilityBenefits": [
+        {
+            "procedure": "Diagnostic",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Oral Exams",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D0150",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Diagnostic",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Oral Exams",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D0120",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Diagnostic",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Oral Exams",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D0140",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Diagnostic",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Oral Exams",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D0170",
+            "procedureCodeCovered": "Not Covered",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Diagnostic",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Emergency Treatment",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D9110",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "All Other Radiographs",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "IntraOral/Extraoral Films",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D0220",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "All Other Radiographs",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "IntraOral/Extraoral Films",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D0230",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Bitewing Radiographs",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Bitewing Xrays",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D0272",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Bitewing Radiographs",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Bitewing Xrays",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D0274",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "All Other Radiographs",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Full-Mouth Series Xray/Panoramic Film",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D0210",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "All Other Radiographs",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Full-Mouth Series Xray/Panoramic Film",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D0330",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "All Other Radiographs",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "IntraOral/Extraoral Films",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D0240",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Preventive",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Dental Prophylaxis",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D1110",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Preventive",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Dental Prophylaxis",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D1120",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Preventive",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Topical Fluoride Treatment",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D1206",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Preventive",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Topical Fluoride Treatment",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D1208",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Sealants",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Sealants",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D1351",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Preventive",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Other Preventive Services",
+            "SubprocedureCovered": "Not Covered",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D1354",
+            "procedureCodeCovered": "Not Covered",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Preventive",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Space Maintenance",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D1516",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Preventive",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Space Maintenance",
+            "SubprocedureCovered": "100",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D1517",
+            "procedureCodeCovered": "100",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Minor Restorative",
+            "procedureCovered": "90",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Amalgams",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D2140",
+            "procedureCodeCovered": "90",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Minor Restorative",
+            "procedureCovered": "90",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Amalgams",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D2150",
+            "procedureCodeCovered": "90",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Minor Restorative",
+            "procedureCovered": "90",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Amalgams",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D2160",
+            "procedureCodeCovered": "90",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Minor Restorative",
+            "procedureCovered": "90",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Amalgams",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D2161",
+            "procedureCodeCovered": "90",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Minor Restorative",
+            "procedureCovered": "90",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Resin Based Composites",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D2391",
+            "procedureCodeCovered": "80",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Minor Restorative",
+            "procedureCovered": "90",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Resin Based Composites",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D2392",
+            "procedureCodeCovered": "80",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Minor Restorative",
+            "procedureCovered": "90",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Resin Based Composites",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D2393",
+            "procedureCodeCovered": "80",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Minor Restorative",
+            "procedureCovered": "90",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Resin Based Composites",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D2394",
+            "procedureCodeCovered": "80",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Simple Extractions",
+            "procedureCovered": "90",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Oral Surgery - Simple Extractions",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D7140",
+            "procedureCodeCovered": "90",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Endodontics",
+            "procedureCovered": "90",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Pulpotomy",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D3220",
+            "procedureCodeCovered": "90",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Major Restorative",
+            "procedureCovered": "60",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Prefabricated Crowns",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D2930",
+            "procedureCodeCovered": "90",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Major Restorative",
+            "procedureCovered": "60",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Prefabricated Crowns",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D2933",
+            "procedureCodeCovered": "Optional",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Major Restorative",
+            "procedureCovered": "60",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Prefabricated Crowns",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D2934",
+            "procedureCodeCovered": "90",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        },
+        {
+            "procedure": "Other Basic Services",
+            "procedureCovered": "100",
+            "procedureWaitingPeriod": "",
+            "procedureWaitingPeriodMetDate": "-",
+            "SubProcedureName": "Anesthesia",
+            "SubprocedureCovered": "90",
+            "SubprocedureWaitingPeriod": "",
+            "SubprocedureWaitingPeriodMetDate": "-",
+            "procedureCode": "D9230",
+            "procedureCodeCovered": "90",
+            "procedureCodeWaitingPeriod": "",
+            "procedureCodeWaitingPeriodMetDate": "-"
+        }
+    ],
+    "EligibilityOtherProvisions": [
+        {
+            "ExclusionsAndLimitations": [
+                {
+                    "Category": "Category",
+                    "ExclusionsAndLimitations": "Exclusions And Limitations"
+                },
+                {
+                    "Category": "Diagnostic",
+                    "ExclusionsAndLimitations": "Oral examinations are payable twice per calendar year. Two additional problem-focused exams are payable per calendar year."
+                },
+                {
+                    "Category": "Preventive",
+                    "ExclusionsAndLimitations": "Prophylaxes (cleanings) are payable twice per calendar year. Four additional periodontal prophylaxes are payable per calendar year. Space maintainers are payable once per area in a lifetime for age 18 and under. Fluoride treatments are payable once per calendar year for age 17 and under."
+                },
+                {
+                    "Category": "Bitewing Radiographs",
+                    "ExclusionsAndLimitations": "Bitewing x-rays are payable once in any period of 12 consecutive months."
+                },
+                {
+                    "Category": "All Other Radiographs",
+                    "ExclusionsAndLimitations": "Full mouth x-rays (which include bitewing x-rays) or a panorex are payable once in any five consecutive calendar years."
+                },
+                {
+                    "Category": "Brush Biopsy",
+                    "ExclusionsAndLimitations": ""
+                },
+                {
+                    "Category": "Sealants",
+                    "ExclusionsAndLimitations": "Sealants are payable for first and second permanent molars for age 15 and under, limited to once per tooth per lifetime."
+                },
+                {
+                    "Category": "Minor Restorative",
+                    "ExclusionsAndLimitations": "Posterior composite resin restorations are covered services. Amalgam and composite resin restorations are payable once within a 24-month period, regardless of the number or combination of restorations placed on a surface."
+                },
+                {
+                    "Category": "Major Restorative",
+                    "ExclusionsAndLimitations": "Inlays are not covered services and will be optioned to an amalgam or resin restoration. Posterior porcelain or resin crowns are covered benefits. Cast restorations (including crowns and onlays) and associated procedures (such as cores and substructures) on the same tooth are payable once in any five-year period. Labial (laminate) veneers are payable once per 60 months, no tooth or age limits."
+                },
+                {
+                    "Category": "Endodontics",
+                    "ExclusionsAndLimitations": ""
+                },
+                {
+                    "Category": "Periodontics",
+                    "ExclusionsAndLimitations": "An occlusal guard is payable once in a lifetime. Root planing and scaling is payable once per quadrant in 24 consecutive months."
+                },
+                {
+                    "Category": "Relines and Repairs",
+                    "ExclusionsAndLimitations": ""
+                },
+                {
+                    "Category": "Simple Extractions",
+                    "ExclusionsAndLimitations": ""
+                },
+                {
+                    "Category": "Other Oral Surgery",
+                    "ExclusionsAndLimitations": ""
+                },
+                {
+                    "Category": "TMD",
+                    "ExclusionsAndLimitations": ""
+                },
+                {
+                    "Category": "Other Basic Services",
+                    "ExclusionsAndLimitations": ""
+                },
+                {
+                    "Category": "Prosthodontics",
+                    "ExclusionsAndLimitations": "Full and partial dentures are limited to once in a five year period. Bridgework is limited to once in a five year period. Payment will be made to replace a tooth that has been missing prior to the effective date of coverage."
+                },
+                {
+                    "Category": "Implants",
+                    "ExclusionsAndLimitations": "Implants and/or the restorations are payable once per tooth per five-year period."
+                },
+                {
+                    "Category": "Orthodontic Services",
+                    "ExclusionsAndLimitations": ""
+                }
+            ]
+        },
+        {
+            "DeltaDentalofMichiganClaimMailingAddressGroupDentalBenefits": "Delta Dental\nP.O. Box 9085\nFarmington Hills,\nMI 48333-9085",
+            "DeltaDentalofMichiganClaimMailingAddressIndividualDentalBenefits": "Delta Dental\nP.O. Box 9085\nFarmington Hills,\nMI 48333-9085",
+            "DeltaDentalofMichiganClaimMailingAddressCMS": "Delta Dental\nP.O. Box 9298\nFarmington Hills,\nMI 48333-9298",
+            "DeltaDentalofArizonaClaimMailingAddressGroupDentalBenefits": "Delta Dental of Arizona\nAttn: Group Plan Claims\nPO Box 9092\nFarmington Hills, MI 48333-9092",
+            "DeltaDentalofArizonaClaimMailingAddressIndividualDentalBenefits": "Delta Dental of Arizona\nAttn: Individual Plan Claims\nPO Box 9092\nFarmington Hills, MI 48333-9092",
+            "DeltaDentalofArizonaClaimMailingAddressPatientDirectDiscountPlan": "No claims to submit",
+            "DeltaDentalofArkansasClaimMailingAddressGroupDentalBenefits": "Delta Dental\nP.O. Box 15965\nLittle Rock,\nAR 72231",
+            "DeltaDentalofArkansasClaimMailingAddressIndividualDentalBenefits": "Delta Dental\nP.O. Box 9085\nFarmington Hills,\nMI 48333-9085",
+            "DeltaDentalofArkansasClaimMailingAddressAllOtherGroups": "Delta Dental\nP.O. Box 15965\nLittle Rock,\nAR 72231",
+            "DeltaDentalofArkansasClaimMailingAddressCMS": "Delta Dental\nP.O. Box 9230\nFarmington Hills,\nMI 48333-9230",
+            "DeltaDentalofArkansasClaimMailingAddressMedicaidDentalBenefits": "Delta Dental\nP.O. Box 6247\nSherwood,\nAR 72124-6247",
+            "DeltaDentalofKentuckyClaimMailingAddressGroupDentalBenefits": "Delta Dental\nP.O. Box 242810\nLouisville,\nKY 40224-2810",
+            "DeltaDentalofKentuckyClaimMailingAddressIndividualDentalBenefits": "Delta Dental\nP.O. Box 242810\nLouisville,\nKY 40224-2810",
+            "DeltaDentalofMinnesotaClaimMailingAddressGroupDentalBenefits": "Delta Dental\nP.O. Box 9120\nFarmington Hills,\nMI 48333-9120",
+            "DeltaDentalofMinnesotaClaimMailingAddressIndividualDentalBenefits": "Delta Dental\nP.O. Box 9120\nFarmington Hills,\nMI 48333-9120",
+            "DeltaDentalofNebraskaClaimMailingAddressGroupDentalBenefits": "Delta Dental\nP.O. Box 9120\nFarmington Hills,\nMI 48333-9120",
+            "DeltaDentalofNebraskaClaimMailingAddressIndividualDentalBenefits": "Delta Dental\nP.O. Box 9120\nFarmington Hills,\nMI 48333-9120",
+            "DeltaDentalofNewMexicoClaimMailingAddressGroupDentalBenefits": "Delta Dental\n100 Sun Ave. NE, Suite 400,\nAlbuquerque,\nNM 87109",
+            "DeltaDentalofNewMexicoClaimMailingAddressIndividualDentalBenefits": "Delta Dental\nP.O. Box 9085\nFarmington Hills,\nMI 48333-9085",
+            "DeltaDentalofNorthCarolinaClaimMailingAddressGroupDentalBenefits": "Delta Dental\nP.O. Box 9085\nFarmington Hills,\nMI 48333-9085",
+            "DeltaDentalofNorthCarolinaClaimMailingAddressIndividualDentalBenefits": "Delta Dental\nP.O. Box 9085\nFarmington Hills,\nMI 48333-9085",
+            "DeltaDentalofSouthDakotaClaimMailingAddressCMS": "Delta Dental\nP.O. Box 9215\nFarmington Hills,\nMI 48333-9215",
+            "DeltaDentalofTennesseeClaimMailingAddressGroupDentalBenefits": "Delta Dental\n240 Venture Circle Nashville,\nTN 37228-1604",
+            "DeltaDentalofTennesseeClaimMailingAddressIndividualDentalBenefits": "Delta Dental\n240 Venture Circle Nashville,\nTN 37228-1604",
+            "DeltaDentalofTennesseeClaimMailingAddressCMS": "Delta Dental\nP.O. Box 9215\nFarmington Hills,\nMI 48333-9215",
+            "DeltaDentalofWisconsinClaimMailingAddressCMS": "Delta Dental\nP.O. Box 9215\nFarmington Hills,\nMI 48333-9215"
+        }
+    ]
+}

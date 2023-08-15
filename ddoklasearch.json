@@ -1,0 +1,68 @@
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//a[contains(text(), 'My Patients')]",
+                    "//label[contains(text(),'SSN')]/preceding-sibling::input[@type='radio']"
+                ],
+                "AdditonalInfo": {}
+            },
+            "SearchButtonXpath": "//input[@type='submit' and @value='Search']",
+            "PostSteps": {
+                "Clicks": [
+                    "//span[normalize-space()='Active']"
+                ],
+                "AdditonalInfo": {
+                    "aftersleep": 5
+                }
+            }
+        },
+        "Queries": [
+            {
+                "Data": "SubscriberId",
+                "Xpath": "//td[@class='FormCellValue']//input"
+            }
+        ]
+    }
+}
+
+
+
+
+
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//label[contains(text(),'Name and DOB')]/preceding-sibling::input[@type='radio']"
+                ],
+                "AdditonalInfo": {}
+            },
+            "SearchButtonXpath": "//input[@type='submit' and @value='Search']",
+            "PostSteps": {
+                "Clicks": [
+                    "//span[normalize-space()='Active']"
+                ],
+                "AdditonalInfo": {
+                    "aftersleep": 5
+                }
+            }
+        },
+        "Queries": [
+            {
+                "Data": "FirstName",
+                "Xpath": "//input[contains(@id,'txtFirstName')]"
+            },
+            {
+                "Data": "LastName",
+                "Xpath": "//input[contains(@id,'txtLastName')]"
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//input[contains(@id,'txtDOB')]"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1274 @@
+{
+    "EligibilityPatientVerification": [
+        {
+            "MemberStatus": "Active",
+            "MemberName": "WESSON SMITH",
+            "DateOfBirth": "11/3/2013",
+            "SubscriberId": "835823750",
+            "SubscriberName": "JOE SMITH Information cannot be retrieved at this time"
+        },
+        {
+            "BenefitPeriod": "1/1/2023 \u2013 12/31/2023",
+            "Enrolled": "1/1/2018",
+            "Eligibility": "1/1/2018 \u2013 Current"
+        },
+        {
+            "AlternativeBenefitProvision": "Yes",
+            "MissingToothProvision": "No",
+            "CoordinationOfBenefits": "Standard",
+            "AssignmentOfBenefits": "Yes",
+            "FillingDowngrade": "No"
+        },
+        {
+            "Name/Plans": "AVERY SMITH",
+            "Status": ""
+        },
+        {
+            "Name/Plans": "169473 - Dental",
+            "Status": "Active"
+        },
+        {
+            "Name/Plans": "BRYNA SMITH",
+            "Status": ""
+        },
+        {
+            "Name/Plans": "169473 - Dental",
+            "Status": "Active"
+        },
+        {
+            "Name/Plans": "JOE SMITH",
+            "Status": ""
+        },
+        {
+            "Name/Plans": "169473 - Dental",
+            "Status": "Active"
+        },
+        {
+            "Name/Plans": "MAXIMUS SMITH",
+            "Status": ""
+        },
+        {
+            "Name/Plans": "169473 - Dental",
+            "Status": "Active"
+        },
+        {
+            "Name/Plans": "SAMANTHA SMITH",
+            "Status": ""
+        },
+        {
+            "Name/Plans": "169473 - Dental",
+            "Status": "Active"
+        },
+        {
+            "Name/Plans": "WESSON SMITH",
+            "Status": ""
+        },
+        {
+            "Name/Plans": "169473 - Dental",
+            "Status": "Active"
+        },
+        {
+            "Payer": "Blue Cross Blue Shield Of Texas",
+            "PlanName": "Dental PPO",
+            "GroupNumber": "169473",
+            "GroupName": "NINE ENERGY SERVICE, LLC",
+            "ClaimsAddressBlueCrossBlueShieldOfTexas": "Address1 PO Box 660247",
+            "PayerId": "84980"
+        }
+    ],
+    "EligibilityServiceTreatmentHistory": [
+        {
+            "ProcedureCode": "D2331",
+            "Tooth_Quadrant": "H",
+            "Surfaces": "LD",
+            "Description": "Resin-Based Composite - Two Surfaces, Anterior",
+            "DateOfService": "10/26/2022"
+        },
+        {
+            "ProcedureCode": "D2391",
+            "Tooth_Quadrant": "14",
+            "Surfaces": "L",
+            "Description": "Resin-Based Composite - One Surface, Posterior",
+            "DateOfService": "10/26/2022"
+        },
+        {
+            "ProcedureCode": "D2392",
+            "Tooth_Quadrant": "J",
+            "Surfaces": "MO",
+            "Description": "Resin-Based Composite - Two Surfaces, Posterior",
+            "DateOfService": "10/26/2022"
+        },
+        {
+            "ProcedureCode": "D2930",
+            "Tooth_Quadrant": "I",
+            "Surfaces": "",
+            "Description": "Prefabricated Stainless Steel Crown - Primary Tooth",
+            "DateOfService": "10/26/2022"
+        },
+        {
+            "ProcedureCode": "D9230",
+            "Tooth_Quadrant": "",
+            "Surfaces": "",
+            "Description": "Inhalation Of Nitrous Oxide/Analgesia, Anxiolysis",
+            "DateOfService": "10/26/2022"
+        },
+        {
+            "ProcedureCode": "D1120",
+            "Tooth_Quadrant": "",
+            "Surfaces": "",
+            "Description": "Prophylaxis - Child",
+            "DateOfService": "9/16/2022"
+        },
+        {
+            "ProcedureCode": "D0120",
+            "Tooth_Quadrant": "",
+            "Surfaces": "",
+            "Description": "Periodic Oral Evaluation - Established Patient",
+            "DateOfService": "9/16/2022"
+        },
+        {
+            "ProcedureCode": "D1206",
+            "Tooth_Quadrant": "",
+            "Surfaces": "",
+            "Description": "Topical Application Of Fluoride Varnish",
+            "DateOfService": "9/16/2022"
+        },
+        {
+            "ProcedureCode": "D0220",
+            "Tooth_Quadrant": "",
+            "Surfaces": "",
+            "Description": "Intraoral - Periapical First Radiographic Image",
+            "DateOfService": "9/16/2022"
+        },
+        {
+            "ProcedureCode": "D0230",
+            "Tooth_Quadrant": "",
+            "Surfaces": "",
+            "Description": "Intraoral - Periapical Each Additional Radiographic Image",
+            "DateOfService": "9/16/2022"
+        }
+    ],
+    "EligibilityPlanInformation": [
+        {
+            "Type": "Maximums - Benefit Period",
+            "InNetworkindividual": "$2,000.00",
+            "InNetworkfamily": "N/A",
+            "OutOfNetworkindividual": "$2,000.00",
+            "OutOfNetworkfamily": "N/A"
+        },
+        {
+            "Type": "Maximums - Benefit Period Remaining",
+            "InNetworkindividual": "$2,000.00",
+            "InNetworkfamily": "N/A",
+            "OutOfNetworkindividual": "$2,000.00",
+            "OutOfNetworkfamily": "N/A"
+        },
+        {
+            "Type": "Maximums - Lifetime",
+            "InNetworkindividual": "N/A",
+            "InNetworkfamily": "N/A",
+            "OutOfNetworkindividual": "N/A",
+            "OutOfNetworkfamily": "N/A"
+        },
+        {
+            "Type": "Maximums - Lifetime Remaining",
+            "InNetworkindividual": "N/A",
+            "InNetworkfamily": "N/A",
+            "OutOfNetworkindividual": "N/A",
+            "OutOfNetworkfamily": "N/A"
+        },
+        {
+            "Type": "Deductible - Benefit Period",
+            "InNetworkindividual": "$50.00",
+            "InNetworkfamily": "$150.00",
+            "OutOfNetworkindividual": "$50.00",
+            "OutOfNetworkfamily": "$150.00"
+        },
+        {
+            "Type": "Deductible - Benefit Period Remaining",
+            "InNetworkindividual": "$0.00",
+            "InNetworkfamily": "$150.00",
+            "OutOfNetworkindividual": "$0.00",
+            "OutOfNetworkfamily": "$150.00"
+        }
+    ],
+    "EligibilityBenefits": [
+        [
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Oral Exams",
+                "InNetwork": "100%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "100%",
+                "OutNetworkDeductible": "N/A",
+                "LastDateOfService": "Last Date of Service: 9/16/2022",
+                "FrequencyLimitationText": "Twice per benefit period",
+                "FrequencyLimitations": "Twice per benefit period consisting of codes:\nD0120,\nD0145-D0160",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Prophylaxis",
+                "InNetwork": "100%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "100%",
+                "OutNetworkDeductible": "N/A",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Twice per benefit period",
+                "FrequencyLimitations": "Twice per benefit period consisting of codes:\nD1110, D1120,\nD4346",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Bitewing X-Rays",
+                "InNetwork": "100%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "100%",
+                "OutNetworkDeductible": "N/A",
+                "LastDateOfService": "Last Date of Service: 9/16/2022",
+                "FrequencyLimitationText": "Twice per benefit period",
+                "FrequencyLimitations": "Twice per benefit period consisting of codes:\nD0272-D0277",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Full Mouth X-Rays",
+                "InNetwork": "100%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "100%",
+                "OutNetworkDeductible": "N/A",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per 36 months",
+                "FrequencyLimitations": "Once per 36 months consisting of codes:\nD0210,\nD0330,\nD0701,\nD0709,\nD0372,\nD0387",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Panoramic X-Rays",
+                "InNetwork": "100%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "100%",
+                "OutNetworkDeductible": "N/A",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per 36 months",
+                "FrequencyLimitations": "Once per 36 months consisting of codes:\nD0210,\nD0330,\nD0701,\nD0709,\nD0372,\nD0387",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Fluoride Treatment",
+                "InNetwork": "100%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "100%",
+                "OutNetworkDeductible": "N/A",
+                "LastDateOfService": "Last Date of Service: 9/16/2022",
+                "FrequencyLimitationText": "Twice per benefit period",
+                "FrequencyLimitations": "Twice per benefit period consisting of codes:\nD1203-D1208",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "Satisfied",
+                "AgeLimitationText": "Covered between 1/1/2018 and 11/2/2031:",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Space Maintainers",
+                "InNetwork": "100%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "100%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "",
+                "FrequencyLimitations": "",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "Satisfied",
+                "AgeLimitationText": "Covered between 1/1/2018 and 11/2/2031:",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Sealants",
+                "InNetwork": "100%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "100%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: 8/11/2021",
+                "FrequencyLimitationText": "Once per tooth per lifetime",
+                "FrequencyLimitations": "Once per tooth per lifetime consisting of codes:\nD1351",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "Satisfied",
+                "AgeLimitationText": "Covered between 1/1/2018 and 11/2/2028:",
+                "OtherLimitations": "Limited to teeth 02, 03, 14, 15, 18, 19, 30, 31",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Palliative Treatment",
+                "InNetwork": "100%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "100%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "",
+                "FrequencyLimitations": "",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "General Anesthesia",
+                "InNetwork": "80%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "80%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "",
+                "FrequencyLimitations": "",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Periodontal Scaling",
+                "InNetwork": "80%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "80%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per quadrant per 12 months",
+                "FrequencyLimitations": "Once per quadrant per 12 months consisting of codes:\nD4341, D4342",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Periodontal Maintenance",
+                "InNetwork": "80%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "80%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "4 times per benefit period",
+                "FrequencyLimitations": "4 times per benefit period consisting of codes:\nD4910",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Periodontal Surgery",
+                "InNetwork": "80%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "80%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per quadrant per 12 months",
+                "FrequencyLimitations": "Once per quadrant per 12 months consisting of codes:\nD4210, D4211",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Composite Fillings",
+                "InNetwork": "80%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "80%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per tooth per 12 months",
+                "FrequencyLimitations": "",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Amalgam Fillings",
+                "InNetwork": "80%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "80%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per tooth per 12 months",
+                "FrequencyLimitations": "",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Endodontics",
+                "InNetwork": "80%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "80%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per tooth per lifetime",
+                "FrequencyLimitations": "Once per tooth per lifetime consisting of codes:\nD3310-D3330,\nD3346-D3348,\nD3353, D3354,\nD3357",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Extractions",
+                "InNetwork": "80%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "80%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per tooth per lifetime",
+                "FrequencyLimitations": "Once per tooth per lifetime consisting of codes:\nD7111-D7251",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Oral Surgery",
+                "InNetwork": "80%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "80%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per tooth per lifetime",
+                "FrequencyLimitations": "Once per tooth per lifetime consisting of codes:\nD7111-D7251",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Crowns",
+                "InNetwork": "50%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "50%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per tooth per 60 months",
+                "FrequencyLimitations": "Once per tooth per 60 months consisting of codes:\nD2510-D2794,\nD2960-D2962,\nD6545-D6794",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Inlays/Onlays",
+                "InNetwork": "50%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "50%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per tooth per 60 months",
+                "FrequencyLimitations": "Once per tooth per 60 months consisting of codes:\nD2510-D2794,\nD2960-D2962,\nD6545-D6794",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Bridges",
+                "InNetwork": "50%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "50%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per tooth per 60 months",
+                "FrequencyLimitations": "Once per tooth per 60 months consisting of codes:\nD2510-D2794,\nD2960-D2962,\nD6545-D6792,\nD6794",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Implants",
+                "InNetwork": "50%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "50%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per tooth per lifetime",
+                "FrequencyLimitations": "Once per tooth per lifetime consisting of codes:\nD6010-D6050",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Veneers",
+                "InNetwork": "50%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "50%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per tooth per 60 months",
+                "FrequencyLimitations": "Once per tooth per 60 months consisting of codes:\nD2510-D2794,\nD2960-D2962,\nD6545-D6794",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Deductible - Benefit Period",
+                "InNetworkindividual": "$50.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$50.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Deductible - Benefit Period Remaining",
+                "InNetworkindividual": "$0.00",
+                "InNetworkfamily": "$150.00",
+                "OutOfNetworkindividual": "$0.00",
+                "OutOfNetworkfamily": "$150.00"
+            },
+            {
+                "Type": "Maximums - Benefit Period",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Benefit Period Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Dentures",
+                "InNetwork": "50%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "50%",
+                "OutNetworkDeductible": "Met",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "Once per 60 months",
+                "FrequencyLimitations": "Once per 60 months consisting of codes:\nD5110,\nD5130,\nD5227",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "",
+                "AgeLimitationText": "",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ],
+        [
+            {
+                "Type": "Maximums - Lifetime",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Type": "Maximums - Lifetime Remaining",
+                "InNetworkindividual": "$2,000.00",
+                "InNetworkfamily": "N/A",
+                "OutOfNetworkindividual": "$2,000.00",
+                "OutOfNetworkfamily": "N/A"
+            },
+            {
+                "Category": "Orthodontics",
+                "InNetwork": "50%",
+                "InNetworkDeductible": "",
+                "Outofnetwork": "50%",
+                "OutNetworkDeductible": "N/A",
+                "LastDateOfService": "Last Date of Service: N/A",
+                "FrequencyLimitationText": "",
+                "FrequencyLimitations": "",
+                "WaitingPeriod": "Satisfied",
+                "AgeLimit": "Satisfied",
+                "AgeLimitationText": "Covered between 1/1/2018 and 11/30/2032:",
+                "OtherLimitations": "",
+                "InNetworkCoinsurance": "",
+                "OutOfNetworkCoinsurance": "",
+                "OutOfInNetworkDeductible": ""
+            }
+        ]
+    ]
+}

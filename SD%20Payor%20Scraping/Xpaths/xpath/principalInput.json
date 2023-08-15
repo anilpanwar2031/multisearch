@@ -1,0 +1,74 @@
+{
+  "InputParameters": {
+    "PayorName": "Principal",
+    "PayorId": 56,
+    "ClientId": "7aef7d39-7662-4790-bcb4-279bce95c0d7",
+    "AppName": "Revenue Cycle Management",
+    "RcmClaimNumber": "38209",
+    "RcmClinicId": "121c9cc9-801e-4182-b053-b1fe42c343c8",
+    "file": "RcmEobClaimMaster"
+  },
+  "PatientData": [
+    {
+      "EligibilityVerificationId": 0,
+      "PatientId": "25631",
+      "AppointmentId": null,
+      "AppointmentDateTime": null,
+      "LastName": "Wainwright",
+      "FirstName": "Hannah",
+      "BirthDate": "12/11/2007",
+      "Relationship": null,
+      "ClinicServerId": "187c1d71-156a-7634-05ed-01e7968435b5",
+      "ClinicNum": "231654165",
+      "ClaimAmount": "401",
+      "RcmGridViewId": "1523",
+      "SubscriberId": "932870614",
+      "SubscriberFirstName": "Jason",
+      "SubscriberLastName": "Wainwright",
+      "SubscriberBirthDate": "02/29/1984",
+      "ProviderFirstName": "",
+      "ProviderLastName": "",
+      "SubscriberZipCode": "",
+      "DateOfService": "03/09/2023",
+      "ProviderTIN": "4771"
+
+    }
+  ],
+  "Login": {
+    "Url": "https://login.principal.com/login",
+    "LoginId": "Payoraccess123",
+    "Password": "BPKtech@123",
+    "OtpRequired": false,
+    "OtpEmail": "TODO"
+  },
+  "Xpaths": [
+      {
+      "Id": 48,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 15,
+      "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"EmployerNumber\"},\"xpath\":\"//span[contains(@id,'policyHolderNumber')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Employer\"},\"xpath\":\"//span[contains(@id,'policyHolderName')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Network\"},\"xpath\":\"//span[contains(@id,'networkName')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"MemberName\"},\"xpath\":\"//div/p/span[@id='insuredFirstName'] | //div/p/span[@id='insuredLastName']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Dependent\"},\"xpath\":\"//strong[contains (text(), 'Dependent')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Age\"},\"xpath\":\"//strong[contains (text(), 'Age')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"DateofService\"},\"xpath\":\"//strong[contains (text(), 'Date of Service')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Amountsubmitted\"},\"xpath\":\"//div[contains (@id, 'amountSubmitted')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Amountpaid\"},\"xpath\":\"//div[contains (@id, 'paidAmount')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Datepaid\"},\"xpath\":\"//div[contains (@id, 'issueDate')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Issuedto\"},\"xpath\":\"//div[contains (@id, 'issuedTo')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Checknumber\"},\"xpath\":\"//div[contains (@id, 'checkNumber')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Status\"},\"xpath\":\"//div[contains (@id, 'status')]\"},{\"AdditonalInfo\":{\"Click\":[\"//a[contains (@id, 'eobLink')]//i\"],\"WindowChange\":1,\"window_print\":false,\"fileds\":[]},\"xpath\":\"//table/gofu\"}]}",
+      "IsActive": true,
+      "DataContextName": "RcmEobClaimMaster",
+      "ProductCategoryId": 2
+    },
+    {
+      "Id": 1,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 56,
+      "DataContextId": 196,
+      "XPath":"{\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//*[@id='username']\",\"PasswordXpath\":\"//*[@id='password']\",\"LoginButtonXpath\":\"//*[@id='continue']\",\"OtpInputXpath\":\"\",\"OtpSubmitXpath\":\"\",\"PreSteps\":[],\"PostSteps\":[],\"OtpXpath\":\"\"}]}",
+      "IsActive": true,
+      "DataContextName": "EligibilityLogin",
+      "ProductCategoryId": 2
+    }
+  ],
+  "SearchParameters": [
+    {
+      "Id": 11,
+      "EligibilityPayorInfoId": 56,
+      "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//a[contains(@id,'familyViewTab')]\",\"//a[contains(@id,'patientBenefitsAndClaimsLink')]\"],\"AdditonalInfo\":{\"aftersleep\":2}},\"SearchButtonXpath\":\"//button[contains(@id,'claimsSubmit')]\",\"PostSteps\":{\"Clicks\":[],\"AdditonalInfo\":{\"aftersleep\":5}}},\"Queries\":[{\"Data\":\"SubscriberId\",\"Xpath\":\"//input[@id='patientId']\"},{\"Data\":\"BirthDate\",\"Xpath\":\"//input[@id='patientDob']\",\"PostClicks\":[\"//form[contains(@id,'patientSearchPanelForm')]//button[contains(@id,'patientSearchSubmit')]\",\"//button[contains(@id,'viewClaimsButtonHANNAH WAINWRIGHT')]\",\"//div[contains(@id,'providerTins')]//span[contains(@id,'select2-chosen')]\"]},{\"Data\":\"ProviderTIN\",\"Xpath\":\"//div[contains(@class,'-drop-active')]//input[contains(@class,'select2-input')]\",\"PostClicks\":[\"//div[@id='select2-drop']//ul[@role='listbox']//li[@role='presentation']\"]},{\"Data\":\"DateOfService\",\"Xpath\":\"//input[contains(@id,'claimsDateOfService')]\"}]}}",
+      "IsActive": true,
+      "ProductCategoryId": 2
+    }
+  ]
+}

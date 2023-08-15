@@ -1,0 +1,59 @@
+{
+  "InputParameters": {
+    "PayorName": "DeltaDentalIns",
+    "PayorId": 12,
+    "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+    "AppName": "Eligibility"
+  },
+  "PatientData": [
+
+   
+   {
+    
+    "BirthDate":"02/12/2014",
+    "FirstName":"Romelo",
+    "LastName":"Sheppard",
+   
+      "PatientId":"225"
+
+   }
+
+  
+ ],
+  "Login": {
+    "Url": "https://www1.deltadentalins.com/login.html",
+    "LoginId": "Thesmileytooth1",
+    "Password": "Fairy2022!",
+    "OtpRequired": false,
+    "OtpEmail": "TODO"
+  },
+  "Xpaths": [
+    {
+      "Id": 16,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 12,
+      "DataContextId": 196,
+      "XPath": "  {         \r\n            \"Click\": null,\r\n            \"Xpaths\": [\r\n                {\r\n                    \"UsernameXpath\": \"//*[@id='username']\",\r\n                    \"PasswordXpath\": \"//*[@id='password']\",\r\n                    \"LoginButtonXpath\": \"//*[@id='loginButton']\",\r\n                    \"PreSteps\": [],\r\n                    \"PostSteps\": [],\r\n                    \"OtpInputXpath\": \"\",\r\n                    \"OtpSubmitXpath\": \"\",\r\n                    \"OtpXpath\": \"\"\r\n                }\r\n            ]\r\n }",
+      "IsActive": true,
+      "DataContextName": "EligibilityLogin"
+    },
+    {
+      "Id": 13,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 12,
+      "DataContextId": 177,
+      "XPath":"{\"DataContextId\":\"195\",\"DataContextName\":\"EligibilityBenefits\",\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//*[text()='Benefit search']\"],\"fileds\":[]},\"MultiplElements\":{\"multiple_elements_xpath\":[\"D0150\",\"D0120\",\"D0140\",\"D0170\",\"D9110\",\"D0220\",\"D0230\",\"D0272\",\"D0274\",\"D0210\",\"D0330\",\"D0240\",\"D1110\",\"D1120\",\"D1206\",\"D1208\",\"D1351\",\"D1354\",\"D1516\",\"D1517\",\"D2140\",\"D2150\",\"D2160\",\"D2161\",\"D2391\",\"D2392\",\"D2393\",\"D2394\",\"D7140\",\"D3220\",\"D2930\",\"D2933\",\"D2934\",\"D9230\"],\"type\":\"SearchLoop\",\"action\":\"Sendkeys\",\"InputElementsXpath\":\"//input[@type='text']\",\"SearchButtonXpath\":\"//*[text()='Search']\",\"PreSteps\":{\"Clicks\":[\"//*[@id='template1:r1:1:r7:1:r1:0:r1:1:t2:0:st1']\",\"//*[text()='[Limitations Apply]']\"]},\"PostSteps\":{\"Clicks\":[\"//*[text()='Close']\"]}},\"headingXpath\":\"//*[@id='template1:r1:1:r7:1:r1:0:r1:1:j_id__ctru317pc9']/div[2]/span\",\"xpath\":\"//*[@id='template1:r1:1:r7:1:r1:0:r1:1:t4']\"}]}",
+      "IsActive": true,
+      "DataContextName": "Eligibilitylimitaiton"
+    }
+
+  ],
+  "SearchParameters": [
+    {
+      "Id": 1,
+      "EligibilityPayorInfoId": 12,
+      "JsonSettings": "{\r\n  \"Search\": {\r\n    \"PayorId\": \"1\",\r\n    \"Settings\": {\r\n      \"PreSteps\": {\r\n        \"Clicks\": [\r\n          \"//*[text()='Eligibility & benefits']\",\r\n          \"//*[text()='New patient']\"\r\n        ],\r\n        \"AdditonalInfo\": {}\r\n      },\r\n      \"SearchButtonXpath\": \"//*[@id='template1:r1:1:r7:0:cb1']\",\r\n      \"SearchFilter\": {\r\n        \"js\": \"let vale=arguments[1]\\r\\nlet newD = vale.split('/').map(n=>{return parseInt(n)}).join('/') \\r\\nconsole.log(newD)          \\r\\ntry{ let nx =arguments[0].replace('%s',newD)\\r\\ndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()\\r\\nreturn true   \\r\\n}\\r\\ncatch{return false}\",\r\n        \"arg1\": \"//*[text()='%s']/ancestor::td/following-sibling::td[4]//*[text()='View eligibility & benefits']\",\r\n        \"arg2\": \"BirthDate\",\r\n        \"wait\": \"//*[@id='template1:r1:1:r7:0:t1:0:cl1']\"\r\n      },\r\n      \"PostSteps\": {}\r\n    },\r\n    \"Queries\": [\r\n      {\r\n        \"Data\": \"FirstName\",\r\n        \"Xpath\": \"//*[   @id='template1:r1:1:r7:0:it2::content' ]\"\r\n      },\r\n      {\r\n        \"Data\": \"LastName\",\r\n        \"Xpath\": \"//*[   @id='template1:r1:1:r7:0:it3::content' ]\"\r\n      },\r\n      {\r\n        \"Data\": \"BirthDate\",\r\n        \"Xpath\": \"//*[   @id='template1:r1:1:r7:0:id1::content' ]\"\r\n      }\r\n    ]\r\n  }\r\n}",
+      "IsActive": true
+    }
+  ]
+}

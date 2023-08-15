@@ -1,0 +1,90 @@
+{
+  "InputParameters": {
+    "PayorName": "Delta Dental Toolkit",
+    "PayorId": 17,
+    "ClientId": "857dc9bd-c432-482d-af84-437a48ccecfe",
+    "AppName": "Revenue Cycle Management",
+    "ClinicDetails": {
+      "SearchKey": [
+        "1621"
+      ]
+    },
+    "RcmClaimNumber": "38582",
+    "RcmClinicId": "d762b4f3-aa84-406c-bed3-60b087cc5696",
+    "file": "RcmEobClaimMaster"
+  },
+  "PatientData": [
+    {
+      "EligibilityVerificationId": 0,
+      "PatientId": "31553",
+      "AppointmentId": null,
+      "AppointmentDateTime": null,
+      "LastName": "Myers",
+      "FirstName": "Travionna",
+      "FullName": "Travionna Myers",
+      "BirthDate": "11/17/2016",
+      "ClinicZipcode": "76054",
+      "Relationship": null,
+      "ClinicServerId": "75cceb2b-a113-b2ea-2d2b-43fcbdd408ab",
+      "ClinicNum": "38582",
+      "ClaimAmount": "3300.00",
+      "RcmGridViewId": "317",
+      "SubscriberId": "916779227",
+      "SubscriberFirstName": "Stephanie",
+      "SubscriberLastName": "Sowell",
+      "SubscriberBirthDate": "12/13/1983",
+      "ProviderFirstName": "John",
+      "ProviderLastName": "Gober",
+      "SubscriberZipCode": "76022",
+      "DateOfService": "01/24/2023"
+    }
+  ],
+  "Login": {
+    "Url": "https://www.dentalofficetoolkit.com/dot-ui/login%27",
+    "LoginId": "payoraccess1sdb",
+    "Password": "Changeme1!",
+    "OtpRequired": false,
+    "OtpEmail": "TODO"
+  },
+  "Xpaths": [
+    {
+      "Id": 50,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 17,
+      "DataContextId": 202,
+      "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//button[contains(text(),'Print Claim Detail')]\"], \"fileds\": \"PatientAccountNumber\"}, \"xpath\": \"//fieldset[contains(., 'Patient Account Number:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"PatientName\"}, \"xpath\": \"//fieldset[contains(., 'Patient Name:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"DateofBirth\"}, \"xpath\": \"//fieldset[contains(., 'Date of Birth:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"RelationshipCode\"}, \"xpath\": \"//fieldset[contains(., 'Relationship Code:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"SubscriberName\"}, \"xpath\": \"//fieldset[contains(., 'Subscriber Name:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"ReceiptDate\"}, \"xpath\": \"//fieldset[contains(., 'Receipt Date:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"ProcessDate\"}, \"xpath\": \"//fieldset[contains(., 'Process Date:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"ClaimNumber\"}, \"xpath\": \"//fieldset[contains(., 'Claim Number:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"ClaimType\"}, \"xpath\": \"//fieldset[contains(., 'Claim Type:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"ClaimStatus\"}, \"xpath\": \"//fieldset[contains(., 'Claim Status:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"OtherCarrierPayment\"}, \"xpath\": \"//fieldset[contains(., 'Other Carrier Payment:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"DentistName\"}, \"xpath\": \"//fieldset[contains(., 'Dentist Name:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"LicenseNumber\"}, \"xpath\": \"//fieldset[contains(., 'License Number:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"DentistTIN\"}, \"xpath\": \"//fieldset[contains(., 'Dentist TIN:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Specialty\"}, \"xpath\": \"//fieldset[contains(., 'Specialty:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"PlaceOfService\"}, \"xpath\": \"//fieldset[contains(., 'Place Of Service:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"OtherCarrier\"}, \"xpath\": \"//fieldset[contains(., 'Other Carrier:')]/span[@class='form-control-static']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": []}, \"headingname\": \"ClaimDetails\", \"xpath\": \"/html/body/gofu\"}]}",
+      "IsActive": true,
+      "DataContextName": "RcmEobClaimMaster",
+      "ProductCategoryId": 2
+    },
+    {
+      "Id": 51,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 17,
+      "DataContextId": 203,
+      "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"ToothNumber\", \"AreaOfArch\", \"Surface\", \"DateOfService\", \"ProcCode\", \"SubmittedAmount\", \"ApprovedAmount\", \"AllowedAmount\", \"Ded\", \"OfficeVisit\", \"CoPay\", \"PatientPayment\", \"PlanPayment\", \"ParNetwork\", \"Product\", \"ClaimLineStatus\", \"PaymentNumber\", \"PayTo\", \"IssuedDate\"]}, \"xpath\": \"//*[contains(@id,'treatment-table')]/table\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Total1\"}, \"xpath\": \"//td[contains(.,'Total:')]//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Total2\"}, \"xpath\": \"//td[contains(.,'Total:')]//following-sibling::td[2]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"SubscriberDeductible\"}, \"xpath\": \"//td[contains(.,'Subscriber Deductible:')]//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"SubscriberNetAmount\"}, \"xpath\": \"//tr[4]/td[contains(.,'Net Amount:')]//following-sibling::td[2]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"GrossAmount\"}, \"xpath\": \"//td[contains(.,'Gross Amount:')]//following-sibling::td[2]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"R&DWithhold\"}, \"xpath\": \"//td[contains(.,'R&D Withhold:')]//following-sibling::td[2]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"ProviderNetAmount\"}, \"xpath\": \"//tr[8]/td[contains(.,'Net Amount:')]//following-sibling::td[2]\"}]}",
+      "IsActive": true,
+      "DataContextName": "RcmEobClaimDetail",
+      "ProductCategoryId": 2
+    },
+    {
+      "Id": 52,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 17,
+      "DataContextId": 196,
+      "XPath": "{\"DataContextId\": \"1\", \"DataContextName\": \"EligibilityLogin\", \"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[@name='userId']\", \"PasswordXpath\": \"//input[@name='password']\", \"LoginButtonXpath\": \"//button[text()='Sign In']\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [], \"PostSteps\": [], \"OtpXpath\": \"\"}]}",
+      "IsActive": true,
+      "DataContextName": "EligibilityLogin",
+      "ProductCategoryId": 2
+    }
+  ],
+  "SearchParameters": [
+    {
+      "Id": 15,
+      "EligibilityPayorInfoId": 17,
+      "JsonSettings":"{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//*[text()='Change Office']\"],\"AdditonalInfo\":{\"aftersleep\":5}},\"SearchButtonXpath\":\"//button[text()='Search']\",\"SearchFilter\":{},\"PostSteps\":{\"AdditonalInfo\":{\"aftersleep\":5},\"Clicks\":[\"//*[text()='%s']/following-sibling::td[1]!@FullName\"]}},\"Queries\":[{\"Data\":\"ProviderLastName\",\"Xpath\":\"//input[@name='dentist-name']\"},{\"Data\":\"ClinicZipcode\",\"Xpath\":\"//input[@name='dentist-address']\",\"PostClicks\":[\"//*[text()='%s']!@ProviderFullName\",\"//*[text()='Search']\"],\"SleepAfterInput\":3},{\"Data\":\"DateOfService\",\"Xpath\":\"//*[@id='start-date']\"},{\"Data\":\"DateOfService\",\"Xpath\":\"//*[@id='end-date']\"}]}}",
+      "IsActive": true,
+      "ProductCategoryId": 2
+    }
+  ]
+}

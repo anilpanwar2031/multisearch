@@ -1,0 +1,127 @@
+{
+    "InputParameters": {
+        "PayorName": "Delta Dental Illinois",
+        "PayorId": 243,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "WebsiteId": "ILLINOIS_001",
+        "ProcCodes": [
+            "D0150",
+            "D0120",
+            "D0140",
+            "D0170",
+            "D9110",
+            "D0220",
+            "D0230",
+            "D0272",
+            "D0274",
+            "D0210",
+            "D0330",
+            "D0240",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D7140",
+            "D3220",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D9230"
+        ],
+        "ScheduleId": 0
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 14305,
+            "PatientId": "36789",
+            "AppointmentId": "264379",
+            "AppointmentDateTime": "2023-05-10T12:28:38.06+00:00",
+            "LastName": "CLARK",
+            "FirstName": "GABRIELLE",
+            "BirthDate": "03/08/2006",
+            "Relationship": "Child",
+            "PatientMemberId": "08083015398",
+            "SubscriberId": "08083015398",
+            "SubscriberFirstName": "DECTRICK",
+            "SubscriberLastName": "CLARK",
+            "SubscriberBirthDate": "01/04/1971",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        },
+        {
+            "EligibilityVerificationId": 14305,
+            "PatientId": "36789",
+            "AppointmentId": "264379",
+            "AppointmentDateTime": "2023-05-10T12:28:38.06+00:00",
+            "LastName": "CLARK",
+            "FirstName": "GABRIELLE",
+            "BirthDate": "03/08/2006",
+            "Relationship": "Child",
+            "PatientMemberId": "08083015398",
+            "SubscriberId": "08083015398",
+            "SubscriberFirstName": "DECTRICK",
+            "SubscriberLastName": "CLARK",
+            "SubscriberBirthDate": "01/04/1971",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://www3.deltadentalil.com/dentist/",
+        "LoginId": "Payoraccess",
+        "Password": "BPKtech@123",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[@id='usernameInput']\", \"PasswordXpath\": \"//input[@id='passwordInput']\", \"LoginButtonXpath\": \"//button[@id='btn-login']\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [], \"PostSteps\": [], \"OtpXpath\": \"\"}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"SubcriberName\"}, \"xpath\": \"//b[text()='SUBSCRIBER NAME:']//parent::td\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"CoverageType\"}, \"xpath\": \"//b[text()='COVERAGE TYPE:']//parent::td\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"MemberNumber\"}, \"xpath\": \"//b[text()='MEMBER NUMBER:']//parent::td\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"GroupNumber\"}, \"xpath\": \"//b[text()='GROUP NUMBER:']//parent::td\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"GroupName\"}, \"xpath\": \"//b[text()='GROUP NAME:']//parent::td\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"ElectronicPayerID\"}, \"xpath\": \"//b[text()='ELECTRONIC CLAIMS PAYER ID:']//parent::td\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"ChildCoverageAge\"}, \"xpath\": \"(//p[text()='Standard Coordination of Benefits']//parent::div//tbody)[1]//td[1]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"StudentCoverageAge\"}, \"xpath\": \"(//p[text()='Standard Coordination of Benefits']//parent::div//tbody)[1]//td[2]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"AdultOrthodontic\"}, \"xpath\": \"(//p[text()='Standard Coordination of Benefits']//parent::div//tbody)[1]//td[3]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"DependentOrthodonticAge\"}, \"xpath\": \"(//p[text()='Standard Coordination of Benefits']//parent::div//tbody)[1]//td[4]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"InsuranceCalendarOrFiscalPolicyYear\"}, \"xpath\": \"//p[contains(normalize-space(),'Benefit Year')]\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[text()='Contact Us']\"], \"window_number_after_clicks\": 1, \"fileds\": \"mailingAddress\"}, \"xpath\": \"//td[text()='Group Plan Members']//parent::tr//following-sibling::tr[1]//td[1]//p[3]\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"headingname\": \"MaximumsDeductiblesAmountUsed\", \"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"Name\", \"RegANNDeductible\", \"RegANNMaximum\", \"OrthoANNMaximum\", \"OrthoLifeMaximum\", \"CustomANNMaximum\", \"OutofPocketMaximum\"], \"type\": \"Type3\"}, \"xpath\": \"//h2[text()='Eligibility and Accumulations']//parent::a//following-sibling::div//table\"}, {\"headingname\": \"MaximumsDeductiblesTotals\", \"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"Maximum/Deductible\", \"DeltaDentalPPO\", \"DeltaDentalPremier\", \"OutofNetwork\"], \"type\": \"Type3\"}, \"xpath\": \"//h2[text()='Maximums & Deductibles']//parent::a//following-sibling::div//table\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"procedure1\", \"DateOfService1\", \"procedure2\", \"DateOfService2\", \"procedure3\", \"DateOfService3\"], \"type\": \"Type3\"}, \"xpath\": \"(//div[@id='history']//p[contains(text(),'%s')]//following-sibling::table)[1]!@FirstName\"}]}",
+            "DataContextName": "EligibilityServiceTreatmentHistory"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"headingname\": \"FrequencyAgeAndBenefitLimitations\", \"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"Services\", \"FrequencyAndLimitation\", \"AgeLimition\"], \"type\": \"Type3\"}, \"xpath\": \"//h2[text()='Frequency, Age, and Other Benefit Limitations']//parent::a//following-sibling::div//table[2]\"}, {\"headingname\": \"WaitingPeriod\", \"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"Services1\", \"Duration1\", \"Members1\", \"blank\", \"Services2\", \"Duration2\", \"Members2\"], \"type\": \"Type3\"}, \"xpath\": \"//h2[text()='Waiting Periods']//parent::a//following-sibling::div//table\"}, {\"AdditonalInfo\": {\"Click\": [\"//input[@id='proc-search']\", \"//select[@id='depNbrBandID']\", \"//option[contains(text(),'%s')]!@BirthDate\"], \"fileds\": []}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityOtherProvisions"
+        },
+        {
+            "XPath": "{\"flatten\": true, \"MultiplElements\": {\"Searchlist\": null, \"action\": \"Sendkeys\", \"InputElementsXpath\": \"//input[@id='procedureCode']\", \"SearchButtonXpath\": \"//input[@id='procCodeSubmit']\"}, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"Procedure\", \"Type\", \"DeltaDentalPPO\", \"DeltaDentalPremier\", \"OutOfNetwork\", \"Comments\"], \"type\": \"Type3\", \"LoopElement\": {\"fieldName\": \"Proccode\"}}, \"xpath\": \"//div[@class='codesearchresults']//following-sibling::table\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"ProcedureName\"}, \"xpath\": \"//div[@class='codesearchresults']//p\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        },
+        {
+            "XPath": "{\"Scraping\":false,\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//a[text()='Dentist']\"],\"fileds\":[]},\"xpath\":\"\"}]}",
+            "DataContextName": "SearchDashboardFilter"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 55,
+            "EligibilityPayorInfoId": 243,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [\"//a[text()='Patient Information']\", \"//p//a[text()='Patient Benefits']\"], \"AdditonalInfo\": {}}, \"SearchButtonXpath\": \"//input[@id='formSubmit']\", \"PostSteps\": {\"Clicks\": [\"//b[text()='SUBSCRIBER NAME:']\"], \"AdditonalInfo\": {}}}, \"Queries\": [{\"Data\": \"SubscriberId\", \"Xpath\": \"//input[@id='memberNumber']\"}, {\"Data\": \"SubscriberBirthDate\", \"Xpath\": \"//input[@id='dobTwo']\"}]}}",
+            "IsActive": true
+        }
+    ]
+}

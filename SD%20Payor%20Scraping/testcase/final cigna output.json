@@ -1,0 +1,1673 @@
+{
+    "EligibilityPatientVerification": [
+        {
+            "Name": "Vivian Hallman",
+            "PatientId": "U29832230 03",
+            "Gender": "Female",
+            "DateOfBirth": "07/26/2013",
+            "Relationship": "Dependent",
+            "Address": "152 Buffington Ave Fate, TX 75189",
+            "Subscriber": "Christopher Hallman",
+            "SubscriberDateOfBirth": "09/15/1982",
+            "PlanType": "DENTAL PPO",
+            "PlanRenews": "Every Calendar Year",
+            "InitialCoverageDate": "01/01/2016",
+            "CurrentCoverage": "01/01/2016 - Present",
+            "OtherInsurance?": "No",
+            "Account#": "3339175",
+            "AccountName": "AUSTIN INDUSTRIES, INC.",
+            "Network": "TOTAL CIGNA DPPO",
+            "ElectronicClaims": "http://www.cigna.com/EDIvendors",
+            "ClaimOfficeMailingAddress": "Claim Office Mailing Address\nClaim Address:\nP.O. BOX 188037\nChattanooga, TN 37422"
+        }
+    ],
+    "EligibilityMaximums": [
+        {
+            "Maximums": "Diagnostic and Preventive,Basic Restorative,Major Restorative,Implants\nIndividual Calendar Year Maximum remaining\n$1,950.00\nTotal: $1,950.00\nOrthodontics\nIndividual Lifetime Maximum remaining\n$1,000.00\nTotal: $1,000.00"
+        }
+    ],
+    "EligibilityAgeLimitation": [
+        {
+            "LimitationType": "Student Age Limitation",
+            "Age": "26",
+            "DateCoverageEnds": "Birth Month"
+        },
+        {
+            "LimitationType": "Dependent Age Limitation",
+            "Age": "26",
+            "DateCoverageEnds": "Birth Month"
+        },
+        {
+            "LimitationType": "Ortho Age Limitation",
+            "Age": "None",
+            "DateCoverageEnds": "No Limitations"
+        }
+    ],
+    "EligibilityBenefits": [
+        {
+            "Code": "D0150",
+            "Procedure": "COMPREHENSIVE ORAL EVALUATION - NEW OR ESTABLISHED PATIENTHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per Calendar Year Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D0120",
+            "Procedure": "PERIODIC ORAL EVALUATION - ESTABLISHED PATIENTHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per Calendar Year Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D0140",
+            "Procedure": "LIMITED ORAL EVALUATION - PROBLEM FOCUSEDHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per Calendar Year Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D0170",
+            "Procedure": "RE-EVALUATION - LIMITEDHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per Calendar Year Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D9110",
+            "Procedure": "PALLIATIVE (EMERGENCY) TREATMENT OF DENTAL PAIN - MINOR PROCEDUREHistory** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D0220",
+            "Procedure": "INTRAORAL - PERIAPICAL FIRST RADIOGRAPHIC IMAGETooth - E History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1206",
+            "Procedure": "TOPICAL APPLICATION OF FLUORIDE VARNISHHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per Calendar YearExclude after age 18 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D0230",
+            "Procedure": "INTRAORAL - PERIAPICAL EACH ADDITIONAL RADIOGRAPHIC IMAGETooth - P History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D0272",
+            "Procedure": "BITEWINGS - TWO RADIOGRAPHIC IMAGESHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per Calendar Year Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D0274",
+            "Procedure": "BITEWINGS - FOUR RADIOGRAPHIC IMAGESHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per Calendar Year Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D0210",
+            "Procedure": "INTRAORAL - COMPLETE SERIES OF RADIOGRAPHIC IMAGESHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive Months Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D0330",
+            "Procedure": "PANORAMIC RADIOGRAPHIC IMAGEHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive Months Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D0240",
+            "Procedure": "INTRAORAL - OCCLUSAL RADIOGRAPHIC IMAGESArch - UA History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1110",
+            "Procedure": "PROPHYLAXIS ADULTHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per Calendar YearExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1120",
+            "Procedure": "PROPHYLAXIS - CHILDHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per Calendar YearExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1206",
+            "Procedure": "TOPICAL APPLICATION OF FLUORIDE VARNISHHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per Calendar YearExclude after age 18 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1208",
+            "Procedure": "TOPICAL APPLICATION OF FLUORIDE - EXCLUDING VARNISHHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per Calendar YearExclude after age 18 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1516",
+            "Procedure": "SPACE MAINTAINER - FIXED - BILATERAL, MAXILLARYArch - UA History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not ApplicableExclude after age 18 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1517",
+            "Procedure": "SPACE MAINTAINER - FIXED - BILATERAL, MANDIBULARArch - LA History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not ApplicableExclude after age 18 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D9230",
+            "Procedure": "INHALATION OF NITROUS OXIDE/ANALGESIA, ANXIOLYSISHistory** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Not a covered service ",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - A History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - B History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - I History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - J History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - K History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - L History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - S History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - T History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 2 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 3 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 4 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 5 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 12 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 13 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 14 History** 2021-02-02 Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  1 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 15 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 18 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 19 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 20 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 21 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 28 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 29 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 30 History** 2021-02-02 Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  1 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1351",
+            "Procedure": "SEALANT - PER TOOTHTooth - 31 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 1 Once Per 36 Consecutive MonthsExclude after age 13 Coinsurance  Member Responsibility  0% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - A History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - B History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - I History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - J History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - K History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - L History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - S History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - T History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - C History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - D History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - E History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - F History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - G History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - H History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - M History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - N History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - O History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - P History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - Q History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - R History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - 2 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - 3 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - 14 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - 15 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - 18 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - 19 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - 30 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D1354",
+            "Procedure": "INTERIM CARIES ARRESTING MEDICAMENT APPLICATION - PER TOOTHTooth - 31 History** No history on file for this member Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency  Amount Met:  0 of 2 Twice Per 12 Consecutive Months Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - A History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - B History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - I History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - J History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - K History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - L History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - S History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - T History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - 2 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - 3 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - 14 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - 15 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - 18 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - 19 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - 30 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2140",
+            "Procedure": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENTTooth - 31 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - A History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - B History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - I History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - J History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - K History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - L History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - S History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - T History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - 2 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - 3 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - 14 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - 15 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - 18 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - 19 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - 30 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2150",
+            "Procedure": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENTTooth - 31 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - A History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - B History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - I History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - J History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - K History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - L History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - S History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - T History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - 2 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - 3 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - 14 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - 15 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - 18 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - 19 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - 30 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2160",
+            "Procedure": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENTTooth - 31 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - A History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - B History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - I History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - J History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - K History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - L History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - S History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - T History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - 2 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - 3 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - 14 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - 15 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - 18 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - 19 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - 30 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2161",
+            "Procedure": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENTTooth - 31 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - A History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - B History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - I History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - J History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - K History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - L History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - S History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - T History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - 2 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - 3 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - 14 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - 15 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - 18 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - 19 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - 30 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2391",
+            "Procedure": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIORTooth - 31 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - A History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - B History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - I History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - J History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - K History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - L History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - S History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - T History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - 2 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - 3 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - 14 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - 15 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - 18 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - 19 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - 30 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2392",
+            "Procedure": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIORTooth - 31 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - A History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - B History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - I History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - J History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - K History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - L History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - S History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - T History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - 2 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - 3 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - 14 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - 15 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - 18 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - 19 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - 30 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2393",
+            "Procedure": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIORTooth - 31 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - A History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - B History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - I History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - J History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - K History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - L History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - S History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - T History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - 2 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - 3 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - 14 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - 15 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - 18 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - 19 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - 30 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2394",
+            "Procedure": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES, POSTERIORTooth - 31 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - A History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - B History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - I History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - J History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - K History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - L History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - S History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - T History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - C History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - D History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - E History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - F History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - G History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - H History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - M History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - N History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - O History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - P History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - Q History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - R History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - 2 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - 3 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - 14 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - 15 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - 18 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - 19 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - 30 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D7140",
+            "Procedure": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)Tooth - 31 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - A History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - B History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - I History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - J History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - K History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - L History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - S History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - T History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - 2 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - 3 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - 14 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - 15 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - 18 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - 19 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - 30 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D3220",
+            "Procedure": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION) - REMOVAL OF PULP CORONAL TO THE DENTINOCEMENTAL JUNCTION AND APPLICATION OF MEDICAMENTTooth - 31 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  20% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2930",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN - PRIMARY TOOTHTooth - A History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2930",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN - PRIMARY TOOTHTooth - B History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2930",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN - PRIMARY TOOTHTooth - I History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2930",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN - PRIMARY TOOTHTooth - J History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2930",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN - PRIMARY TOOTHTooth - K History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2930",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN - PRIMARY TOOTHTooth - L History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2930",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN - PRIMARY TOOTHTooth - S History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2930",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN - PRIMARY TOOTHTooth - T History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - 30 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - 31 History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - C History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - D History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - E History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - F History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - G History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - H History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - M History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - N History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - O History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - P History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - Q History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2933",
+            "Procedure": "PREFABRICATED STAINLESS STEEL CROWN WITH RESIN WINDOWTooth - R History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2934",
+            "Procedure": "PREFABRICATED ESTHETIC COATED STAINLESS STEEL CROWN - PRIMARY TOOTHTooth - C History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2934",
+            "Procedure": "PREFABRICATED ESTHETIC COATED STAINLESS STEEL CROWN - PRIMARY TOOTHTooth - D History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2934",
+            "Procedure": "PREFABRICATED ESTHETIC COATED STAINLESS STEEL CROWN - PRIMARY TOOTHTooth - E History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        },
+        {
+            "Code": "D2934",
+            "Procedure": "PREFABRICATED ESTHETIC COATED STAINLESS STEEL CROWN - PRIMARY TOOTHTooth - F History** History Not Applicable Alternate benefit may apply",
+            "Maximum": " Deductible Individual remaining: $75.00 Total: $75.00NotesFamily remaining: $225.00 Total: $225.00Notes Maximum Individual remaining: $1,950.00 Total: $1,950.00Notes Frequency Not Applicable Coinsurance  Member Responsibility  50% Notes",
+            "con": ""
+        }
+    ],
+    "EligibilityDeductiblesProcCode": [
+        {
+            "Deductible": "Basic Restorative,Major Restorative,Implants\nIndividual Calendar Year Deductible remaining\n$75.00\nTotal: $75.00\nFamily Calendar Year Deductible remaining\n$225.00\nTotal: $225.00"
+        }
+    ]
+}

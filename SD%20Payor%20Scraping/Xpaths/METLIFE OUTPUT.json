@@ -1,0 +1,316 @@
+{
+    "EligibilityMaximumAndDedecibles": [
+        {
+            "BasicPlanInfo": [
+                {
+                    "Type": "Plan Maximum",
+                    "BenefitPeriodIndividual": "$2000",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Maximum Used to Date",
+                    "BenefitPeriodIndividual": "$0",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Plan Deductible",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Deductible Satisfied to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                }
+            ]
+        },
+        {
+            "Orthodontics": [
+                {
+                    "Type": "Maximum Used to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "$0",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Plan Deductible",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Deductible Satisfied to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                }
+            ]
+        },
+        {
+            "Periodontics": [
+                {
+                    "Type": "Maximum Used to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "$0",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Plan Deductible",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Deductible Satisfied to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                }
+            ]
+        },
+        {
+            "Tmj": [
+                {
+                    "Tmj": "There is no TMJ coverage with this plan."
+                }
+            ]
+        },
+        {
+            "PlanNotes": "Eligibility is not a guarantee of coverage as actual benefit payments are determined only when a claim is adjudicated.\nIf MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, MetLife may pay benefits based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If MetLife pays a benefit based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist.\nA pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services.\nThis summary is based on processed claims as of 01/01/2023. Future benefits will be determined in the order that claims are received and processed.",
+            "OrthodonticsNotes": "Payment method is: Monthly Repetitive\nMaximum Age for Orthodontics:\n  Dependent Child: Up to age 19\n  Dependent Child (Full-time Student): Up to age 19\n  All Others: Not Covered.\nOrthodontic Benefit Level: 50%\nPercentage Considered at Initial Ortho Placement 25%\nA pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services.\nThis summary is based on processed claims as of 01/01/2023. Future benefits will be determined in the order that claims are received and processed.",
+            "PeriodonticsNotes": "If MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, MetLife may pay benefits based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If MetLife pays a benefit based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist.\nA pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services.\nThis summary is based on processed claims as of 01/01/2023. Future benefits will be determined in the order that claims are received and processed."
+        }
+    ],
+    "EligibilityBenefitsAndLimitations": [
+        {
+            "ProcedureDescription": "ORAL EXAMS",
+            "Frequency/AgeLimitlastDateOfService": "2 TIMES IN 1 CALENDAR YEAR 11/23/22",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "INTRAORAL-COMPREHENSIVE SERIES OF",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 5 CALENDAR YEARS",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "BITEWING-SINGLE IMAGE",
+            "Frequency/AgeLimitlastDateOfService": "2 PER 1 CALENDAR YEAR(S) FOR CHILDREN, 1 PER 1 CALENDAR YEAR(S) FOR ADULTS 11/23/22",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "REMOVAL OF PLAQUE/CALCULUS/STAINS",
+            "Frequency/AgeLimitlastDateOfService": "2 TIMES IN 1 CALENDAR YEAR 11/23/22",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "TOPICAL APPLICATION - FLUORIDE",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 1 CALENDAR YEAR Up to Age 14 11/23/22",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "SEALANTS",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 5 CALENDAR YEARS, PERMANENT MOLARS ONLY, EXCLUDING WISDOM TEETH Up to Age 19",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "SPACE MAINTAINER",
+            "Frequency/AgeLimitlastDateOfService": "Up to Age 14",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "AMALGAMS/ FILLINGS",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "COMPOSITES/ FILLINGS",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "INLAY/ ONLAY",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 10 CALENDAR YEARS",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "CROWN",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 10 CALENDAR YEARS",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "RECEMENT/BOND INLAY ONLAY VENEER",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "CROWN REPAIR",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "ENDODONTICS/ ROOT CANAL",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 1 CALENDAR YEAR",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "PERIODONTAL SURGERY",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 5 CALENDAR YEARS",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "PERIODONTAL SCALING/ ROOT PLANING",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 5 CALENDAR YEARS",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "PERIODONTAL MAINTENANCE",
+            "Frequency/AgeLimitlastDateOfService": "2 TIMES IN 1 CALENDAR YEAR",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "DENTURE",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 10 CALENDAR YEARS",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "IMPLANTS AND SUPPORTED PROSTHETICS",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 10 CALENDAR YEARS",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "BRIDGE",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 10 CALENDAR YEARS",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "EXTRACTIONS",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "ORAL SURGERY",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "TMJ",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 1 CALENDAR YEAR",
+            "BenefitLevel": "50%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "ORTHODONTICS",
+            "Frequency/AgeLimitlastDateOfService": "Up to Age 19",
+            "BenefitLevel": "50%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "PALLIATIVE TREATMENT",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "DEEP SEDATION/GEN ANES 1ST 15",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "OCCLUSAL GUARDS",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 1 CALENDAR YEAR",
+            "BenefitLevel": "50%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "BLEACHING",
+            "Frequency/AgeLimitlastDateOfService": "*NOT COVERED",
+            "BenefitLevel": "",
+            "Deductible": "",
+            "More": ""
+        },
+        {
+            "Notes": "Eligibility is not a guarantee of coverage as actual benefit payments are determined only when a claim is adjudicated.\n*These procedures are commonly used and represent a grouping of related procedures. Additional procedures in this category may be available under your plan.\nLike most dental benefit plans, Metlife's dental benefits plans contain certain exclusions and limitations. The patient should refer to his/her plan booklet for complete plan details.\nIf MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, MetLife may pay benefits based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If MetLife pays a benefit based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist.\nA pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services.\nInitial installation of fixed or removable bridgework/dentures is only available to replace one or more natural teeth lost while Dental Expense Benefits for the covered person are in effect."
+        }
+    ],
+    "EligibilityPatientSummary": [
+        {
+            "SsnOrId#": " XXXXXXXXX ",
+            "Patient": " VEDAANT D PATEL ",
+            "Network": " PDP PLUS ",
+            "GroupName": " ERNST & YOUNG ",
+            "Group#": " 142746 ",
+            "Customer#": " 85470 "
+        },
+        {
+            "AdditonalInfo": "Additional Info:\nEligibility is not a guarantee of coverage as actual benefit payments are determined only when a claim is adjudicated.\n\nIf MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, MetLife may pay benefits based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If MetLife pays a benefit based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist.",
+            "GeneralInformation": "General Information:\nCoverage has been selected for: Employee, spouse and children\nMaximum dependent age: 23\nMaximum student age: 23\nPlan Benefit start date: January 01\nOrthodontics covered: YES\nMaximum Age for Orthodontics:\nDependent Child:\n    Up to age 19\nDependent Child (Full-time Student):\n    Up to age 19\nAll Others:\n    Not Covered.\nCoordination of Benefits: Birthday Rule\nCOB with any other Dental Plan: This plan coordinates benefits based on the above provision.\nPlan Benefits available for teeth lost prior to effective date: NO\nPlan has a Network Feature:  YES",
+            "Address": "MetLife Customer Service Phone:\n1-877-MET-DDS9 (1-877-638-3379)\nClaim Form\n\nMail Claims to:\nMetLife Dental\nP.O. Box 14588\nLexington, KY 40512\nOr Fax to:\n          1-859-825-6726\nFor Electronic Claims Submissions, use Payor ID 65978",
+            "SubscriberName": "   Subscriber's Name:DARSHAN PATEL",
+            "PlanBenefitSummary": "Plan Benefits Summary as of 01/01/2023"
+        }
+    ]
+}

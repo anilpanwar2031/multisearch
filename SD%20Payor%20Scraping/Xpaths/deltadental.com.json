@@ -1,0 +1,1398 @@
+{
+    "EligibilityPatientVerification": [
+        {
+            "PatientEligibility": [
+                {
+                    "MemberCompanyProvidingCoverage": "Delta Dental of Washington",
+                    "RequestedEligibilityDate": "January 22, 2023 1:20 AM CST",
+                    "Today'SDate": "January 22, 2023 1:20 AM CST",
+                    "GroupNumber": "09013-14000",
+                    "GroupName": "Amazon Enhanced Operations Fulfillment Center",
+                    "MemberName": "JOHN MADRID",
+                    "MemberAddress": "10601 LANSDOWNE LNROWLETT, TX 75089",
+                    "PlanType": "Delta Dental PPO",
+                    "CoverageLevel": "Family",
+                    "AdditionalBenefitInformation": "Standard COB",
+                    "DependentAgeMaximum": "25"
+                }
+            ]
+        },
+        {
+            "PatientInfo": [
+                {
+                    "Name": "Name",
+                    "Relationship": "Relationship",
+                    "Birthday": "Birthday",
+                    "EffectiveDate": "Effective Date",
+                    "TerminationDate": "Termination Date"
+                },
+                {
+                    "Name": "JOHN MADRID",
+                    "Relationship": "Self",
+                    "Birthday": "08/17/1987",
+                    "EffectiveDate": "04/01/2021",
+                    "TerminationDate": null
+                }
+            ]
+        }
+    ],
+    "EligibilityBenefits": [
+        {
+            "BenefitLevels": [
+                {
+                    "ServiceType": "Diagnostic Dental",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Restorative",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Dental Crowns",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Endodontics",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Periodontics",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Prosthodontics",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Oral Surgery",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Orthodontics",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Dental Accident",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                }
+            ]
+        },
+        {
+            "BenefitLevelsPart1": [
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                }
+            ]
+        },
+        {
+            "BenefitLevelsPart2": [
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "50%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "50%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "50%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                }
+            ]
+        },
+        {
+            "BenefitLevelsPart3": [
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "50%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "50%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "50%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                }
+            ]
+        },
+        {
+            "ProcedureCodes": [
+                {
+                    "ProcedureCode": "D0120",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D0140",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D0150",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D0210",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D0272",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D0274",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D0330",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D0999",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D1110",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D1206",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D1208",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D1351",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D1352",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D2140",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D2392",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D2750",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D2950",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D3310",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D4210",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D4341",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D4355",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D4381",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D4910",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D5110",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D5211",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D6010",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D6750",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D7140",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D7230",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D7880",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D8080",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ProcedureCode": "D9223",
+                    "WaitingPeriod": "Met",
+                    "PriorAuthorization": "No"
+                }
+            ]
+        },
+        {
+            "ProcedureCodesPart1": [
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "10%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                }
+            ]
+        },
+        {
+            "ProcedureCodesPart2": [
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "50%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "50%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "0%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "50%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "50%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "50%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "50%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "50%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "50%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "10%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                }
+            ]
+        },
+        {
+            "ProcedureCodesPart3": [
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "50%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "50%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "0%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "50%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "50%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "50%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "50%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "50%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "50%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                }
+            ]
+        },
+        {
+            "Limitations": [
+                {
+                    "ServiceType": "Procedure",
+                    "Limitations": "Limitations",
+                    "AgeRestrictions": "Age Restrictions",
+                    "Date": "Date"
+                },
+                {
+                    "ServiceType": "D0120",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D0120,D0145,D0150,D0160,D01802 Visits every 1 Service Year",
+                    "AgeRestrictions": "",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D0140",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D0140,D01702 Visits every 1 Service Year",
+                    "AgeRestrictions": "",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D0150",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D0120,D0145,D0150,D0160,D01802 Visits every 1 Service Year",
+                    "AgeRestrictions": "",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D0210",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D0210,D03301 Visit every 5 Years",
+                    "AgeRestrictions": "",
+                    "Date": "Last Service Date04/13/2018"
+                },
+                {
+                    "ServiceType": "D0272",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D0272,D0273,D0274,D02771 Visit every 1 Service Year",
+                    "AgeRestrictions": "",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D0274",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D0272,D0273,D0274,D02771 Visit every 1 Service Year",
+                    "AgeRestrictions": "Over the age of 10Under the age of 999",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D0274",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D0272,D0273,D0274,D02771 Visit every 1 Service Year",
+                    "AgeRestrictions": "Over the age of 10Under the age of 999",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D0330",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D0210,D03301 Visit every 5 Years",
+                    "AgeRestrictions": "",
+                    "Date": "Last Service Date04/13/2018"
+                },
+                {
+                    "ServiceType": "D1110",
+                    "Limitations": "If qualifying perio patient, allow 1 more - does not currently qualify for extra cleanings at this time2 Visits every 1 Service Year",
+                    "AgeRestrictions": "",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D1206",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D1203,D1204,D1206,D1207,D12082 Visits every 1 Service Year",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D1206",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D1203,D1204,D1206,D1207,D12082 Visits every 1 Service Year",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D1208",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D1203,D1204,D1206,D1207,D12082 Visits every 1 Service Year",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D1208",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D1203,D1204,D1206,D1207,D12082 Visits every 1 Service Year",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D1351",
+                    "Limitations": "Subject To Contract Limitations If Applicable1 Visit every 2 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D1351",
+                    "Limitations": "Subject To Contract Limitations If Applicable1 Visit every 2 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D1352",
+                    "Limitations": "Subject To Contract Limitations If Applicable1 Visit every 2 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D1352",
+                    "Limitations": "Subject To Contract Limitations If Applicable1 Visit every 2 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D2140",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D2140,D2150,D2160,D2161,D2330,D2331,D2332,D2335,D2391,D2392,D2393,D2394,D2410,D2420,D2430,D2510,D2520,D2530,D2610,D2620,D2630,D2650,D2651,D26521 Visit every 2 Years",
+                    "AgeRestrictions": "",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D2392",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D2140,D2150,D2160,D2161,D2330,D2331,D2332,D2335,D2391,D2392,D2393,D2394,D2410,D2420,D2430,D2510,D2520,D2530,D2610,D2620,D2630,D2650,D2651,D26521 Visit every 2 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D2750",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D2542,D2543,D2544,D2642,D2643,D2644,D2662,D2663,D2664,D2710,D2712,D2720,D2721,D2722,D2740,D2750,D2751,D2752,D2753,D2780,D2781,D2782,D2783,D2790,D2791,D2792,D2794,D29621 Visit every 7 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D2750",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D2542,D2543,D2544,D2642,D2643,D2644,D2662,D2663,D2664,D2710,D2712,D2720,D2721,D2722,D2740,D2750,D2751,D2752,D2753,D2780,D2781,D2782,D2783,D2790,D2791,D2792,D2794,D29621 Visit every 7 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D2950",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D2140,D2150,D2160,D2161,D2330,D2331,D2332,D2335,D2391,D2392,D2393,D2394,D2410,D2420,D2430,D2510,D2520,D2530,D2610,D2620,D2630,D2650,D2651,D2652,D69731 Visit every 2 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D2950",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D2140,D2150,D2160,D2161,D2330,D2331,D2332,D2335,D2391,D2392,D2393,D2394,D2410,D2420,D2430,D2510,D2520,D2530,D2610,D2620,D2630,D2650,D2651,D2652,D69731 Visit every 2 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D3310",
+                    "Limitations": "",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D4210",
+                    "Limitations": "",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D4341",
+                    "Limitations": "Only 2 full quads allowed per day1 Visit every 12 Months",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D4341",
+                    "Limitations": "Only 2 full quads allowed per day1 Visit every 12 Months",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D4355",
+                    "Limitations": "Subject To Contract Limitations if Applicable",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D4355",
+                    "Limitations": "Subject To Contract Limitations if Applicable",
+                    "AgeRestrictions": "Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D4381",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D4341,D4342,D4381,D4382,D43832 Visits every 1 Service Year",
+                    "AgeRestrictions": "",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D4910",
+                    "Limitations": "If qualifying perio patient, allow 1 more - does not currently qualify for extra cleanings at this time2 Visits every 1 Service Year",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D4910",
+                    "Limitations": "If qualifying perio patient, allow 1 more - does not currently qualify for extra cleanings at this time2 Visits every 1 Service Year",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D5110",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D5110,D5120,D5130,D5140,D5860,D5863,D58651 Visit every 5 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D5110",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D5110,D5120,D5130,D5140,D5860,D5863,D58651 Visit every 5 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D5211",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D5211,D5212,D5213,D5214,D5221,D5222,D5223,D5224,D5225,D5226,D5227,D5228,D5281,D5282,D5283,D5284,D5286,D5861,D5864,D58661 Visit every 5 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D5211",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D5211,D5212,D5213,D5214,D5221,D5222,D5223,D5224,D5225,D5226,D5227,D5228,D5281,D5282,D5283,D5284,D5286,D5861,D5864,D58661 Visit every 5 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D6750",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D6068,D6069,D6070,D6071,D6072,D6073,D6074,D6075,D6076,D6077,D6098,D6099,D6120,D6121,D6122,D6123,D6194,D6195,D6545,D6548,D6549,D6600,D6601,D6602,D6603,D6604,D6605,D6606,D6607,D6608,D6609,D6611 Visit every 5 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D6750",
+                    "Limitations": "Similar procedures performed impact frequency limitations - D6068,D6069,D6070,D6071,D6072,D6073,D6074,D6075,D6076,D6077,D6098,D6099,D6120,D6121,D6122,D6123,D6194,D6195,D6545,D6548,D6549,D6600,D6601,D6602,D6603,D6604,D6605,D6606,D6607,D6608,D6609,D6611 Visit every 5 Years",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D7140",
+                    "Limitations": "",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D7230",
+                    "Limitations": "",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D7880",
+                    "Limitations": "",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D8080",
+                    "Limitations": "Payment type is Monthly",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D8080",
+                    "Limitations": "Payment type is Monthly",
+                    "AgeRestrictions": "Under the age of 0",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D9223",
+                    "Limitations": "",
+                    "AgeRestrictions": "Over the age of 0Under the age of 0",
+                    "Date": ""
+                }
+            ]
+        }
+    ],
+    "EligibilityDeductiblesProcCode": [
+        {
+            "AnnualDeductiblesDentalCareDeltaDentalPPO": [
+                {
+                    "Individual": "$50",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$50",
+                    "Family": "$150"
+                }
+            ]
+        },
+        {
+            "AnnualDeductiblesDentalCareDeltaDentalPremier": [
+                {
+                    "Individual": "$50",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$50",
+                    "Family": "$150"
+                }
+            ]
+        },
+        {
+            "AnnualDeductiblesDentalCareOutofNetwork": [
+                {
+                    "Individual": "$50",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$50",
+                    "Family": "$150"
+                }
+            ]
+        },
+        {
+            "LifetimeDeductiblesDeltaDentalPPO": [
+                {
+                    "Individual": "0",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "LifetimeDeductiblesDeltaDentalPremier": [
+                {
+                    "Individual": "0",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "LifetimeDeductiblesDeltaDentalPremier": [
+                {
+                    "Individual": "0",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "LifetimeDeductiblesNames": [
+                {
+                    "0": "Dental Care"
+                }
+            ]
+        },
+        {
+            "AnnualDeductiblesNames": [
+                {
+                    "0": "Dental Care"
+                }
+            ]
+        },
+        {
+            "RemainingAnnualDeductiblesDentalCareDeltaDentalPPO": [
+                {
+                    "Individual": "$50",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$50",
+                    "Family": "$50"
+                }
+            ]
+        },
+        {
+            "RemainingAnnualDeductiblesDentalCareDeltaDentalPremier": [
+                {
+                    "Individual": "$50",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$50",
+                    "Family": "$50"
+                }
+            ]
+        },
+        {
+            "RemainingAnnualDeductiblesDentalCareOutofNetwork": [
+                {
+                    "Individual": "$50",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$50",
+                    "Family": "$50"
+                }
+            ]
+        },
+        {
+            "RemainingLifetimeDeductiblesDeltaDentalPPO": [
+                {
+                    "Individual": "0",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "RemainingLifetimeDeductiblesDeltaDentalPremier": [
+                {
+                    "Individual": "0",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "RemainingLifetimeDeductiblesDeltaDentalPremier": [
+                {
+                    "Individual": "0",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "RemainingLifetimeDeductiblesNames": [
+                {
+                    "0": "Dental Care"
+                }
+            ]
+        },
+        {
+            "RemainingAnnualDeductiblesNames": [
+                {
+                    "0": "Dental Care"
+                }
+            ]
+        }
+    ],
+    "EligibilityMaximums": [
+        {
+            "AnnualMaximumsDentalCareDeltaDentalPPO": [
+                {
+                    "Individual": "$1,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$2,000",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "AnnualMaximumsDentalCareDeltaDentalPremier": [
+                {
+                    "Individual": "$1,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$2,000",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "AnnualMaximumsDentalCareOutofNetwork": [
+                {
+                    "Individual": "$1,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$2,000",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "LifetimeMaximumsDeltaDentalPPO": [
+                {
+                    "Individual": "$5,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$2,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "0",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "LifetimeMaximumsDeltaDentalPremier": [
+                {
+                    "Individual": "$5,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$2,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "0",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "LifetimeMaximumsDeltaDentalPremier": [
+                {
+                    "Individual": "$5,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$2,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "0",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "LifetimeMaximumsNames": [
+                {
+                    "0": "Orthodontics"
+                },
+                {
+                    "0": "Dental Care"
+                }
+            ]
+        },
+        {
+            "AnnualMaximumsNames": [
+                {
+                    "0": "Dental Care"
+                }
+            ]
+        },
+        {
+            "RemainingAnnualMaximumsDentalCareDeltaDentalPPO": [
+                {
+                    "Individual": "$1,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$2,000",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "RemainingAnnualMaximumsDentalCareDeltaDentalPremier": [
+                {
+                    "Individual": "$1,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$2,000",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "RemainingAnnualMaximumsDentalCareOutofNetwork": [
+                {
+                    "Individual": "$1,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$2,000",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "RemainingLifetimeMaximumsDeltaDentalPPO": [
+                {
+                    "Individual": "$5,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$2,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "0",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "RemainingLifetimeMaximumsDeltaDentalPremier": [
+                {
+                    "Individual": "$5,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$2,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "0",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "RemainingLifetimeMaximumsDeltaDentalPremier": [
+                {
+                    "Individual": "$5,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "$2,000",
+                    "Family": "N/A"
+                },
+                {
+                    "Individual": "0",
+                    "Family": "0"
+                }
+            ]
+        },
+        {
+            "RemainingLifetimeMaximumsNames": [
+                {
+                    "0": "Orthodontics"
+                },
+                {
+                    "0": "Dental Care"
+                }
+            ]
+        },
+        {
+            "RemainingAnnualMaximumsNames": [
+                {
+                    "0": "Dental Care"
+                }
+            ]
+        }
+    ]
+}

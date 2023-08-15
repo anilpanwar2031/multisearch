@@ -1,0 +1,123 @@
+{
+    "InputParameters": {
+        "PayorName": "United Healthcare",
+        "PayorId": 36,
+        "ClientId": "857dc9bd-c432-482d-af84-437a48ccecfe",
+        "AppName": "Eligibility",
+        "WebsiteId": "UNITEDHEALTHCARE_001",
+        "ProcCodes": [
+            "D0150",
+            "D0120",
+            "D0140",
+            "D0170",
+            "D9110",
+            "D0220",
+            "D0230",
+            "D0272",
+            "D0274",
+            "D0210",
+            "D0330",
+            "D0240",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D7140",
+            "D3220",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D9230"
+        ],
+        "ScheduleId": 673
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 13882,
+            "PatientId": "56520",
+            "AppointmentId": "285005",
+            "AppointmentDateTime": "2023-05-12T10:00:00+00:00",
+            "LastName": "Taylor",
+            "FirstName": "Tristan",
+            "BirthDate": "04/26/2020",
+            "Relationship": "Child",
+            "PatientMemberId": "934758596",
+            "SubscriberId": "934758596",
+            "SubscriberFirstName": "Tristan",
+            "SubscriberLastName": "Taylor",
+            "SubscriberBirthDate": "04/26/2020",
+            "ClinicServerId": "bfe87f26-10ca-e07a-be99-f0b3ec5a8e7f",
+            "ClinicNum": "3"
+        },
+        {
+            "EligibilityVerificationId": 13882,
+            "PatientId": "56520",
+            "AppointmentId": "285005",
+            "AppointmentDateTime": "2023-05-12T10:00:00+00:00",
+            "LastName": "Taylor",
+            "FirstName": "Tristan",
+            "BirthDate": "04/26/2020",
+            "Relationship": "Child",
+            "PatientMemberId": "934758596",
+            "SubscriberId": "934758596",
+            "SubscriberFirstName": "Tristan",
+            "SubscriberLastName": "Taylor",
+            "SubscriberBirthDate": "04/26/2020",
+            "ClinicServerId": "bfe87f26-10ca-e07a-be99-f0b3ec5a8e7f",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.dbp.com",
+        "LoginId": "Payoraccess@sdb",
+        "Password": "BPKtech@1234",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//input[@id='userNameId_input']\",\"PasswordXpath\":\"//input[@id='passwdId_input']\",\"LoginButtonXpath\":\"//input[@id='SignIn']\",\"OtpInputXpath\":\"//input[@id='EmailText_input']\",\"OtpSubmitXpath\":\"//input[@id='EmailAccessCodeSubmitButton']\",\"PreSteps\":[\"//span[text()='Sign In']\",\"(//a[@class='sign-in-button-link'])[1]\"],\"PostSteps\":[\"//*[@id='nextButton']\"],\"OtpXpath\":\"//*[@id='accessCodeBody']/span[2]\",\"OtpInstructions\":{\"OtpEmail\":\"payorportal@sdbmail.com\",\"OtpEmailPassword\":\"\",\"FromEmail\":\"\",\"EmailTitle\":\"Your One Healthcare ID account information\",\"tenantID\":\"e44873dc-54c1-425a-8c70-6bd6ee571de4\",\"clientID\":\"aa33b5af-9a5a-4cb3-b120-2b831663f414\",\"clientSecret\":\"K.g8Q~W6gjw-xk4IE67XzTeA7X2FIcF2ecoyJcnq\",\"SMTPAddress\":\"\",\"EncryptionType\":\"\",\"ImapType\":\"\",\"OtpWait\":40}}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Patient\"}, \"xpath\": \"//span[@id='patient-single']\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Address\"}, \"xpath\": \"(//div[@class='info-card__address ng-binding'])[1]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"DOB\"}, \"xpath\": \"//dt[text()='DOB']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Relationship\"}, \"xpath\": \"//dt[text()='Relationship']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Spoken Language\"}, \"xpath\": \"//dt[text()='Spoken Language']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Language Assistance\"}, \"xpath\": \"//dt[text()='Language Assistance']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Provider Network Status\"}, \"xpath\": \"//dt[text()='Provider Network Status']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Subscriber ID\"}, \"xpath\": \"//dt[text()='Subscriber ID']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Product ID\"}, \"xpath\": \"//dt[text()='Product ID']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Product Type\"}, \"xpath\": \"//dt[text()='Product Type']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Group ID\"}, \"xpath\": \"//dt[text()='Group ID']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Group Name\"}, \"xpath\": \"//dt[text()='Group Name']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Product Line\"}, \"xpath\": \"//dt[text()='Product Line']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Effective Date\"}, \"xpath\": \"//dt[text()='Effective Date']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Plan Year Begins\"}, \"xpath\": \"//dt[text()='Plan Year Begins']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Eligible\"}, \"xpath\": \"//dt[text()='Eligible']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Essential Health Benefits\"}, \"xpath\": \"//dt[text()='Essential Health Benefits']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Term Date\"}, \"xpath\": \"//dt[text()='Term Date']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Product Description\"}, \"xpath\": \"//dt[text()='Product Description']//following-sibling::dd\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Provider Location\"}, \"xpath\": \"(//div[@class='info-card__address ng-binding'])[2]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Assignment Status\"}, \"xpath\": \"(//div[@class='info-card__address ng-binding'])[3]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Claims Address\"}, \"xpath\": \"//span[text()='Claims Address']//following-sibling::address[1]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Payor Id\"}, \"xpath\": \"//span[text()='Claims Address']//following-sibling::address[2]\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Annual Maximium Benefits used\"}, \"xpath\": \"//div[@id='annualmaxused']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Annual Maximium Benefits Remaining\"}, \"xpath\": \"//div[@id='annualmaxrem']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Deductible\"}, \"xpath\": \"//div[@id='deductablestat']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Lifetime Maximum Benefits - Orthodontics\"}, \"xpath\": \"//div[@id='orthoStat']\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Status\"}, \"xpath\": \"//h2[text()='Dental Account Summary']//following-sibling::div\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//a[@id='utilization-history']\"], \"fileds\": [\"ADA Code\", \"ADA Description\", \"Procedure Category\", \"Service Date 1\", \"Service Date 2\", \"Service Date 3\", \"Service Date 4\", \"Service Date Procedure Code Frequency* (i-ii-iii)\", \"Age Limit\", \"Alternate Benefit\", \"Related Codes\"], \"type\": \"Type3\"}, \"xpath\": \"//table//parent::div[@id='benefit-2']//table\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//a[@id='coverage-deductible']\"], \"fileds\": [\"Procedure Category\", \"Procedure Category Description\", \"Coverage(IN)\", \"Deductible Applies\", \"Waiting Period Met Date\"], \"type\": \"Type3\"}, \"xpath\": \"//table//parent::div[@id='benefit-1']//table\"}]}",
+            "DataContextName": "EligibilityOtherProvisions"
+        },
+        {
+            "XPath": "{\"Scraping\":false,\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//*[@id='Dashboard']\"],\"fileds\":[]},\"xpath\":\"\"}]}",
+            "DataContextName": "SearchDashboardFilter"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 31,
+            "EligibilityPayorInfoId": 36,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [], \"AdditonalInfo\": {}}, \"SearchButtonXpath\": \"//input[@value='search']\", \"PostSteps\": {\"AdditonalInfo\": {\"aftersleep\": 20}, \"Clicks\": []}}, \"Queries\": [{\"Data\": \"BirthDate\", \"Xpath\": \"(//input[@name='dob'])[1]\"}, {\"Data\": \"ServiceDate\", \"Xpath\": \"//input[@id='serviceDate']\"}, {\"Data\": \"SubscriberId\", \"Xpath\": \"//input[@id='eligSubsId']\"}]}}",
+            "IsActive": true
+        }
+    ]
+}

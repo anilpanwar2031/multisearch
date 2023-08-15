@@ -1,0 +1,97 @@
+{
+    "InputParameters": {
+        "PayorName": "cigna",
+        "PayorId": 0,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "RcmClaimNumber": "234378",
+        "RcmClinicId": "41e9bf05-7b4c-46ac-8d15-8cfecd970297"
+    },
+    "PatientData": [
+        {
+            "FirstName": "Jacks",
+            "LastName": "Wyatt",
+            "BirthDate": "08/07/2017"
+        }
+    ],
+    "Login": {
+        "Url": "https://cignaforhcp.cigna.com/app/login",
+        "LoginId": "PP1bpktech",
+        "Password": "BPKtech@123",
+        "OtpRequired": false,
+        "OtpEmail": "insver@bpktechmail.com",
+        "OtpEmailPassword": "BPKtech@123!",
+        "EmailProvierUrl": ""
+    },
+    "Xpaths": [
+        {
+            "Id": 16,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 196,
+            "XPath": "{\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//*[@id='username']\",\"PasswordXpath\":\"//*[@id='password']\",\"LoginButtonXpath\":\"//*[@id='login-form']/div[3]/button\",\"OtpInputXpath\":\"//*[@id='verificationCode']\",\"OtpSubmitXpath\":\"/html/body/cigna-root/cigna-layout-wrapper/cigna-layout-public/main/cigna-wrapper-code/div/cigna-verify-code/form/div[7]/button[1]\",\"PreSteps\":[],\"PostSteps\":[],\"OtpXpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityLogin",
+            "ProductCategoryId": 0
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath":"{\"flatten\":true,\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"//*[@id='PATIENT_PLAN']/section/div/cigna-patient-and-plan/div/div[1]/cigna-patient-detail/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"//*[@id='PATIENT_PLAN']/section/div/cigna-patient-and-plan/div/div[2]/cigna-plan-and-network/div/div[1]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"//*[@id='PATIENT_PLAN']/section/div/cigna-patient-and-plan/div/div[2]/cigna-plan-and-network/div/div[2]/table\"},{\"AdditonalInfo\":{\"Click\":[\"//*[@id='CONTACTS']/section/button\"],\"fileds\":\"ClaimOfficeMailingAddress\"},\"xpath\":\"//*[@id='CONTACTS']/section/div\"},{\"AdditonalInfo\":{\"Click\":[\"//*[@id='DENTAL_PROVIDER']/section/button\"],\"fileds\":[]},\"headingname\":\"DENTAL_PROVIDER\",\"xpath\":\"//*[@id='DENTAL_PROVIDER']/section/div/cigna-dental-provider/table\"},{\"AdditonalInfo\":{\"Click\":[\"//*[@id='CPT_SEARCH']/section/button\"],\"fileds\":[]},\"xpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityPatientVerication",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath":"{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Deductible\"},\"xpath\":\"//cigna-coverage-dental-deductible/div/div\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityDebucticles",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath":"{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Maximums\"},\"xpath\":\"//cigna-coverage-dental-oop/div/div\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityMaximums",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath":"{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//*[@id='FREQ_AGE_LIMIT']/section/button\"],\"fileds\":[]},\"xpath\":\"//*[@id='FREQ_AGE_LIMIT']/section/div/div/cigna-freq-age-limit/table[2]\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityAgeLimitation",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath":"{\"MultiplElements\":{\"Searchlist\":[\"D0150\",\"D0120\",\"D0140\",\"D0170\",\"D9110\",\"D0220\",\"D0230\",\"D0272\",\"D0274\",\"D0210\",\"D0330\",\"D0240\",\"D1110\",\"D1120\",\"D1206\",\"D1208\",\"D1351\",\"D1354\",\"D1516\",\"D1517\",\"D2140\",\"D2150\",\"D2160\",\"D2161\",\"D2391\",\"D2392\",\"D2393\",\"D2394\",\"D7140\",\"D3220\",\"D2930\",\"D2933\",\"D2934\",\"D9230\"],\"action\":\"Sendkeys\",\"InputElementsXpath\":\"//*[@id='procedure0']\",\"PreSteps\":{\"Clicks\":[\"/html/body/div[3]/div/div/div/mat-option/span\"]},\"SearchButtonXpath\":\"//button[contains(text(),'Submit')]\"},\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Code\"},\"xpath\":\"//*[@id='CPT_SEARCH']/section/div/cigna-procedure-code-search-dental/cigna-procedure-code-results-dental/div[1]/div/table/tbody/tr/td[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Procedure\"},\"xpath\":\"//*[@id='CPT_SEARCH']/section/div/cigna-procedure-code-search-dental/cigna-procedure-code-results-dental/div[1]/div/table/tbody/tr/td[2]/div[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"History\"},\"xpath\":\"//*[@id='CPT_SEARCH']/section/div/cigna-procedure-code-search-dental/cigna-procedure-code-results-dental/div[1]/div/table/tbody/tr/td[2]/div[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"HiCopay_Coinsurancestory\"},\"xpath\":\"//cigna-procedure-code-result-item-variation-dental/div/div[3]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Deductible\"},\"xpath\":\"//*[@id='CPT_SEARCH']/section/div/cigna-procedure-code-search-dental/cigna-procedure-code-results-dental/div[1]/div/table/tbody/tr/td[3]/cigna-procedure-code-result-item-variation-dental/div/div[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Maximum\"},\"xpath\":\"//cigna-procedure-code-result-item-variation-dental/div/div[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Frequency\"},\"xpath\":\"//cigna-procedure-code-result-item-variation-dental/div/div[2]\"},{\"AdditonalInfo\":{\"Click\":[\"//button[contains(text(),'Clear all Codes')]\"],\"fileds\":\"\"},\"xpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityBenefits",
+            "ProductCategoryId": 2
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 2,
+            "EligibilityPayorInfoId": 12,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//a[contains(text(),'Patients')]\"],\"AdditonalInfo\":{}},\"SearchButtonXpath\":\"//button[contains(text(),'Search')]\",\"PostSteps\":{\"AdditonalInfo\":{},\"Clicks\":[\"//*[@id='patientIdBody_0']/button\",\"//*[contains(text(),'Confirm Patient')]\"]}},\"Queries\":[{\"Data\":\"FirstName\",\"Xpath\":\"//*[@id='patient_FN_0']\"},{\"Data\":\"LastName\",\"Xpath\":\"//*[@id='patient_LN_0']\"},{\"Data\":\"BirthDate\",\"Xpath\":\"//*[@id='patient_dob_0']\"}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 2
+        }
+    ]
+}

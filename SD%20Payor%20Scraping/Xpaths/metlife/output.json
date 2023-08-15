@@ -1,0 +1,2747 @@
+{
+    "EligibilityMaximumAndDedecibles": [
+        {
+            "BasicPlanInfo": [
+                {
+                    "Type": "Plan Maximum",
+                    "BenefitPeriodIndividual": "$1500",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Maximum Used to Date",
+                    "BenefitPeriodIndividual": "$0",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Plan Deductible",
+                    "BenefitPeriodIndividual": "$100",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "$300",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Deductible Satisfied to Date",
+                    "BenefitPeriodIndividual": "$0",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "$0",
+                    "LifetimeFamily": "None"
+                }
+            ]
+        },
+        {
+            "Orthodontics": [
+                {
+                    "Type": "Maximum Used to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "$0",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Plan Deductible",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Deductible Satisfied to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": null,
+                    "BenefitPeriodIndividual": null,
+                    "LifetimeIndividual": null,
+                    "BenefitPeriodFamily": null,
+                    "LifetimeFamily": null
+                }
+            ]
+        },
+        {
+            "Periodontics": [
+                {
+                    "Type": "Maximum Used to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "$0",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Plan Deductible",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Deductible Satisfied to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": null,
+                    "BenefitPeriodIndividual": null,
+                    "LifetimeIndividual": null,
+                    "BenefitPeriodFamily": null,
+                    "LifetimeFamily": null
+                }
+            ]
+        },
+        {
+            "Tmj": [
+                {
+                    "Tmj": "Benefit PeriodIndividual\nLifetimeIndividual\nBenefit PeriodFamily\nLifetimeFamily Plan Maximum $500 $500 None None Maximum Used to Date $0 $0 None None Plan Deductible $100 None $300 None Deductible Satisfied to Date $0 None $0 None In addition, a $100 individual benefit period deductible applies of which $0 has been used. In addition, a $300 family benefit period deductible applies of which $0 has been used. Individual benefit period maximum is combined with the other procedure maximums for an overall maximum of $2000, of which $0 has been used to date. Notes If MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, benefits may be based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If the benefit allowed was based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist. A pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services. This summary is based on processed claims as of 01/23/2023. Future benefits will be determined in the order that claims are received and processed."
+                }
+            ]
+        },
+        {
+            "PlanNotes": "Eligibility is not a guarantee of coverage as actual benefit payments are determined only when a claim is adjudicated.\nIf MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, benefits may be based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If the benefit allowed was based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist.\nA pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services.\nThis summary is based on processed claims as of 01/23/2023. Future benefits will be determined in the order that claims are received and processed.",
+            "OrthodonticsNotes": "Payment method is: Monthly Repetitive\nMaximum Age for Orthodontics:\n  Dependent Child: Up to age 19\n  Dependent Child (Full-time Student): Up to age 19\n  All Others: Not Covered.\nOrthodontic Benefit Level: 50%\nPercentage Considered at Initial Ortho Placement 20%\nA pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services.\nThis summary is based on processed claims as of 01/23/2023. Future benefits will be determined in the order that claims are received and processed.",
+            "PeriodonticsNotes": "If MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, benefits may be based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If the benefit allowed was based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist.\nA pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services.\nThis summary is based on processed claims as of 01/23/2023. Future benefits will be determined in the order that claims are received and processed."
+        }
+    ],
+    "EligibilityBenefitsAndLimitations": [
+        {
+            "ProcedureDescription": "ORAL EXAMS",
+            "Frequency/AgeLimitlastDateOfService": "2 TIMES IN 1 CALENDAR YEAR 06/21/22",
+            "BenefitLevel": "90%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "INTRAORAL-COMPREHENSIVE SERIES OF",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 60 MONTHS",
+            "BenefitLevel": "90%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "BITEWING-SINGLE IMAGE",
+            "Frequency/AgeLimitlastDateOfService": "2 PER 1 CALENDAR YEAR(S) FOR CHILDREN, 1 PER 1 CALENDAR YEAR(S) FOR ADULTS 06/21/22",
+            "BenefitLevel": "90%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "REMOVAL OF PLAQUE/CALCULUS/STAINS",
+            "Frequency/AgeLimitlastDateOfService": "2 TIMES IN 1 CALENDAR YEAR 06/21/22",
+            "BenefitLevel": "90%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "TOPICAL APPLICATION - FLUORIDE",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 1 CALENDAR YEAR Up to Age 19 06/21/22",
+            "BenefitLevel": "90%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "SEALANTS",
+            "Frequency/AgeLimitlastDateOfService": "2 TIMES IN 19 CALENDAR YEARS, PERMANENT MOLARS ONLY, EXCLUDING WISDOM TEETH Up to Age 19",
+            "BenefitLevel": "90%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "SPACE MAINTAINER",
+            "Frequency/AgeLimitlastDateOfService": "Up to Age 14",
+            "BenefitLevel": "90%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "AMALGAMS/ FILLINGS",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "70%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "COMPOSITES/ FILLINGS",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "70%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "INLAY/ ONLAY",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 5 CALENDAR YEARS",
+            "BenefitLevel": "50%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "CROWN",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 5 CALENDAR YEARS",
+            "BenefitLevel": "50%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "RECEMENT/BOND INLAY ONLAY VENEER",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "70%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "CROWN REPAIR",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "70%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "ENDODONTICS/ ROOT CANAL",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "50%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "PERIODONTAL SURGERY",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 36 MONTHS",
+            "BenefitLevel": "70%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "PERIODONTAL SCALING/ ROOT PLANING",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 24 MONTHS",
+            "BenefitLevel": "70%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "PERIODONTAL MAINTENANCE",
+            "Frequency/AgeLimitlastDateOfService": "4 TIMES IN 1 CALENDAR YEAR",
+            "BenefitLevel": "70%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "DENTURE",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 5 CALENDAR YEARS",
+            "BenefitLevel": "50%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "IMPLANTS AND SUPPORTED PROSTHETICS",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "50%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "BRIDGE",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 5 CALENDAR YEARS",
+            "BenefitLevel": "50%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "EXTRACTIONS",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "70%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "ORAL SURGERY",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "70%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "TMJ",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "50%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "ORTHODONTICS",
+            "Frequency/AgeLimitlastDateOfService": "Up to Age 19",
+            "BenefitLevel": "50%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "PALLIATIVE TREATMENT",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "90%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "DEEP SEDATION/GEN ANES 1ST 15",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "70%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "OCCLUSAL GUARDS",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "50%",
+            "Deductible": "YES",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "BLEACHING",
+            "Frequency/AgeLimitlastDateOfService": "*NOT COVERED",
+            "BenefitLevel": "",
+            "Deductible": "",
+            "More": ""
+        },
+        {
+            "Notes": "Eligibility is not a guarantee of coverage as actual benefit payments are determined only when a claim is adjudicated.\n*These procedures are commonly used and represent a grouping of related procedures. Additional procedures in this category may be available under your plan.\nLike most dental benefit plans, Metlife's dental benefits plans contain certain exclusions and limitations. The patient should refer to his/her plan booklet for complete plan details.\nIf MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, benefits may be based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If the benefit allowed was based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist.\nA pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services."
+        }
+    ],
+    "EligibilityPatientSummary": [
+        {
+            "SsnOrId#": "930988871",
+            "Patient": "ADDISON E LOERA",
+            "Network": "PDP",
+            "GroupName": "JPMORGAN CHASE",
+            "Group#": "301044"
+        },
+        {
+            "AdditonalInfo": "Additional Info:\nEligibility is not a guarantee of coverage as actual benefit payments are determined only when a claim is adjudicated.\n\nIf MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, benefits may be based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If the benefit allowed was based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist.",
+            "GeneralInformation": "General Information:\nCoverage has been selected for: Employee, spouse and children\nMaximum dependent age: 26\nMaximum student age: 26\nPlan Benefit start date: January 01\nOrthodontics covered: YES\nMaximum Age for Orthodontics:\nDependent Child:\n    Up to age 19\nDependent Child (Full-time Student):\n    Up to age 19\nAll Others:\n    Not Covered.\nCoordination of Benefits: Birthday Rule\nCOB with any other Dental Plan: Non-duplication of benefits applies.\nPlan Benefits available for teeth lost prior to effective date: YES\nPlan has a Network Feature:  YES",
+            "Address": "MetLife Customer Service Phone:\n1-877-MET-DDS9 (1-877-638-3379)\nClaim Form\n\nMail Claims to:\nMetLife Dental\nP.O. Box 981282\nEl Paso, TX 79998-1282\nOr Fax to:\n          1-859-389-6505\nFor Electronic Claims Submissions, use Payor ID 65978",
+            "SubscriberName": "   Subscriber's Name:VICTORIA E LOERA",
+            "PlanBenefitSummary": "Plan Benefits Summary as of 01/23/2023"
+        }
+    ],
+    "EligibilitySummary": [
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D0120",
+            "1": "PERIODIC ORAL EVALUATION - ESTABLISHED PATIENT TO DETERMINE ANY CHANGES IN THE PATIENTS DENTAL/MEDICAL HEALTH STATUS SINCE A PREVIOUS EVALUATION",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D0140",
+            "1": "LIMITED ORAL EVALUATION - PROBLEM FOCUSED",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D0145",
+            "1": "ORAL EVALUATION FOR A PATIENT UNDER THREE YEARS OF AGE AND COUNSELING WITH PRIMARY CAREGIVER",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D0150",
+            "1": "COMPREHENSIVE ORAL EVALUATION - NEW OR ESTABLISHED PATIENT",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D0160",
+            "1": "DETAILED AND EXTENSIVE ORAL EVALUATION - PROBLEM-FOCUSED, BY REPORT",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D0170",
+            "1": "RE-EVALUATION - LIMITED, PROBLEM FOCUSED (ESTABLISHED PATIENT; NOT POST-OPERATIVE VISIT)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D0180",
+            "1": "COMPREHENSIVE PERIODONTAL EVALUATION - NEW OR ESTABLISHED PATIENT PROCEDURE FOR PATIENTS WITH SIGNS/SYMPTOMS OF PERIO DISEASE AND WITH RISK FACTORS",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D9310",
+            "1": "CONSULTATION, (DIAGNOSTIC SERVICE PROVIDED BY DENTIST OR PHYSICIAN OTHER THAN PRACTITIONER PROVIDING TREATMENT)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D9311",
+            "1": "CONSULTATION WITH A MEDICAL HEALTH CARE PROFESSIONAL",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D1206",
+            "1": "TOPICAL FLUORIDE-VARNISH",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1208",
+            "1": "TOPICAL APPLICATION FLUORIDE",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1999",
+            "1": "UNSPECIFIED PREVENTIVE PROCEDURE, BY REPORT",
+            "2": "N/AVAIL",
+            "3": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D0270",
+            "1": "BITEWING-SINGLE IMAGE",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D0272",
+            "1": "BITEWINGS-TWO IMAGES",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D0273",
+            "1": "BITEWINGS-THREE IMAGES",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D0274",
+            "1": "BITEWINGS-FOUR IMAGES",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D0277",
+            "1": "VERTICAL BITEWINGS 7-8 IMAGES",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D0373",
+            "1": "INTRAORAL TOMOSYNTHESIS - BITEWING RADIOGRAPHIC IMAGE",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D4910",
+            "1": "PERIODONTAL MAINTENANCE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D1510",
+            "1": "SPACE MAINTAINER - FIXED, UNILATERAL - PER QUADRANT EXCLUDES A DISTAL SHOE SPACE MAINTAINER.",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1516",
+            "1": "SPACE MAINTAINER - FIXED - BILATERAL, MAXILLARY",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1517",
+            "1": "SPACE MAINTAINER - FIXED - BILATERAL, MANDIBULAR",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1520",
+            "1": "SPACE MAINTAINER - REMOVABLE, UNILATERAL - PER QUADRANT",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1526",
+            "1": "SPACE MAINTAINER - REMOVABLE - BILATERAL, MAXILLARY",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1527",
+            "1": "SPACE MAINTAINER - REMOVABLE - BILATERAL, MANDIBULAR",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1551",
+            "1": "RE-CEMENT OR RE-BOND BILATERAL SPACE MAINTAINER - MAXILLARY",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1552",
+            "1": "RE-CEMENT OR RE-BOND BILATERAL SPACE MAINTAINER - MANDIBULAR",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1553",
+            "1": "RE-CEMENT OR RE-BOND UNILATERAL SPACE MAINTAINER - PER QUADRANT",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1575",
+            "1": "DISTAL SHOE SPACE MAINTAINER - FIXED, UNILATERAL - PER QUADRANT. FABRICATION AND DELIVERY OF FIXED APPLIANCE TO GUIDE FIRST PERMANENT MOLAR ERUPTION.",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D9110",
+            "1": "PALLIATIVE TREATMENT OF DENTAL PAIN PER VISIT RELIEVES PAIN BUT IS NOT CURATIVE; SERVICES PROVIDED DO NOT HAVE DISTINCT PROCEDURE CODES.",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D2510",
+            "1": "INLAY, METALLIC - ONE SURFACE",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2520",
+            "1": "INLAY, METALLIC - TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2530",
+            "1": "INLAY, METALLIC - THREE OR MORE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2542",
+            "1": "ONLAY, METALLIC - TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2543",
+            "1": "ONLAY, METALLIC - THREE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2544",
+            "1": "ONLAY, METALLIC - FOUR OR MORE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2610",
+            "1": "INLAY, PORCELAIN/CERAMIC - ONE SURFACE",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2620",
+            "1": "INLAY, PORCELAIN/CERAMIC - TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2630",
+            "1": "INLAY, PORCELAIN/CERAMIC - THREE OR MORE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2642",
+            "1": "ONLAY, PORCELAIN/CERAMIC - TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2643",
+            "1": "ONLAY, PORCELAIN/CERAMIC - THREE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2644",
+            "1": "ONLAY, PORCELAIN/CERAMIC - FOUR OR MORE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2650",
+            "1": "INLAY, COMPOSITE/RESIN - ONE SURFACE (LABORATORY PROCESSED)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2651",
+            "1": "INLAY, COMPOSITE/RESIN - TWO SURFACES (LABORATORY PROCESSED)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2652",
+            "1": "INLAY, COMPOSITE/RESIN - THREE OR MORE SURFACES (LABORATORY PROCESSED)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2662",
+            "1": "ONLAY, COMPOSITE/RESIN - TWO SURFACES (LABORATORY PROCESSED)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2663",
+            "1": "ONLAY, COMPOSITE/RESIN - THREE SURFACES(LABORATORY PROCESSED)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2664",
+            "1": "ONLAY, COMPOSITE/RESIN - FOUR OR MORE SURFACES (LABORATORY PROCESSED)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D5110",
+            "1": "COMPLETE DENTURE, UPPER",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5120",
+            "1": "COMPLETE DENTURE, LOWER",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5130",
+            "1": "IMMEDIATE DENTURE - MAXILLARY",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5140",
+            "1": "IMMEDIATE DENTURE - MANDIBULAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5211",
+            "1": "MAXILLARY PARTIAL DENTURE - RESIN BASE (INCLUDING, RETENTIVE/CLASPING MATERIALS, RESTS, AND TEETH)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5212",
+            "1": "MANDIBULAR PARTIAL DENTURE - RESIN BASE (INCLUDING, RETENTIVE/CLASPING MATERIALS, RESTS, AND TEETH)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5213",
+            "1": "MAXILLARY PARTIAL DENTURE - CAST METAL FRAMEWORK WITH RESIN DENTURE BASES (INCLUDING RETENTIVE/CLASPING MATERIALS, RESTS AND TEETH)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5214",
+            "1": "MANDIBULAR PARTIAL DENTURE - CAST METAL FRAMEWORK WITH RESIN DENTURE BASES (INCLUDING RETENTIVE/CLASPING MATERIALS, RESTS AND TEETH)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5221",
+            "1": "IMMEDIATE MAXILLARY PARTIAL DENTURE - RESIN BASE (RETENTIVE/CLASPING MATERIALS, RESTS AND TEETH) LIMITED FOLLOW-UP; NO FUTURE REBASING/RELINING.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5222",
+            "1": "IMMEDIATE MANDIBULAR PARTIAL DENTURE - RESIN BASE (INCLUDING RETENTIVE/CLASPING MATERIALS, RESTS AND TEETH) LIMITED FOLLOW-UP; NO FUTURE REBASE/RELINE",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5223",
+            "1": "IMMEDIATE MAXILLARY PARTIAL DENTURE - CAST METAL FRAMEWORK WITH RESIN DENTURE BASES (INCLUDING RETENTIVE/CLASPING MATERIALS, RESTS AND TEETH)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5224",
+            "1": "IMMEDIATE MANDIBULAR PARTIAL DENTURE - CAST METAL FRAMEWORK WITH RESIN DENTURE BASES (INCLUDING RETENTIVE/CLASPING MATERIALS, RESTS AND TEETH)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5225",
+            "1": "MAXILLARY PARTIAL DENTURE - FLEXIBLE BASE (INCLUDING ANY CLASPS, RESTS AND TEETH",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5226",
+            "1": "MANDIBULAR PARTIAL DENTURE - FLEXIBLE BASE (INCLUDING ANY CLASPS, RESTS AND TEETH",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5227",
+            "1": "IMMEDIATE MAXILLARY PARTIAL DENTURE - FLEXIBLE BASE (INCLUDING ANY CLASPS, RESTS AND TEETH)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5228",
+            "1": "IMMEDIATE MANDIBULAR PARTIAL DENTURE - FLEXIBLE BASE (INCLUDING ANY CLASPS, RESTS AND TEETH)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5282",
+            "1": "REMOVABLE UNILATERAL PARTIAL DENTURE - ONE PIECE CAST METAL (INCLUDING CLASPS AND TEETH), MAXILLARY",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5283",
+            "1": "REMOVABLE UNILATERAL PARTIAL DENTURE - ONE PIECE CAST METAL (INCLUDING CLASPS AND TEETH), MANDIBULAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5410",
+            "1": "ADJUST COMPLETE UPPER DENTURE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5411",
+            "1": "ADJUST COMPLETE LOWER DENTURE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5421",
+            "1": "ADJUST PARTIAL UPPER DENTURE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5422",
+            "1": "ADJUST PARTIAL LOWER DENTURE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5511",
+            "1": "REPAIR BROKEN COMPLETE DENTURE BASE, MANDIBULAR",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5512",
+            "1": "REPAIR BROKEN COMPLETE DENTURE BASE, MAXILLARY",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5520",
+            "1": "REPLACE MISSING OR BROKEN TEETH, COMPLETE DENTURE (EACH TOOTH)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5611",
+            "1": "REPAIR RESIN PARTIAL DENTURE BASE, MANDIBULAR",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5612",
+            "1": "REPAIR RESIN PARTIAL DENTURE BASE, MAXILLARY",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5621",
+            "1": "REPAIR CAST PARTIAL FRAMEWORK, MANDIBULAR",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5622",
+            "1": "REPAIR CAST PARTIAL FRAMEWORK, MAXILLARY",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5630",
+            "1": "REPAIR OR REPLACE BROKEN RETENTIVE CLASPING MATERIALS - PER TOOTH",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5640",
+            "1": "REPLACE BROKEN TEETH - PER TOOTH",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5650",
+            "1": "ADD TOOTH TO EXISTING PARTIAL DENTURE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5660",
+            "1": "ADD CLASP TO EXISTING PARTIAL DENTURE - PER TOOTH",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5670",
+            "1": "REPLACE ALL TEETH AND ACRYLIC ON CAST METAL FRAMEWORK (MAXILLARY)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5671",
+            "1": "REPLACE ALL TEETH AND ACRYLIC ON CAST METAL FRAMEWORK (MANDIBULAR)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5710",
+            "1": "REBASE COMPLETE UPPER DENTURE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5711",
+            "1": "REBASE COMPLETE LOWER DENTURE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5720",
+            "1": "REBASE UPPER PARTIAL DENTURE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5721",
+            "1": "REBASE LOWER PARTIAL DENTURE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5725",
+            "1": "REBASE HYBRID PROSTHESIS- REPLACING THE BASE MATERIAL CONNECTED TO THE FRAMEWORK.",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5730",
+            "1": "RELINE COMPLETE UPPER DENTURE (CHAIRSIDE)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5731",
+            "1": "RELINE COMPLETE LOWER DENTURE (CHAIRSIDE)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5740",
+            "1": "RELINE UPPER PARTIAL DENTURE (CHAIRSIDE)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5741",
+            "1": "RELINE LOWER PARTIAL DENTURE (CHAIRSIDE)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5750",
+            "1": "RELINE UPPER COMPLETE DENTURE (LABORATORY)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5751",
+            "1": "RELINE LOWER COMPLETE DENTURE (LABORATORY)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5760",
+            "1": "RELINE UPPER PARTIAL DENTURE (LABORATORY)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5761",
+            "1": "RELINE LOWER PARTIAL DENTURE (LABORATORY)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5765",
+            "1": "SOFT LINER FOR COMPLETE OR PARTIAL REMOVABLE DENTURE INDIRECT- A DISCRETE PROCEDURE PROVIDE WHEN PLACEMENT OF THE SOFT LINER IS CLINICALLY NEEDED",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5850",
+            "1": "TISSUE CONDITIONING, UPPER",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5851",
+            "1": "TISSUE CONDITIONING, LOWER",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5862",
+            "1": "PRECISION ATTACHMENT, BY REPORT EACH PAIR OF COMPONENTS IS ONE PRECISION ATTACHMENT. DESCRIBE THE TYPE OF ATTACHMENT USED",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5863",
+            "1": "OVERDENTURE - COMPLETE MAXILLARY",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5864",
+            "1": "OVERDENTURE - PARTIAL MAXILLARY",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5865",
+            "1": "OVERDENTURE - COMPLETE MANDIBULAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5866",
+            "1": "OVERDENTURE - PARTIAL MANDIBULAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5867",
+            "1": "REPLACEMENT OF REPLACEABLE PART OF SEMI-PRECISION OR PRECISION ATTACHMENT, PER ATTACHMENT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5875",
+            "1": "MODIFICATION OF REMOVABLE PROSTHESIS FOLLOWING IMPLANT SURGERY",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D5876",
+            "1": "ADD METAL SUBSTRUCTURE TO ACRYLIC FULL DENTURE (PER ARCH)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D5899",
+            "1": "UNSPECIFIED REMOVABLE PROSTHODONTIC PROCEDURE, BY REPORT",
+            "2": "N/AVAIL",
+            "3": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "0": "D6090",
+            "1": "REPAIR IMPLANT SUPPORTED PROSTHESIS, BY REPORT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6110",
+            "1": "IMPLANT/SUPPORTED REMOVABLE DENTURE FOR EDENTULOUS ARCH - MAXILLARY",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6111",
+            "1": "IMPLANT/SUPPORTED REMOVABLE DENTURE FOR EDENTULOUS ARCH - MANDIBULAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6112",
+            "1": "IMPLANT/SUPPORTED REMOVABLE DENTURE FOR PARTIAL EDENTULOUS ARCH - MAXILLARY",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6113",
+            "1": "IMPLANT/SUPPORTED REMOVABLE DENTURE FOR PARTIAL EDENTULOUS ARCH - MANDIBULAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6114",
+            "1": "IMPLANT/ABUTMENT SUPPORTED FIXED DENTURE FOR EDENTULOUS ARCH - MAXILLARY",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6115",
+            "1": "IMPLANT/ABUTMENT SUPPORTED FIXED DENTURE FOR EDENTULOUS ARCH - MANDIBULAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6116",
+            "1": "IMPLANT/ABUTMENT SUPPORTED FIXED DENTURE FOR PARTIALLY EDENTULOUS ARCH - MAXILLARY",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6117",
+            "1": "IMPLANT/ABUTMENT SUPPORTED FIXED DENTURE FOR PARTIALLY EDENTULOUS ARCH - MANDIBULAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D6068",
+            "1": "ABUT SUPP RETAINER PORCELAIN",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6069",
+            "1": "ABUT SUPP RETAINER HIGH NOBLE",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6070",
+            "1": "ABUT SUPP RETAINER BASE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6071",
+            "1": "ABUT SUPP RETAINER PORCEL - METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6072",
+            "1": "ABUT SUPP RETAINER HIGH NOBLE",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6073",
+            "1": "ABUT SUPP RETAINER BASE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6074",
+            "1": "ABUT SUPP RETAINER NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6075",
+            "1": "IMPLANT SUPP RETAINER CERAMIC",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6076",
+            "1": "IMPLANT SUPPORTED RETAINER FOR FPD - PORCELAIN FUSED TO HIGH NOBLE ALLOYS. METAL-CERAMIC RETAINER FOR A FIXED PARTIAL TO GAIN RETENTION AND STABILITY.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6077",
+            "1": "IMPLANT SUPPORTED RETAINER FOR METAL FPD - HIGH NOBLE ALLOYS. METAL RETAINER FOR A FIXED PARTIAL DENTURE THAT GAINS RETENTION, SUPPORT AND STABILITY.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6098",
+            "1": "IMPLANT SUPPORTED RETAINER - PORCELAIN FUSED TO PREDOMINANTLY BASE ALLOYS. RETAINER FOR A FIXED PARTIAL THAT GAINS RETENTION, SUPPORT AND STABILITY.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6099",
+            "1": "IMPLANT SUPPORTED RETAINER FOR FPD - PORCELAIN FUSED TO NOBLE ALLOYS. METAL-CERAMIC RETAINER FOR A FIXED PARTIAL THAT GAINS RETENTION AND STABILITY.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6121",
+            "1": "IMPLANT SUPPORTED RETAINER FOR METAL FPD - PREDOMINANTLY BASE ALLOYS. METAL RETAINER FOR A FIXED PARTIAL THAT GAINS RETENTION, SUPPORT, AND STABILITY.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6122",
+            "1": "IMPLANT SUPPORTED RETAINER FOR METAL FPD - NOBLE ALLOYS. METAL RETAINER FOR A FIXED PARTIAL DENTURE THAT GAINS RETENTION, SUPPORT, AND STABILITY.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6195",
+            "1": "ABUTMENT SUPPORTED RETAINER - PORCELAIN FUSED TO TITANIUM AND TITANIUM ALLOYS. RETAINER FOR A FIXED PARTIAL THAT GAINS RETENTION AND STABILITY.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6205",
+            "1": "PONTIC - INDIRECT RESIN BASED COMPOSITE",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6210",
+            "1": "PONTIC - CAST HIGH NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6211",
+            "1": "PONTIC - CAST PREDOMINANTLY BASE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6212",
+            "1": "PONTIC - CAST NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6214",
+            "1": "PONTIC - TITANIUM AND TITANIUM ALLOYS",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6240",
+            "1": "PONTIC - PORCELAIN FUSED TO HIGH NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6241",
+            "1": "PONTIC - PORCELAIN FUSED TO PREDOMINANTLY BASE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6242",
+            "1": "PONTIC - PORCELAIN FUSED TO NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6243",
+            "1": "PONTIC - PORCELAIN FUSED TO TITANIUM AND TITANIUM ALLOYS",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6245",
+            "1": "PONTIC - PORCELAIN/CERAMIC",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6250",
+            "1": "PONTIC - RESIN WITH HIGH NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6251",
+            "1": "PONTIC - RESIN WITH PREDOMINANTLY BASE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6252",
+            "1": "PONTIC - RESIN WITH NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6545",
+            "1": "RETAINER - CAST METAL FOR RESIN BONDED FIXED PROSTHESIS",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6548",
+            "1": "RETAINER - PORCELAIN/CERAMIC FOR RESIN BONDED FIXED PROSTHESIS",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6549",
+            "1": "RESIN RETAINER - FOR RESIN BONDED FIXED PROSTHESIS",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6600",
+            "1": "RETAINER INLAY - PORCELAIN/CERAMIC, TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6601",
+            "1": "RETAINER INLAY - PORCELAIN/CERAMIC, THREE OR MORE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6602",
+            "1": "RETAINER INLAY - CAST HIGH NOBLE METAL, TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6603",
+            "1": "RETAINER INLAY - CAST HIGH NOBLE METAL, THREE OR MORE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6604",
+            "1": "RETAINER INLAY - CAST PREDOMINANTLY BASE METAL, TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6605",
+            "1": "RETAINER INLAY - CAST PREDOMINANTLY BASE METAL, THREE OR MORE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6606",
+            "1": "RETAINER INLAY - CAST NOBLE METAL, TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6607",
+            "1": "RETAINER INLAY - CAST NOBLE METAL, THREE OR MORE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6608",
+            "1": "RETAINER ONLAY - PORCELAIN/CERAMIC, TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6609",
+            "1": "RETAINER ONLAY - PORCELAIN/CERAMIC, THREE OR MORE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6610",
+            "1": "RETAINER ONLAY - CAST HIGH NOBLE METAL, TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6611",
+            "1": "RETAINER ONLAY - CAST HIGH NOBLE METAL, THREE OR MORE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6612",
+            "1": "RETAINER ONLAY - CAST PREDOMINANTLY BASE METAL, TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6613",
+            "1": "RETAINER ONLAY - CAST PREDOMINANTLY BASE METAL, THREE OR MORE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6614",
+            "1": "RETAINER ONLAY - CAST NOBLE METAL, TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6615",
+            "1": "RETAINER ONLAY - CAST NOBLE METAL, THREE OR MORE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6624",
+            "1": "RETAINER INLAY - TITANIUM",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6634",
+            "1": "RETAINER ONLAY - TITANIUM",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6710",
+            "1": "RETAINER CROWN - INDIRECT RESIN BASED COMPOSITE",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6720",
+            "1": "RETAINER CROWN - RESIN WITH HIGH NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6721",
+            "1": "RETAINER CROWN - RESIN WITH PREDOMINANTLY BASE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6722",
+            "1": "RETAINER CROWN - RESIN WITH NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6740",
+            "1": "RETAINER CROWN - PORCELAIN/CERAMIC",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6750",
+            "1": "RETAINER CROWN - PORCELAIN FUSED TO HIGH NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6751",
+            "1": "RETAINER CROWN - PORCELAIN FUSED TO PREDOMINANTLY BASE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6752",
+            "1": "RETAINER CROWN - PORCELAIN FUSED TO NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6753",
+            "1": "RETAINER CROWN - PORCELAIN FUSED TO TITANIUM AND TITANIUM ALLOYS",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6780",
+            "1": "RETAINER CROWN - 3/4 CAST HIGH NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6781",
+            "1": "RETAINER CROWN - 3/4 CAST PREDOMINANTLY BASE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6782",
+            "1": "RETAINER CROWN - 3/4 CAST NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6783",
+            "1": "RETAINER CROWN - 3/4 PORCELAIN/CERAMIC",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6784",
+            "1": "RETAINER CROWN 3/4 - TITANIUM AND TITANIUM ALLOYS",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6790",
+            "1": "RETAINER CROWN - FULL CAST HIGH NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6791",
+            "1": "RETAINER CROWN - FULL CAST PREDOMINANTLY BASE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6792",
+            "1": "RETAINER CROWN - FULL CAST NOBLE METAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6794",
+            "1": "RETAINER CROWN - TITANIUM AND TITANIUM ALLOYS",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6920",
+            "1": "CONNECTOR BAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6930",
+            "1": "RECEMENT BRIDGE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D6940",
+            "1": "STRESS BREAKER",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6950",
+            "1": "PRECISION ATTACHMENT A PAIR OF COMPONENTS CONSTITUTES ONE PRECISION ATTACHMENT, THAT IS SEPARATE FROM THE PROSTHESIS",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6980",
+            "1": "BRIDGE REPAIR, BY REPORT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D6999",
+            "1": "UNSPECIFIED FIXED PROSTHODONTIC PROCEDURE, BY REPORT",
+            "2": "N/AVAIL",
+            "3": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D4341",
+            "1": "PERIODONTAL SCALING AND ROOT PLANING - FOUR OR MORE TEETH PER QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4342",
+            "1": "PERIODONTAL SCALING AND ROOT PLANING - ONE TO THREE TEETH, PER QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D4210",
+            "1": "GINGIVECTOMY OR GINGIVOPLASTY - FOUR OR MORE CONTIGUOUS TEETH OR BOUNDED TEETH SPACES PER QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4211",
+            "1": "GINGIVECTOMY OR GINGIVOPLASTY - ONE TO THREE CONTIGUOUS TEETH OR BOUNDED TEETH SPACES PER QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4240",
+            "1": "GINGIVAL FLAP PROCEDURE, INCLUDING ROOT PLANING - FOUR OR MORE CONTIGUOUS TEETH OR TOOTH BOUND SPACES PER QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4241",
+            "1": "GINGIVAL FLAP PROCEDURE, INCLUDING ROOT PLANING - ONE TO THREE CONTIGUOUS TEETH OR TOOTH BOUND SPACES PER QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4245",
+            "1": "APICALLY POSITIONED FLAP",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4249",
+            "1": "CLINICAL CROWN LENGTHENING - HARD TISSUE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4260",
+            "1": "OSSEOUS SURGERY (INCLUDING FLAP ENTRY AND CLOSURE) - 4 OR MORE CONTIGUOUS TEETH OR BOUNDED TEETH SPACES PER QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4261",
+            "1": "OSSEOUS SURGERY (INCLUDING FLAP ENTRY AND CLOSURE) - ONE TO THREE CONTIGUOUS TEETH OR BOUNDED TEETH SPACES, PER QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4263",
+            "1": "BONE REPLACEMENT GRAFT - RETAINED NATURAL TOOTH - FIRST SITE IN QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4264",
+            "1": "BONE REPLACEMENT GRAFT - RETAINED NATURAL TOOTH - EACH ADDITIONAL SITE IN QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4265",
+            "1": "BIOLOGIC MATERIALS TO AID IN SOFT AND OSSEOUS TISSUE REGENERATION, PER SITE BIOLOGIC MATERIALS MAY BE USED ALONE OR WITH OTHER REGENERATIVE SUBSTRATES",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4266",
+            "1": "GUIDED TISSUE REGENERATION, NATURAL TEETH - RESORBABLE BARRIER, PER SITE THIS PROCEDURE CAN BE USED FOR PERIODONTAL DEFECTS AROUND NATURAL TEETH",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4267",
+            "1": "GUIDED TISSUE REGENERATION, NATURAL TEETH - NON-RESORBABLE BARRIER, PER SITE THIS PROCEDURE CAN BE USED FOR PERIODONTAL DEFECTS AROUND NATURAL TEETH",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4268",
+            "1": "SURGICAL REVISION PROCEDURE, PER TOOTH",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4270",
+            "1": "PEDICLE SOFT TISSUE GRAFT PROCEDURE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4273",
+            "1": "AUTOGENOUS CONNECTIVE TISSUE GRAFT PROC (INCLUDING DONOR AND RECIPIENT SURGICAL SITES) FIRST TOOTH, IMPLANT, OR EDENTULOUS TOOTH POSITION IN GRAFT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4274",
+            "1": "MESIAL/DISTAL WEDGE PROCEDURE, SINGLE TOOTH (WHEN NOT PERFORMED IN CONJUNCTION WITH SURGICAL PROCEDURES IN THE SAME ANATOMICAL AREA)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4275",
+            "1": "NON-AUTOGENOUS CONNECTIVE TISSUE GRAFT (INCLUDING RECIPIENT SITE AND DONOR MATERIAL) FIRST TOOTH, IMPLANT, OR EDENTULOUS TOOTH POSITION IN GRAFT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4276",
+            "1": "COMBINED CONNECTIVE TISSUE AND PEDICLE GRAFT, PER TOOTH ADVANCED GINGIVAL RECESSION OFTEN CANNOT BE CORRECTED WITH A SINGLE PROCEDURE.",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4283",
+            "1": "AUTOGENOUS CONNECTIVE TISSUE GRAFT PROCEDURE (INCLUDING DONOR AND RECIPIENT SURGICAL SITES)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4285",
+            "1": "NON-AUTOGENOUS CONNECTIVE TISSUE GRAFT (INCLUDING RECIPIENT SURGICAL SITE AND DONOR MATERIAL)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4381",
+            "1": "LOCALIZED DELIVERY OF ANTIMICROBIAL AGENTS VIA A CONTROLLED RELEASE VEHICLE INTO DISEASED CREVICULAR TISSUE, PER TOOTH, BY REPORT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4920",
+            "1": "UNSCHEDULED DRESSING CHANGE (OTHER THAN TREATING DENTIST)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D4999",
+            "1": "UNSCHEDULED DRESSING CHANGE (OTHER THAN TREATING DENTIST)",
+            "2": "N/AVAIL",
+            "3": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D1351",
+            "1": "SEALANT - PER TOOTH",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1352",
+            "1": "PREVENTATIVE RESIN RESTORATION",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1353",
+            "1": "SEALANT REPAIR - PER TOOTH",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1354",
+            "1": "APPLICATION OF CARIES ARRESTING MEDICAMENT PER TOOTH TOPICAL APP OF A CARIES ARRESTING OR INHIBITING MEDICAMENT AND W/O REMOVAL OF TOOTH STRUCTURE",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1355",
+            "1": "CARIES PREVENTIVE MEDICAMENT APPLICATION - PER TOOTH",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D2140",
+            "1": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2150",
+            "1": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2160",
+            "1": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2161",
+            "1": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2940",
+            "1": "PROTECTIVE RESTORATION",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2999",
+            "1": "UNSPECIFIED RESTORATIVE PROCEDURE, BY REPORT",
+            "2": "N/AVAIL",
+            "3": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D2330",
+            "1": "RESIN - ONE SURFACE, ANTERIOR",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2331",
+            "1": "RESIN - TWO SURFACES, ANTERIOR",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2332",
+            "1": "RESIN - THREE SURFACES, ANTERIOR",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2335",
+            "1": "RESIN - FOUR OR MORE SURFACES OR INVOLVING INCISAL ANGLE (ANTERIOR)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2390",
+            "1": "RESIN-BASED COMPOSITE CROWN, ANTERIOR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2391",
+            "1": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIOR",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2392",
+            "1": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIOR",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2393",
+            "1": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIOR",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2394",
+            "1": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES POSTERIOR",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2410",
+            "1": "GOLD FOIL - ONE SURFACE",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2420",
+            "1": "GOLD FOIL - TWO SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2430",
+            "1": "GOLD FOIL - THREE SURFACES",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D2940",
+            "1": "PROTECTIVE RESTORATION",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D7111",
+            "1": "EXTRACTION, CORONAL REMNANTS - PRIMARY TOOTH",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7140",
+            "1": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7210",
+            "1": "EXTRACTION, ERUPTED TOOTH REQUIRING REMOVAL OF BONE AND/OR SECTIONING OF TOOTH, AND INCLUDING ELEVATION OF MUCOPERIOSTEAL FLAP IF INDICATED",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7220",
+            "1": "REMOVAL OF IMPACTED TOOTH - SOFT TISSUE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7230",
+            "1": "REMOVAL OF IMPACTED TOOTH - PARTIALLY BONY",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7240",
+            "1": "REMOVAL OF IMPACTED TOOTH - COMPLETELY BONY",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7241",
+            "1": "REMOVAL OF IMPACTED TOOTH - COMPLETELY BONY, WITH UNUSUAL SURGICAL COMPLICATIONS",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7250",
+            "1": "REMOVAL OF RESIDUAL TOOTH ROOTS (CUTTING PROCEDURE)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7251",
+            "1": "CORONECTOMY -INTENTIONAL PARTIAL TOOTH REMOVAL, IMPACTED TEETH ONLY WHEN A NEUROVASCULAR COMPLICATION IS LIKELY IF THE ENTIRE TOOTH IS REMOVED",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D3110",
+            "1": "PULP CAP - DIRECT (EXCLUDING FINAL RESTORATION)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3120",
+            "1": "PULP CAP - INDIRECT (EXCLUDING FINAL RESTORATION)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3220",
+            "1": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3221",
+            "1": "PULPAL DEBRIDEMENT, PRIMARY AND PERMANENT TEETH",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3222",
+            "1": "PARTIAL PULPOTOMY FOR APEXOGENESIS - PERMANENT TOOTH WITH INCOMPLETE ROOT DEVELOPMENT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3230",
+            "1": "PULPAL THERAPY (RESORBABLE FILLING) - ANTERIOR, PRIMARY TOOTH (EXCLUDING FINAL RESTORATION)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3240",
+            "1": "PULPAL THERAPY (RESORBABLE FILLING) - POSTERIOR, PRIMARY TOOTH (EXCLUDING FINAL RESTORATION)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3310",
+            "1": "ANTERIOR (EXCLUDING FINAL RESTORATION)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3320",
+            "1": "ENDODONTIC THERAPY, PREMOLAR TOOTH (EXCLUDING FINAL RESTORATION)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3330",
+            "1": "ENDODONTIC THERAPY, MOLAR TOOTH (EXCLUDING FINAL RESTORATION)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3331",
+            "1": "TREATMENT OF ROOT CANAL OBSTRUCTION; NON-SURGICAL PROCESS",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3332",
+            "1": "INCOMPLETE ENDODONTIC THERAPY; INOPERABLE, UNRESTORABLE OR FRACTURED TOOTH",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3333",
+            "1": "INTERNAL ROOT REPAIR OF PERFORATION DEFECTS NON-SURGICAL SEAL OF PERFORATION CAUSED BY RESORPTION AND/OR DECAY BUT NOT IATROGENIC BY SAME PROVIDER",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3346",
+            "1": "RETREATMENT OF PREVIOUS ROOT CANAL THERAPY - ANTERIOR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3347",
+            "1": "RETREATMENT OF PREVIOUS ROOT CANAL THERAPY - PREMOLAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3348",
+            "1": "RETREATMENT OF PREVIOUS ROOT CANAL THERAPY - MOLAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3351",
+            "1": "APEXIFICATION/RECALCIFICATION - INITIAL VISIT (APICAL CLOSURE/CALCIFIC REPAIR OF PERFORATIONS, ROOT RESORPTION, ETC)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3352",
+            "1": "APEXIFICATION/RECALCIFICATION - INTERIM MEDICATION REPLACEMENT (APICAL CLOSURE/CALCIFIC REPAIR OF PERFORATIONS, ROOT RESORPTION, ETC.)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3353",
+            "1": "APEXIFICATION/RECALCIFICATION - FINAL VISIT (INCL. COMPLETED ROOT CANAL THERAPY APICAL CLOSURE/CALCIFIC REPAIR OF PERFORATIONS, ROOT RESORPTION, ETC)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3355",
+            "1": "PULPAL REGENERATION - COMPLETION",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3356",
+            "1": "PULPAL REGENERATION INTERIM MEDICATION REPLACEMENT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3357",
+            "1": "PULPAL REGENERATION COMPLETION",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D3410",
+            "1": "APICOECTOMY/PERIRADICULAR SURGERY - ANTERIOR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3421",
+            "1": "APICOECTOMY - PREMOLAR (FIRST ROOT)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3425",
+            "1": "APICOECTOMY/PERIRADICULAR SURGERY - MOLAR (1ST ROOT)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3426",
+            "1": "APICOECTOMY (EACH ADDITIONAL ROOT)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3428",
+            "1": "BONE GRAFT PERIRADICULAR 1ST",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3429",
+            "1": "BONE GRAFT-PERIRADICULAR ADDITIONAL",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3430",
+            "1": "RETROGRADE FILLING - PER ROOT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3431",
+            "1": "BIOLOGIC MATERIALS-PERIRADICULAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3432",
+            "1": "GUIDED TISSUE REG-PERIRADICULAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3450",
+            "1": "ROOT AMPUTATION - PER ROOT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3471",
+            "1": "SURGICAL REPAIR OF ROOT RESORPTION - ANTERIOR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3472",
+            "1": "SURGICAL REPAIR OF ROOT RESORPTION - PREMOLAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3473",
+            "1": "SURGICAL REPAIR OF ROOT RESORPTION - MOLAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3501",
+            "1": "SURGICAL EXPOSURE OF ROOT SURFACE WITHOUT APICOECTOMY OR REPAIR OF ROOT RESORPTION - ANTERIOR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3502",
+            "1": "SURGICAL EXPOSURE OF ROOT SURFACE WITHOUT APICOECTOMY OR REPAIR OF ROOT RESORPTION - PREMOLAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3503",
+            "1": "SURGICAL EXPOSURE OF ROOT SURFACE WITHOUT APICOECTOMY OR REPAIR OF ROOT RESORPTION - MOLAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3910",
+            "1": "SURGICAL PROCEDURE FOR ISOLATION OF TOOTH WITH RUBBER DAM",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3920",
+            "1": "HEMISECTION (INCLUDING ANY ROOT REMOVAL), NOT INCLUDING ROOT CANAL THERAPY",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3921",
+            "1": "INTENTIONAL REMOVAL OF CORONAL TOOTH STRUCTURE FOR PRESERVATION OF THE ROOT AND SURROUNDING BONE.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D3999",
+            "1": "UNSPECIFIED ENDODONTIC PROCEDURE, BY REPORT",
+            "2": "N/AVAIL",
+            "3": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D7260",
+            "1": "ORAL ANTRAL FISTULA CLOSURE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7261",
+            "1": "PRIMARY CLOSURE OF A SINUS PERFORATION",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7270",
+            "1": "TOOTH REIMPLANTATION AND/OR STABILIZATION OF ACCIDENTALLY EVULSED OR DISPLACED TOOTH",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7272",
+            "1": "TOOTH TRANSPLANTATION (INCLUDES REIMPLANATION FROM ONE SITE TO ANOTHER AND SPLINTING AND/OR STABILIZATION)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7280",
+            "1": "EXPOSURE OF AN UNERUPTED TOOTH",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7282",
+            "1": "MOBILIZATION OF ERUPTED OR MALPOSITIONED TOOTH TO AID ERUPTION",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7283",
+            "1": "PLACEMENT OF DEVICE TO FACILITATE ERUPTION OF IMPACTED TOOTH",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D7286",
+            "1": "BIOPSY OF ORAL TISSUE - (SOFT)",
+            "2": "N/AVAIL",
+            "3": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "0": "D7287",
+            "1": "EXFOLIATIVE CYTOLOGICAL SAMPLE COLLECTION",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7288",
+            "1": "BRUSH BIOPSY - TRANSEPITHELIAL SAMPLE COLLECTION",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7290",
+            "1": "SURGICAL REPOSITIONING OF TEETH",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7291",
+            "1": "TRANSSEPTAL FIBEROTOMY/SUPRA CRESTAL FIBEROTOMY, BY REPORT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D7310",
+            "1": "ALVEOLOPLASTY IN CONJUNCTION WITH EXTRACTIONS - FOUR OR MORE TEETH OR TOOTH SPACES, PER QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7311",
+            "1": "ALVEOLOPLASTY IN CONJUNCTION WITH EXTRACTIONS - ONE TO THREE TEETH OR TOOTH SPACES, PER QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7320",
+            "1": "NOT IN CONJUNCTION WITH EXTRACTIONS - PER QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7321",
+            "1": "ALVEOLOPLASTY NOT IN CONJUNCTION WITH EXTRACTIONS - ONE TO THREE TEETH OR TOOTH SPACES, PER QUADRANT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7340",
+            "1": "VESTIBULOPLASTY - RIDGE EXTENSION (SECONDARY EPITHELIALIZATION)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7350",
+            "1": "VESTIBULOPLASTY - RIDGE EXTENSION (INCL. SOFT TISSUE GRAFTS, REATTACHMENTS, ATTACHMENT REVISION, & MANAGEMENT OF HYPERTROPHIED & HYPERPLASTIC TISSUE)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7450",
+            "1": "REMOVAL OF BENIGN ODONTOGENIC CYST OR TUMOR - LESION DIAMETER UP TO 1.25 CM",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7451",
+            "1": "REMOVAL OF BENIGN ODONTOGENIC CYST OR TUMOR - LESION DIAMETER GREATER THAN 1.25 CM",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7471",
+            "1": "REMOVAL OF LATERAL EXOSTOSIS (MAXILLA OR MANDIBLE)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7472",
+            "1": "REMOVAL OF TORUS PALANTINUS",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7473",
+            "1": "REMOVAL OF TORUS MANDIBULARIS",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7485",
+            "1": "REDUCTION OF OSSEOUS TUBEROSITY",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7510",
+            "1": "INCISION AND DRAINAGE OF ABSCESS - INTRAORAL SOFT TISSUE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7511",
+            "1": "INCISION AND DRAINAGE OF ABSCESS - INTRAORAL SOFT TISSUE - COMPLICATED (INCLUDES DRAINAGE OF MULTIPLE FASCIAL SPACES)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7520",
+            "1": "INCISION AND DRAINAGE OF ABSCESS - EXTRAORAL SOFT TISSUE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7521",
+            "1": "INCISION AND DRAINAGE OF ABSCESS - EXTRAORAL SOFT TISSUE - COMPLICATED (INCLUDES DRAINAGE OF MULTIPLE FASCIAL SPACES)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7950",
+            "1": "OSSEOUS, OSTEOPERIOSTEAL, OR CARTILAGE GRAFT OF THE MANDIBLE OR FACIAL BONES - AUTOGENOUS OR NONAUTOGENOUS, BY REPORT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D7953",
+            "1": "BONE REPLACEMENT GRAFT FOR RIDGE PERSERVATION - PER SITE",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D7961",
+            "1": "BUCCAL / LABIAL FRENECTOMY (FRENULECTOMY)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7962",
+            "1": "LINGUAL FRENECTOMY (FRENULECTOMY)",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7963",
+            "1": "FRENULOPLASTY",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7970",
+            "1": "EXCISION OF HYPERPLASTIC TISSUE, PER ARCH",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7971",
+            "1": "EXCISION OF PERICORONAL GINGIVA",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7972",
+            "1": "SURGICAL REDUCTION OF FIBROUS TUBEROSITY",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D7999",
+            "1": "UNSPECIFIED ORAL SURGERY, BY REPORT",
+            "2": "N/AVAIL",
+            "3": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D2910",
+            "1": "RECEMENT/BOND INLAY ONLAY VENEER",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2915",
+            "1": "RECEMENT REBOND POST CORE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D2920",
+            "1": "RECEMENT REBOND CROWN",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D2980",
+            "1": "CROWN REPAIR, BY REPORT",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D6010",
+            "1": "SURGICAL PLACEMENT OF IMPLANT BODY ENDOSTEAL IMPLANT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6012",
+            "1": "SURGICAL PLACEMENT OF INTERIM IMPLANT BODY FOR TRANSITIONAL PROSTHESIS ENDOSTEAL IMPLANT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6013",
+            "1": "SURGICAL PLACEMENT MINI IMPLANT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6040",
+            "1": "SURGICAL PLACEMENT EPOSTEAL IMPLANT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6050",
+            "1": "SURGICAL PLACEMENT TRANSOSTEAL IMPLANT (INCL. HARDWARE)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6055",
+            "1": "CONNECTING BAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6056",
+            "1": "PREFABRICATED ABUTMENT - INCLUDES PLACEMENT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6057",
+            "1": "CUSTOM ABUTMENT - INCLUDES PLACEMENT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6059",
+            "1": "ABUTMENT SUPPORTED PORCELAIN FUSED TO METAL CROWN (HIGH NOBLE METAL)",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6080",
+            "1": "IMPLANT MAINTENANCE PROCEDURES, INCLUDING REMOVAL OF PROSTHESIS, CLEANING OF PROSTHESIS AND ABUTMENTS, REINSERTION OF PROSTHESIS",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6081",
+            "1": "SCALING/DEBRIDEMENT IN PRESENCE OF INFLAMMATION/MUCOSITIS OF A SINGLE IMPLANT, INCLUDING CLEANING OF IMPLANT SURFACES, WITHOUT FLAP ENTRY & CLOSURE",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6091",
+            "1": "REPLACEMENT OF REPLACEABLE PART OF SEMI-PRECISION OR PRECISION ATTACHMENT OF IMPLANT/ABUTMENT SUPPORTED PROSTHESIS, PER ATTACHMENT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6092",
+            "1": "RECEMENT/BOND IMPLANT CROWN",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D6093",
+            "1": "RECEMENT/BOND IMPL FIXED DENTURE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D6095",
+            "1": "REPAIR IMPLANT ABUTMENT, BY REPORT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6096",
+            "1": "REMOVE BROKEN IMPLANT RETAINING SCREW",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6100",
+            "1": "SURGICAL REMOVAL OF IMPLANT BODY",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6101",
+            "1": "DEBRIDEMENT PERIIMPLANT DEFECT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6102",
+            "1": "DEBRIDE/OSS PERIIMPLANT DEFECT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6103",
+            "1": "BONE GRAFT FOR REPAIR OF PERI-IMPLANT DEFECT - DOES NOT INCLUDE FLAP ENTRY AND CLOSURE",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6104",
+            "1": "BONE GRAFT IMPLANT PLACEMENT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6105",
+            "1": "REMOVAL OF IMPLANT BODY NOT REQUIRING BONE REMOVAL NOR FLAP ELEVATION",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6106",
+            "1": "GUIDED TISSUE REGENERATION RESORBABLE BARRIER PER IMPLANT THIS PROCEDURE IS USED FOR PERI-IMPLANT DEFECTS AND DURING IMPLANT PLACEMENT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6107",
+            "1": "GUIDED TISSUE REGENERATION NON-RESORBABLE BARRIER PER IMPLANT THIS PROCEDURE IS USED FOR PERI-IMPLANT DEFECTS AND DURING IMPLANT PLACEMENT.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6190",
+            "1": "RADIOGRAPHIC / SURGICAL IMPLANT INDEX, BY REPORT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6191",
+            "1": "SEMI-PRECISION ABUTMENT - PLACEMENT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6192",
+            "1": "SEMI-PRECISION ATTACHMENT - PLACEMENT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D6197",
+            "1": "REPLACEMENT OF RESTORATIVE MATERIAL USED TO CLOSE AN ACCESS OPENING OF A SCREW-RETAINED IMPLANT SUPPORTED PROSTHESIS, PER IMPLANT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D9932",
+            "1": "CLEANING AND INSPECTION OF REMOVABLE COMPLETE DENTURE, MAXILLARY",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D9933",
+            "1": "CLEANING AND INSPECTION OF REMOVABLE COMPLETE DENTURE, MANDIBULAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D9934",
+            "1": "CLEANING AND INSPECTION OF REMOVABLE PARTIAL DENTURE, MAXILLARY",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D9935",
+            "1": "CLEANING AND INSPECTION OF REMOVABLE PARTIAL DENTURE, MANDIBULAR",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D7880",
+            "1": "OCCLUSAL ORTHOTIC DEVICE, BY REPORT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D7881",
+            "1": "OCCLUSAL ORTHOTIC DEVICE ADJUSTMENT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D9130",
+            "1": "TEMPOROMANDIBULAR JOINT DYSFUNCTION - NON-INVASIVE PHYSICAL THERAPIES TO RELIEVE MUSCLE SPASMS, INFLAMMATION OR PAIN TO IMPROVE FREEDOM OF MOTION.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "",
+            "1": ""
+        },
+        {
+            "0": "",
+            "1": "This information is not available. Please submit a pretreatment estimate."
+        },
+        {
+            "0": "",
+            "1": ""
+        },
+        {
+            "0": "",
+            "1": "None of the procedures in the selected category are covered by this Plan."
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D9942",
+            "1": "REPAIR AND/OR RELINE OF OCCLUSAL GUARD",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D9943",
+            "1": "OCCLUSAL GUARD ADJUSTMENT",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D9944",
+            "1": "OCCLUSAL GUARD - HARD APPLIANCE, FULL ARCH, REMOVABLE. MINIMIZES EFFECTS OF OCCLUSAL FACTORS. NOT REPORTED FOR SLEEP APNEA, SNORING OR TMD APPLIANCES.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D9945",
+            "1": "OCCLUSAL GUARD - SOFT APPLIANCE, FULL ARCH, REMOVABLE. MINIMIZES EFFECT OF OCCLUSAL FACTORS. NOT REPORTED FOR SLEEP APNEA, SNORING, OR TMD APPLIANCES.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D9946",
+            "1": "OCCLUSAL GUARD - HARD APPLIANCE, PARTIAL ARCH, REMOVABLE. MINIMIZES EFFECTS OF OCCLUSAL FACTORS. NOT FOR SLEEP APNEA, SNORING OR TMD APPLIANCES.",
+            "2": "50%",
+            "3": "50%"
+        },
+        {
+            "0": "D9951",
+            "1": "OCCLUSAL ADJUSTMENT - LIMITED",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "D9952",
+            "1": "OCCLUSAL ADJUSTMENT - COMPLETE",
+            "2": "70%",
+            "3": "30%"
+        },
+        {
+            "0": "Procedure Code*",
+            "1": "Description of Service",
+            "2": "Plan Benefit",
+            "3": "Patient Obligation"
+        },
+        {
+            "0": "D1110",
+            "1": "REMOVAL OF PLAQUE/CALCULUS/STAINS FROM TOOTH STRUCTURES & IMPLANTS IN PERMANENT/TRANSITIONAL DENTITION. INTENDED TO CONTROL LOCAL IRRITATIONAL FACTORS",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D1120",
+            "1": "REMOVAL OF PLAQUE/CALCULUS/STAINS FROM TOOTH STRUCTURES & IMPLANTS IN PRIMARY/TRANSITIONAL DENTITION. INTENDED TO CONTROL LOCAL IRRITATIONAL FACTORS.",
+            "2": "90%",
+            "3": "10%"
+        },
+        {
+            "0": "D4346",
+            "1": "SCALING IN PRESENCE OF GENERALIZED MODERATE OR SEVERE GINGIVAL INFLAMMATION - FULL MOUTH, AFTER ORAL EVALUATION",
+            "2": "90%",
+            "3": "10%"
+        }
+    ]
+}

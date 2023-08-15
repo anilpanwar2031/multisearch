@@ -1,0 +1,152 @@
+{
+    "InputParameters": {
+        "PayorName": "Aetna",
+        "PayorId": 40,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "WebsiteId": "AETNA_001",
+        "ProcCodes": [
+            "D0120",
+            "D0140",
+            "D0150",
+            "D0170",
+            "D0210",
+            "D0220",
+            "D0230",
+            "D0240",
+            "D0272",
+            "D0274",
+            "D0330",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D3220",
+            "D7140",
+            "D9110",
+            "D9230"
+        ],
+        "ScheduleId": 954,
+        "ResponseMessageQueueName": "scraperoutgoingsq"
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 122318,
+            "PatientId": "32446",
+            "AppointmentId": "291531",
+            "AppointmentDateTime": "2023-08-10T16:15:00+00:00",
+            "LastName": "Valencia",
+            "FirstName": "Ella",
+            "BirthDate": "09/17/2013",
+            "Relationship": "Child",
+            "PatientMemberId": "W244059331",
+            "SubscriberId": "W244059331",
+            "SubscriberFirstName": "Marcos",
+            "SubscriberLastName": "Valencia",
+            "SubscriberBirthDate": "04/26/1988",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3",
+            "ClinicName": "The Smiley Tooth - Rockwall Ridge",
+            "ClinicLocation": "Rockwall",
+            "ClinicAddress1": "3018 Ridge Road Ste 120",
+            "ClinicAddress2": "",
+            "ClinicZip": "75032-5819",
+            "ProviderFirstName": "Laney",
+            "ProviderLastName": "Mai",
+            "SpecialityType": "Pediatrics"
+        },
+        {
+            "EligibilityVerificationId": 122326,
+            "PatientId": "59527",
+            "AppointmentId": "292651",
+            "AppointmentDateTime": "2023-08-10T13:15:00+00:00",
+            "LastName": "Mills",
+            "FirstName": "Raegan",
+            "BirthDate": "06/12/2018",
+            "Relationship": "Child",
+            "PatientMemberId": "636011640",
+            "SubscriberId": "636011640",
+            "SubscriberFirstName": "Jason",
+            "SubscriberLastName": "Mills",
+            "SubscriberBirthDate": "04/22/1978",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3",
+            "ClinicName": "The Smiley Tooth - Rockwall Ridge",
+            "ClinicLocation": "Rockwall",
+            "ClinicAddress1": "3018 Ridge Road Ste 120",
+            "ClinicAddress2": "",
+            "ClinicZip": "75032-5819",
+            "ProviderFirstName": "Laney",
+            "ProviderLastName": "Mai",
+            "SpecialityType": "Pediatrics"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.aetna.com/provweb/",
+        "LoginId": "Payoraccess@sdb",
+        "Password": "Changeme1!",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"DataContextId\": \"1\", \"DataContextName\": \"EligibilityLogin\", \"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[@id='index_userName']\", \"PasswordXpath\": \"//input[@id='index_password']\", \"LoginButtonXpath\": \"//input[@value='Log In']\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [], \"PostSteps\": [\"//input[@value='Continue']\", \"(//a[@data-analytics-name='Helpful Links'])[1]\", \"(//a[text()='Access electronic services'])[1]\"], \"OtpXpath\": \"\", \"AdditionalInfo\": {\"headless\": false, \"iframexpath\": \"//iframe[@id='main-iframe']\", \"aftercaptchaxpath\": \"//input[@value='Continue']\", \"IsCaptchaRequired\": true, \"AfterloginCaptcha\": true}}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"window_number_before_clicks\": 1, \"Click\": [], \"fileds\": \"Status\"}, \"xpath\": \"//b[text()='Status']//parent::td//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"GenderDOB\", \"waitTime\": 1}, \"xpath\": \"//table[@class='table-inner']//td[contains(text(),'Gender')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"MemberID\", \"waitTime\": 1}, \"xpath\": \"//b[text()='Member ID or SSN']//parent::td//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"MemberName\", \"waitTime\": 1}, \"xpath\": \"//b[text()='Name']//parent::td//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"MemberAdress\", \"waitTime\": 0}, \"xpath\": \"//b[text()='Address']//parent::td//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"PayerGroupNbGrpNamPlanNb\", \"waitTime\": 0}, \"xpath\": \"//table[@class='table-inner']//td[contains(text(),'Payer')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[text()='View Benefits']\"], \"fileds\": \"AlldetailsPlantype\"}, \"xpath\": \"//table[@class='table-inner']//td[contains(normalize-space(),'Plan Type')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"BeginAndEndDate\", \"waitTime\": 1}, \"xpath\": \"//table[@class='table-inner']//td[contains(normalize-space(),'Plan Begin')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"ClaimAddressName\", \"waitTime\": 0}, \"xpath\": \"//span[text()='Name:']//parent::td//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"ClaimAdressLine1\", \"waitTime\": 0}, \"xpath\": \"//span[text()='Address:']//parent::td//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"ClaimAdressLine2\", \"waitTime\": 0}, \"xpath\": \"//span[text()='Address:']//parent::td//parent::tr//following-sibling::tr\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"window_number_before_clicks\": 1, \"Click\": [], \"fileds\": [\"ProcedureCode\", \"Coverage\", \"Participation\", \"DeliveryPattern\", \"CalenderYearAmount\", \"RemainingAmount\", \"Message\"], \"waitTime\": 1, \"type\": \"headless\"}, \"xpath\": \"//legend[text()='Limitations and Maximums']//following-sibling::div//table\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"window_number_before_clicks\": 1, \"Click\": [], \"fileds\": [\"ProcedureCode\", \"Participation\", \"CalenderYearAmount\", \"Message\", \"RemainingAmount\"], \"waitTime\": 1, \"type\": \"headless\"}, \"xpath\": \"//legend[text()='Deductibles']//following-sibling::div//table\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"ProcedureCode\", \"Participation\", \"FamilyCalenderYearAmount\", \"Message\", \"FamilyRemainingAmount\", \"CalenderYearAmount\", \"RemainingAmount\"], \"waitTime\": 1, \"type\": \"headless\"}, \"xpath\": \"//legend[text()='Deductibles']//following-sibling::div//table\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[text()='View Patient']\"], \"fileds\": \"\", \"waitTime\": 0}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityDeductiblesProcCode"
+        },
+        {
+            "XPath": "{\"flatten\": true, \"MultiplElements\": {\"windowChanges\": 1, \"Searchlist\": null, \"action\": \"Sendkeys\", \"PreStepsBeforeSendKeys\": {\"Clicks\": [\"//input[@id='procedureCodeRadio']\"]}, \"InputElementsXpath\": \"//input[@name='radioGroupContainer:searchOptionRadioGroup:procedureCode']\", \"SearchButtonXpath\": \"//a[text()='View Benefits']\"}, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//legend[text()='Limitations and Maximums']\"], \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"LimitationMaximum\", \"LoopElement\": {\"fieldName\": \"Proccode\"}, \"waitTime\": 0}, \"xpath\": \"//legend[text()='Limitations and Maximums']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Coinsurance\", \"waitTime\": 0}, \"xpath\": \"//legend[text()='Co-Insurance']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"DeductiblesInformation\", \"waitTime\": 0}, \"xpath\": \"//legend[text()='Deductibles']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"BenefitDescription\", \"waitTime\": 0}, \"xpath\": \"//legend[text()='Benefit Description']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[text()='View Patient']\"], \"AfterClickWait\": 2, \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [\"//input[@id='generalBenefitsRadio']\"], \"AfterClickWait\": 2, \"fileds\": \"\"}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        },
+        {
+            "XPath": "{\"flatten\": true, \"MultiplElements\": {\"windowChanges\": 1, \"Searchlist\": null, \"action\": \"Sendkeys\", \"PreStepsBeforeSendKeys\": {\"Clicks\": [\"//input[@id='procedureCodeRadio']\"]}, \"InputElementsXpath\": \"//input[@name='radioGroupContainer:searchOptionRadioGroup:procedureCode']\", \"SearchButtonXpath\": \"//a[text()='View Benefits']\"}, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//legend[text()='Limitations and Maximums']\"], \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"LimitationMaximum\", \"LoopElement\": {\"fieldName\": \"Proccode\"}, \"waitTime\": 0}, \"xpath\": \"//legend[text()='Limitations and Maximums']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Coinsurance\", \"waitTime\": 0}, \"xpath\": \"//legend[text()='Co-Insurance']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"DeductiblesInformation\", \"waitTime\": 0}, \"xpath\": \"//legend[text()='Deductibles']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"BenefitDescription\", \"waitTime\": 0}, \"xpath\": \"//legend[text()='Benefit Description']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[text()='View Patient']\"], \"AfterClickWait\": 2, \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [\"//input[@id='generalBenefitsRadio']\"], \"AfterClickWait\": 2, \"fileds\": \"\"}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityOtherProvisions"
+        },
+        {
+            "XPath": "{\"Scraping\": false, \"Xpaths\": [{\"AdditonalInfo\": {\"window_number_before_clicks\": 1, \"Click\": [\"//a[text()='Dashboard']\"], \"fileds\": []}, \"xpath\": \"\"}]}",
+            "DataContextName": "SearchDashboardFilter"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 153,
+            "EligibilityPayorInfoId": 40,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [\"//span[text()='Eligibility']\", \"//span[text()='Select Billing Provider']\", \"(//ul[@class='select2-results']//li//div)[1]\", \"//span[text()='Select a Payer']\", \"//div[contains(text(),'Aetna Dental Plans')]\"], \"AdditonalInfo\": {\"window_number_before_clicks\": 1, \"aftersleep\": 1}}, \"SearchButtonXpath\": \"//button[text()='Continue']\", \"PostSteps\": {\"Clicks\": [\"(//td[text()='%s']//parent::tr//td)[1]//a!@BirthDate\"], \"AdditonalInfo\": {\"aftersleep\": 1}}}, \"Queries\": [{\"Data\": \"PatientMemberId\", \"Xpath\": \"//input[@id='inputSsn']\", \"AdditonalInfo\": {\"sleep\": 2}}, {\"Data\": \"BirthDate\", \"Xpath\": \"//input[@id='inputPatientDob']\", \"AdditonalInfo\": {\"sleep\": 2}}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 4
+        },
+        {
+            "Id": 153,
+            "EligibilityPayorInfoId": 40,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//span[text()='Select Billing Provider']\",\"(//ul[@class='select2-results']//li//div)[1]\",\"//span[text()='Select a Payer']\",\"//div[contains(text(),'Aetna Dental Plans')]\"],\"AdditonalInfo\":{\"window_number_before_clicks\":1,\"aftersleep\":1}},\"SearchButtonXpath\":\"//button[text()='Continue']\",\"PostSteps\":{\"Clicks\":[\"(//td[text()='%s']//parent::tr//td)[1]//a!@BirthDate\"],\"AdditonalInfo\":{\"aftersleep\":1}}},\"Queries\":[{\"Data\":\"PatientMemberId\",\"Xpath\":\"//input[@id='inputSsn']\",\"AdditonalInfo\":{\"sleep\":2}},{\"Data\":\"BirthDate\",\"Xpath\":\"//input[@id='inputPatientDob']\",\"AdditonalInfo\":{\"sleep\":2}},{\"Data\":\"LastName\",\"Xpath\":\"//input[@id='inputPatientLastName']\",\"AdditonalInfo\":{\"sleep\":2}},{\"Data\":\"FirstName\",\"Xpath\":\"//input[@id='inputPatientFirstName']\",\"AdditonalInfo\":{\"sleep\":2}}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 4
+        }
+    ]
+}

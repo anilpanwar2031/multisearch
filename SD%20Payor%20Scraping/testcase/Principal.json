@@ -1,0 +1,98 @@
+{
+    "InputParameters": {
+        "PayorName": "Principal",
+        "PayorId": 19,
+        "ClientId": "857dc9bd-c432-482d-af84-437a48ccecfe",
+        "AppName": "Eligibility",
+        "WebsiteId": "PRINCIPAL_001",
+        "ProcCodes": [
+            "D0150",
+            "D0120",
+            "D0140",
+            "D0170",
+            "D9110",
+            "D0220",
+            "D0230",
+            "D0272",
+            "D0274",
+            "D0210",
+            "D0330",
+            "D0240",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D7140",
+            "D3220",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D9230"
+        ],
+        "ScheduleId": 673
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 14950,
+            "PatientId": "28042",
+            "AppointmentId": "287231",
+            "AppointmentDateTime": "2023-05-18T16:00:00+00:00",
+            "LastName": "Solis",
+            "FirstName": "Lyam",
+            "BirthDate": "10/11/2013",
+            "Relationship": "Child",
+            "PatientMemberId": "948457676",
+            "SubscriberId": "948457676",
+            "SubscriberFirstName": "Lyam",
+            "SubscriberLastName": "Solis",
+            "SubscriberBirthDate": "10/11/2013",
+            "ClinicServerId": "bfe87f26-10ca-e07a-be99-f0b3ec5a8e7f",
+            "ClinicNum": "2"
+        }
+    ],
+    "Login": {
+        "Url": "https://login.principal.com/login",
+        "LoginId": "Smiley1324",
+        "Password": "Fairy1324",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[@id='username']\", \"PasswordXpath\": \"//input[@id='password']\", \"LoginButtonXpath\": \"//input[@id='continue']\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [], \"PostSteps\": [], \"OtpXpath\": \"\"}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Employer Number\"}, \"xpath\": \"//strong[text()='Employer Number: ']//following-sibling::span\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Employer\"}, \"xpath\": \"//strong[text()='Employer: ']//following-sibling::span\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Network Name\"}, \"xpath\": \"//strong[text()='Network: ']//following-sibling::span\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Dependent Age\"}, \"xpath\": \"//strong[text()='Age: ']//following-sibling::span\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Effective Date\"}, \"xpath\": \"//strong[text()='Effective Date: ']//following-sibling::span\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Dependent Name\"}, \"xpath\": \"//strong[text()='Dependent: ']//following-sibling::span\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Member Name first name\"}, \"xpath\": \"//strong[text()='Member Name: ']//following-sibling::span[1]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Member Name last name\"}, \"xpath\": \"//strong[text()='Member Name: ']//following-sibling::span[2]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Benefit Period\"}, \"xpath\": \"//strong[text()='Benefit Period: ']//following-sibling::span\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"applicableFeeScheduleText\"}, \"xpath\": \"//strong[@id='applicableFeeScheduleText']\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"ProviderAddress\"}, \"xpath\": \"//strong[@id='address']\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"ProviderName\"}, \"xpath\": \"//strong[@id='applicableFeeScheduleText']//parent::p//following-sibling::p[1]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"ClaimMailingAddress\"}, \"xpath\": \"//strong[text()='Please mail claims and predeterminations to:']//parent::p\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"PayorID\"}, \"xpath\": \"//strong[text()='Claims may be submitted electronically to:']//parent::p\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"InNetwork\", \"Preventive\", \"Basic\", \"Major\", \"Orthodontia\"], \"type\": \"Type5\"}, \"xpath\": \"(//small[text()='Benefits']//parent::h2//following-sibling::table)[1]\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[text()='Out of Network']\"], \"fileds\": [\"OutNetwork\", \"Preventive\", \"Basic\", \"Major\", \"Orthodontia\"], \"type\": \"Type5\"}, \"xpath\": \"(//small[text()='Benefits']//parent::h2//following-sibling::table)[2]\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//a[text()='In Network']\", \"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[1]\", \"//div[@id='inNetworkLimitedExaminations']//span[@class='select2-arrow']\", \"//div[text()='D0140']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkLimitedExaminations']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"//div[@id='inNetwork']//span[text()='Choose service or type in code']\", \"(//div[text()='Examinations'])[2]\", \"//div[@id='inNetworkExaminations']//span[@class='select2-arrow']\", \"//div[text()='D0150']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkExaminations']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"//div[@id='inNetworkExaminations']//span[@class='select2-arrow']\", \"//div[text()='D0120']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkExaminations']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"//div[@id='inNetworkExaminations']//span[@class='select2-arrow']\", \"//div[text()='D0170']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkExaminations']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[1]\", \"//div[@id='inNetworkLimitedExaminations']//span[@class='select2-arrow']\", \"//div[text()='D0140']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkLimitedExaminations']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[2]//li[2]\", \"//div[@id='inNetworkPeriapicals']//span[@class='select2-arrow']\", \"//div[text()='D0220']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkPeriapicals']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"//div[@id='inNetworkPeriapicals']//span[@class='select2-arrow']\", \"//div[text()='D0230']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkPeriapicals']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[2]//li[3]\", \"//div[@id='inNetworkBitewings']//span[@class='select2-arrow']\", \"//div[text()='D0272']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkBitewings']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"//div[@id='inNetworkBitewings']//span[@class='select2-arrow']\", \"//div[text()='D0274']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkBitewings']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[2]//li[1]\", \"//div[@id='inNetworkFullMouth']//span[@class='select2-arrow']\", \"//div[text()='D0210']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkFullMouth']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"//div[@id='inNetworkFullMouth']//span[@class='select2-arrow']\", \"//div[text()='D0330']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkFullMouth']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[2]//li[4]\", \"//div[@id='inNetworkOcclusalXRays']//span[@class='select2-arrow']\", \"//div[text()='D0240']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkOcclusalXRays']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[4]//li[1]\", \"//div[@id='inNetworkProphylaxis']//span[@class='select2-arrow']\", \"//div[text()='D1110']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkProphylaxis']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"//div[@id='inNetworkProphylaxis']//span[@class='select2-arrow']\", \"//div[text()='D1120']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkProphylaxis']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[5]//li\", \"//div[@id='inNetworkFluoride']//span[@class='select2-arrow']\", \"//div[text()='D1206']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkFluoride']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"//div[@id='inNetworkFluoride']//span[@class='select2-arrow']\", \"//div[text()='D1208']\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\", \"Code Allowance\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkFluoride']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[6]//li\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkSealants']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[7]//li[2]\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkSpaceMaintainers']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[8]//li\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkFillings']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[14]//li[1]\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkPulpotomy']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[10]//li\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\", \"Service History\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkStainlessSteelCrowns']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[22]//li[1]\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkSimpleAndSurgicalExtractions']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"(//abbr[@class='select2-search-choice-close'])[1]\", \"(//span[text()='Choose service or type in code'])[1]//following-sibling::span\", \"((//div[text()='Limited Examinations']//parent::li//parent::ul//parent::li)[1]//following-sibling::li)[27]//li\"], \"AfterClickWait\": 2, \"fileds\": [\"Service\", \"Benefit Plan Details\"], \"type\": \"Type3\"}, \"xpath\": \"//div[@id='inNetworkPalliativeTreatment']//table\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 92,
+            "EligibilityPayorInfoId": 19,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [\"//span[text()='Find a patient now']\"], \"AdditonalInfo\": {}}, \"SearchButtonXpath\": \"//button[@id='patientSearchSubmit']\", \"PostSteps\": {\"ExceptionClicks\": [\"(//button[@data-policyholdernumber=*])[1]\"], \"Clicks\": [\"//span[text()='Active']\", \"//button[normalize-space()='Eligibility and Benefits']\"], \"AdditonalInfo\": {}}}, \"Queries\": [{\"Data\": \"SubscriberId\", \"Xpath\": \"//input[@id='patientId']\"}, {\"Data\": \"BirthDate\", \"Xpath\": \"//input[@id='patientDob']\"}]}}",
+            "IsActive": true
+        }
+    ]
+}

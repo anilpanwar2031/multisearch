@@ -1,0 +1,123 @@
+{
+    "InputParameters": {
+        "PayorName": "United Concordia",
+        "PayorId": 56,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "WebsiteId": "UNITEDCONCORDIA_001",
+        "ProcCodes": [
+            "D0150",
+            "D0120",
+            "D0140",
+            "D0170",
+            "D9110",
+            "D0220",
+            "D0230",
+            "D0272",
+            "D0274",
+            "D0210",
+            "D0330",
+            "D0240",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D7140",
+            "D3220",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D9230"
+        ],
+        "ScheduleId": 0
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 67728,
+            "PatientId": "55078",
+            "AppointmentId": "282834",
+            "AppointmentDateTime": "2023-05-12T07:55:09.84+00:00",
+            "LastName": "Bugarin Tapia",
+            "FirstName": "Alethea",
+            "BirthDate": "07/04/2020",
+            "Relationship": "Child",
+            "PatientMemberId": "01196691300",
+            "SubscriberId": "01196691300",
+            "SubscriberFirstName": "Erika",
+            "SubscriberLastName": "Tapia",
+            "SubscriberBirthDate": "01/01/0001",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        },
+        {
+            "EligibilityVerificationId": 67728,
+            "PatientId": "55078",
+            "AppointmentId": "282834",
+            "AppointmentDateTime": "2023-05-12T07:55:09.84+00:00",
+            "LastName": "Bugarin Tapia",
+            "FirstName": "Alethea",
+            "BirthDate": "07/04/2020",
+            "Relationship": "Child",
+            "PatientMemberId": "01196691300",
+            "SubscriberId": "01196691300",
+            "SubscriberFirstName": "Erika",
+            "SubscriberLastName": "Tapia",
+            "SubscriberBirthDate": "01/01/0001",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.unitedconcordia.com/tuctpi/subscriber.xhtml",
+        "LoginId": "payoraccess2",
+        "Password": "Changeme1!",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"DataContextId\": \"1\", \"DataContextName\": \"EligibilityLogin\", \"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[@id='form:username']\", \"PasswordXpath\": \"//input[@id='form:password']\", \"LoginButtonXpath\": \"//input[@id='form:sign-in-button']\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [], \"PostSteps\": [], \"OtpXpath\": \"\"}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Member Name\"}, \"xpath\": \"//span[@id='memberName']\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Eligibility Status\"}, \"xpath\": \"//span[@id='memberName']//parent::h2//parent::div//following-sibling::div//span\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Medical Condition Qualified\"}, \"xpath\": \"//span[text()='Member has a qualified medical condition reported?']//following-sibling::div//div[1]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Network\"}, \"xpath\": \"//div[@id='your-network-individual-network']\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Group Network\"}, \"xpath\": \"//div[@id='policy-info-group-network']\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Dental Plan\"}, \"xpath\": \"//span[text()='Dental Plan']//parent::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Group\"}, \"xpath\": \"//span[text()='Group / ID']//parent::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Carrier & Service Type\"}, \"xpath\": \"//span[text()='Carrier Type']//parent::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Holder Name & Mailing Adress\"}, \"xpath\": \"//span[text()='Policyholder']//parent::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Coverage Effective\"}, \"xpath\": \"//span[text()='Coverage Effective']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": [], \"type\": \"\"}, \"xpath\": \"//table[contains(normalize-space(), 'Member ID')]\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[@id='footerContact']\"], \"window_number_after_clicks\": 1, \"AfterClickWait\": 5, \"fileds\": \"ClaimMailingAddress\"}, \"xpath\": \"//a[@title='Find Claim Forms']//parent::p//parent::span\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//td[text()='Deductibles and Maximums']//span\"], \"fileds\": [\"Benefit\", \"Coverage\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitPolicyInformationDeductiblesAndMaximums']\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": null, \"fileds\": [], \"type\": \"\"}, \"headingname\": \"Tooth History\", \"xpath\": \"//table[@id='serviceHistoryPanelList']\"}]}",
+            "DataContextName": "EligibilityServiceTreatmentHistory"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//td[text()='Preventive Exams']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][1]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='X-rays']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][2]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Tests and Examinations']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][3]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Pathology Laboratory']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][4]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Nomenclature']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][5]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Cleanings & Fluoride']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][6]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Sealants']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][7]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Space Maintainers']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][8]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Restorations']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][9]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Crowns, Inlays & Onlays']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][10]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Other Restorations']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][11]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Endodontic Procedures']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][12]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Surgical Periodontal Services']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][13]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Non-Surgical Periodontal Services']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][14]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Dentures, Denture Adjustments, Denture Repairs, Relining']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][15]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Surgical Implant Procedures']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][16]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Implant Supported Prosthetics']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][17]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Fixed Prosthetics']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][18]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Fixed Partial Denture Retainers']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][19]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Oral Surgery']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][20]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Other Repair Procedures']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][21]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Orthodontics']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][22]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Palliative Treatment (Emergency)']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][23]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Adjunctive Services']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][24]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Miscellaneous Services']//span\"], \"aftersleep\": 4, \"fileds\": [\"Procedure Code\", \"Procedure Name\", \"Covered\", \"Allowance\", \"Coverage % or Copay $\", \"Limitation\", \"Applied to Deductible\", \"Applied to Maximum\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][25]\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Policy Dollar Max\"}, \"xpath\": \"(//h6[contains(normalize-space(), 'DOLLAR MAX')]//parent::div//following-sibling::div)[4]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Policy Dollar Ded Family\"}, \"xpath\": \"(//h6[contains(normalize-space(), 'DOLLAR DED')]//parent::div//following-sibling::div)[4]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Policy Dollar Ded Individual\"}, \"xpath\": \"(//h6[contains(normalize-space(), 'DOLLAR DED')]//parent::div//following-sibling::div)[5]\"}, {\"AdditonalInfo\": {\"Click\": [\"//td[text()='Coordination and Other Benefits']//span\"], \"fileds\": [\"Benefit\"], \"type\": \"Type3\"}, \"xpath\": \"//table[@id='benefitPolicyCoordinationAndOtherBenefits']\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Deductibles\"}, \"xpath\": \"//strong[text()='Deductibles']//parent::h6//parent::div//following-sibling::div\"}]}",
+            "DataContextName": "EligibilityOtherProvisions"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 9,
+            "EligibilityPayorInfoId": 56,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [], \"AdditonalInfo\": {\"aftersleep\": 5}}, \"SearchFilter\": {\"js\": \"let vale=arguments[1]\\r\\nlet newD = vale.toUpperCase()\\r\\nconsole.log(newD)          \\r\\ntry{ let nx =arguments[0].replace('%s',newD)\\r\\ndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()\\r\\nreturn true   \\r\\n}\\r\\ncatch{return false}\", \"arg1\": \"//td[contains(normalize-space(), '%s')]//following-sibling::td[2]//input\", \"arg2\": \"FirstName\", \"afterwait\": \"//div[@id='patientDetails']\", \"Clicks\": null}, \"SearchButtonXpath\": \"//input[@id='search:buttonSearch']\", \"PostSteps\": {\"AdditonalInfo\": {\"aftersleep\": 5}, \"Clicks\": null}}, \"Queries\": [{\"Data\": \"SubscriberId\", \"Xpath\": \"//input[@id='search:search1']\"}, {\"Data\": \"BirthDate\", \"Xpath\": \"//input[@id='search:search2']\"}]}}",
+            "IsActive": true
+        }
+    ]
+}

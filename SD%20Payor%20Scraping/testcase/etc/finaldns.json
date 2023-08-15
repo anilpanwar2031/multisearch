@@ -1,0 +1,40 @@
+{
+    "InputParameters": {
+        "PayorName": "Delta dental",
+        "PayorId": 12,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "RcmClaimNumber": "234378",
+        "RcmClinicId": "41e9bf05-7b4c-46ac-8d15-8cfecd970297",
+        "WebsiteId": "DELTADENTAL_001"
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 14397,
+            "PatientId": "47171",
+            "AppointmentId": "276027",
+            "LastName": "",
+            "FirstName": "",
+            "BirthDate": "",
+            "Relationship": null,
+            "PatientMemberId": null,
+            "SubscriberId": "910140784",
+            "SubscriberFirstName": "Sarah",
+            "SubscriberLastName": "Westerfield",
+            "SubscriberBirthDate": "11/07/1989",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.deltadental.com",
+        "LoginId": "Thesmileytooth1",
+        "Password": "Fairy2022!",
+        "OtpRequired": false,
+        "OtpEmail": "",
+        "OtpEmailPassword": "",
+        "EmailProvierUrl": ""
+    },
+    "Xpaths": [],
+    "SearchParameters": []
+}

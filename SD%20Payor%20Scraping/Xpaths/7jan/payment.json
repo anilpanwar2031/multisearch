@@ -1,0 +1,75 @@
+{
+    "InputParameters": {
+        "PayorName": "Delta Dental Ins",
+        "PayorId": 12,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Payment Processing"
+    },
+    "PatientData": [
+        {
+            "number": "202212050060320",
+            "EligibilityVerificationId": 12,
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "PPGridViewId": 6
+         
+        }
+    ],
+    "Login": {
+        "Url": "https://www1.deltadentalins.com/login.html",
+        "LoginId": "Thesmileytooth1",
+        "Password": "Fairy2022!",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "Id": 34,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 196,
+            "XPath": " { \r\n \"Click\": null,\r\n \"Xpaths\": [\r\n {\r\n \"UsernameXpath\": \"//*[@id='username']\",\r\n \"PasswordXpath\": \"//*[@id='password']\",\r\n \"LoginButtonXpath\": \"//*[@id='loginButton']\",\r\n \"PreSteps\": [],\r\n \"PostSteps\": [],\r\n \"OtpInputXpath\": \"\",\r\n \"OtpSubmitXpath\": \"\",\r\n \"OtpXpath\": \"\"\r\n }\r\n ]\r\n }",
+            "IsActive": true,
+            "DataContextName": "EligibilityLogin",
+            "ProductCategoryId": 4
+        },
+        {
+            "Id": 40,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 206,
+            "XPath": " {\r\n \"Xpaths\": [\r\n {\r\n \"AdditonalInfo\": {\r\n \"Click\": null,\r\n \"fileds\": \"Status\"\r\n },\r\n \"xpath\": \"//*[@id='template1:r1:1:r4:0:t1::db']/table/tbody/tr/td[7]/span/span\"\r\n },\r\n {\r\n \"AdditonalInfo\": {\r\n \"Click\": [\r\n \"//*[@id='template1:r1:1:r4:0:t1:0:ot166']\"\r\n ],\r\n \"fileds\": [\r\n \"\",\r\n \"PatientName\",\r\n \"EnrolleeId\",\r\n \"ClaimNumber\",\r\n \"DateOfService\",\r\n \"PatientPays\",\r\n \"DeltaDentalPays\",\r\n \"\"\r\n ],\r\n \"type\": \"headless\"\r\n },\r\n \"xpath\": \"//*[@id='template1:r1:1:r4:1:t1::db']/table\"\r\n }\r\n ]\r\n} ",
+            "IsActive": true,
+            "DataContextName": "EFTPatients",
+            "ProductCategoryId": 6
+        },
+        {
+            "Id": 41,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 207,
+            "XPath": "{\"flatten\":true,\"MultiplElements\":{\"multiple_elements_xpath\":\"//*[@class='x271 xfh']\",\"action\":\"Click\"},\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//*[text()='PDF']\"],\"fileds\":[\"Enrollee_ClaimId\",\"EnrolleeId\"]},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:t3x3']/tbody/tr/td[1]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"EnrolleeName\",\"DateOfBirth\",\"PatientName\",\"PatientDateOfBirth\"]},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:t3x3']/tbody/tr/td[2]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Relationship\",\"PlanName\",\"PlanNumber\"]},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:t3x3']/tbody/tr/td[3]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Billing_Id\",\"Name\"]},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:t3xa3']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Rendering_Id\",\"Rendering_Name\",\"ProviderStatus\",\"Lic#\"]},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:t3ax3']/tbody/tr/td/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Claim_Status\"]},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:tl6']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:tl6_c']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:tl6_d']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"DirectDepositReference#\",\"Deposit_Status\"]},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:tl116_d']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:tlas6_d']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:tqql6_d']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:tlt6_d']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Notes\"},\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:tl2']/tbody\"},{\"AdditonalInfo\":{\"Click\":[\"//*[text()='Claim information']\"],\"fileds\":\"\"},\"xpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "PpEobClaimMaster",
+            "ProductCategoryId": 6
+        },
+        {
+            "Id": 42,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 208,
+            "XPath": "{\"MultiplElements\":{\"multiple_elements_xpath\":\"//*[@class='x271 xfh']\",\"action\":\"Click\"},\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"headingXpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:ot23']/label\",\"xpath\":\"//*[@id='template1:r1:1:r4:2:r1:0:trl1']\"},{\"AdditonalInfo\":{\"Click\":[\"//*[text()='Claim information']\"],\"fileds\":[]},\"xpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "PpEobClaimDetail",
+            "ProductCategoryId": 6
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 3,
+            "EligibilityPayorInfoId": 12,
+            "JsonSettings": "{\r\n \"Search\": {\r\n \"Settings\": {\r\n \"PreSteps\": {\r\n \"Clicks\": [\r\n \"//*[text()='My payments']\"\r\n ],\r\n \"AdditonalInfo\": {\r\n \r\n }\r\n },\r\n \"SearchButtonXpath\": \"//*[@id='template1:r1:1:r4:0:commandButton1']\",\r\n \"SearchFilter\": {\r\n \r\n },\r\n \"PostSteps\": {\r\n \"Clicks\": [\r\n \r\n ],\r\n \"AdditonalInfo\": {\r\n \"afterwait\": \"//*[@id='template1:r1:1:r4:0:t1:0:ot166']\",\r\n \"sleep\": 5\r\n }\r\n }\r\n },\r\n \"Queries\": [\r\n {\r\n \"Data\": \"number\",\r\n \"Xpath\": \"//*[@placeholder='Check/EFT number or amount']\",\r\n \"AdditonalInfo\": {\r\n \r\n }\r\n }\r\n ]\r\n }\r\n}",
+            "IsActive": true,
+            "ProductCategoryId": 6
+        }
+    ]
+}

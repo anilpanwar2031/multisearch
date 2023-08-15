@@ -1,0 +1,109 @@
+{
+    "InputParameters": {
+        "PayorName": "Delta dental of toolkit",
+        "PayorId": 12,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "RcmClaimNumber": "234378",
+        "RcmClinicId": "41e9bf05-7b4c-46ac-8d15-8cfecd970297",
+        "WebsiteId":"UNITEDCONCORDIA_001"
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 14397,
+            "PatientId": "",
+            "AppointmentId": "",
+            "LastName": "Curry",
+            "FirstName": "Kyler",
+            "BirthDate": "08/13/2019",
+            "Relationship": null,
+            "PatientMemberId": null,
+            "SubscriberId": "128408040001",
+            "SubscriberFirstName": "",
+            "SubscriberLastName": "",
+            "SubscriberBirthDate": "08/13/2019",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.unitedconcordia.com/tuctpi/subscriber.xhtml",
+        "LoginId": "Payoraccess@sdb",
+        "Password": "Changeme1!",
+        "OtpRequired": false,
+        "OtpEmail": "",
+        "OtpEmailPassword": "",
+        "EmailProvierUrl": ""
+    },
+    "Xpaths": [
+        {
+            "Id": 16,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 196,
+            "XPath": "{\r\n  \"DataContextId\": \"1\",\r\n  \"DataContextName\": \"EligibilityLogin\",\r\n  \"Click\": null,\r\n  \"Xpaths\": [\r\n    {\r\n      \"UsernameXpath\": \"//input[@id='form:username']\",\r\n      \"PasswordXpath\": \"//input[@id='form:password']\",\r\n      \"LoginButtonXpath\": \"//input[@id='form:sign-in-button']\",\r\n      \"OtpInputXpath\": \"\",\r\n      \"OtpSubmitXpath\": \"\",\r\n      \"PreSteps\": [],\r\n      \"PostSteps\": [],\r\n      \"OtpXpath\": \"\"\r\n    }\r\n  ]\r\n}",
+            "IsActive": true,
+            "DataContextName": "EligibilityLogin",
+            "ProductCategoryId": 0
+        },
+                {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,                      
+            "XPath": "{\r\n  \"flatten\":true,\r\n  \"Xpaths\": [\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Network\"\r\n      },\r\n      \"xpath\": \"//div[@id='your-network-individual-network']\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Group Network\"\r\n      },\r\n      \"xpath\": \"//div[@id='policy-info-group-network']\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Dental Plan\"\r\n      },\r\n      \"xpath\": \"//span[text()='Dental Plan']//parent::div\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Group\"\r\n      },\r\n      \"xpath\": \"//span[text()='Group / ID']//parent::div\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Carrier & Service Type\"\r\n      },\r\n      \"xpath\": \"//span[text()='Carrier Type']//parent::div\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Holder Name & Mailing Adress\"\r\n      },\r\n      \"xpath\": \"//span[text()='Policyholder']//parent::div\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Coverage Effective\"\r\n      },\r\n      \"xpath\": \"//span[text()='Coverage Effective']//following-sibling::div\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": []\r\n      },\r\n      \"xpath\": \"//table[contains(normalize-space(), 'Member ID')]\"\r\n    }\r\n  ]\r\n}",
+            "IsActive": true,
+            "DataContextName": "EligibilityPatientSummary", 
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\r\n  \"Xpaths\": [\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Deductibles and Maximums']//span\"\r\n        ],\r\n        \"fileds\": [],\r\n        \"type\" : \"\"\r\n      },\r\n      \"headingname\": \"Benefits\",\r\n      \"xpath\": \"//table[@id='benefitPolicyInformationDeductiblesAndMaximums']\"\r\n    }\r\n  ]\r\n}",
+            "IsActive": true,
+            "DataContextName": "EligibilityMaximumAndDedecibles",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\r\n  \"Xpaths\": [\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": [],\r\n        \"type\" : \"\"\r\n      },\r\n      \"headingname\": \"Tooth History\",\r\n      \"xpath\": \"//table[@id='serviceHistoryPanelList']\"\r\n    }\r\n  ]\r\n}",
+            "IsActive": true,
+            "DataContextName": "EligibilityServiceTreatmentHistory",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\r\n  \"Xpaths\": [\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Coordination and Other Benefits']//span\"\r\n        ],\r\n        \"fileds\": [\"Benefit\"],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitPolicyCoordinationAndOtherBenefits']\"\r\n    }\r\n  ]\r\n}",
+            "IsActive": true,
+            "DataContextName": "PolicyInformation",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\r\n  \"Xpaths\": [\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Preventive Exams']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\",\r\n        \"aftersleep\": 2\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][1]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='X-rays']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][2]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Tests and Examinations']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][3]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Pathology Laboratory']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][4]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Nomenclature']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][5]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Cleanings & Fluoride']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][6]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Sealants']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][7]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Space Maintainers']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][8]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Restorations']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][9]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Crowns, Inlays & Onlays']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][10]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Other Restorations']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][11]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Endodontic Procedures']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][12]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Surgical Periodontal Services']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][13]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Non-Surgical Periodontal Services']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][14]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Dentures, Denture Adjustments, Denture Repairs, Relining']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][15]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Surgical Implant Procedures']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][16]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Implant Supported Prosthetics']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][17]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Fixed Prosthetics']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][18]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Fixed Partial Denture Retainers']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][19]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Oral Surgery']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][20]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Other Repair Procedures']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][21]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Orthodontics']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][22]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Palliative Treatment (Emergency)']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][23]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Adjunctive Services']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][24]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [\r\n          \"//td[text()='Miscellaneous Services']//span\"\r\n        ],\r\n        \"fileds\": [\r\n          \"Procedure Code\",\r\n          \"Procedure Name\",\r\n          \"Covered\",\r\n          \"Allowance\",\r\n          \"Coverage % or Copay $\",\r\n          \"Limitation\",\r\n          \"Applied to Deductible\",\r\n          \"Applied to Maximum\"\r\n        ],\r\n        \"type\": \"Type3\"\r\n      },\r\n      \"xpath\": \"//table[@id='benefitDetailAllServiceProceduresList'][25]\"\r\n    }\r\n  ]\r\n}",
+            "IsActive": true,
+            "DataContextName": "EligibilityBenefits",
+            "ProductCategoryId": 2
+        }                
+    ],
+    "SearchParameters": [
+        {
+            "Id": 2,
+            "EligibilityPayorInfoId": 12,
+            "JsonSettings":"{\r\n  \"Search\": {\r\n    \"Settings\": {\r\n      \"PreSteps\": {\r\n        \"Clicks\": [],\r\n        \"AdditonalInfo\": {\r\n          \"aftersleep\": 5\r\n        }\r\n      },\r\n      \"SearchButtonXpath\": \"//input[@id='search:buttonSearch']\",\r\n      \"PostSteps\": {\r\n        \"AdditonalInfo\": {\r\n          \"aftersleep\": 5\r\n        },\r\n        \"Clicks\": null\r\n      }\r\n    },\r\n    \"Queries\": [\r\n      {\r\n        \"Data\": \"SubscriberId\",\r\n        \"Xpath\": \"//input[@id='search:search1']\"\r\n      },\r\n      {\r\n        \"Data\": \"SubscriberBirthDate\",\r\n        \"Xpath\": \"//input[@id='search:search2']\"\r\n      }\r\n    ]\r\n  }\r\n}",
+            "IsActive": true,
+            "ProductCategoryId": 2
+        }
+    ]
+}

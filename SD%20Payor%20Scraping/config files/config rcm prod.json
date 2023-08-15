@@ -1,0 +1,12 @@
+
+{
+    "Revenue Cycle Management": {
+        "AZURE_STORAGE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=rcmclaimsscarapperprodsa;AccountKey=TYSjkSjkxkEmw4p7TAsVsiZuvJUCCoA8sC8Y291ADhCAsfeH0yWRY7jeX1HfhErxawf330abd8/R+ASt4/SSpA==;EndpointSuffix=core.windows.net",
+        "incomingQueueName": "sd-rcmcaimscrapperincoming-que-prod",
+        "OutgoingQueueName": "sd-rcmcaims-scrapper-response-que-prod",
+        "connect_str_blob": "DefaultEndpointsProtocol=https;AccountName=rcmclaimsscarapperprodsa;AccountKey=TYSjkSjkxkEmw4p7TAsVsiZuvJUCCoA8sC8Y291ADhCAsfeH0yWRY7jeX1HfhErxawf330abd8/R+ASt4/SSpA==;EndpointSuffix=core.windows.net",
+        "container_name_blob": "sd-rcmcaims-scrapper-blob",
+        "sa_name_blob": "rcmclaimsscarapperprodsa",
+        "ApiUrl":"https://sd-scheduler-prod.azurewebsites.net/api/callback-scrapping"
+    }
+}

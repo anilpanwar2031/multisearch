@@ -1,0 +1,88 @@
+{
+    "InputParameters": {
+        "PayorName": "Delta dental",
+        "PayorId": 12,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "RcmClaimNumber": "234378",
+        "RcmClinicId": "41e9bf05-7b4c-46ac-8d15-8cfecd970297"
+    },
+    "PatientData": [
+        {
+            "FirstName": "Dustin",
+            "LastName": "Peter",
+            "Dob": "05/20/1983",
+            "SubscriberID": "WN00103798"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.deltadental.com",
+        "LoginId": "Thesmileytooth1",
+        "Password": "Fairy2022!",
+        "OtpRequired": false,
+        "OtpEmail": "",
+        "OtpEmailPassword": "",
+        "EmailProvierUrl": ""
+    },
+    "Xpaths": [
+        {
+            "Id": 16,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 196,
+            "XPath": "{\r\n    \"DataContextId\":\"1\",\r\n    \"DataContextName\":\"EligibilityLogin\",\r\n    \"Click\":null,\r\n    \"Xpaths\":[\r\n       {\r\n          \"UsernameXpath\":\"//input[@id='usernameInput']\",\r\n          \"PasswordXpath\":\"//input[@id='passwordInput']\",\r\n          \"LoginButtonXpath\":\"//button[@id='btn-login']\",\r\n          \"OtpInputXpath\":\"\",\r\n          \"OtpSubmitXpath\":\"\",\r\n          \"PreSteps\":[\"//span[text()='Sign in / Register ']\", \"//a[text()='Sign in']\"],\r\n          \"PostSteps\":[],\r\n          \"OtpXpath\":\"\"\r\n       }\r\n    ]\r\n }",
+            "IsActive": true,
+            "DataContextName": "EligibilityLogin",
+            "ProductCategoryId": 0
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"headingname\":\"PatientEligibility\",\"xpath\":\"//div[@class='bodyContent']/table[1]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Name\",\"Relationship\",\"Birthday\",\"EffectiveDate\",\"TerminationDate\"]},\"headingname\":\"PatientInfo\",\"xpath\":\"//div[@class='bodyContent']/table[2]\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityPatientVerification",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"ServiceType\",\"WaitingPeriod\",\"PriorAuthorization\"],\"type\":\"headless\"},\"headingname\":\"BenefitLevels\",\"xpath\":\"//div[@class='bodyContent']/table[4]/tbody/tr[4]/td[1]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"DeltaDentalPPOPatientPays\",\"DeltaDentalPPODeductibleApplies\"],\"type\":\"headless\"},\"headingname\":\"BenefitLevelsPart1\",\"xpath\":\"//div[@class='bodyContent']/table[4]/tbody/tr[4]/td[2]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"DeltaDentalPremierPatientPays\",\"DeltaDentalPremierDeductibleApplies\"],\"type\":\"headless\"},\"headingname\":\"BenefitLevelsPart2\",\"xpath\":\"//div[@class='bodyContent']/table[4]//tbody/tr[4]/td[3]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"OutofNetworkPatientPays\",\"OutofNetworkDeductibleApplies\"],\"type\":\"headless\"},\"headingname\":\"BenefitLevelsPart3\",\"xpath\":\"//div[@class='bodyContent']/table[4]//tbody/tr[4]/td[4]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"ProcedureCode\",\"WaitingPeriod\",\"PriorAuthorization\"],\"type\":\"headless\"},\"headingname\":\"ProcedureCodes\",\"xpath\":\"//div[@class='bodyContent']/table[4]/tbody/tr[7]/td[1]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"DeltaDentalPPOPatientPays\",\"DeltaDentalPPODeductibleApplies\"],\"type\":\"headless\"},\"headingname\":\"ProcedureCodesPart1\",\"xpath\":\"//div[@class='bodyContent']/table[4]/tbody/tr[7]/td[2]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"DeltaDentalPremierPatientPays\",\"DeltaDentalPremierDeductibleApplies\"],\"type\":\"headless\"},\"headingname\":\"ProcedureCodesPart2\",\"xpath\":\"//div[@class='bodyContent']/table[4]/tbody/tr[7]/td[3]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"OutofNetworkPatientPays\",\"OutofNetworkDeductibleApplies\"],\"type\":\"headless\"},\"headingname\":\"ProcedureCodesPart3\",\"xpath\":\"//div[@class='bodyContent']/table[4]/tbody/tr[7]/td[4]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"ServiceType\",\"Limitations\",\"AgeRestrictions\",\"Date\"],\"type\":\"headless\"},\"headingname\":\"Limitations\",\"xpath\":\"//div[@class='bodyContent']/table[9]\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityBenefits",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath":"{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"AnnualDeductiblesDentalCareDeltaDentalPPO\",\"xpath\":\"//div[@class='bodyContent']/table[5]/tbody/tr[4]/td[2]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"AnnualDeductiblesDentalCareDeltaDentalPremier\",\"xpath\":\"//div[@class='bodyContent']/table[5]/tbody/tr[4]/td[3]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"AnnualDeductiblesDentalCareOutofNetwork\",\"xpath\":\"//div[@class='bodyContent']/table[5]/tbody/tr[4]/td[4]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"LifetimeDeductiblesDeltaDentalPPO\",\"xpath\":\"//div[@class='bodyContent']/table[5]/tbody/tr[6]/td[2]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"LifetimeDeductiblesDeltaDentalPremier\",\"xpath\":\"//div[@class='bodyContent']/table[5]/tbody/tr[6]/td[3]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"LifetimeDeductiblesDeltaDentalPremier\",\"xpath\":\"//div[@class='bodyContent']/table[5]/tbody/tr[6]/td[4]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[],\"type\":\"headless\"},\"headingname\":\"LifetimeDeductiblesNames\",\"xpath\":\"//div[@class='bodyContent']/table[5]/tbody/tr[6]/td[1]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[],\"type\":\"headless\"},\"headingname\":\"AnnualDeductiblesNames\",\"xpath\":\"//div[@class='bodyContent']/table[5]/tbody/tr[4]/td[1]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"RemainingAnnualDeductiblesDentalCareDeltaDentalPPO\",\"xpath\":\"//div[@class='bodyContent']/table[6]/tbody/tr[4]/td[2]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"RemainingAnnualDeductiblesDentalCareDeltaDentalPremier\",\"xpath\":\"//div[@class='bodyContent']/table[6]/tbody/tr[4]/td[3]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"RemainingAnnualDeductiblesDentalCareOutofNetwork\",\"xpath\":\"//div[@class='bodyContent']/table[6]/tbody/tr[4]/td[4]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"RemainingLifetimeDeductiblesDeltaDentalPPO\",\"xpath\":\"//div[@class='bodyContent']/table[6]/tbody/tr[6]/td[2]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"RemainingLifetimeDeductiblesDeltaDentalPremier\",\"xpath\":\"//div[@class='bodyContent']/table[6]/tbody/tr[6]/td[3]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"RemainingLifetimeDeductiblesDeltaDentalPremier\",\"xpath\":\"//div[@class='bodyContent']/table[6]/tbody/tr[6]/td[4]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[],\"type\":\"headless\"},\"headingname\":\"RemainingLifetimeDeductiblesNames\",\"xpath\":\"//div[@class='bodyContent']/table[6]/tbody/tr[6]/td[1]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[],\"type\":\"headless\"},\"headingname\":\"RemainingAnnualDeductiblesNames\",\"xpath\":\"//div[@class='bodyContent']/table[6]/tbody/tr[4]/td[1]/table\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityDeductiblesProcCode",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath":"{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"AnnualMaximumsDentalCareDeltaDentalPPO\",\"xpath\":\"//div[@class='bodyContent']/table[7]/tbody/tr[4]/td[2]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"AnnualMaximumsDentalCareDeltaDentalPremier\",\"xpath\":\"//div[@class='bodyContent']/table[7]/tbody/tr[4]/td[3]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"AnnualMaximumsDentalCareOutofNetwork\",\"xpath\":\"//div[@class='bodyContent']/table[7]/tbody/tr[4]/td[4]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"LifetimeMaximumsDeltaDentalPPO\",\"xpath\":\"//div[@class='bodyContent']/table[7]/tbody/tr[6]/td[2]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"LifetimeMaximumsDeltaDentalPremier\",\"xpath\":\"//div[@class='bodyContent']/table[7]/tbody/tr[6]/td[3]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"LifetimeMaximumsDeltaDentalPremier\",\"xpath\":\"//div[@class='bodyContent']/table[7]/tbody/tr[6]/td[4]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[],\"type\":\"headless\"},\"headingname\":\"LifetimeMaximumsNames\",\"xpath\":\"//div[@class='bodyContent']/table[7]/tbody/tr[6]/td[1]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[],\"type\":\"headless\"},\"headingname\":\"AnnualMaximumsNames\",\"xpath\":\"//div[@class='bodyContent']/table[7]/tbody/tr[4]/td[1]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"RemainingAnnualMaximumsDentalCareDeltaDentalPPO\",\"xpath\":\"//div[@class='bodyContent']/table[8]/tbody/tr[4]/td[2]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"RemainingAnnualMaximumsDentalCareDeltaDentalPremier\",\"xpath\":\"//div[@class='bodyContent']/table[8]/tbody/tr[4]/td[3]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"RemainingAnnualMaximumsDentalCareOutofNetwork\",\"xpath\":\"//div[@class='bodyContent']/table[8]/tbody/tr[4]/td[4]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"RemainingLifetimeMaximumsDeltaDentalPPO\",\"xpath\":\"//div[@class='bodyContent']/table[8]/tbody/tr[6]/td[2]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"RemainingLifetimeMaximumsDeltaDentalPremier\",\"xpath\":\"//div[@class='bodyContent']/table[8]/tbody/tr[6]/td[3]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Individual\",\"Family\"],\"type\":\"headless\"},\"headingname\":\"RemainingLifetimeMaximumsDeltaDentalPremier\",\"xpath\":\"//div[@class='bodyContent']/table[8]/tbody/tr[6]/td[4]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[],\"type\":\"headless\"},\"headingname\":\"RemainingLifetimeMaximumsNames\",\"xpath\":\"//div[@class='bodyContent']/table[8]/tbody/tr[6]/td[1]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[],\"type\":\"headless\"},\"headingname\":\"RemainingAnnualMaximumsNames\",\"xpath\":\"//div[@class='bodyContent']/table[8]/tbody/tr[4]/td[1]/table\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityMaximums",
+            "ProductCategoryId": 2
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 2,
+            "EligibilityPayorInfoId": 12,
+            "JsonSettings": "{\r\n   \"Search\":{\r\n      \"Settings\":{\r\n         \"PreSteps\":{\r\n            \"Clicks\":[ ],\r\n            \"AdditonalInfo\":{\r\n               \"aftersleep\":5\r\n            }\r\n         },\r\n\r\n         \"SearchButtonXpath\":\"//input[@value='Benefits and eligibility']\",\r\n         \"PostSteps\":{\r\n            \"AdditonalInfo\":{\r\n               \"aftersleep\":5\r\n            },\r\n            \"Clicks\":null\r\n         }\r\n      },\r\n      \"Queries\":[\r\n         {\r\n            \"Data\":\"SubscriberID\",\r\n            \"Xpath\":\"(//input[@id='subscriberIdentifier'])[1]\"\r\n         },\r\n         {\r\n            \"Data\":\"FirstName\",\r\n            \"Xpath\":\"(//input[@id='subscriberFirstName'])[1]\"\r\n         },\r\n         {\r\n            \"Data\":\"LastName\",\r\n            \"Xpath\":\"(//input[@id='subscriberLastName'])[1]\"\r\n         },\r\n         {\r\n            \"Data\":\"Dob\",\r\n            \"Xpath\":\"(//input[@id='subscriberDateOfBirth'])[1]\"\r\n         }\r\n      ]\r\n   }\r\n}",
+            "IsActive": true,
+            "ProductCategoryId": 2
+        }
+    ]
+}

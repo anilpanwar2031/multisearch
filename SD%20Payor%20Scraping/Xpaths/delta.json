@@ -1,0 +1,84 @@
+{
+  "InputParameters": {
+    "PayorName": "Delta Dental Illinois",
+    "PayorId": 56,
+    "ClientId": "7aef7d39-7662-4790-bcb4-279bce95c0d7",
+    "AppName": "Revenue Cycle Management",
+    "RcmClaimNumber": "38209",
+    "RcmClinicId": "121c9cc9-801e-4182-b053-b1fe42c343c8",
+    "file": "RcmEobClaimMaster"
+  },
+  "PatientData": [
+    {
+      "EligibilityVerificationId": 0,
+      "PatientId": "25631",
+      "AppointmentId": null,
+      "AppointmentDateTime": null,
+      "LastName": "Kuykendall",
+      "FirstName": "Brian",
+      "BirthDate": "01/14/2018",
+      "Relationship": null,
+      "ClinicServerId": "187c1d71-156a-7634-05ed-01e7968435b5",
+      "ClinicNum": "231654165",
+      "ClaimAmount": "401",
+      "RcmGridViewId": "1523",
+      "SubscriberId": "8084528557",
+      "SubscriberFirstName": "Jordan",
+      "SubscriberLastName": "Coe",
+      "SubscriberBirthDate": "12/15/1988",
+      "ProviderFirstName": "",
+      "ProviderLastName": "",
+      "SubscriberZipCode": "",
+      "DateOfService": "01/09/2023",
+      "ProviderTIN": "4771"
+
+    }
+  ],
+  "Login": {
+    "Url": "https://www3.deltadentalil.com/dentist/",
+    "LoginId": "payoraccess1sdb",
+    "Password": "Changeme1!",
+    "OtpRequired": false,
+    "OtpEmail": "TODO"
+  },
+  "Xpaths": [
+      {
+      "Id": 48,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 15,
+      "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Status\"},\"xpath\":\"//table[@class='lines']//tr[contains(@id,'row_')]//td[contains(text(),'%s')]//following-sibling::td[3]!@FullName\"},{\"AdditonalInfo\":{\"Click\":[\"//table[@class='lines']//tr[contains(@id,'row_')]//td[contains(text(),'%s')]//following-sibling::td[4]!@FullName\"],\"fileds\":\"Patient\"},\"xpath\":\"//td[contains(text(),'Patient')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"GroupNo\"},\"xpath\":\"//td[contains(text(),'Group No')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"ClaimNo\"},\"xpath\":\"//td[contains(text(),'Claim No')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"DepositNo\"},\"xpath\":\"//td[contains(text(),'Deposit No')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PaymentDate\"},\"xpath\":\"//td[contains(text(),'Payment Date')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"DDSLicenseNo\"},\"xpath\":\"//td[contains(text(),'DDS License No')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PayeeName\"},\"xpath\":\"//td[contains(text(),'Payee Name')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Address\"},\"xpath\":\"//td[contains(text(),'Address')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":[],\"window_print\":true,\"fileds\":[]},\"xpath\":\"//table/gofu\"}]}",
+      "IsActive": true,
+      "DataContextName": "RcmEobClaimMaster",
+      "ProductCategoryId": 2
+    },
+    {
+      "Id": 47,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 15,
+      "DataContextId": 204,
+      "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"JavaScript\":{\"BeforeSleep\":2,\"AfterSleep\":5,\"js\":\"document.querySelectorAll('a').forEach((ele)=>{const link =ele.getAttribute('href');const url ='https://www3.deltadentalil.com/dentist/'+link;const tagToFind = 'p[class]';fetch(url).then(response => response.text()).then(html => {const parser = new DOMParser();const doc = parser.parseFromString(html, 'text/html');const tag = doc.querySelector(tagToFind);if (tag) {console.log(tag.innerHTML);ele.innerText += ' ' +tag.innerHTML;} else {console.log(`No ${tagToFind} tag found`);}}).catch(error => console.error(error));});\"},\"Click\":[],\"fileds\":[\"TTH\",\"DateofService\",\"Proccode\",\"Description\",\"SubmittedAmount\",\"ApprovedAmount\",\"AllowedAmount\",\"PercentageCoPay\",\"Star\",\"COB\",\"PatientPay\",\"DeltaDentalPayment\",\"Refcode\"],\"type\":\"\"},\"xpath\":\"//table[@class='blue'][2]\"}]}",
+      "IsActive": true,
+      "DataContextName": "RcmEobClaimDetail",
+      "ProductCategoryId": 2
+    },
+    {
+      "Id": 1,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 56,
+      "DataContextId": 196,
+      "XPath":"{\"DataContextId\":\"1\",\"DataContextName\":\"EligibilityLogin\",\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//input[@id='usernameInput']\",\"PasswordXpath\":\"//input[@id='passwordInput']\",\"LoginButtonXpath\":\"//button[@id='btn-login']\",\"OtpInputXpath\":\"\",\"OtpSubmitXpath\":\"\",\"PreSteps\":[],\"PostSteps\":[],\"OtpXpath\":\"\"}]}",
+      "IsActive": true,
+      "DataContextName": "EligibilityLogin",
+      "ProductCategoryId": 2
+    }
+  ],
+  "SearchParameters": [
+    {
+      "Id": 11,
+      "EligibilityPayorInfoId": 56,
+      "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//a[contains(text(),'Claims Status Report')]\"],\"AdditonalInfo\":{\"aftersleep\":2}},\"SearchButtonXpath\":\"//input[contains(@id,'formSubmit')]\",\"PostSteps\":{\"Clicks\":[],\"AdditonalInfo\":{\"script\":{\"js\":\"document.querySelectorAll('[target]').forEach((ele)=>{ele.removeAttribute('target')})\",\"arg1\":\"\",\"arg2\":\"\"},\"aftersleep\":5,\"afterwait\":\"//table[@class='lines']\"}}},\"Queries\":[{\"Data\":\"DateOfService\",\"Xpath\":\"//input[contains(@id,'datepickerFrom')]\"},{\"Data\":\"DateOfService\",\"Xpath\":\"//input[contains(@id,'datepickerTo')]\"}]}}",
+      "IsActive": true,
+      "ProductCategoryId": 2
+    }
+  ]
+}

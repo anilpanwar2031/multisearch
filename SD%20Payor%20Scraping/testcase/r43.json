@@ -1,0 +1,56 @@
+{
+    "InputParameters": {
+        "PayorName": "Dental Network of America",
+        "PayorId": 24,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Revenue Cycle Management"
+        
+        
+    
+    
+    },   
+    "PatientData": [
+        {
+            "PatientId": "1",
+            "FirstName": "LESLIE",
+            "LastName": "TORRES",
+            "Dob": "2/12/2009",
+            "MemeberId": "829245853",
+            "InsuranceId": "4321",
+            "EligibilityVerificationId": "44",
+            "ClinicServerId": "swe"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.dnoaconnect.com",
+        "LoginId": "Thesmileytooth",
+        "Password": "hake1234",
+        "OtpRequired": false,
+        "OtpEmail": "",
+        "OtpEmailPassword": "",
+        "EmailProvierUrl": ""
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"DataContextId\":\"1\",\"DataContextName\":\"EligibilityLogin\",\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//*[@id='username']\",\"PasswordXpath\":\"//*[@id='password']\",\"LoginButtonXpath\":\"/html/body/ui-view/div/div/ui-view/div[2]/div/div[2]/div[1]/form/div[4]/button\",\"OtpInputXpath\":\"\",\"OtpSubmitXpath\":\"\",\"PreSteps\":[  ],\"PostSteps\":[] ,\"OtpXpath\":\"\"}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[],\"fileds\":[\"LineItemStatus\",\"ClaimTotals\",\"DateofService\",\"ProcedureCode\",\"Tooth_Quadrant\",\"BilledAmount\",\"AllowedAmount\",\"NotCovered\",\"Deductible\",\"Benefit\",\"BenefitAmount\",\"MemberResponsibility\"],\"type\":\"headless\"},\"xpath\":\"/html/body/ui-view/div/div/ui-view/div[2]/div/div[2]/claim-lines/div/div/div/div[2]/div/table[//tr[@ng-repeat]]\"}]}",
+            "DataContextName": "RcmEobClaimDetail"
+        },
+        {
+
+            "XPath":"{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//*[text()='Print to PDF']\"],\"fileds\":[],\"type\":\"headless\"},\"headingname\":\"BasicDetails\",\"xpath\":\"/html/body/ui-view/div/div/ui-view/div[2]/div/div[2]/claim-header/div/div/div/div\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":[\"PaymentType\",\"Check\",\"\",\"PaymentDate\",\"PaidAmount\",\"\",\"PayeeName\",\"PayeeAddress\",\"\",\"EFTInformation\",\"\"],\"type\":\"headless\"},\"headingname\":\"ClaimDetails\",\"xpath\":\"/html/body/ui-view/div/div/ui-view/div[2]/div/div[2]/claim-payments/div/div/div/div[2]/div/table\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":[]},\"headingname\":\"ClaimDetails\",\"xpath\":\"/html/body/gofu\"}]}",
+            "DataContextName": "RcmEobClaimMaster"
+        }
+        
+
+
+    ],
+    "SearchParameters": [
+        {
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//*[text()='Claims']\"],\"AdditonalInfo\":{}},\"SearchButtonXpath\":\"//*[contains(text(),'Validate')]\",\"PostSteps\":{\"Clicks\":[\"/html/body/ui-view/div/div/ui-view/div[1]/div/uib-accordion/div/div/div[2]/div/div/div[2]/div/form/div[6]/div/input\",\"//*[contains(text(),'Submit')]\",\"//div[@class]/a[contains(@href,'claims')]\"],\"AdditonalInfo\":{\"aftersleep\":5}}},\"Queries\":[{\"Data\":\"MemeberId\",\"Xpath\":\"//form[contains(@name,'claimsSearchForm')]//input[@id='subscriberId']\"},{\"Data\":\"Dob\",\"Xpath\":\"//form[contains(@name,'claimsSearchForm')]//input[@id='dateOfBirth']\"}]}}"
+        }
+    ]
+}

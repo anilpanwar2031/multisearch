@@ -1,0 +1,87 @@
+{
+  "InputParameters": {
+    "PayorName": "Government Employees Health Association-GEHA",
+    "PayorId": 35,
+    "ClientId": "857dc9bd-c432-482d-af84-437a48ccecfe",
+    "AppName": "Revenue Cycle Management",
+    "RcmClaimNumber": "38540",
+    "RcmClinicId": "d762b4f3-aa84-406c-bed3-60b087cc5696",
+    "file": "RcmEobClaimMaster"
+  },
+  "PatientData": [
+    {
+      "EligibilityVerificationId": 0,
+      "PatientId": "29526",
+      "AppointmentId": null,
+      "AppointmentDateTime": null,
+      "LastName": "Norwood",
+      "FirstName": "Mark",
+      "ClientId":"857dc9bd-c432-482d-af84-437a48ccecfe",
+      "FullName": "",
+      "BirthDate": "07/19/2013",
+      "ClinicZipcode": "",
+      "Relationship": null,
+      "ClinicServerId": "75cceb2b-a113-b2ea-2d2b-43fcbdd408ab",
+      "ClinicNum": "",
+      "ClaimAmount": "328",
+      "RcmGridViewId": "267",
+      "SubscriberId": "30876670",
+      "SubscriberFirstName": "Elizabeth",
+      "SubscriberLastName": "Norwood",
+      "SubscriberBirthDate": "04/30/1983",
+      "ProviderFirstName": "",
+      "ProviderLastName": "",
+      "SubscriberZipCode": "",
+      "DateOfService": "08/15/2022"
+    }
+  ],
+  "Login": {
+    "Url": "https://www.geha.com/enroll/provider",
+    "LoginId": "payorportal@",
+    "Password": "Changeme1!",  
+    "OtpRequired": false,
+    "OtpEmail": "TODO"
+  },
+  "Xpaths": [
+    {
+      "Id": 57,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 35,
+      "DataContextId": 196,
+      "XPath":"{\"DataContextId\":\"1\",\"DataContextName\":\"EligibilityLogin\",\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//input[contains(@id,'Username')]\",\"PasswordXpath\":\"//input[contains(@id,'Password')]\",\"LoginButtonXpath\":\"//input[contains(@id,'Login')]\",\"OtpEmail\":\"\",\"OtpInputXpath\":\"\",\"OtpSubmitXpath\":\"\",\"PreSteps\":[],\"PostSteps\":[],\"OtpXpath\":\"\",\"AdditionalInfo\":{\"StepsAfterUsernameInput\":{\"Click\":[\"//input[contains(@id,'Continue')]\"]},\"Security\":{\"SecurityQuestions\":[{\"Question\":\"\",\"Answer\":\"Nashville\",\"AnswerXpath\":\"//input[contains(@id,'SecurityAnswer')]\"}],\"PostClicks\":[\"//input[contains(@id,'Continue')]\"]}}}]}",
+      "IsActive": true,
+      "DataContextName": "EligibilityLogin",
+      "ProductCategoryId": 2
+    },
+    {
+      "Id": 58,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 35,
+      "DataContextId": 203,
+      "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PayeeName\"},\"xpath\":\"//div[contains(@class,'details')]/h3\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DateOfService\"},\"xpath\":\"//dt[text()='Date of Service']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"TotalCharges\"},\"xpath\":\"//dt[text()='Total Charges']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"MaxAllowedPPOCharges\"},\"xpath\":\"//dt[text()='Max Allowed PPO Charges']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"NotCovered\"},\"xpath\":\"//dt[text()='Not Covered']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Note\"},\"xpath\":\"//dt[text()='Note']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Allowable\"},\"xpath\":\"//dt[text()='Allowable']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Deductible\"},\"xpath\":\"//dt[text()='Deductible']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"CopayCoinsurance\"},\"xpath\":\"//dt[text()='Copay / Coinsurance']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Benefit\"},\"xpath\":\"//dt[text()='Benefit']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PayeeName1\"},\"xpath\":\"//div[2]/div[contains(@class,'details')]/h3\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DateOfService1\"},\"xpath\":\"//div[2]/div[1]/dl/dt[text()='Date of Service']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"TotalCharges1\"},\"xpath\":\"//div[2]/div[1]/dl/dt[text()='Total Charges']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"MaxAllowedPPOCharges1\"},\"xpath\":\"//div[2]/div[1]/dl/dt[text()='Max Allowed PPO Charges']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"NotCovered1\"},\"xpath\":\"//div[2]/div[1]/dl/dt[text()='Not Covered']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Note1\"},\"xpath\":\"//div[2]/div[1]/dl/dt[text()='Note']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Allowable1\"},\"xpath\":\"//div[2]/div[2]/dl/dt[text()='Allowable']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Deductible1\"},\"xpath\":\"//div[2]/div[2]/dl/dt[text()='Deductible']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"CopayCoinsurance1\"},\"xpath\":\"//div[2]/div[2]/dl/dt[text()='Copay / Coinsurance']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Benefit1\"},\"xpath\":\"//div[2]/div[2]/dl/dt[text()='Benefit']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PayeeName2\"},\"xpath\":\"//div[3]/div[contains(@class,'details')]/h3\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DateOfService2\"},\"xpath\":\"//div[3]/div[1]/dl/dt[text()='Date of Service']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"TotalCharges2\"},\"xpath\":\"//div[3]/div[1]/dl/dt[text()='Total Charges']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"MaxAllowedPPOCharges2\"},\"xpath\":\"//div[3]/div[1]/dl/dt[text()='Max Allowed PPO Charges']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"NotCovered2\"},\"xpath\":\"//div[3]/div[1]/dl/dt[text()='Not Covered']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Note2\"},\"xpath\":\"//div[3]/div[1]/dl/dt[text()='Note']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Allowable2\"},\"xpath\":\"//div[3]/div[2]/dl/dt[text()='Allowable']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Deductible2\"},\"xpath\":\"//div[3]/div[2]/dl/dt[text()='Deductible']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"CopayCoinsurance2\"},\"xpath\":\"//div[3]/div[2]/dl/dt[text()='Copay / Coinsurance']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Benefit2\"},\"xpath\":\"//div[3]/div[2]/dl/dt[text()='Benefit']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PayeeName3\"},\"xpath\":\"//div[4]/div[contains(@class,'details')]/h3\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DateOfService3\"},\"xpath\":\"//div[4]/div[1]/dl/dt[text()='Date of Service']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"TotalCharges3\"},\"xpath\":\"//div[4]/div[1]/dl/dt[text()='Total Charges']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"MaxAllowedPPOCharges3\"},\"xpath\":\"//div[4]/div[1]/dl/dt[text()='Max Allowed PPO Charges']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"NotCovered3\"},\"xpath\":\"//div[4]/div[1]/dl/dt[text()='Not Covered']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Note3\"},\"xpath\":\"//div[4]/div[1]/dl/dt[text()='Note']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Allowable3\"},\"xpath\":\"//div[4]/div[2]/dl/dt[text()='Allowable']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Deductible2\"},\"xpath\":\"//div[4]/div[2]/dl/dt[text()='Deductible']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"CopayCoinsurance3\"},\"xpath\":\"//div[4]/div[2]/dl/dt[text()='Copay / Coinsurance']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Benefit3\"},\"xpath\":\"//div[4]/div[2]/dl/dt[text()='Benefit']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PayeeName4\"},\"xpath\":\"//div[5]/div[contains(@class,'details')]/h3\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DateOfService4\"},\"xpath\":\"//div[5]/div[1]/dl/dt[text()='Date of Service']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"TotalCharges4\"},\"xpath\":\"//div[5]/div[1]/dl/dt[text()='Total Charges']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"MaxAllowedPPOCharges4\"},\"xpath\":\"//div[5]/div[1]/dl/dt[text()='Max Allowed PPO Charges']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"NotCovered4\"},\"xpath\":\"//div[5]/div[1]/dl/dt[text()='Not Covered']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Note4\"},\"xpath\":\"//div[5]/div[1]/dl/dt[text()='Note']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Allowable4\"},\"xpath\":\"//div[5]/div[2]/dl/dt[text()='Allowable']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Deductible4\"},\"xpath\":\"//div[5]/div[2]/dl/dt[text()='Deductible']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"CopayCoinsurance4\"},\"xpath\":\"//div[5]/div[2]/dl/dt[text()='Copay / Coinsurance']/following-sibling::dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Benefit4\"},\"xpath\":\"//div[5]/div[2]/dl/dt[text()='Benefit']/following-sibling::dd[1]\"}]}",
+      "IsActive": true,
+      "DataContextName": "RcmEobClaimDetail",
+      "ProductCategoryId": 2
+    },
+    {
+      "Id": 58,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 35,
+      "DataContextId": 202,
+      "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//a[contains(text(),'View')]\"],\"fileds\":\"MemberID\",\"ExceptionClick\":[]},\"xpath\":\"//strong[contains(text(),'Member ID')]/following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PatientDOB\"},\"xpath\":\"//strong[contains(text(),'Patient DOB')]/following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PatientAccountNo\"},\"xpath\":\"//strong[contains(text(),'Patient Acct')]/following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PatientName\"},\"xpath\":\"//strong[contains(text(),'Patient Name')]/following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"ClaimNumber\"},\"xpath\":\"//strong[contains(text(),'Claim Number')]/following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Status\"},\"xpath\":\"//strong[contains(text(),'Status')]/following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"ProcessedDate\"},\"xpath\":\"//strong[contains(text(),'Processed Date')]/following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"BenefitsPayable\"},\"xpath\":\"//td[contains(text(),'Benefits Payable')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PaidByOtherPlan\"},\"xpath\":\"//td[contains(text(),'Paid by Other Plan')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OtherPlanPaidAdjustment\"},\"xpath\":\"//td[contains(text(),'Other Plan Paid Adjustment')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OtherAdjustment\"},\"xpath\":\"//td[contains(text(),'Other Adjustment') and not(contains(text(),'Reason'))]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OtherAdjustmentReason\"},\"xpath\":\"//td[contains(text(),'Other Adjustment Reason')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"TotalPaidByGEHA\"},\"xpath\":\"//td[contains(text(),'Total Paid by GEHA')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PatientOwesProvider\"},\"xpath\":\"//td[contains(text(),'Patient Owes Provider')]/following-sibling::td\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Payee\"},\"xpath\":\"//div[@class='section']/table[//th[contains(text(),'Payee')]]/tbody/tr/td[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Check\"},\"xpath\":\"//div[@class='section']/table[//th[contains(text(),'Check')]]/tbody/tr/td[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Amount\"},\"xpath\":\"//div[@class='section']/table[//th[contains(text(),'Amount')]]/tbody/tr/td[3]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"\"},\"xpath\":\"/html/dfh/dskf\"}]}",
+      "IsActive": true,
+      "DataContextName": "RcmEobClaimMaster",
+      "ProductCategoryId": 2
+    }
+
+  ],
+  "SearchParameters": [
+    {
+      "Id": 18,
+      "EligibilityPayorInfoId": 35,
+      "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//input[@id='MemberSelector']\"],\"AdditonalInfo\":{\"aftersleep\":5}},\"SearchButtonXpath\":\"//input[@id='ClaimSearchSearchClaims']\",\"PostSteps\":{\"Clicks\":[\"//tbody/tr[td[contains(text(),'%s')]]/td[a]/following-sibling::td/a!@ClaimAmount\"],\"AdditonalInfo\":{\"script\":{\"js\":\"var links = document.getElementsByTagName('a');for (var i = 0; i < links.length; i++) {links[i].removeAttribute('target');}\",\"arg1\":\"//tbody/tr[td[contains(text(),'%s')]]/td[a]/following-sibling::td/a\",\"arg2\":\"ClaimAmount\"},\"sleep\":5}}},\"Queries\":[{\"Data\":\"SubscriberId\",\"Xpath\":\"//input[@id='ClaimSearchMemberID']\"},{\"Data\":\"BirthDateMM\",\"Xpath\":\"//span[input[@id='DateOfBirth']]//input[@aria-label='Month']\",\"PostClicks\":[]},{\"Data\":\"BirthDateDD\",\"Xpath\":\"//span[input[@id='DateOfBirth']]//input[@aria-label='Day']\",\"PostClicks\":[]},{\"Data\":\"BirthDateYYYY\",\"Xpath\":\"//span[input[@id='DateOfBirth']]//input[@aria-label='Year']\",\"PostClicks\":[]},{\"Data\":\"DateOfService\",\"Xpath\":\"//input[@name='ServiceFromDate']\",\"PostClicks\":[]},{\"Data\":\"DateOfService1\",\"Xpath\":\"//input[@name='ServiceToDate']\",\"PostClicks\":[]}]}}",
+      "IsActive": true,
+      "ProductCategoryId": 2
+    }
+  ]
+}

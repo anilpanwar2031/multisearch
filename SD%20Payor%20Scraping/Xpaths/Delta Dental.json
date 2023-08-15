@@ -1,0 +1,425 @@
+{
+    "EligibilityPatientVerification": [
+        {
+            "PatientEligibility": [
+                {
+                    "MemberCompanyProvidingCoverage": "Delta Dental of Virginia",
+                    "RequestedEligibilityDate": "January 22, 2023 1:31 AM CST",
+                    "Today'SDate": "January 22, 2023 1:31 AM CST",
+                    "GroupNumber": "00000006345",
+                    "GroupName": "ESTES EXPRESS LINES",
+                    "MemberName": "KEITH RUSSELL",
+                    "MemberAddress": "6505 Eldorado DrArlington, TX 76001",
+                    "PlanType": "Delta Dental PPO plus Premier",
+                    "CoverageLevel": "Employee and Children",
+                    "DependentAgeMaximum": "26",
+                    "BenefitVerificationNumber": "17010084"
+                }
+            ]
+        },
+        {
+            "PatientInfo": [
+                {
+                    "Name": "Name",
+                    "Relationship": "Relationship",
+                    "Birthday": "Birthday",
+                    "EffectiveDate": "Effective Date",
+                    "TerminationDate": "Termination Date"
+                },
+                {
+                    "Name": "KEITH RUSSELL",
+                    "Relationship": "Self",
+                    "Birthday": "11/12/1976",
+                    "EffectiveDate": "09/01/2016",
+                    "TerminationDate": null
+                }
+            ]
+        }
+    ],
+    "EligibilityBenefits": [
+        {
+            "BenefitLevels": [
+                {
+                    "ServiceType": "Diagnostic Dental [Details]",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Preventive Dental [Details]",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Restorative [Details]",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Dental Crowns [Details]",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Endodontics [Details]",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Periodontics [Details]",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Prosthodontics [Details]",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Dental Implants [Details]",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Oral Surgery [Details]",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Temporomandibular Joint Dysfunction [Details]",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Orthodontics [Details]",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                },
+                {
+                    "ServiceType": "Adjunctive Dental Services [Details]",
+                    "WaitingPeriod": "None",
+                    "PriorAuthorization": "No"
+                }
+            ]
+        },
+        {
+            "BenefitLevelsPart1": [
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "0%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "20%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "20%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "20%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "100%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "20%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "100%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "50%",
+                    "DeltaDentalPPODeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPPOPatientPays": "20%",
+                    "DeltaDentalPPODeductibleApplies": "Yes"
+                }
+            ]
+        },
+        {
+            "BenefitLevelsPart2": [
+                {
+                    "DeltaDentalPremierPatientPays": "20%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "20%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "40%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "60%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "40%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "40%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "60%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "100%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "40%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "100%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "100%",
+                    "DeltaDentalPremierDeductibleApplies": "No"
+                },
+                {
+                    "DeltaDentalPremierPatientPays": "40%",
+                    "DeltaDentalPremierDeductibleApplies": "Yes"
+                }
+            ]
+        },
+        {
+            "BenefitLevelsPart3": [
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "20%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "40%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "60%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "40%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "40%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "60%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "100%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "40%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                },
+                {
+                    "OutofNetworkPatientPays": "100%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "100%",
+                    "OutofNetworkDeductibleApplies": "No"
+                },
+                {
+                    "OutofNetworkPatientPays": "40%",
+                    "OutofNetworkDeductibleApplies": "Yes"
+                }
+            ]
+        },
+        {
+            "Limitations": [
+                {
+                    "ServiceType": "Service Type",
+                    "Limitations": "Limitations",
+                    "AgeRestrictions": "Age Restrictions",
+                    "Date": "Date"
+                },
+                {
+                    "ServiceType": "Orthodontics",
+                    "Limitations": "",
+                    "AgeRestrictions": "Over the age of 5",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "Procedure",
+                    "Limitations": "Limitations",
+                    "AgeRestrictions": "Age Restrictions",
+                    "Date": "Date"
+                },
+                {
+                    "ServiceType": "D0120",
+                    "Limitations": "2 Units every 1 Calendar Year",
+                    "AgeRestrictions": "",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D1110",
+                    "Limitations": "2 Units every 1 Calendar Year",
+                    "AgeRestrictions": "",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D2750",
+                    "Limitations": "1 Units every 60 Months",
+                    "AgeRestrictions": "",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D5213",
+                    "Limitations": "1 Units every 60 Months",
+                    "AgeRestrictions": "",
+                    "Date": ""
+                },
+                {
+                    "ServiceType": "D6205",
+                    "Limitations": "",
+                    "AgeRestrictions": "Over the age of 16",
+                    "Date": ""
+                }
+            ]
+        }
+    ],
+    "EligibilityDeductiblesProcCode": [
+        {
+            "AnnualDeductiblesDentalCareDeltaDentalPPO": [
+                {
+                    "Individual": "$50",
+                    "Family": "$150"
+                }
+            ]
+        },
+        {
+            "AnnualDeductiblesDentalCareDeltaDentalPremier": [
+                {
+                    "Individual": "$75",
+                    "Family": "$225"
+                }
+            ]
+        },
+        {
+            "AnnualDeductiblesDentalCareOutofNetwork": [
+                {
+                    "Individual": "$75",
+                    "Family": "$225"
+                }
+            ]
+        },
+        {
+            "AnnualDeductiblesNames": [
+                {
+                    "0": "Dental Care"
+                }
+            ]
+        },
+        {
+            "RemainingAnnualDeductiblesDentalCareDeltaDentalPPO": [
+                {
+                    "Individual": "$50",
+                    "Family": "$150"
+                }
+            ]
+        },
+        {
+            "RemainingAnnualDeductiblesDentalCareDeltaDentalPremier": [
+                {
+                    "Individual": "$75",
+                    "Family": "$225"
+                }
+            ]
+        },
+        {
+            "RemainingAnnualDeductiblesDentalCareOutofNetwork": [
+                {
+                    "Individual": "$75",
+                    "Family": "$225"
+                }
+            ]
+        },
+        {
+            "RemainingAnnualDeductiblesNames": [
+                {
+                    "0": "Dental Care"
+                }
+            ]
+        }
+    ],
+    "EligibilityMaximums": [
+        {
+            "AnnualMaximumsDentalCareDeltaDentalPPO": [
+                {
+                    "Individual": "$1,000",
+                    "Family": "N/A"
+                }
+            ]
+        },
+        {
+            "AnnualMaximumsDentalCareDeltaDentalPremier": [
+                {
+                    "Individual": "$750",
+                    "Family": "N/A"
+                }
+            ]
+        },
+        {
+            "AnnualMaximumsDentalCareOutofNetwork": [
+                {
+                    "Individual": "$750",
+                    "Family": "N/A"
+                }
+            ]
+        },
+        {
+            "LifetimeMaximumsDeltaDentalPPO": [
+                {
+                    "Individual": "$1,500",
+                    "Family": "N/A"
+                }
+            ]
+        },
+        {
+            "LifetimeMaximumsNames": [
+                {
+                    "0": "Orthodontics"
+                }
+            ]
+        },
+        {
+            "AnnualMaximumsNames": [
+                {
+                    "0": "Dental Care"
+                }
+            ]
+        }
+    ]
+}

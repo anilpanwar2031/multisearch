@@ -1,0 +1,21 @@
+{
+    "Xpaths": [
+        {
+            "AdditonalInfo": {
+                "Click": [
+                    "//*[contains(text(),'Benefit Levels')]","/html/body/div/div[3]/div[1]/div[3]/div[2]/table[1]/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[3]/td[5]/a"
+                ],
+                "fileds": []
+             
+            },
+            "xpath": ""
+        },
+        {
+            "AdditonalInfo": {
+                "Click": ["//select[@name='parms']","//*[text()='ORAL EXAMS']","//input[@name='submitButton']"],
+                "fileds": []
+            },
+            "xpath":"//table[@class='standardTable']"
+        }
+    ]
+}

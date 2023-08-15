@@ -1,0 +1,3124 @@
+{
+    "EligibilityMaximumAndDedecibles": [
+        {
+            "BasicPlanInfo": [
+                {
+                    "Type": "Plan Maximum",
+                    "BenefitPeriodIndividual": "$2000",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Maximum Used to Date",
+                    "BenefitPeriodIndividual": "$0",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Plan Deductible",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Deductible Satisfied to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                }
+            ]
+        },
+        {
+            "Orthodontics": [
+                {
+                    "Type": "Maximum Used to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "$0",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Plan Deductible",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Deductible Satisfied to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                }
+            ]
+        },
+        {
+            "Periodontics": [
+                {
+                    "Type": "Maximum Used to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "$0",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Plan Deductible",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                },
+                {
+                    "Type": "Deductible Satisfied to Date",
+                    "BenefitPeriodIndividual": "None",
+                    "LifetimeIndividual": "None",
+                    "BenefitPeriodFamily": "None",
+                    "LifetimeFamily": "None"
+                }
+            ]
+        },
+        {
+            "Tmj": [
+                {
+                    "Tmj": "Benefit PeriodIndividual\nLifetimeIndividual\nBenefit PeriodFamily\nLifetimeFamily Plan Maximum None $1250 None None Maximum Used to Date None $0 None None Plan Deductible None None None None Deductible Satisfied to Date None None None None Notes If MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, MetLife may pay benefits based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If MetLife pays a benefit based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist. A pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services. This summary is based on processed claims as of 01/23/2023. Future benefits will be determined in the order that claims are received and processed."
+                }
+            ]
+        },
+        {
+            "PlanNotes": "Eligibility is not a guarantee of coverage as actual benefit payments are determined only when a claim is adjudicated.\nIf MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, MetLife may pay benefits based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If MetLife pays a benefit based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist.\nA pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services.\nThis summary is based on processed claims as of 01/23/2023. Future benefits will be determined in the order that claims are received and processed.",
+            "OrthodonticsNotes": "Payment method is: Monthly Repetitive\nMaximum Age for Orthodontics:\n  Dependent Child: Up to age 19\n  Dependent Child (Full-time Student): Up to age 19\n  All Others: Not Covered.\nOrthodontic Benefit Level: 50%\nPercentage Considered at Initial Ortho Placement 25%\nA pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services.\nThis summary is based on processed claims as of 01/23/2023. Future benefits will be determined in the order that claims are received and processed.",
+            "PeriodonticsNotes": "If MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, MetLife may pay benefits based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If MetLife pays a benefit based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist.\nA pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services.\nThis summary is based on processed claims as of 01/23/2023. Future benefits will be determined in the order that claims are received and processed."
+        }
+    ],
+    "EligibilityBenefitsAndLimitations": [
+        {
+            "ProcedureDescription": "ORAL EXAMS",
+            "Frequency/AgeLimitlastDateOfService": "2 TIMES IN 1 CALENDAR YEAR 11/23/22",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "INTRAORAL-COMPREHENSIVE SERIES OF",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 5 CALENDAR YEARS",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "BITEWING-SINGLE IMAGE",
+            "Frequency/AgeLimitlastDateOfService": "2 PER 1 CALENDAR YEAR(S) FOR CHILDREN, 1 PER 1 CALENDAR YEAR(S) FOR ADULTS 11/23/22",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "REMOVAL OF PLAQUE/CALCULUS/STAINS",
+            "Frequency/AgeLimitlastDateOfService": "2 TIMES IN 1 CALENDAR YEAR 11/23/22",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "TOPICAL APPLICATION - FLUORIDE",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 1 CALENDAR YEAR Up to Age 14 11/23/22",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "SEALANTS",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 5 CALENDAR YEARS, PERMANENT MOLARS ONLY, EXCLUDING WISDOM TEETH Up to Age 19",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "SPACE MAINTAINER",
+            "Frequency/AgeLimitlastDateOfService": "Up to Age 14",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "AMALGAMS/ FILLINGS",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "COMPOSITES/ FILLINGS",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "INLAY/ ONLAY",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 10 CALENDAR YEARS",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "CROWN",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 10 CALENDAR YEARS",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "RECEMENT/BOND INLAY ONLAY VENEER",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "CROWN REPAIR",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "ENDODONTICS/ ROOT CANAL",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 1 CALENDAR YEAR",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "PERIODONTAL SURGERY",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 5 CALENDAR YEARS",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "PERIODONTAL SCALING/ ROOT PLANING",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 5 CALENDAR YEARS",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "PERIODONTAL MAINTENANCE",
+            "Frequency/AgeLimitlastDateOfService": "2 TIMES IN 1 CALENDAR YEAR",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "DENTURE",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 10 CALENDAR YEARS",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "IMPLANTS AND SUPPORTED PROSTHETICS",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 10 CALENDAR YEARS",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "BRIDGE",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 10 CALENDAR YEARS",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "EXTRACTIONS",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "85%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "ORAL SURGERY",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "TMJ",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 1 CALENDAR YEAR",
+            "BenefitLevel": "50%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "ORTHODONTICS",
+            "Frequency/AgeLimitlastDateOfService": "Up to Age 19",
+            "BenefitLevel": "50%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "PALLIATIVE TREATMENT",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "100%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "DEEP SEDATION/GEN ANES 1ST 15",
+            "Frequency/AgeLimitlastDateOfService": "",
+            "BenefitLevel": "60%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "OCCLUSAL GUARDS",
+            "Frequency/AgeLimitlastDateOfService": "1 TIME IN 1 CALENDAR YEAR",
+            "BenefitLevel": "50%",
+            "Deductible": "NO",
+            "More": ""
+        },
+        {
+            "ProcedureDescription": "BLEACHING",
+            "Frequency/AgeLimitlastDateOfService": "*NOT COVERED",
+            "BenefitLevel": "",
+            "Deductible": "",
+            "More": ""
+        },
+        {
+            "Notes": "Eligibility is not a guarantee of coverage as actual benefit payments are determined only when a claim is adjudicated.\n*These procedures are commonly used and represent a grouping of related procedures. Additional procedures in this category may be available under your plan.\nLike most dental benefit plans, Metlife's dental benefits plans contain certain exclusions and limitations. The patient should refer to his/her plan booklet for complete plan details.\nIf MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, MetLife may pay benefits based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If MetLife pays a benefit based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist.\nA pretreatment estimate is recommended before the start of extensive dental treatment such as crowns, veneers, bridgework, implants, orthodontics, or periodontal services.\nInitial installation of fixed or removable bridgework/dentures is only available to replace one or more natural teeth lost while Dental Expense Benefits for the covered person are in effect."
+        }
+    ],
+    "EligibilityPatientSummary": [
+        {
+            "SsnOrId#": "XXXXXXXXX",
+            "Patient": "VEDAANT D PATEL",
+            "Network": "PDP PLUS",
+            "GroupName": "ERNST & YOUNG",
+            "Group#": "142746"
+        },
+        {
+            "AdditonalInfo": "Additional Info:\nEligibility is not a guarantee of coverage as actual benefit payments are determined only when a claim is adjudicated.\n\nIf MetLife determines that a less costly service than the covered service performed by a dentist could have been performed to treat a dental condition, MetLife may pay benefits based upon the less costly service if such service 1) would produce a professionally acceptable result under generally accepted dental standards, and 2) would qualify as a covered service. If MetLife pays a benefit based upon a less costly service, the dentist may charge a patient or a patient's dependent for the difference between the service that was performed and the less costly service. This may be the case, even if the service is performed by an in-network dentist.",
+            "GeneralInformation": "General Information:\nCoverage has been selected for: Employee, spouse and children\nMaximum dependent age: 23\nMaximum student age: 23\nPlan Benefit start date: January 01\nOrthodontics covered: YES\nMaximum Age for Orthodontics:\nDependent Child:\n    Up to age 19\nDependent Child (Full-time Student):\n    Up to age 19\nAll Others:\n    Not Covered.\nCoordination of Benefits: Birthday Rule\nCOB with any other Dental Plan: This plan coordinates benefits based on the above provision.\nPlan Benefits available for teeth lost prior to effective date: NO\nPlan has a Network Feature:  YES",
+            "Address": "MetLife Customer Service Phone:\n1-877-MET-DDS9 (1-877-638-3379)\nClaim Form\n\nMail Claims to:\nMetLife Dental\nP.O. Box 14588\nLexington, KY 40512\nOr Fax to:\n          1-859-825-6726\nFor Electronic Claims Submissions, use Payor ID 65978",
+            "SubscriberName": "   Subscriber's Name:DARSHAN PATEL",
+            "PlanBenefitSummary": "Plan Benefits Summary as of 01/23/2023"
+        }
+    ],
+    "EligibilitySummary": [
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D0120",
+            "Description": "PERIODIC ORAL EVALUATION - ESTABLISHED PATIENT TO DETERMINE ANY CHANGES IN THE PATIENTS DENTAL/MEDICAL HEALTH STATUS SINCE A PREVIOUS EVALUATION",
+            "NetworkFee": "$31",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D0140",
+            "Description": "LIMITED ORAL EVALUATION - PROBLEM FOCUSED",
+            "NetworkFee": "$49",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D0145",
+            "Description": "ORAL EVALUATION FOR A PATIENT UNDER THREE YEARS OF AGE AND COUNSELING WITH PRIMARY CAREGIVER",
+            "NetworkFee": "$40",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D0150",
+            "Description": "COMPREHENSIVE ORAL EVALUATION - NEW OR ESTABLISHED PATIENT",
+            "NetworkFee": "$51",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D0160",
+            "Description": "DETAILED AND EXTENSIVE ORAL EVALUATION - PROBLEM-FOCUSED, BY REPORT",
+            "NetworkFee": "$109",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D0170",
+            "Description": "RE-EVALUATION - LIMITED, PROBLEM FOCUSED (ESTABLISHED PATIENT; NOT POST-OPERATIVE VISIT)",
+            "NetworkFee": "$39",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D0180",
+            "Description": "COMPREHENSIVE PERIODONTAL EVALUATION - NEW OR ESTABLISHED PATIENT PROCEDURE FOR PATIENTS WITH SIGNS/SYMPTOMS OF PERIO DISEASE AND WITH RISK FACTORS",
+            "NetworkFee": "$58",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D9310",
+            "Description": "CONSULTATION, (DIAGNOSTIC SERVICE PROVIDED BY DENTIST OR PHYSICIAN OTHER THAN PRACTITIONER PROVIDING TREATMENT)",
+            "NetworkFee": "$105",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D9311",
+            "Description": "CONSULTATION WITH A MEDICAL HEALTH CARE PROFESSIONAL",
+            "NetworkFee": "$103",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D1206",
+            "Description": "TOPICAL FLUORIDE-VARNISH",
+            "NetworkFee": "$32",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1208",
+            "Description": "TOPICAL APPLICATION FLUORIDE",
+            "NetworkFee": "$23",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1999",
+            "Description": "UNSPECIFIED PREVENTIVE PROCEDURE, BY REPORT",
+            "NetworkFee": "",
+            "PlanBenefit": "N/AVAIL",
+            "PatientObligation": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D0270",
+            "Description": "BITEWING-SINGLE IMAGE",
+            "NetworkFee": "$18",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D0272",
+            "Description": "BITEWINGS-TWO IMAGES",
+            "NetworkFee": "$28",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D0273",
+            "Description": "BITEWINGS-THREE IMAGES",
+            "NetworkFee": "$33",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D0274",
+            "Description": "BITEWINGS-FOUR IMAGES",
+            "NetworkFee": "$39",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D0277",
+            "Description": "VERTICAL BITEWINGS 7-8 IMAGES",
+            "NetworkFee": "$61",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D0373",
+            "Description": "INTRAORAL TOMOSYNTHESIS - BITEWING RADIOGRAPHIC IMAGE",
+            "NetworkFee": "$18",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D4910",
+            "Description": "PERIODONTAL MAINTENANCE",
+            "NetworkFee": "$96",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D1510",
+            "Description": "SPACE MAINTAINER - FIXED, UNILATERAL - PER QUADRANT EXCLUDES A DISTAL SHOE SPACE MAINTAINER.",
+            "NetworkFee": "$219",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1516",
+            "Description": "SPACE MAINTAINER - FIXED - BILATERAL, MAXILLARY",
+            "NetworkFee": "$292",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1517",
+            "Description": "SPACE MAINTAINER - FIXED - BILATERAL, MANDIBULAR",
+            "NetworkFee": "$292",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1520",
+            "Description": "SPACE MAINTAINER - REMOVABLE, UNILATERAL - PER QUADRANT",
+            "NetworkFee": "$261",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1526",
+            "Description": "SPACE MAINTAINER - REMOVABLE - BILATERAL, MAXILLARY",
+            "NetworkFee": "$374",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1527",
+            "Description": "SPACE MAINTAINER - REMOVABLE - BILATERAL, MANDIBULAR",
+            "NetworkFee": "$374",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1551",
+            "Description": "RE-CEMENT OR RE-BOND BILATERAL SPACE MAINTAINER - MAXILLARY",
+            "NetworkFee": "$47",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1552",
+            "Description": "RE-CEMENT OR RE-BOND BILATERAL SPACE MAINTAINER - MANDIBULAR",
+            "NetworkFee": "$47",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1553",
+            "Description": "RE-CEMENT OR RE-BOND UNILATERAL SPACE MAINTAINER - PER QUADRANT",
+            "NetworkFee": "$47",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1575",
+            "Description": "DISTAL SHOE SPACE MAINTAINER - FIXED, UNILATERAL - PER QUADRANT. FABRICATION AND DELIVERY OF FIXED APPLIANCE TO GUIDE FIRST PERMANENT MOLAR ERUPTION.",
+            "NetworkFee": "$219",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D9110",
+            "Description": "PALLIATIVE TREATMENT OF DENTAL PAIN PER VISIT RELIEVES PAIN BUT IS NOT CURATIVE; SERVICES PROVIDED DO NOT HAVE DISTINCT PROCEDURE CODES.",
+            "NetworkFee": "$68",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D2510",
+            "Description": "INLAY, METALLIC - ONE SURFACE",
+            "NetworkFee": "$459",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2520",
+            "Description": "INLAY, METALLIC - TWO SURFACES",
+            "NetworkFee": "$599",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2530",
+            "Description": "INLAY, METALLIC - THREE OR MORE SURFACES",
+            "NetworkFee": "$639",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2542",
+            "Description": "ONLAY, METALLIC - TWO SURFACES",
+            "NetworkFee": "$633",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2543",
+            "Description": "ONLAY, METALLIC - THREE SURFACES",
+            "NetworkFee": "$669",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2544",
+            "Description": "ONLAY, METALLIC - FOUR OR MORE SURFACES",
+            "NetworkFee": "$715",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2610",
+            "Description": "INLAY, PORCELAIN/CERAMIC - ONE SURFACE",
+            "NetworkFee": "$513",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2620",
+            "Description": "INLAY, PORCELAIN/CERAMIC - TWO SURFACES",
+            "NetworkFee": "$533",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2630",
+            "Description": "INLAY, PORCELAIN/CERAMIC - THREE OR MORE SURFACES",
+            "NetworkFee": "$595",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2642",
+            "Description": "ONLAY, PORCELAIN/CERAMIC - TWO SURFACES",
+            "NetworkFee": "$647",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2643",
+            "Description": "ONLAY, PORCELAIN/CERAMIC - THREE SURFACES",
+            "NetworkFee": "$696",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2644",
+            "Description": "ONLAY, PORCELAIN/CERAMIC - FOUR OR MORE SURFACES",
+            "NetworkFee": "$725",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2650",
+            "Description": "INLAY, COMPOSITE/RESIN - ONE SURFACE (LABORATORY PROCESSED)",
+            "NetworkFee": "$367",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2651",
+            "Description": "INLAY, COMPOSITE/RESIN - TWO SURFACES (LABORATORY PROCESSED)",
+            "NetworkFee": "$512",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2652",
+            "Description": "INLAY, COMPOSITE/RESIN - THREE OR MORE SURFACES (LABORATORY PROCESSED)",
+            "NetworkFee": "$517",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2662",
+            "Description": "ONLAY, COMPOSITE/RESIN - TWO SURFACES (LABORATORY PROCESSED)",
+            "NetworkFee": "$489",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2663",
+            "Description": "ONLAY, COMPOSITE/RESIN - THREE SURFACES(LABORATORY PROCESSED)",
+            "NetworkFee": "$557",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2664",
+            "Description": "ONLAY, COMPOSITE/RESIN - FOUR OR MORE SURFACES (LABORATORY PROCESSED)",
+            "NetworkFee": "$581",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D5110",
+            "Description": "COMPLETE DENTURE, UPPER",
+            "NetworkFee": "$901",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5120",
+            "Description": "COMPLETE DENTURE, LOWER",
+            "NetworkFee": "$901",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5130",
+            "Description": "IMMEDIATE DENTURE - MAXILLARY",
+            "NetworkFee": "$960",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5140",
+            "Description": "IMMEDIATE DENTURE - MANDIBULAR",
+            "NetworkFee": "$960",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5211",
+            "Description": "MAXILLARY PARTIAL DENTURE - RESIN BASE (INCLUDING, RETENTIVE/CLASPING MATERIALS, RESTS, AND TEETH)",
+            "NetworkFee": "$754",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5212",
+            "Description": "MANDIBULAR PARTIAL DENTURE - RESIN BASE (INCLUDING, RETENTIVE/CLASPING MATERIALS, RESTS, AND TEETH)",
+            "NetworkFee": "$849",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5213",
+            "Description": "MAXILLARY PARTIAL DENTURE - CAST METAL FRAMEWORK WITH RESIN DENTURE BASES (INCLUDING RETENTIVE/CLASPING MATERIALS, RESTS AND TEETH)",
+            "NetworkFee": "$990",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5214",
+            "Description": "MANDIBULAR PARTIAL DENTURE - CAST METAL FRAMEWORK WITH RESIN DENTURE BASES (INCLUDING RETENTIVE/CLASPING MATERIALS, RESTS AND TEETH)",
+            "NetworkFee": "$990",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5221",
+            "Description": "IMMEDIATE MAXILLARY PARTIAL DENTURE - RESIN BASE (RETENTIVE/CLASPING MATERIALS, RESTS AND TEETH) LIMITED FOLLOW-UP; NO FUTURE REBASING/RELINING.",
+            "NetworkFee": "$696",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5222",
+            "Description": "IMMEDIATE MANDIBULAR PARTIAL DENTURE - RESIN BASE (INCLUDING RETENTIVE/CLASPING MATERIALS, RESTS AND TEETH) LIMITED FOLLOW-UP; NO FUTURE REBASE/RELINE",
+            "NetworkFee": "$742",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5223",
+            "Description": "IMMEDIATE MAXILLARY PARTIAL DENTURE - CAST METAL FRAMEWORK WITH RESIN DENTURE BASES (INCLUDING RETENTIVE/CLASPING MATERIALS, RESTS AND TEETH)",
+            "NetworkFee": "$994",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5224",
+            "Description": "IMMEDIATE MANDIBULAR PARTIAL DENTURE - CAST METAL FRAMEWORK WITH RESIN DENTURE BASES (INCLUDING RETENTIVE/CLASPING MATERIALS, RESTS AND TEETH)",
+            "NetworkFee": "$1013",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5225",
+            "Description": "MAXILLARY PARTIAL DENTURE - FLEXIBLE BASE (INCLUDING ANY CLASPS, RESTS AND TEETH",
+            "NetworkFee": "$949",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5226",
+            "Description": "MANDIBULAR PARTIAL DENTURE - FLEXIBLE BASE (INCLUDING ANY CLASPS, RESTS AND TEETH",
+            "NetworkFee": "$957",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5227",
+            "Description": "IMMEDIATE MAXILLARY PARTIAL DENTURE - FLEXIBLE BASE (INCLUDING ANY CLASPS, RESTS AND TEETH)",
+            "NetworkFee": "$949",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5228",
+            "Description": "IMMEDIATE MANDIBULAR PARTIAL DENTURE - FLEXIBLE BASE (INCLUDING ANY CLASPS, RESTS AND TEETH)",
+            "NetworkFee": "$957",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5282",
+            "Description": "REMOVABLE UNILATERAL PARTIAL DENTURE - ONE PIECE CAST METAL (INCLUDING CLASPS AND TEETH), MAXILLARY",
+            "NetworkFee": "$545",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5283",
+            "Description": "REMOVABLE UNILATERAL PARTIAL DENTURE - ONE PIECE CAST METAL (INCLUDING CLASPS AND TEETH), MANDIBULAR",
+            "NetworkFee": "$537",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5410",
+            "Description": "ADJUST COMPLETE UPPER DENTURE",
+            "NetworkFee": "$51",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5411",
+            "Description": "ADJUST COMPLETE LOWER DENTURE",
+            "NetworkFee": "$51",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5421",
+            "Description": "ADJUST PARTIAL UPPER DENTURE",
+            "NetworkFee": "$51",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5422",
+            "Description": "ADJUST PARTIAL LOWER DENTURE",
+            "NetworkFee": "$51",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5511",
+            "Description": "REPAIR BROKEN COMPLETE DENTURE BASE, MANDIBULAR",
+            "NetworkFee": "$105",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5512",
+            "Description": "REPAIR BROKEN COMPLETE DENTURE BASE, MAXILLARY",
+            "NetworkFee": "$104",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5520",
+            "Description": "REPLACE MISSING OR BROKEN TEETH, COMPLETE DENTURE (EACH TOOTH)",
+            "NetworkFee": "$89",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5611",
+            "Description": "REPAIR RESIN PARTIAL DENTURE BASE, MANDIBULAR",
+            "NetworkFee": "$111",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5612",
+            "Description": "REPAIR RESIN PARTIAL DENTURE BASE, MAXILLARY",
+            "NetworkFee": "$108",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5621",
+            "Description": "REPAIR CAST PARTIAL FRAMEWORK, MANDIBULAR",
+            "NetworkFee": "$125",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5622",
+            "Description": "REPAIR CAST PARTIAL FRAMEWORK, MAXILLARY",
+            "NetworkFee": "$126",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5630",
+            "Description": "REPAIR OR REPLACE BROKEN RETENTIVE CLASPING MATERIALS - PER TOOTH",
+            "NetworkFee": "$139",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5640",
+            "Description": "REPLACE BROKEN TEETH - PER TOOTH",
+            "NetworkFee": "$95",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5650",
+            "Description": "ADD TOOTH TO EXISTING PARTIAL DENTURE",
+            "NetworkFee": "$125",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5660",
+            "Description": "ADD CLASP TO EXISTING PARTIAL DENTURE - PER TOOTH",
+            "NetworkFee": "$147",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5670",
+            "Description": "REPLACE ALL TEETH AND ACRYLIC ON CAST METAL FRAMEWORK (MAXILLARY)",
+            "NetworkFee": "$409",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5671",
+            "Description": "REPLACE ALL TEETH AND ACRYLIC ON CAST METAL FRAMEWORK (MANDIBULAR)",
+            "NetworkFee": "$421",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5710",
+            "Description": "REBASE COMPLETE UPPER DENTURE",
+            "NetworkFee": "$336",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5711",
+            "Description": "REBASE COMPLETE LOWER DENTURE",
+            "NetworkFee": "$322",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5720",
+            "Description": "REBASE UPPER PARTIAL DENTURE",
+            "NetworkFee": "$321",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5721",
+            "Description": "REBASE LOWER PARTIAL DENTURE",
+            "NetworkFee": "$324",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5725",
+            "Description": "REBASE HYBRID PROSTHESIS- REPLACING THE BASE MATERIAL CONNECTED TO THE FRAMEWORK.",
+            "NetworkFee": "$336",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5730",
+            "Description": "RELINE COMPLETE UPPER DENTURE (CHAIRSIDE)",
+            "NetworkFee": "$207",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5731",
+            "Description": "RELINE COMPLETE LOWER DENTURE (CHAIRSIDE)",
+            "NetworkFee": "$203",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5740",
+            "Description": "RELINE UPPER PARTIAL DENTURE (CHAIRSIDE)",
+            "NetworkFee": "$183",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5741",
+            "Description": "RELINE LOWER PARTIAL DENTURE (CHAIRSIDE)",
+            "NetworkFee": "$188",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5750",
+            "Description": "RELINE UPPER COMPLETE DENTURE (LABORATORY)",
+            "NetworkFee": "$271",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5751",
+            "Description": "RELINE LOWER COMPLETE DENTURE (LABORATORY)",
+            "NetworkFee": "$270",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5760",
+            "Description": "RELINE UPPER PARTIAL DENTURE (LABORATORY)",
+            "NetworkFee": "$264",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5761",
+            "Description": "RELINE LOWER PARTIAL DENTURE (LABORATORY)",
+            "NetworkFee": "$266",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5765",
+            "Description": "SOFT LINER FOR COMPLETE OR PARTIAL REMOVABLE DENTURE INDIRECT- A DISCRETE PROCEDURE PROVIDE WHEN PLACEMENT OF THE SOFT LINER IS CLINICALLY NEEDED",
+            "NetworkFee": "$271",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5850",
+            "Description": "TISSUE CONDITIONING, UPPER",
+            "NetworkFee": "$96",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5851",
+            "Description": "TISSUE CONDITIONING, LOWER",
+            "NetworkFee": "$92",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5862",
+            "Description": "PRECISION ATTACHMENT, BY REPORT EACH PAIR OF COMPONENTS IS ONE PRECISION ATTACHMENT. DESCRIBE THE TYPE OF ATTACHMENT USED",
+            "NetworkFee": "$282",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5863",
+            "Description": "OVERDENTURE - COMPLETE MAXILLARY",
+            "NetworkFee": "$1003",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5864",
+            "Description": "OVERDENTURE - PARTIAL MAXILLARY",
+            "NetworkFee": "$956",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5865",
+            "Description": "OVERDENTURE - COMPLETE MANDIBULAR",
+            "NetworkFee": "$1036",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5866",
+            "Description": "OVERDENTURE - PARTIAL MANDIBULAR",
+            "NetworkFee": "$951",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5867",
+            "Description": "REPLACEMENT OF REPLACEABLE PART OF SEMI-PRECISION OR PRECISION ATTACHMENT, PER ATTACHMENT",
+            "NetworkFee": "$33",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5875",
+            "Description": "MODIFICATION OF REMOVABLE PROSTHESIS FOLLOWING IMPLANT SURGERY",
+            "NetworkFee": "$233",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D5876",
+            "Description": "ADD METAL SUBSTRUCTURE TO ACRYLIC FULL DENTURE (PER ARCH)",
+            "NetworkFee": "$148",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D5899",
+            "Description": "UNSPECIFIED REMOVABLE PROSTHODONTIC PROCEDURE, BY REPORT",
+            "NetworkFee": "",
+            "PlanBenefit": "N/AVAIL",
+            "PatientObligation": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "procedureCode": "D6090",
+            "Description": "REPAIR IMPLANT SUPPORTED PROSTHESIS, BY REPORT",
+            "NetworkFee": "$113",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D6110",
+            "Description": "IMPLANT/SUPPORTED REMOVABLE DENTURE FOR EDENTULOUS ARCH - MAXILLARY",
+            "NetworkFee": "$1524",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6111",
+            "Description": "IMPLANT/SUPPORTED REMOVABLE DENTURE FOR EDENTULOUS ARCH - MANDIBULAR",
+            "NetworkFee": "$1524",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6112",
+            "Description": "IMPLANT/SUPPORTED REMOVABLE DENTURE FOR PARTIAL EDENTULOUS ARCH - MAXILLARY",
+            "NetworkFee": "$1526",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6113",
+            "Description": "IMPLANT/SUPPORTED REMOVABLE DENTURE FOR PARTIAL EDENTULOUS ARCH - MANDIBULAR",
+            "NetworkFee": "$1526",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6114",
+            "Description": "IMPLANT/ABUTMENT SUPPORTED FIXED DENTURE FOR EDENTULOUS ARCH - MAXILLARY",
+            "NetworkFee": "$2044",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6115",
+            "Description": "IMPLANT/ABUTMENT SUPPORTED FIXED DENTURE FOR EDENTULOUS ARCH - MANDIBULAR",
+            "NetworkFee": "$2044",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6116",
+            "Description": "IMPLANT/ABUTMENT SUPPORTED FIXED DENTURE FOR PARTIALLY EDENTULOUS ARCH - MAXILLARY",
+            "NetworkFee": "$1555",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6117",
+            "Description": "IMPLANT/ABUTMENT SUPPORTED FIXED DENTURE FOR PARTIALLY EDENTULOUS ARCH - MANDIBULAR",
+            "NetworkFee": "$1555",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D6068",
+            "Description": "ABUT SUPP RETAINER PORCELAIN",
+            "NetworkFee": "$1069",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6069",
+            "Description": "ABUT SUPP RETAINER HIGH NOBLE",
+            "NetworkFee": "$1049",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6070",
+            "Description": "ABUT SUPP RETAINER BASE METAL",
+            "NetworkFee": "$989",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6071",
+            "Description": "ABUT SUPP RETAINER PORCEL - METAL",
+            "NetworkFee": "$1001",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6072",
+            "Description": "ABUT SUPP RETAINER HIGH NOBLE",
+            "NetworkFee": "$1013",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6073",
+            "Description": "ABUT SUPP RETAINER BASE METAL",
+            "NetworkFee": "$980",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6074",
+            "Description": "ABUT SUPP RETAINER NOBLE METAL",
+            "NetworkFee": "$983",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6075",
+            "Description": "IMPLANT SUPP RETAINER CERAMIC",
+            "NetworkFee": "$1073",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6076",
+            "Description": "IMPLANT SUPPORTED RETAINER FOR FPD - PORCELAIN FUSED TO HIGH NOBLE ALLOYS. METAL-CERAMIC RETAINER FOR A FIXED PARTIAL TO GAIN RETENTION AND STABILITY.",
+            "NetworkFee": "$1052",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6077",
+            "Description": "IMPLANT SUPPORTED RETAINER FOR METAL FPD - HIGH NOBLE ALLOYS. METAL RETAINER FOR A FIXED PARTIAL DENTURE THAT GAINS RETENTION, SUPPORT AND STABILITY.",
+            "NetworkFee": "$931",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6098",
+            "Description": "IMPLANT SUPPORTED RETAINER - PORCELAIN FUSED TO PREDOMINANTLY BASE ALLOYS. RETAINER FOR A FIXED PARTIAL THAT GAINS RETENTION, SUPPORT AND STABILITY.",
+            "NetworkFee": "$858",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6099",
+            "Description": "IMPLANT SUPPORTED RETAINER FOR FPD - PORCELAIN FUSED TO NOBLE ALLOYS. METAL-CERAMIC RETAINER FOR A FIXED PARTIAL THAT GAINS RETENTION AND STABILITY.",
+            "NetworkFee": "$877",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6121",
+            "Description": "IMPLANT SUPPORTED RETAINER FOR METAL FPD - PREDOMINANTLY BASE ALLOYS. METAL RETAINER FOR A FIXED PARTIAL THAT GAINS RETENTION, SUPPORT, AND STABILITY.",
+            "NetworkFee": "$976",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6122",
+            "Description": "IMPLANT SUPPORTED RETAINER FOR METAL FPD - NOBLE ALLOYS. METAL RETAINER FOR A FIXED PARTIAL DENTURE THAT GAINS RETENTION, SUPPORT, AND STABILITY.",
+            "NetworkFee": "$1034",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6195",
+            "Description": "ABUTMENT SUPPORTED RETAINER - PORCELAIN FUSED TO TITANIUM AND TITANIUM ALLOYS. RETAINER FOR A FIXED PARTIAL THAT GAINS RETENTION AND STABILITY.",
+            "NetworkFee": "$886",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6205",
+            "Description": "PONTIC - INDIRECT RESIN BASED COMPOSITE",
+            "NetworkFee": "$499",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6210",
+            "Description": "PONTIC - CAST HIGH NOBLE METAL",
+            "NetworkFee": "$669",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6211",
+            "Description": "PONTIC - CAST PREDOMINANTLY BASE METAL",
+            "NetworkFee": "$626",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6212",
+            "Description": "PONTIC - CAST NOBLE METAL",
+            "NetworkFee": "$657",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6214",
+            "Description": "PONTIC - TITANIUM AND TITANIUM ALLOYS",
+            "NetworkFee": "$665",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6240",
+            "Description": "PONTIC - PORCELAIN FUSED TO HIGH NOBLE METAL",
+            "NetworkFee": "$684",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6241",
+            "Description": "PONTIC - PORCELAIN FUSED TO PREDOMINANTLY BASE METAL",
+            "NetworkFee": "$623",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6242",
+            "Description": "PONTIC - PORCELAIN FUSED TO NOBLE METAL",
+            "NetworkFee": "$654",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6243",
+            "Description": "PONTIC - PORCELAIN FUSED TO TITANIUM AND TITANIUM ALLOYS",
+            "NetworkFee": "$624",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6245",
+            "Description": "PONTIC - PORCELAIN/CERAMIC",
+            "NetworkFee": "$730",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6250",
+            "Description": "PONTIC - RESIN WITH HIGH NOBLE METAL",
+            "NetworkFee": "$692",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6251",
+            "Description": "PONTIC - RESIN WITH PREDOMINANTLY BASE METAL",
+            "NetworkFee": "$637",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6252",
+            "Description": "PONTIC - RESIN WITH NOBLE METAL",
+            "NetworkFee": "$667",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6545",
+            "Description": "RETAINER - CAST METAL FOR RESIN BONDED FIXED PROSTHESIS",
+            "NetworkFee": "$283",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6548",
+            "Description": "RETAINER - PORCELAIN/CERAMIC FOR RESIN BONDED FIXED PROSTHESIS",
+            "NetworkFee": "$419",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6549",
+            "Description": "RESIN RETAINER - FOR RESIN BONDED FIXED PROSTHESIS",
+            "NetworkFee": "$244",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6600",
+            "Description": "RETAINER INLAY - PORCELAIN/CERAMIC, TWO SURFACES",
+            "NetworkFee": "$539",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6601",
+            "Description": "RETAINER INLAY - PORCELAIN/CERAMIC, THREE OR MORE SURFACES",
+            "NetworkFee": "$560",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6602",
+            "Description": "RETAINER INLAY - CAST HIGH NOBLE METAL, TWO SURFACES",
+            "NetworkFee": "$623",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6603",
+            "Description": "RETAINER INLAY - CAST HIGH NOBLE METAL, THREE OR MORE SURFACES",
+            "NetworkFee": "$608",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6604",
+            "Description": "RETAINER INLAY - CAST PREDOMINANTLY BASE METAL, TWO SURFACES",
+            "NetworkFee": "$472",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6605",
+            "Description": "RETAINER INLAY - CAST PREDOMINANTLY BASE METAL, THREE OR MORE SURFACES",
+            "NetworkFee": "$576",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6606",
+            "Description": "RETAINER INLAY - CAST NOBLE METAL, TWO SURFACES",
+            "NetworkFee": "$532",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6607",
+            "Description": "RETAINER INLAY - CAST NOBLE METAL, THREE OR MORE SURFACES",
+            "NetworkFee": "$590",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6608",
+            "Description": "RETAINER ONLAY - PORCELAIN/CERAMIC, TWO SURFACES",
+            "NetworkFee": "$588",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6609",
+            "Description": "RETAINER ONLAY - PORCELAIN/CERAMIC, THREE OR MORE SURFACES",
+            "NetworkFee": "$643",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6610",
+            "Description": "RETAINER ONLAY - CAST HIGH NOBLE METAL, TWO SURFACES",
+            "NetworkFee": "$509",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6611",
+            "Description": "RETAINER ONLAY - CAST HIGH NOBLE METAL, THREE OR MORE SURFACES",
+            "NetworkFee": "$689",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6612",
+            "Description": "RETAINER ONLAY - CAST PREDOMINANTLY BASE METAL, TWO SURFACES",
+            "NetworkFee": "$600",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6613",
+            "Description": "RETAINER ONLAY - CAST PREDOMINANTLY BASE METAL, THREE OR MORE SURFACES",
+            "NetworkFee": "$633",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6614",
+            "Description": "RETAINER ONLAY - CAST NOBLE METAL, TWO SURFACES",
+            "NetworkFee": "$607",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6615",
+            "Description": "RETAINER ONLAY - CAST NOBLE METAL, THREE OR MORE SURFACES",
+            "NetworkFee": "$636",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6624",
+            "Description": "RETAINER INLAY - TITANIUM",
+            "NetworkFee": "$632",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6634",
+            "Description": "RETAINER ONLAY - TITANIUM",
+            "NetworkFee": "$618",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6710",
+            "Description": "RETAINER CROWN - INDIRECT RESIN BASED COMPOSITE",
+            "NetworkFee": "$534",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6720",
+            "Description": "RETAINER CROWN - RESIN WITH HIGH NOBLE METAL",
+            "NetworkFee": "$640",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6721",
+            "Description": "RETAINER CROWN - RESIN WITH PREDOMINANTLY BASE METAL",
+            "NetworkFee": "$647",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6722",
+            "Description": "RETAINER CROWN - RESIN WITH NOBLE METAL",
+            "NetworkFee": "$654",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6740",
+            "Description": "RETAINER CROWN - PORCELAIN/CERAMIC",
+            "NetworkFee": "$757",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6750",
+            "Description": "RETAINER CROWN - PORCELAIN FUSED TO HIGH NOBLE METAL",
+            "NetworkFee": "$732",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6751",
+            "Description": "RETAINER CROWN - PORCELAIN FUSED TO PREDOMINANTLY BASE METAL",
+            "NetworkFee": "$653",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6752",
+            "Description": "RETAINER CROWN - PORCELAIN FUSED TO NOBLE METAL",
+            "NetworkFee": "$684",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6753",
+            "Description": "RETAINER CROWN - PORCELAIN FUSED TO TITANIUM AND TITANIUM ALLOYS",
+            "NetworkFee": "$585",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6780",
+            "Description": "RETAINER CROWN - 3/4 CAST HIGH NOBLE METAL",
+            "NetworkFee": "$723",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6781",
+            "Description": "RETAINER CROWN - 3/4 CAST PREDOMINANTLY BASE METAL",
+            "NetworkFee": "$677",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6782",
+            "Description": "RETAINER CROWN - 3/4 CAST NOBLE METAL",
+            "NetworkFee": "$658",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6783",
+            "Description": "RETAINER CROWN - 3/4 PORCELAIN/CERAMIC",
+            "NetworkFee": "$755",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6784",
+            "Description": "RETAINER CROWN 3/4 - TITANIUM AND TITANIUM ALLOYS",
+            "NetworkFee": "$684",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6790",
+            "Description": "RETAINER CROWN - FULL CAST HIGH NOBLE METAL",
+            "NetworkFee": "$708",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6791",
+            "Description": "RETAINER CROWN - FULL CAST PREDOMINANTLY BASE METAL",
+            "NetworkFee": "$645",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6792",
+            "Description": "RETAINER CROWN - FULL CAST NOBLE METAL",
+            "NetworkFee": "$669",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6794",
+            "Description": "RETAINER CROWN - TITANIUM AND TITANIUM ALLOYS",
+            "NetworkFee": "$773",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6920",
+            "Description": "CONNECTOR BAR",
+            "NetworkFee": "$226",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6930",
+            "Description": "RECEMENT BRIDGE",
+            "NetworkFee": "$91",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D6940",
+            "Description": "STRESS BREAKER",
+            "NetworkFee": "$211",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6950",
+            "Description": "PRECISION ATTACHMENT A PAIR OF COMPONENTS CONSTITUTES ONE PRECISION ATTACHMENT, THAT IS SEPARATE FROM THE PROSTHESIS",
+            "NetworkFee": "$368",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6980",
+            "Description": "BRIDGE REPAIR, BY REPORT",
+            "NetworkFee": "$156",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D6999",
+            "Description": "UNSPECIFIED FIXED PROSTHODONTIC PROCEDURE, BY REPORT",
+            "NetworkFee": "",
+            "PlanBenefit": "N/AVAIL",
+            "PatientObligation": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D4341",
+            "Description": "PERIODONTAL SCALING AND ROOT PLANING - FOUR OR MORE TEETH PER QUADRANT",
+            "NetworkFee": "$168",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D4342",
+            "Description": "PERIODONTAL SCALING AND ROOT PLANING - ONE TO THREE TEETH, PER QUADRANT",
+            "NetworkFee": "$90",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D4210",
+            "Description": "GINGIVECTOMY OR GINGIVOPLASTY - FOUR OR MORE CONTIGUOUS TEETH OR BOUNDED TEETH SPACES PER QUADRANT",
+            "NetworkFee": "$435",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4211",
+            "Description": "GINGIVECTOMY OR GINGIVOPLASTY - ONE TO THREE CONTIGUOUS TEETH OR BOUNDED TEETH SPACES PER QUADRANT",
+            "NetworkFee": "$159",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4240",
+            "Description": "GINGIVAL FLAP PROCEDURE, INCLUDING ROOT PLANING - FOUR OR MORE CONTIGUOUS TEETH OR TOOTH BOUND SPACES PER QUADRANT",
+            "NetworkFee": "$514",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4241",
+            "Description": "GINGIVAL FLAP PROCEDURE, INCLUDING ROOT PLANING - ONE TO THREE CONTIGUOUS TEETH OR TOOTH BOUND SPACES PER QUADRANT",
+            "NetworkFee": "$316",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4245",
+            "Description": "APICALLY POSITIONED FLAP",
+            "NetworkFee": "$369",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4249",
+            "Description": "CLINICAL CROWN LENGTHENING - HARD TISSUE",
+            "NetworkFee": "$578",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4260",
+            "Description": "OSSEOUS SURGERY (INCLUDING FLAP ENTRY AND CLOSURE) - 4 OR MORE CONTIGUOUS TEETH OR BOUNDED TEETH SPACES PER QUADRANT",
+            "NetworkFee": "$840",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4261",
+            "Description": "OSSEOUS SURGERY (INCLUDING FLAP ENTRY AND CLOSURE) - ONE TO THREE CONTIGUOUS TEETH OR BOUNDED TEETH SPACES, PER QUADRANT",
+            "NetworkFee": "$482",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4263",
+            "Description": "BONE REPLACEMENT GRAFT - RETAINED NATURAL TOOTH - FIRST SITE IN QUADRANT",
+            "NetworkFee": "$301",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4264",
+            "Description": "BONE REPLACEMENT GRAFT - RETAINED NATURAL TOOTH - EACH ADDITIONAL SITE IN QUADRANT",
+            "NetworkFee": "$169",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4265",
+            "Description": "BIOLOGIC MATERIALS TO AID IN SOFT AND OSSEOUS TISSUE REGENERATION, PER SITE BIOLOGIC MATERIALS MAY BE USED ALONE OR WITH OTHER REGENERATIVE SUBSTRATES",
+            "NetworkFee": "$210",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4266",
+            "Description": "GUIDED TISSUE REGENERATION, NATURAL TEETH - RESORBABLE BARRIER, PER SITE THIS PROCEDURE CAN BE USED FOR PERIODONTAL DEFECTS AROUND NATURAL TEETH",
+            "NetworkFee": "$327",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4267",
+            "Description": "GUIDED TISSUE REGENERATION, NATURAL TEETH - NON-RESORBABLE BARRIER, PER SITE THIS PROCEDURE CAN BE USED FOR PERIODONTAL DEFECTS AROUND NATURAL TEETH",
+            "NetworkFee": "$404",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4268",
+            "Description": "SURGICAL REVISION PROCEDURE, PER TOOTH",
+            "NetworkFee": "$256",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4270",
+            "Description": "PEDICLE SOFT TISSUE GRAFT PROCEDURE",
+            "NetworkFee": "$654",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4273",
+            "Description": "AUTOGENOUS CONNECTIVE TISSUE GRAFT PROC (INCLUDING DONOR AND RECIPIENT SURGICAL SITES) FIRST TOOTH, IMPLANT, OR EDENTULOUS TOOTH POSITION IN GRAFT",
+            "NetworkFee": "$726",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4274",
+            "Description": "MESIAL/DISTAL WEDGE PROCEDURE, SINGLE TOOTH (WHEN NOT PERFORMED IN CONJUNCTION WITH SURGICAL PROCEDURES IN THE SAME ANATOMICAL AREA)",
+            "NetworkFee": "$211",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4275",
+            "Description": "NON-AUTOGENOUS CONNECTIVE TISSUE GRAFT (INCLUDING RECIPIENT SITE AND DONOR MATERIAL) FIRST TOOTH, IMPLANT, OR EDENTULOUS TOOTH POSITION IN GRAFT",
+            "NetworkFee": "$543",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4276",
+            "Description": "COMBINED CONNECTIVE TISSUE AND PEDICLE GRAFT, PER TOOTH ADVANCED GINGIVAL RECESSION OFTEN CANNOT BE CORRECTED WITH A SINGLE PROCEDURE.",
+            "NetworkFee": "$837",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4283",
+            "Description": "AUTOGENOUS CONNECTIVE TISSUE GRAFT PROCEDURE (INCLUDING DONOR AND RECIPIENT SURGICAL SITES)",
+            "NetworkFee": "$680",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4285",
+            "Description": "NON-AUTOGENOUS CONNECTIVE TISSUE GRAFT (INCLUDING RECIPIENT SURGICAL SITE AND DONOR MATERIAL)",
+            "NetworkFee": "$522",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4381",
+            "Description": "LOCALIZED DELIVERY OF ANTIMICROBIAL AGENTS VIA A CONTROLLED RELEASE VEHICLE INTO DISEASED CREVICULAR TISSUE, PER TOOTH, BY REPORT",
+            "NetworkFee": "$65",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D4920",
+            "Description": "UNSCHEDULED DRESSING CHANGE (OTHER THAN TREATING DENTIST)",
+            "NetworkFee": "$18",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D4999",
+            "Description": "UNSCHEDULED DRESSING CHANGE (OTHER THAN TREATING DENTIST)",
+            "NetworkFee": "",
+            "PlanBenefit": "N/AVAIL",
+            "PatientObligation": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D1351",
+            "Description": "SEALANT - PER TOOTH",
+            "NetworkFee": "$35",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1352",
+            "Description": "PREVENTATIVE RESIN RESTORATION",
+            "NetworkFee": "$40",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1353",
+            "Description": "SEALANT REPAIR - PER TOOTH",
+            "NetworkFee": "$31",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1354",
+            "Description": "APPLICATION OF CARIES ARRESTING MEDICAMENT PER TOOTH TOPICAL APP OF A CARIES ARRESTING OR INHIBITING MEDICAMENT AND W/O REMOVAL OF TOOTH STRUCTURE",
+            "NetworkFee": "$69",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1355",
+            "Description": "CARIES PREVENTIVE MEDICAMENT APPLICATION - PER TOOTH",
+            "NetworkFee": "$34",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D2140",
+            "Description": "AMALGAM - ONE SURFACE, PRIMARY OR PERMANENT",
+            "NetworkFee": "$81",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2150",
+            "Description": "AMALGAM - TWO SURFACES, PRIMARY OR PERMANENT",
+            "NetworkFee": "$104",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2160",
+            "Description": "AMALGAM - THREE SURFACES, PRIMARY OR PERMANENT",
+            "NetworkFee": "$125",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2161",
+            "Description": "AMALGAM - FOUR OR MORE SURFACES, PRIMARY OR PERMANENT",
+            "NetworkFee": "$152",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2940",
+            "Description": "PROTECTIVE RESTORATION",
+            "NetworkFee": "$68",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2999",
+            "Description": "UNSPECIFIED RESTORATIVE PROCEDURE, BY REPORT",
+            "NetworkFee": "",
+            "PlanBenefit": "N/AVAIL",
+            "PatientObligation": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D2330",
+            "Description": "RESIN - ONE SURFACE, ANTERIOR",
+            "NetworkFee": "$98",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2331",
+            "Description": "RESIN - TWO SURFACES, ANTERIOR",
+            "NetworkFee": "$119",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2332",
+            "Description": "RESIN - THREE SURFACES, ANTERIOR",
+            "NetworkFee": "$145",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2335",
+            "Description": "RESIN - FOUR OR MORE SURFACES OR INVOLVING INCISAL ANGLE (ANTERIOR)",
+            "NetworkFee": "$173",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2390",
+            "Description": "RESIN-BASED COMPOSITE CROWN, ANTERIOR",
+            "NetworkFee": "$203",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2391",
+            "Description": "RESIN-BASED COMPOSITE - ONE SURFACE, POSTERIOR",
+            "NetworkFee": "$110",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2392",
+            "Description": "RESIN-BASED COMPOSITE - TWO SURFACES, POSTERIOR",
+            "NetworkFee": "$143",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2393",
+            "Description": "RESIN-BASED COMPOSITE - THREE SURFACES, POSTERIOR",
+            "NetworkFee": "$176",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2394",
+            "Description": "RESIN-BASED COMPOSITE - FOUR OR MORE SURFACES POSTERIOR",
+            "NetworkFee": "$211",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2410",
+            "Description": "GOLD FOIL - ONE SURFACE",
+            "NetworkFee": "$215",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2420",
+            "Description": "GOLD FOIL - TWO SURFACES",
+            "NetworkFee": "$430",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2430",
+            "Description": "GOLD FOIL - THREE SURFACES",
+            "NetworkFee": "$589",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D2940",
+            "Description": "PROTECTIVE RESTORATION",
+            "NetworkFee": "$68",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D7111",
+            "Description": "EXTRACTION, CORONAL REMNANTS - PRIMARY TOOTH",
+            "NetworkFee": "$76",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7140",
+            "Description": "EXTRACTION, ERUPTED TOOTH OR EXPOSED ROOT (ELEVATION AND/OR FORCEPS REMOVAL)",
+            "NetworkFee": "$102",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7210",
+            "Description": "EXTRACTION, ERUPTED TOOTH REQUIRING REMOVAL OF BONE AND/OR SECTIONING OF TOOTH, AND INCLUDING ELEVATION OF MUCOPERIOSTEAL FLAP IF INDICATED",
+            "NetworkFee": "$175",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7220",
+            "Description": "REMOVAL OF IMPACTED TOOTH - SOFT TISSUE",
+            "NetworkFee": "$210",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D7230",
+            "Description": "REMOVAL OF IMPACTED TOOTH - PARTIALLY BONY",
+            "NetworkFee": "$273",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D7240",
+            "Description": "REMOVAL OF IMPACTED TOOTH - COMPLETELY BONY",
+            "NetworkFee": "$320",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D7241",
+            "Description": "REMOVAL OF IMPACTED TOOTH - COMPLETELY BONY, WITH UNUSUAL SURGICAL COMPLICATIONS",
+            "NetworkFee": "$400",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D7250",
+            "Description": "REMOVAL OF RESIDUAL TOOTH ROOTS (CUTTING PROCEDURE)",
+            "NetworkFee": "$183",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7251",
+            "Description": "CORONECTOMY -INTENTIONAL PARTIAL TOOTH REMOVAL, IMPACTED TEETH ONLY WHEN A NEUROVASCULAR COMPLICATION IS LIKELY IF THE ENTIRE TOOTH IS REMOVED",
+            "NetworkFee": "$322",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D3110",
+            "Description": "PULP CAP - DIRECT (EXCLUDING FINAL RESTORATION)",
+            "NetworkFee": "$51",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3120",
+            "Description": "PULP CAP - INDIRECT (EXCLUDING FINAL RESTORATION)",
+            "NetworkFee": "$42",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3220",
+            "Description": "THERAPEUTIC PULPOTOMY (EXCLUDING FINAL RESTORATION)",
+            "NetworkFee": "$118",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3221",
+            "Description": "PULPAL DEBRIDEMENT, PRIMARY AND PERMANENT TEETH",
+            "NetworkFee": "$132",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3222",
+            "Description": "PARTIAL PULPOTOMY FOR APEXOGENESIS - PERMANENT TOOTH WITH INCOMPLETE ROOT DEVELOPMENT",
+            "NetworkFee": "$137",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3230",
+            "Description": "PULPAL THERAPY (RESORBABLE FILLING) - ANTERIOR, PRIMARY TOOTH (EXCLUDING FINAL RESTORATION)",
+            "NetworkFee": "$132",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3240",
+            "Description": "PULPAL THERAPY (RESORBABLE FILLING) - POSTERIOR, PRIMARY TOOTH (EXCLUDING FINAL RESTORATION)",
+            "NetworkFee": "$142",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3310",
+            "Description": "ANTERIOR (EXCLUDING FINAL RESTORATION)",
+            "NetworkFee": "$504",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3320",
+            "Description": "ENDODONTIC THERAPY, PREMOLAR TOOTH (EXCLUDING FINAL RESTORATION)",
+            "NetworkFee": "$606",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3330",
+            "Description": "ENDODONTIC THERAPY, MOLAR TOOTH (EXCLUDING FINAL RESTORATION)",
+            "NetworkFee": "$770",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3331",
+            "Description": "TREATMENT OF ROOT CANAL OBSTRUCTION; NON-SURGICAL PROCESS",
+            "NetworkFee": "$184",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3332",
+            "Description": "INCOMPLETE ENDODONTIC THERAPY; INOPERABLE, UNRESTORABLE OR FRACTURED TOOTH",
+            "NetworkFee": "$377",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3333",
+            "Description": "INTERNAL ROOT REPAIR OF PERFORATION DEFECTS NON-SURGICAL SEAL OF PERFORATION CAUSED BY RESORPTION AND/OR DECAY BUT NOT IATROGENIC BY SAME PROVIDER",
+            "NetworkFee": "$156",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3346",
+            "Description": "RETREATMENT OF PREVIOUS ROOT CANAL THERAPY - ANTERIOR",
+            "NetworkFee": "$656",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3347",
+            "Description": "RETREATMENT OF PREVIOUS ROOT CANAL THERAPY - PREMOLAR",
+            "NetworkFee": "$763",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3348",
+            "Description": "RETREATMENT OF PREVIOUS ROOT CANAL THERAPY - MOLAR",
+            "NetworkFee": "$930",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3351",
+            "Description": "APEXIFICATION/RECALCIFICATION - INITIAL VISIT (APICAL CLOSURE/CALCIFIC REPAIR OF PERFORATIONS, ROOT RESORPTION, ETC)",
+            "NetworkFee": "$271",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3352",
+            "Description": "APEXIFICATION/RECALCIFICATION - INTERIM MEDICATION REPLACEMENT (APICAL CLOSURE/CALCIFIC REPAIR OF PERFORATIONS, ROOT RESORPTION, ETC.)",
+            "NetworkFee": "$121",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3353",
+            "Description": "APEXIFICATION/RECALCIFICATION - FINAL VISIT (INCL. COMPLETED ROOT CANAL THERAPY APICAL CLOSURE/CALCIFIC REPAIR OF PERFORATIONS, ROOT RESORPTION, ETC)",
+            "NetworkFee": "$397",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3355",
+            "Description": "PULPAL REGENERATION - COMPLETION",
+            "NetworkFee": "$275",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3356",
+            "Description": "PULPAL REGENERATION INTERIM MEDICATION REPLACEMENT",
+            "NetworkFee": "$132",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3357",
+            "Description": "PULPAL REGENERATION COMPLETION",
+            "NetworkFee": "$281",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3410",
+            "Description": "APICOECTOMY/PERIRADICULAR SURGERY - ANTERIOR",
+            "NetworkFee": "$551",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3421",
+            "Description": "APICOECTOMY - PREMOLAR (FIRST ROOT)",
+            "NetworkFee": "$604",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3425",
+            "Description": "APICOECTOMY/PERIRADICULAR SURGERY - MOLAR (1ST ROOT)",
+            "NetworkFee": "$681",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3426",
+            "Description": "APICOECTOMY (EACH ADDITIONAL ROOT)",
+            "NetworkFee": "$226",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3428",
+            "Description": "BONE GRAFT PERIRADICULAR 1ST",
+            "NetworkFee": "$309",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3429",
+            "Description": "BONE GRAFT-PERIRADICULAR ADDITIONAL",
+            "NetworkFee": "$196",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3430",
+            "Description": "RETROGRADE FILLING - PER ROOT",
+            "NetworkFee": "$167",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3431",
+            "Description": "BIOLOGIC MATERIALS-PERIRADICULAR",
+            "NetworkFee": "$345",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3432",
+            "Description": "GUIDED TISSUE REG-PERIRADICULAR",
+            "NetworkFee": "$355",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3450",
+            "Description": "ROOT AMPUTATION - PER ROOT",
+            "NetworkFee": "$363",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3471",
+            "Description": "SURGICAL REPAIR OF ROOT RESORPTION - ANTERIOR",
+            "NetworkFee": "$506",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3472",
+            "Description": "SURGICAL REPAIR OF ROOT RESORPTION - PREMOLAR",
+            "NetworkFee": "$506",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3473",
+            "Description": "SURGICAL REPAIR OF ROOT RESORPTION - MOLAR",
+            "NetworkFee": "$506",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3501",
+            "Description": "SURGICAL EXPOSURE OF ROOT SURFACE WITHOUT APICOECTOMY OR REPAIR OF ROOT RESORPTION - ANTERIOR",
+            "NetworkFee": "$506",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3502",
+            "Description": "SURGICAL EXPOSURE OF ROOT SURFACE WITHOUT APICOECTOMY OR REPAIR OF ROOT RESORPTION - PREMOLAR",
+            "NetworkFee": "$506",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3503",
+            "Description": "SURGICAL EXPOSURE OF ROOT SURFACE WITHOUT APICOECTOMY OR REPAIR OF ROOT RESORPTION - MOLAR",
+            "NetworkFee": "$506",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3910",
+            "Description": "SURGICAL PROCEDURE FOR ISOLATION OF TOOTH WITH RUBBER DAM",
+            "NetworkFee": "$95",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3920",
+            "Description": "HEMISECTION (INCLUDING ANY ROOT REMOVAL), NOT INCLUDING ROOT CANAL THERAPY",
+            "NetworkFee": "$278",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3921",
+            "Description": "INTENTIONAL REMOVAL OF CORONAL TOOTH STRUCTURE FOR PRESERVATION OF THE ROOT AND SURROUNDING BONE.",
+            "NetworkFee": "$102",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D3999",
+            "Description": "UNSPECIFIED ENDODONTIC PROCEDURE, BY REPORT",
+            "NetworkFee": "",
+            "PlanBenefit": "N/AVAIL",
+            "PatientObligation": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D7260",
+            "Description": "ORAL ANTRAL FISTULA CLOSURE",
+            "NetworkFee": "$918",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7261",
+            "Description": "PRIMARY CLOSURE OF A SINUS PERFORATION",
+            "NetworkFee": "$426",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7270",
+            "Description": "TOOTH REIMPLANTATION AND/OR STABILIZATION OF ACCIDENTALLY EVULSED OR DISPLACED TOOTH",
+            "NetworkFee": "$314",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7272",
+            "Description": "TOOTH TRANSPLANTATION (INCLUDES REIMPLANATION FROM ONE SITE TO ANOTHER AND SPLINTING AND/OR STABILIZATION)",
+            "NetworkFee": "$452",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7280",
+            "Description": "EXPOSURE OF AN UNERUPTED TOOTH",
+            "NetworkFee": "$345",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7282",
+            "Description": "MOBILIZATION OF ERUPTED OR MALPOSITIONED TOOTH TO AID ERUPTION",
+            "NetworkFee": "$182",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7283",
+            "Description": "PLACEMENT OF DEVICE TO FACILITATE ERUPTION OF IMPACTED TOOTH",
+            "NetworkFee": "$150",
+            "PlanBenefit": "50%",
+            "PatientObligation": "50%"
+        },
+        {
+            "procedureCode": "D7287",
+            "Description": "EXFOLIATIVE CYTOLOGICAL SAMPLE COLLECTION",
+            "NetworkFee": "$110",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7288",
+            "Description": "BRUSH BIOPSY - TRANSEPITHELIAL SAMPLE COLLECTION",
+            "NetworkFee": "$95",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7290",
+            "Description": "SURGICAL REPOSITIONING OF TEETH",
+            "NetworkFee": "$293",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7291",
+            "Description": "TRANSSEPTAL FIBEROTOMY/SUPRA CRESTAL FIBEROTOMY, BY REPORT",
+            "NetworkFee": "$90",
+            "PlanBenefit": "50%",
+            "PatientObligation": "50%"
+        },
+        {
+            "procedureCode": "D7310",
+            "Description": "ALVEOLOPLASTY IN CONJUNCTION WITH EXTRACTIONS - FOUR OR MORE TEETH OR TOOTH SPACES, PER QUADRANT",
+            "NetworkFee": "$194",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7311",
+            "Description": "ALVEOLOPLASTY IN CONJUNCTION WITH EXTRACTIONS - ONE TO THREE TEETH OR TOOTH SPACES, PER QUADRANT",
+            "NetworkFee": "$148",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7320",
+            "Description": "NOT IN CONJUNCTION WITH EXTRACTIONS - PER QUADRANT",
+            "NetworkFee": "$360",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7321",
+            "Description": "ALVEOLOPLASTY NOT IN CONJUNCTION WITH EXTRACTIONS - ONE TO THREE TEETH OR TOOTH SPACES, PER QUADRANT",
+            "NetworkFee": "$253",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7340",
+            "Description": "VESTIBULOPLASTY - RIDGE EXTENSION (SECONDARY EPITHELIALIZATION)",
+            "NetworkFee": "$1449",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7350",
+            "Description": "VESTIBULOPLASTY - RIDGE EXTENSION (INCL. SOFT TISSUE GRAFTS, REATTACHMENTS, ATTACHMENT REVISION, & MANAGEMENT OF HYPERTROPHIED & HYPERPLASTIC TISSUE)",
+            "NetworkFee": "$3427",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7450",
+            "Description": "REMOVAL OF BENIGN ODONTOGENIC CYST OR TUMOR - LESION DIAMETER UP TO 1.25 CM",
+            "NetworkFee": "$438",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7451",
+            "Description": "REMOVAL OF BENIGN ODONTOGENIC CYST OR TUMOR - LESION DIAMETER GREATER THAN 1.25 CM",
+            "NetworkFee": "$688",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7471",
+            "Description": "REMOVAL OF LATERAL EXOSTOSIS (MAXILLA OR MANDIBLE)",
+            "NetworkFee": "$571",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7472",
+            "Description": "REMOVAL OF TORUS PALANTINUS",
+            "NetworkFee": "$717",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7473",
+            "Description": "REMOVAL OF TORUS MANDIBULARIS",
+            "NetworkFee": "$646",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7485",
+            "Description": "REDUCTION OF OSSEOUS TUBEROSITY",
+            "NetworkFee": "$560",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7510",
+            "Description": "INCISION AND DRAINAGE OF ABSCESS - INTRAORAL SOFT TISSUE",
+            "NetworkFee": "$126",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7511",
+            "Description": "INCISION AND DRAINAGE OF ABSCESS - INTRAORAL SOFT TISSUE - COMPLICATED (INCLUDES DRAINAGE OF MULTIPLE FASCIAL SPACES)",
+            "NetworkFee": "$213",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7520",
+            "Description": "INCISION AND DRAINAGE OF ABSCESS - EXTRAORAL SOFT TISSUE",
+            "NetworkFee": "$227",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7521",
+            "Description": "INCISION AND DRAINAGE OF ABSCESS - EXTRAORAL SOFT TISSUE - COMPLICATED (INCLUDES DRAINAGE OF MULTIPLE FASCIAL SPACES)",
+            "NetworkFee": "$278",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7950",
+            "Description": "OSSEOUS, OSTEOPERIOSTEAL, OR CARTILAGE GRAFT OF THE MANDIBLE OR FACIAL BONES - AUTOGENOUS OR NONAUTOGENOUS, BY REPORT",
+            "NetworkFee": "$490",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D7953",
+            "Description": "BONE REPLACEMENT GRAFT FOR RIDGE PERSERVATION - PER SITE",
+            "NetworkFee": "$213",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D7961",
+            "Description": "BUCCAL / LABIAL FRENECTOMY (FRENULECTOMY)",
+            "NetworkFee": "$337",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7962",
+            "Description": "LINGUAL FRENECTOMY (FRENULECTOMY)",
+            "NetworkFee": "$337",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7963",
+            "Description": "FRENULOPLASTY",
+            "NetworkFee": "$411",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7970",
+            "Description": "EXCISION OF HYPERPLASTIC TISSUE, PER ARCH",
+            "NetworkFee": "$337",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7971",
+            "Description": "EXCISION OF PERICORONAL GINGIVA",
+            "NetworkFee": "$137",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7972",
+            "Description": "SURGICAL REDUCTION OF FIBROUS TUBEROSITY",
+            "NetworkFee": "$292",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D7999",
+            "Description": "UNSPECIFIED ORAL SURGERY, BY REPORT",
+            "NetworkFee": "",
+            "PlanBenefit": "N/AVAIL",
+            "PatientObligation": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D2910",
+            "Description": "RECEMENT/BOND INLAY ONLAY VENEER",
+            "NetworkFee": "$67",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2915",
+            "Description": "RECEMENT REBOND POST CORE",
+            "NetworkFee": "$67",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D2920",
+            "Description": "RECEMENT REBOND CROWN",
+            "NetworkFee": "$65",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D2980",
+            "Description": "CROWN REPAIR, BY REPORT",
+            "NetworkFee": "$117",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D6010",
+            "Description": "SURGICAL PLACEMENT OF IMPLANT BODY ENDOSTEAL IMPLANT",
+            "NetworkFee": "$1760",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6012",
+            "Description": "SURGICAL PLACEMENT OF INTERIM IMPLANT BODY FOR TRANSITIONAL PROSTHESIS ENDOSTEAL IMPLANT",
+            "NetworkFee": "$1405",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6013",
+            "Description": "SURGICAL PLACEMENT MINI IMPLANT",
+            "NetworkFee": "$1513",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6040",
+            "Description": "SURGICAL PLACEMENT EPOSTEAL IMPLANT",
+            "NetworkFee": "$4907",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6050",
+            "Description": "SURGICAL PLACEMENT TRANSOSTEAL IMPLANT (INCL. HARDWARE)",
+            "NetworkFee": "$3617",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6055",
+            "Description": "CONNECTING BAR",
+            "NetworkFee": "$972",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6056",
+            "Description": "PREFABRICATED ABUTMENT - INCLUDES PLACEMENT",
+            "NetworkFee": "$400",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6057",
+            "Description": "CUSTOM ABUTMENT - INCLUDES PLACEMENT",
+            "NetworkFee": "$513",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6059",
+            "Description": "ABUTMENT SUPPORTED PORCELAIN FUSED TO METAL CROWN (HIGH NOBLE METAL)",
+            "NetworkFee": "$1043",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6080",
+            "Description": "IMPLANT MAINTENANCE PROCEDURES, INCLUDING REMOVAL OF PROSTHESIS, CLEANING OF PROSTHESIS AND ABUTMENTS, REINSERTION OF PROSTHESIS",
+            "NetworkFee": "$91",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6081",
+            "Description": "SCALING/DEBRIDEMENT IN PRESENCE OF INFLAMMATION/MUCOSITIS OF A SINGLE IMPLANT, INCLUDING CLEANING OF IMPLANT SURFACES, WITHOUT FLAP ENTRY & CLOSURE",
+            "NetworkFee": "$78",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6091",
+            "Description": "REPLACEMENT OF REPLACEABLE PART OF SEMI-PRECISION OR PRECISION ATTACHMENT OF IMPLANT/ABUTMENT SUPPORTED PROSTHESIS, PER ATTACHMENT",
+            "NetworkFee": "$84",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6092",
+            "Description": "RECEMENT/BOND IMPLANT CROWN",
+            "NetworkFee": "$82",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D6093",
+            "Description": "RECEMENT/BOND IMPL FIXED DENTURE",
+            "NetworkFee": "$100",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D6095",
+            "Description": "REPAIR IMPLANT ABUTMENT, BY REPORT",
+            "NetworkFee": "$153",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6096",
+            "Description": "REMOVE BROKEN IMPLANT RETAINING SCREW",
+            "NetworkFee": "$67",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6100",
+            "Description": "SURGICAL REMOVAL OF IMPLANT BODY",
+            "NetworkFee": "$305",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6101",
+            "Description": "DEBRIDEMENT PERIIMPLANT DEFECT",
+            "NetworkFee": "$319",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6102",
+            "Description": "DEBRIDE/OSS PERIIMPLANT DEFECT",
+            "NetworkFee": "$463",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6103",
+            "Description": "BONE GRAFT FOR REPAIR OF PERI-IMPLANT DEFECT - DOES NOT INCLUDE FLAP ENTRY AND CLOSURE",
+            "NetworkFee": "$304",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6104",
+            "Description": "BONE GRAFT IMPLANT PLACEMENT",
+            "NetworkFee": "$219",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6105",
+            "Description": "REMOVAL OF IMPLANT BODY NOT REQUIRING BONE REMOVAL NOR FLAP ELEVATION",
+            "NetworkFee": "$102",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6106",
+            "Description": "GUIDED TISSUE REGENERATION RESORBABLE BARRIER PER IMPLANT THIS PROCEDURE IS USED FOR PERI-IMPLANT DEFECTS AND DURING IMPLANT PLACEMENT",
+            "NetworkFee": "$327",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6107",
+            "Description": "GUIDED TISSUE REGENERATION NON-RESORBABLE BARRIER PER IMPLANT THIS PROCEDURE IS USED FOR PERI-IMPLANT DEFECTS AND DURING IMPLANT PLACEMENT.",
+            "NetworkFee": "$404",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6190",
+            "Description": "RADIOGRAPHIC / SURGICAL IMPLANT INDEX, BY REPORT",
+            "NetworkFee": "$209",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6191",
+            "Description": "SEMI-PRECISION ABUTMENT - PLACEMENT",
+            "NetworkFee": "$325",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6192",
+            "Description": "SEMI-PRECISION ATTACHMENT - PLACEMENT",
+            "NetworkFee": "$36",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6197",
+            "Description": "REPLACEMENT OF RESTORATIVE MATERIAL USED TO CLOSE AN ACCESS OPENING OF A SCREW-RETAINED IMPLANT SUPPORTED PROSTHESIS, PER IMPLANT",
+            "NetworkFee": "$110",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D6199",
+            "Description": "UNSPECIFIED IMPLANT PROCEDURE, BY REPORT",
+            "NetworkFee": "$107",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D9932",
+            "Description": "CLEANING AND INSPECTION OF REMOVABLE COMPLETE DENTURE, MAXILLARY",
+            "NetworkFee": "$54",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D9933",
+            "Description": "CLEANING AND INSPECTION OF REMOVABLE COMPLETE DENTURE, MANDIBULAR",
+            "NetworkFee": "$52",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D9934",
+            "Description": "CLEANING AND INSPECTION OF REMOVABLE PARTIAL DENTURE, MAXILLARY",
+            "NetworkFee": "$55",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "D9935",
+            "Description": "CLEANING AND INSPECTION OF REMOVABLE PARTIAL DENTURE, MANDIBULAR",
+            "NetworkFee": "$54",
+            "PlanBenefit": "60%",
+            "PatientObligation": "40%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D7880",
+            "Description": "OCCLUSAL ORTHOTIC DEVICE, BY REPORT",
+            "NetworkFee": "$482",
+            "PlanBenefit": "50%",
+            "PatientObligation": "50%"
+        },
+        {
+            "procedureCode": "D7881",
+            "Description": "OCCLUSAL ORTHOTIC DEVICE ADJUSTMENT",
+            "NetworkFee": "$65",
+            "PlanBenefit": "50%",
+            "PatientObligation": "50%"
+        },
+        {
+            "procedureCode": "D7899",
+            "Description": "UNSPECIFIED TMD PROCEDURE, BY REPORT",
+            "NetworkFee": "",
+            "PlanBenefit": "N/AVAIL",
+            "PatientObligation": "INFORMATION NOT AVAILABLE FOR PROCEDURE"
+        },
+        {
+            "procedureCode": "D9130",
+            "Description": "TEMPOROMANDIBULAR JOINT DYSFUNCTION - NON-INVASIVE PHYSICAL THERAPIES TO RELIEVE MUSCLE SPASMS, INFLAMMATION OR PAIN TO IMPROVE FREEDOM OF MOTION.",
+            "NetworkFee": "$63",
+            "PlanBenefit": "50%",
+            "PatientObligation": "50%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D9942",
+            "Description": "REPAIR AND/OR RELINE OF OCCLUSAL GUARD",
+            "NetworkFee": "$112",
+            "PlanBenefit": "50%",
+            "PatientObligation": "50%"
+        },
+        {
+            "procedureCode": "D9943",
+            "Description": "OCCLUSAL GUARD ADJUSTMENT",
+            "NetworkFee": "$50",
+            "PlanBenefit": "50%",
+            "PatientObligation": "50%"
+        },
+        {
+            "procedureCode": "D9944",
+            "Description": "OCCLUSAL GUARD - HARD APPLIANCE, FULL ARCH, REMOVABLE. MINIMIZES EFFECTS OF OCCLUSAL FACTORS. NOT REPORTED FOR SLEEP APNEA, SNORING OR TMD APPLIANCES.",
+            "NetworkFee": "$409",
+            "PlanBenefit": "50%",
+            "PatientObligation": "50%"
+        },
+        {
+            "procedureCode": "D9945",
+            "Description": "OCCLUSAL GUARD - SOFT APPLIANCE, FULL ARCH, REMOVABLE. MINIMIZES EFFECT OF OCCLUSAL FACTORS. NOT REPORTED FOR SLEEP APNEA, SNORING, OR TMD APPLIANCES.",
+            "NetworkFee": "$365",
+            "PlanBenefit": "50%",
+            "PatientObligation": "50%"
+        },
+        {
+            "procedureCode": "D9946",
+            "Description": "OCCLUSAL GUARD - HARD APPLIANCE, PARTIAL ARCH, REMOVABLE. MINIMIZES EFFECTS OF OCCLUSAL FACTORS. NOT FOR SLEEP APNEA, SNORING OR TMD APPLIANCES.",
+            "NetworkFee": "$393",
+            "PlanBenefit": "50%",
+            "PatientObligation": "50%"
+        },
+        {
+            "procedureCode": "D9951",
+            "Description": "OCCLUSAL ADJUSTMENT - LIMITED",
+            "NetworkFee": "$79",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "D9952",
+            "Description": "OCCLUSAL ADJUSTMENT - COMPLETE",
+            "NetworkFee": "$389",
+            "PlanBenefit": "85%",
+            "PatientObligation": "15%"
+        },
+        {
+            "procedureCode": "Procedure Code*",
+            "Description": "Description of Service",
+            "NetworkFee": "Network Fee",
+            "PlanBenefit": "Plan Benefit",
+            "PatientObligation": "Patient Obligation"
+        },
+        {
+            "procedureCode": "D1110",
+            "Description": "REMOVAL OF PLAQUE/CALCULUS/STAINS FROM TOOTH STRUCTURES & IMPLANTS IN PERMANENT/TRANSITIONAL DENTITION. INTENDED TO CONTROL LOCAL IRRITATIONAL FACTORS",
+            "NetworkFee": "$60",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D1120",
+            "Description": "REMOVAL OF PLAQUE/CALCULUS/STAINS FROM TOOTH STRUCTURES & IMPLANTS IN PRIMARY/TRANSITIONAL DENTITION. INTENDED TO CONTROL LOCAL IRRITATIONAL FACTORS.",
+            "NetworkFee": "$44",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        },
+        {
+            "procedureCode": "D4346",
+            "Description": "SCALING IN PRESENCE OF GENERALIZED MODERATE OR SEVERE GINGIVAL INFLAMMATION - FULL MOUTH, AFTER ORAL EVALUATION",
+            "NetworkFee": "$92",
+            "PlanBenefit": "100%",
+            "PatientObligation": "00%"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "InputParameters": {
+        "PayorName": "Ameritas",
+        "PayorId": 0,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "RcmClaimNumber": "234378",
+        "RcmClinicId": "41e9bf05-7b4c-46ac-8d15-8cfecd970297",
+        "WebsiteId": "AMERITAS_001"
+    },
+    "PatientData": [
+        {
+            "FirstName": "Alexis",
+            "LastName": "Carmon",
+            "BirthDate": "09/06/2010",
+            "SubscriberID" : "641051537"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.ameritas.com/applications/group/provider",
+        "LoginId": "Payoraccess@sdb",
+        "Password": "Changeme1!",
+        "OtpRequired": true,
+        "OtpEmail": "",
+        "OtpEmailPassword": "",
+        "EmailProvierUrl": ""
+    },
+    "Xpaths": [
+        {
+            "Id": 16,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 196,
+            "XPath": "{\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//input[@id='ontUser']\",\"PasswordXpath\":\"//input[@id='ontPassword']\",\"LoginButtonXpath\":\"//input[@id='Submit']\",\"OtpInputXpath\":\"//input[@name='verify']\",\"OtpSubmitXpath\":\"//button[text()='Next']\",\"PreSteps\":[],\"PostSteps\":[],\"OtpXpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityLogin",
+            "ProductCategoryId": 0
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,                      
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Subscriber Name\"},\"xpath\":\"//div[normalize-space()='Member Name']//following-sibling::div//span\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Current As Of\"},\"xpath\":\"//div[normalize-space()='Current As Of']//following-sibling::div//span\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Plan Sponsor\"},\"xpath\":\"//div[normalize-space()='Plan Sponsor']//following-sibling::div//span\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Plan Number\"},\"xpath\":\"//div[normalize-space()='Plan Number']//following-sibling::div//span\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Current Coverage Type\"},\"xpath\":\"//div[normalize-space()='Current Coverage Type']//following-sibling::div//span\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"(//span[contains(normalize-space(),'List of Patients')]//parent::div//following-sibling::div[1]//table)[2]\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityPatientVerification", 
+            "ProductCategoryId": 2
+        }
+        
+    ],
+    "SearchParameters": [
+        {
+            "Id": 2,
+            "EligibilityPayorInfoId": 12,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//td[normalize-space()='SMILEY TOOTH LLLP']//following-sibling::td[normalize-space()='2014 S GOLIAD ST STE 122']//span[1]\",\"//a[normalize-space()='Find A Member']\"],\"AdditonalInfo\":{}},\"SearchFilter\":{\"js\":\"let vale=arguments[1]\\r\\nlet newD = vale \\r\\nconsole.log(newD)          \\r\\ntry{ let nx =arguments[0].replace('%s',newD)\\r\\ndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()\\r\\nreturn true   \\r\\n}\\r\\ncatch{return false}\",\"arg1\":\"//td[normalize-space()='%s']//following-sibling::td//a\",\"arg2\":\"BirthDate\"},\"SearchButtonXpath\":\"//input[@value='Submit']\",\"PostSteps\":{\"AdditonalInfo\":{\"aftersleep\":2},\"Clicks\":[\"//span[text()='Benefits Summary']\",\"//a[text()='benefits summary']\",\"//h2[text()='Benefits Summary']//following-sibling::div//i\",\"//h5[normalize-space()='Patient Details']\"]}},\"Queries\":[{\"Data\":\"SubscriberId\",\"Xpath\":\"//div[normalize-space()='Member ID #']//following-sibling::div//input\"},{\"Data\":\"LastName\",\"Xpath\":\"((//div[normalize-space()='Member ID #']//parent::div)[1]//following-sibling::div)[3]//input\"}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 4
+        }
+    ]
+}

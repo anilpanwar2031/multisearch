@@ -1,0 +1,121 @@
+{
+    "InputParameters": {
+        "PayorName": "Delta Dental Connecticut",
+        "PayorId": 239,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "WebsiteId": "CONNECTICUT_001",
+        "ProcCodes": [
+            "D0150",
+            "D0120",
+            "D0140",
+            "D0170",
+            "D9110",
+            "D0220",
+            "D0230",
+            "D0272",
+            "D0274",
+            "D0210",
+            "D0330",
+            "D0240",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D7140",
+            "D3220",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D9230"
+        ],
+        "ScheduleId": 0
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 70594,
+            "PatientId": "12629",
+            "AppointmentId": "281512",
+            "AppointmentDateTime": "2023-04-29T10:36:37.76+00:00",
+            "LastName": "WEST",
+            "FirstName": "Ryan",
+            "BirthDate": "09/04/2010",
+            "Relationship": "Child",
+            "PatientMemberId": "6338671550",
+            "SubscriberId": "6338671550",
+            "SubscriberFirstName": "William",
+            "SubscriberLastName": "WEST",
+            "SubscriberBirthDate": "04/01/1958",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        }, {
+            "EligibilityVerificationId": 70594,
+            "PatientId": "12629",
+            "AppointmentId": "281512",
+            "AppointmentDateTime": "2023-04-29T10:36:37.76+00:00",
+            "LastName": "WEST",
+            "FirstName": "Ryan",
+            "BirthDate": "09/04/2010",
+            "Relationship": "Child",
+            "PatientMemberId": "6338671550",
+            "SubscriberId": "6338671550",
+            "SubscriberFirstName": "William",
+            "SubscriberLastName": "WEST",
+            "SubscriberBirthDate": "04/01/1958",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.deltadentalct.com/dentist",
+        "LoginId": "Payoraccess",
+        "Password": "BPKtech@123",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"DataContextId\": \"1\", \"DataContextName\": \"EligibilityLogin\", \"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[contains(@id,'usernameInput')]\", \"PasswordXpath\": \"//input[contains(@id,'passwordInput')]\", \"LoginButtonXpath\": \"//button[contains(@id,'btn-login')]\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [\"//ul[@class='navbar-nav']//a[contains(text(),'Dentist')]\", \"//span[contains(text(),'Sign in')]\", \"//a[contains(text(),'with DDPA')]\"], \"PostSteps\": [], \"OtpXpath\": \"\"}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Requestdate\"}, \"xpath\": \"//div[contains(text(),'Request date')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Membername\"}, \"xpath\": \"//div[contains(text(),'Member name')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"MemberID\"}, \"xpath\": \"//div[contains(text(),'Member ID')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"PatientdateofBirth\"}, \"xpath\": \"//div[contains(text(),'date of birth')]//following-sibling::div//span\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Age\"}, \"xpath\": \"//div[contains(text(),'date of birth')]//following-sibling::div//span[@class='patientAge']//span[2]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Coverageis\"}, \"xpath\": \"//div[contains(text(),'Coverage is')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Effectivedate\"}, \"xpath\": \"//div[contains(text(),'Effective date')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Eligiblethrough\"}, \"xpath\": \"//div[contains(text(),'Eligible through')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Coveragelevel\"}, \"xpath\": \"//div[contains(text(),'Coverage level')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Paymentlevel\"}, \"xpath\": \"//div[contains(text(),'Payment level')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"COBcoveragetype\"}, \"xpath\": \"//div[contains(text(),'COB coverage type')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Plantype\"}, \"xpath\": \"//div[contains(text(),'Plan type')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Group\"}, \"xpath\": \"//div[contains(text(),'Group #')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Groupname\"}, \"xpath\": \"//div[contains(text(),'Group name')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Claimsubmittimelimit\"}, \"xpath\": \"//div[contains(text(),'Claim submit time limit')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Dependenteligibility\"}, \"xpath\": \"//div[contains(text(),'Dependent eligibility')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Studenteligibility\"}, \"xpath\": \"//div[contains(text(),'Student eligibility')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Benefitperiod\"}, \"xpath\": \"//div[contains(text(),'Benefit period')]//parent::div//following-sibling::div[2]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"AlternativeBenefitProvision\"}, \"xpath\": \"//div[contains(text(),'Amalgam')]//parent::div//parent::div[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"OrthodonticAgeLimit\"}, \"xpath\": \"//div[contains(text(),'Orthodontics')]//parent::div//parent::div//span\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Individualdeductible\"}, \"xpath\": \"//div[contains(text(),'Individual deductible')]//parent::div/following-sibling::div[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Familydeductible\"}, \"xpath\": \"//div[contains(text(),'Family deductible')]//parent::div/following-sibling::div[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"OrthodonticMaximum\"}, \"xpath\": \"//span[contains(text(),'Orthodontic Maximum')]//parent::div//following-sibling::div[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"PlanMaximum\"}, \"xpath\": \"//span[contains(text(),'Plan Maximum')]//parent::div//following-sibling::div[1]\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"flatten\": true, \"MultiplElements\": {\"Searchlist\": null, \"action\": \"Sendkeys\", \"InputElementsXpath\": \"//input[contains(@class,'form-control')]\", \"SearchButtonXpath\": \"//button[@class='primaryButton treatmentBtn']\"}, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//div[@*='procedure-lookup-control']\"], \"fileds\": null, \"AfterClickWait\": 5, \"LoopElement\": {\"fieldName\": \"Proccode\"}}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Procedurecode\"}, \"xpath\": \"//div[@class='procedureCode']\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"ProcedureName\"}, \"xpath\": \"//div[contains(@class,'colHeader')][1]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Covered\"}, \"xpath\": \"//div[contains(text(),'Covered')]//parent::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Variations\"}, \"xpath\": \"//div[contains(text(),'Variations')]//parent::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"TreatmentHistory\"}, \"xpath\": \"//div[contains(text(),'Treatment History')]//parent::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"MissingToothClause\"}, \"xpath\": \"//div[@class='bottomNote']\"}, {\"AdditonalInfo\": {\"AfterClickWait\": 1, \"Click\": [\"//i[@class='close fas fa-times']\"], \"fileds\": \"\"}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"(//a[text()='Contact us'])[1]\", \"//div[text()='Where do I mail my claim?']\"], \"fileds\": \"ClaimAdress\", \"AfterClickWait\": 5}, \"xpath\": \"((//div[text()='Where do I mail my claim?']//parent::div)[1]//following-sibling::div)[2]\"}]}",
+            "DataContextName": "EligibilityOtherProvisions"
+        },        {
+            "XPath": "{\"Scraping\":false,\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//*[text()='Home']\"],\"fileds\":[]},\"xpath\":\"\"}]}",
+            "DataContextName": "SearchDashboardFilter"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 62,
+            "EligibilityPayorInfoId": 239,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [\"//a[contains(text(),' Search for patient')]\", \"//a[contains(@id,'SearchBySubscriberIDTab')]\"], \"AdditonalInfo\": {\"aftersleep\": 5}}, \"SearchFilter\": {\"js\": \"let vale=arguments[1]\\r\\nlet newD = vale.toUpperCase()\\r\\nconsole.log(newD)          \\r\\ntry{ let nx =arguments[0].replace('%s',vale)\\r\\ndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()\\r\\nreturn true   \\r\\n}\\r\\ncatch{return false}\", \"arg1\": \"//tr[contains(normalize-space(), '%s')]//td[1]//a\", \"arg2\": \"BirthDate\", \"Clicks\": null, \"afterwait\": \"//div[normalize-space()='Active']\"}, \"SearchButtonXpath\": \"//div[@id='SearchBySubscriberIDContent']//button[contains(text(),'Submit')]\", \"PostSteps\": {\"AdditonalInfo\": {\"aftersleep\": 5}, \"Clicks\": []}}, \"Queries\": [{\"Data\": \"SubscriberId\", \"Xpath\": \"//div[@class='container']//input[contains(@id,'MemberId')]\"}]}}",
+            "IsActive": true
+        }
+    ]
+}

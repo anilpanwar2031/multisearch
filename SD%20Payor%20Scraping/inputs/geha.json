@@ -1,0 +1,106 @@
+{
+    "InputParameters": {
+        "PayorName": "Government Employees Health Association-GEHA",
+        "PayorId": 74,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "WebsiteId": "GEHA_001",
+        "ProcCodes": [
+            "D0150",
+            "D0120",
+            "D0140",
+            "D0170",
+            "D9110",
+            "D0220",
+            "D0230",
+            "D0272",
+            "D0274",
+            "D0210",
+            "D0330",
+            "D0240",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D7140",
+            "D3220",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D9230"
+        ],
+        "ScheduleId": 0
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 70484,
+            "PatientId": "57621",
+            "AppointmentId": "294055",
+            "AppointmentDateTime": "2023-04-11T09:45:00+00:00",
+            "LastName": "McIntyre",
+            "FirstName": "Braylin",
+            "BirthDate": "02/21/2012",
+            "Relationship": "Child",
+            "PatientMemberId": "30974587",
+            "SubscriberId": "30974587",
+            "SubscriberFirstName": "Braylin",
+            "SubscriberLastName": "McIntyre",
+            "SubscriberBirthDate": "02/21/2012",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        },   {
+            "EligibilityVerificationId": 70484,
+            "PatientId": "57621",
+            "AppointmentId": "294055",
+            "AppointmentDateTime": "2023-04-11T09:45:00+00:00",
+            "LastName": "McIntyre",
+            "FirstName": "Braylin",
+            "BirthDate": "02/21/2012",
+            "Relationship": "Child",
+            "PatientMemberId": "30974587",
+            "SubscriberId": "30974587",
+            "SubscriberFirstName": "Braylin",
+            "SubscriberLastName": "McIntyre",
+            "SubscriberBirthDate": "02/21/2012",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.geha.com/enroll/provider",
+        "LoginId": "Payoraccess",
+        "Password": "Bpktech@123",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"DataContextId\": \"1\", \"DataContextName\": \"EligibilityLogin\", \"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[contains(@id,'Username')]\", \"PasswordXpath\": \"//input[contains(@id,'Password')]\", \"LoginButtonXpath\": \"//input[contains(@id,'Login')]\", \"OtpEmail\": \"\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [], \"PostSteps\": [], \"OtpXpath\": \"\", \"AdditionalInfo\": {\"StepsAfterUsernameInput\": {\"Click\": [\"//input[contains(@id,'Continue')]\"]}, \"Security\": {\"SecurityQuestions\": [{\"Question\": \"\", \"Answer\": \"BPK\", \"AnswerXpath\": \"//input[contains(@id,'SecurityAnswer')]\"}], \"PostClicks\": [\"//input[contains(@id,'Continue')]\"]}}}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Member ID\"}, \"xpath\": \"//strong[text()='Member ID:']//parent::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Plan\"}, \"xpath\": \"//div[@class='plan']//strong\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Insurance Group Name\"}, \"xpath\": \"//*[text()='Eligibility Search Results']//following-sibling::tbody//td[1]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Insurance Effective Date\"}, \"xpath\": \"//*[text()='Eligibility Search Results']//following-sibling::tbody//td[3]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Insurance Calendar or Fiscal Policy Year\"}, \"xpath\": \"//div[@class='details']//div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Insurance Group Number\"}, \"xpath\": \"//ul[@class='eligibility']//li[1]//span[2]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Insurance End Period\"}, \"xpath\": \"//*[text()='Eligibility Search Results']//following-sibling::tbody//td[4]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Coverage\"}, \"xpath\": \"//strong[text()='Coverage:']//parent::div\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 40,
+            "EligibilityPayorInfoId": 74,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [], \"AdditonalInfo\": {\"aftersleep\": 2}}, \"SearchButtonXpath\": \"//input[@id='EligibilitySearchProviderSubmit']\", \"PostSteps\": {\"Clicks\": [], \"AdditonalInfo\": {\"aftersleep\": 2}}}, \"Queries\": [{\"Data\": \"SubscriberId\", \"Xpath\": \"//input[@id='EligibilitySearchProviderMemberID']\"}, {\"Data\": \"BirthDateMM\", \"Xpath\": \"//legend[text()='Eligibility Search']//following-sibling::div[2]//input[@aria-label='Month']\"}, {\"Data\": \"BirthDateDD\", \"Xpath\": \"//legend[text()='Eligibility Search']//following-sibling::div[2]//input[@aria-label='Day']\"}, {\"Data\": \"BirthDateYYYY\", \"Xpath\": \"//legend[text()='Eligibility Search']//following-sibling::div[2]//input[@aria-label='Year']\"}]}}",
+            "IsActive": true
+        }
+    ]
+}

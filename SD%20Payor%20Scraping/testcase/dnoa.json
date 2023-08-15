@@ -1,0 +1,83 @@
+{
+    "InputParameters": {
+        "PayorName": "Dental Network of America",
+        "PayorId": 24,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "WebsiteId": "DNOACONNECT_001",
+        "ProcCodes": [
+            "D0330",
+            "D0340",
+            "D7880",
+            "D4210",
+            "D4211",
+            "D7960",
+            "D7280",
+            "D7283",
+            "D7320",
+            "D7321",
+            "D8020",
+            "D8040",
+            "D8080",
+            "D8090",
+            "D8703",
+            "D8704"
+        ]
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 14595,
+            "PatientId": "14193",
+            "AppointmentId": "277824",
+            "AppointmentDateTime": "2023-01-31T02:51:45.7866667+00:00",
+            "LastName": "Macedo",
+            "FirstName": "Brianna",
+            "BirthDate": "2/12/2009",
+            "Relationship": "test12",
+            "PatientMemberId": null,
+            "SubscriberId": "829245853",
+            "SubscriberFirstName": "Alier",
+            "SubscriberLastName": "Macedo Sanchez",
+            "SubscriberBirthDate": "04/25/1964",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "2"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.dnoaconnect.com/#!/",
+        "LoginId": "thesmileytooth",
+        "Password": "hake1234",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"DataContextId\":\"1\",\"DataContextName\":\"EligibilityLogin\",\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//*[@id='username']\",\"PasswordXpath\":\"//*[@id='password']\",\"LoginButtonXpath\":\"/html/body/ui-view/div/div/ui-view/div[2]/div/div[2]/div[1]/form/div[4]/button\",\"OtpInputXpath\":\"\",\"OtpSubmitXpath\":\"\",\"PreSteps\":[],\"PostSteps\":[],\"OtpXpath\":\"\"}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"//*[@id='memberInfoSection']/div[2]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"//*[@id='eligibilityInfoSection']/div[2]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"//*[@id='groupInfoSection']/div[2]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Name/Plans\",\"Status\"],\"type\":\"headless\"},\"xpath\":\"//*[@id='family-info']/div/div[2]/table\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"xpath\":\"//*[@id='insuranceInfoSection']/div[2]\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"ProcedureCode\",\"Tooth_Quadrant\",\"Surfaces\",\"Description\",\"DateOfService\"]},\"xpath\":\"/html/body/ui-view/ui-view/div/div[4]/div[2]/div/div[4]/div/procedure-history/div/div[2]/div[3]/div/div[2]/div[2]/div\"}]}",
+            "DataContextName": "EligibilityServiceTreatmentHistory"
+        },
+        {
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"headingname\":\"Maximums\",\"xpath\":\"//*[@id='planInfoSection']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[]},\"headingname\":\"OrthodonticsMaximums\",\"xpath\":\"//*[@id='accumulator24']\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"MultiplElements\":{\"Searchlist\":null,\"action\":\"Sendkeys\",\"InputElementsXpath\":\"//*[@id='procedureCode']\",\"SearchButtonXpath\":\"//button[@type='submit']\"},\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"codeDescription\"},\"xpath\":\"//*[@id='codeDescription']\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"WaitingPeriod\"},\"xpath\":\"//*[@id='limitations']/span[1]/dd\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AlternateBenefitProcedure\"},\"xpath\":\"//*[@id='limitations']/span[4]/dd\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"InNetworkCoinsurance\"},\"xpath\":\"//*[@id='outOfPocketCosts']/div/span[1]/dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"InNetworkDeductible\"},\"xpath\":\"//*[@id='outOfPocketCosts']/div/span[1]/dd[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OutOfNetworkCoinsurance\"},\"xpath\":\"//*[@id='outOfPocketCosts']/div/span[2]/dd[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OutOfNetworkDeductible\"},\"xpath\":\"//*[@id='outOfPocketCosts']/div/span[2]/dd[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Copay\"},\"xpath\":\"//*[@id='outOfPocketCosts']/span/dd\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Other\",\"waitTime\":0},\"xpath\":\"//*[@id='procCodeSummary']/div[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"procedureCode\",\"waitTime\":0},\"xpath\":\"//*[contains(text(),'Procedure Code:')]\"},{\"AdditonalInfo\":{\"Click\":[\"//button[text()='Close']\"],\"fileds\":[]},\"xpath\":\"\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 4,
+            "EligibilityPayorInfoId": 24,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{},\"SearchButtonXpath\":\"/html/body/ui-view/div/div/ui-view/div/form/div/div[1]/div/div/div[7]/div/button\",\"PostSteps\":{\"Clicks\":[\"/html/body/ui-view/div/div/ui-view/div/form/div[2]/div[6]/div/div/button[2]\"],\"AdditonalInfo\":{\"aftersleep\":5}}},\"Queries\":[{\"Data\":\"SubscriberId\",\"Xpath\":\"//*[@id='subscriberId']\"},{\"Data\":\"BirthDate\",\"Xpath\":\"//*[@id='dateOfBirth']\"}]}}",
+            "IsActive": true
+        }
+    ]
+}

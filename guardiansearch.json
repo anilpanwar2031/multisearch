@@ -1,0 +1,82 @@
+
+
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+
+
+                ],
+                "AdditonalInfo": {}
+            },
+            "SearchFilter": {
+                "js": "let vale=arguments[1]rnlet newD = vale rnconsole.log(newD)          rntry{ let nx =arguments[0].replace('%s',newD)rndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()rnreturn true   rn}rncatch{return false}",
+                "arg1": "//div[text()='%s']//parent::td//preceding::td[2]//a",
+                "arg2": "BirthDate",
+                "afterwait": "//h2[text()='Plan information']"
+            },
+            "SearchButtonXpath": "//button[@id='member-search-submit-btn']",
+            "PostSteps": {
+                "AdditonalInfo": {
+                    "aftersleep": 5
+                },
+                "Clicks": []
+            }
+        },
+        "Queries": [
+            {
+                "Data": "SubscriberId",
+                "Xpath": "//input[@name='member-id']"
+            }
+        ]
+    }
+}
+
+
+
+
+
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//span[contains(text(),'Benefits')]",
+                    "//input[@id='search-option-group-patientInfo']"    
+                ],
+                "AdditonalInfo": {}
+            },
+            "SearchFilter": {
+                "js": "let vale=arguments[1]rnlet newD = vale rnconsole.log(newD)          rntry{ let nx =arguments[0].replace('%s',newD)rndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()rnreturn true   rn}rncatch{return false}",
+                "arg1": "//div[text()='%s']//parent::td//preceding::td[2]//a",
+                "arg2": "BirthDate",
+                "afterwait": "//h2[text()='Plan information']"
+            },
+            "SearchButtonXpath": "//button[@id='member-search-submit-btn']",
+            "PostSteps": {
+                "AdditonalInfo": {
+                    "aftersleep": 5
+                },
+                "Clicks": []
+            }
+        },
+        "Queries": [
+            {
+                "Data": "LastName",
+                "Xpath": "//input[@id='last-name-0']"
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//input[@name='dob']",
+                "PostClicks": [
+                    "//button[@title='Select']"
+                ],
+            },
+            {
+                "Data": "Relationship",
+                "Xpath": "//input[@name='member-id']"
+            }
+        ]
+    }
+}

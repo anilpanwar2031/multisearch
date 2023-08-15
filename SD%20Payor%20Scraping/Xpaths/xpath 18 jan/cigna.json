@@ -1,0 +1,46 @@
+{
+    "InputParameters": {
+        "PayorName": "cigna",
+        "PayorId": 0,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "RcmClaimNumber": "234378",
+        "RcmClinicId": "41e9bf05-7b4c-46ac-8d15-8cfecd970297"
+    },
+    "PatientData": [
+        {
+            "MemberID": "01524689500",
+            "Birthdate": "01/24/1992"
+        }
+    ],
+    "Login": {
+        "Url": "https://cignaforhcp.cigna.com/app/login",
+        "LoginId": "PP1bpktech",
+        "Password": "BPKtech@123",
+        "OtpRequired": true,
+        "OtpEmail": "insver@bpktechmail.com",
+        "OtpEmailPassword": "BPKtech@123!",
+        "EmailProvierUrl": ""
+    },
+    "Xpaths": [
+        {
+            "Id": 16,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 196,
+            "XPath": "{\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//*[@id='username']\",\"PasswordXpath\":\"//*[@id='password']\",\"LoginButtonXpath\":\"//*[@id='login-form']/div[3]/button\",\"OtpInputXpath\":\"//*[@id='verificationCode']\",\"OtpSubmitXpath\":\"/html/body/cigna-root/cigna-layout-wrapper/cigna-layout-public/main/cigna-wrapper-code/div/cigna-verify-code/form/div[7]/button[1]\",\"PreSteps\":[],\"PostSteps\":[],\"OtpXpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityLogin",
+            "ProductCategoryId": 0
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 2,
+            "EligibilityPayorInfoId": 12,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//button[text()='Change Member']\"],\"AdditonalInfo\":{\"aftersleep\":5}},\"SearchButtonXpath\":\"//button[text()='Search']\",\"SearchFilter\":{\"XpathGenerator\":{\"XPath\":\"//*[contains(text(),'%s')]\",\"DataKey\":\"FirstName\",\"wait\":\"//*[@id='patient-name']\",\"caps\":true}},\"PostSteps\":{\"AdditonalInfo\":{},\"Clicks\":[]}},\"Queries\":[{\"Data\":\"SubscriberId\",\"Xpath\":\"//input[@id='memberId']\"},{\"Data\":\"SubscriberFirstName\",\"Xpath\":\"//input[@id='first-name']\"},{\"Data\":\"SubscriberLastName\",\"Xpath\":\"//input[@id='last-name']\"},{\"Data\":\"SubscriberBirthDate\",\"Xpath\":\"//input[@id='dob']\"}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 2
+        }
+    ]
+}

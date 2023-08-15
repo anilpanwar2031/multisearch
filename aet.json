@@ -1,0 +1,106 @@
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//span[text()='Eligibility']",
+                    "//span[text()='Select Billing Provider']",
+                    "(//ul[@class='select2-results']//li//div)[1]",
+                    "//span[text()='Select a Payer']",
+                    "//div[contains(text(),'Aetna Dental Plans')]"
+                ],
+                "AdditonalInfo": {
+                    "window_number_before_clicks": 1,
+                    "aftersleep": 1
+                }
+            },
+            "SearchButtonXpath": "//button[text()='Continue']",
+            "PostSteps": {
+                "Clicks": [
+                    "(//td[text()='%s']//parent::tr//td)[1]//a!@BirthDate"
+                ],
+                "AdditonalInfo": {
+                    "aftersleep": 1
+                }
+            }
+        },
+        "Queries": [
+            {
+                "Data": "PatientMemberId",
+                "Xpath": "//input[@id='inputSsn']",
+                "AdditonalInfo": {
+                    "sleep": 2
+                }
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//input[@id='inputPatientDob']",
+                "AdditonalInfo": {
+                    "sleep": 2
+                }
+            }
+        ]
+    }
+}
+
+
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//span[text()='Select Billing Provider']",
+                    "(//ul[@class='select2-results']//li//div)[1]",
+                    "//span[text()='Select a Payer']",
+                    "//div[contains(text(),'Aetna Dental Plans')]"
+                ],
+                "AdditonalInfo": {
+                    "window_number_before_clicks": 1,
+                    "aftersleep": 1
+                }
+            },
+            "SearchButtonXpath": "//button[text()='Continue']",
+            "PostSteps": {
+                "Clicks": [
+                    "(//td[text()='%s']//parent::tr//td)[1]//a!@BirthDate"
+                ],
+                "AdditonalInfo": {
+                    "aftersleep": 1
+                }
+            }
+        },
+        "Queries": [
+            {
+                "Data": "PatientMemberId",
+                "Xpath": "//input[@id='inputSsn']",
+                "AdditonalInfo": {
+                    "sleep": 2
+                }
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//input[@id='inputPatientDob']",
+                "AdditonalInfo": {
+                    "sleep": 2
+                }
+            },
+            {
+                "Data": "LastName",
+                "Xpath": "//input[@id='inputPatientLastName']",
+                "AdditonalInfo": {
+                    "sleep": 2
+                }
+            },
+            {
+                "Data": "FirstName",
+                "Xpath": "//input[@id='inputPatientFirstName']",
+                "AdditonalInfo": {
+                    "sleep": 2
+                }
+            }
+        ]
+    }
+}
+
+
+

@@ -1,0 +1,119 @@
+{
+    "InputParameters": {
+        "PayorName": "Delta Dental of Colorado",
+        "PayorId": 133,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "WebsiteId": "COLORADO_001",
+        "ProcCodes": [
+            "D0150",
+            "D0120",
+            "D0140",
+            "D0170",
+            "D9110",
+            "D0220",
+            "D0230",
+            "D0272",
+            "D0274",
+            "D0210",
+            "D0330",
+            "D0240",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D7140",
+            "D3220",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D9230"
+        ],
+        "ScheduleId": 0
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 14492,
+            "PatientId": "60099",
+            "AppointmentId": "276810",
+            "AppointmentDateTime": "2023-05-18T08:55:27.61+00:00",
+            "LastName": "Castanon",
+            "FirstName": "Caroline",
+            "BirthDate": "01/03/2018",
+            "Relationship": "Child",
+            "PatientMemberId": "08000058630276",
+            "SubscriberId": "08000058630276",
+            "SubscriberFirstName": "Chelsea ",
+            "SubscriberLastName": "Meadows",
+            "SubscriberBirthDate": "08/15/1994",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        },
+        {
+            "EligibilityVerificationId": 14492,
+            "PatientId": "60099",
+            "AppointmentId": "276810",
+            "AppointmentDateTime": "2023-05-18T08:55:27.61+00:00",
+            "LastName": "Castanon",
+            "FirstName": "Caroline",
+            "BirthDate": "01/03/2018",
+            "Relationship": "Child",
+            "PatientMemberId": "08000058630276",
+            "SubscriberId": "08000058630276",
+            "SubscriberFirstName": "Chelsea ",
+            "SubscriberLastName": "Meadows",
+            "SubscriberBirthDate": "08/15/1994",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.deltadentalco.com/provider/",
+        "LoginId": "Payoraccess",
+        "Password": "BPKtech@123",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"DataContextId\": \"1\", \"DataContextName\": \"EligibilityLogin\", \"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[@id='usernameInput']\", \"PasswordXpath\": \"//input[@id='passwordInput']\", \"LoginButtonXpath\": \"//button[@id='btn-login']\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [], \"PostSteps\": [], \"OtpXpath\": \"\"}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Name\"},\"xpath\":\"//div[@class='table-info--row']//span[contains(text(),'Name')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Groupname\",\"waitTime\":0},\"xpath\":\"//div[@class='table-info--row']//span[contains(text(),'Group Name')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Groupnumber\",\"waitTime\":0},\"xpath\":\"//div[@class='table-info--row']//span[contains(text(),'Group Number')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"InsuranceIDnumber\",\"waitTime\":0},\"xpath\":\"//div[@class='table-info--row']//span[contains(text(),'ID')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Coverage\",\"waitTime\":0},\"xpath\":\"//div[@class='table-info--row']//span[contains(text(),'Coverage')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Product\",\"waitTime\":0},\"xpath\":\"//div[@class='table-info--row']//span[contains(text(),'Product')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Effectivedate\",\"waitTime\":0},\"xpath\":\"//div[@class='table-info--row']//span[contains(text(),'Effective Date')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Terminationdate\",\"waitTime\":0},\"xpath\":\"//div[@class='table-info--row']//span[contains(text(),'Termination Date')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"CalendarorFiscalPolicyYear\",\"waitTime\":0},\"xpath\":\"//div[@class='ng-star-inserted']//h3\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"IndividualAnnualDeductiblePPO\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Individual Annual Deductible (PPO)')]//parent::div//following-sibling::div//following-sibling::span[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"IndividualAnnualDeductibleMetPPO\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Individual Annual Deductible (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"CalanderFamilyDeductiblePPO\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Family Annual Deductible (PPO)')]//parent::div//following-sibling::div//following-sibling::span[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"CalanderFamilyDeductibleMetPPO\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Family Annual Deductible (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"LifetimeMaximumBenefitsPPO\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services Except Oral Surgery LT Age 19 (PPO)')]//parent::div//following-sibling::div//following-sibling::span[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"LifetimeMaximumBenefitsPPO\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services LT (PPO)')]//parent::div//following-sibling::div//following-sibling::span[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"BenefitsUsedtoDatePPO\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services Except Oral Surgery LT Age 19 (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"BenefitsUsedtoDatePPO\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services LT (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"RemainingBenefitAvailable\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services Except Oral Surgery LT Age 19 (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"RemainingBenefitAvailable\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services LT (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AnnualMaximumBenefitsPPO\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'INDV Prevention First Except TMJ Ortho INCL Oral Surgery Cal Yr (PPO)')]//parent::div//following-sibling::div//following-sibling::span[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AnnualMaximumBenefitsPPO\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'INDV All Covered Classes Except Ortho Cal Yr (PPO)')]//parent::div//following-sibling::div//following-sibling::span[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AnnualMaximumBenefitsUsedtoDate\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'INDV Prevention First Except TMJ Ortho INCL Oral Surgery Cal Yr (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AnnualMaximumBenefitsUsedtoDate\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'INDV All Covered Classes Except Ortho Cal Yr (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AnnualMaximumBRemainingBenefitAvailable\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'INDV Prevention First Except TMJ Ortho INCL Oral Surgery Cal Yr (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AnnualMaximumBRemainingBenefitAvailable\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'INDV All Covered Classes Except Ortho Cal Yr (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AnnualMaximumDentalBenefits\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'INDV Prevention First Except TMJ Ortho INCL Oral Surgery Cal Yr (PPO)')]//parent::div//following-sibling::div//following-sibling::span[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AnnualMaximumDentalBenefits\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'INDV All Covered Classes Except Ortho Cal Yr (PPO)')]//parent::div//following-sibling::div//following-sibling::span[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DentalBenefitUsedtoDate\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'INDV Prevention First Except TMJ Ortho INCL Oral Surgery Cal Yr (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DentalBenefitUsedtoDate\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'INDV All Covered Classes Except Ortho Cal Yr (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DentalRemainingBenefitAvailable\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'INDV Prevention First Except TMJ Ortho INCL Oral Surgery Cal Yr (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DentalRemainingBenefitAvailable\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'INDV All Covered Classes Except Ortho Cal Yr (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OrthodonticLifetimeBenefit\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services Except Oral Surgery LT Age 19 (PPO)')]//parent::div//following-sibling::div//following-sibling::span[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OrthodonticLifetimeBenefit\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services LT (PPO)')]//parent::div//following-sibling::div//following-sibling::span[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OrthodonticMaximumBenefit\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services Except Oral Surgery LT Age 19 (PPO)')]//parent::div//following-sibling::div//following-sibling::span[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OrthodonticMaximumBenefit\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services LT (PPO)')]//parent::div//following-sibling::div//following-sibling::span[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OrthodonticRemainingBenefit\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services Except Oral Surgery LT Age 19 (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OrthodonticRemainingBenefit\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services LT (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OrthodonticAgeLimit\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services Except Oral Surgery LT Age 19 (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OrthodonticAgeLimit\",\"waitTime\":0},\"xpath\":\"//span[contains(text(),'Orthodontic Services LT (PPO)')]//parent::div//following-sibling::div//following-sibling::span[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"MaximumApplicable\",\"waitTime\":0},\"xpath\":\"//span[contains(@class,'max-apply-text ng-star-inserted')]\"},{\"AdditonalInfo\":{\"Click\":[\"//span[@class='tooltip-text']//a\"],\"fileds\":[]},\"xpath\":\"//table/gofu\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//a[contains(text(),'Limitations')]\"], \"AfterClickWait\": 8, \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": []}, \"xpath\": \"//div[@class='scrollable']//table\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[contains(text(),'Coverage')]\"], \"AfterClickWait\": 7, \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [\"//span[contains(text(),'Select Provider')]\"], \"AfterClickWait\": 5, \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [\"//span[contains(text(),'Select Provider')]\"], \"AfterClickWait\": 5, \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [\"(//mat-option[contains(@id,'mat-option-')]//span)[2]\"], \"AfterClickWait\": 5, \"fileds\": \"\"}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath":"{\"flatten\":true,\"MultiplElements\":{\"Searchlist\":null,\"action\":\"Sendkeys\",\"PreClicks\":{\"Clicks\":[]},\"InputElementsXpath\":\"//input[contains(@id,'mat-chip-list-input')]\",\"SearchButtonXpath\":\"//div[@class='row inputs-container']//button[@class='mat-focus-indicator mat-raised-button mat-button-base mat-primary mat-button-disabled']//span[contains(text(),'Search')]\"},\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//div[@*='procedure-lookup-control']\"],\"fileds\":null,\"LoopElement\":{\"fieldName\":\"Proccode\"}},\"xpath\":\"\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Procedurecode\"},\"xpath\":\"//mat-panel-title[contains(@class,'mat-expansion-panel-header-title head-title ng-star-inserted')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Benefitclass\"},\"xpath\":\"(//label[contains(text(),'Benefit Class')]//following-sibling::span)[1]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Copay\"},\"xpath\":\"//label[contains(text(),'Copay')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"DeductibleWaived\"},\"xpath\":\"//label[contains(text(),'Deductible Waived')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"EligibleForBenefitClass\"},\"xpath\":\"//label[contains(text(),'Eligible For Benefit Class')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"WaitingPeriod\"},\"xpath\":\"//label[contains(text(),'Waiting Period')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[\"//*[text()='Close']\",\"//i[@class='icon-cancel']\"],\"fileds\":\"\"},\"xpath\":\"\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        },
+        {
+            "XPath": "{\"Scraping\":false,\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//a[@href='/provider/'][1]\"],\"fileds\":[]},\"xpath\":\"\"}]}",
+            "DataContextName": "SearchDashboardFilter"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 99,
+            "EligibilityPayorInfoId": 133,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"SleepAfterPreStep\": 10, \"Clicks\": [\"//div[contains(@class,'header-nav-container')]//nav[contains(@class,'navigation')]//a[contains(text(),'Find a Patient')]\"], \"AdditonalInfo\": {}}, \"SearchButtonXpath\": \"//span[contains(text(),'Search')]\", \"PostSteps\": {\"Clicks\": [], \"AdditonalInfo\": {\"aftersleep\": 10}}}, \"Queries\": [{\"Data\": \"FirstName\", \"Xpath\": \"(//input[contains(@id,'mat-input-')])[2]\", \"SleepAfterInput\": 5}, {\"Data\": \"BirthDate\", \"Xpath\": \"(//input[contains(@id,'mat-input-')])[3]\", \"SleepAfterInput\": 5}, {\"Data\": \"SubscriberId\", \"Xpath\": \"(//input[contains(@id,'mat-input-')])[1]\", \"SleepAfterInput\": 5}, {\"Data\": \"FirstName\", \"Xpath\": \"(//input[contains(@id,'mat-input-')])[2]\", \"SleepAfterInput\": 10}]}}",
+            "IsActive": true
+        }
+    ]
+}

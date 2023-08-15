@@ -1,0 +1,84 @@
+{
+  "InputParameters": {
+    "PayorName": "Delta Dental NewHampshire",
+    "PayorId": 56,
+    "ClientId": "7aef7d39-7662-4790-bcb4-279bce95c0d7",
+    "AppName": "Revenue Cycle Management",
+    "RcmClaimNumber": "38209",
+    "RcmClinicId": "121c9cc9-801e-4182-b053-b1fe42c343c8",
+    "file": "RcmEobClaimMaster"
+  },
+  "PatientData": [
+    {
+      "EligibilityVerificationId": 0,
+      "PatientId": "25631",
+      "AppointmentId": null,
+      "AppointmentDateTime": null,
+      "LastName": "Craspay",
+      "FirstName": "Hallie",
+      "BirthDate": "05/03/2016",
+      "Relationship": null,
+      "ClinicServerId": "187c1d71-156a-7634-05ed-01e7968435b5",
+      "ClinicNum": "231654165",
+      "ClaimAmount": "401",
+      "RcmGridViewId": "1523",
+      "SubscriberId": "33000093084756",
+      "SubscriberFirstName": "Cody",
+      "SubscriberLastName": "Craspay",
+      "SubscriberBirthDate": "9/11/1985",
+      "ProviderFirstName": "",
+      "ProviderLastName": "",
+      "SubscriberZipCode": "",
+      "DateOfService": "03-09-2022",
+      "ProviderTIN": "4771"
+
+    }
+  ],
+  "Login": {
+    "Url": "https://portal3.nedelta.com/BenefitLookup17/Account/ProvLogin",
+    "LoginId": "payoraccess1sdb",
+    "Password": "Changeme1!",
+    "OtpRequired": false,
+    "OtpEmail": "TODO"
+  },
+  "Xpaths": [
+      {
+      "Id": 48,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 15,
+      "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Patient\"},\"xpath\":\"//*[@id='patientFullName']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"ClaimNo\"},\"xpath\":\"//*[@id='claimNumber']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"ProviderName\"},\"xpath\":\"//*[@id='provFullName']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PatientDOB\"},\"xpath\":\"//*[@id='patientDOB']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"SubscriberID\"},\"xpath\":\"//*[@id='subrId']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"SubscriberName\"},\"xpath\":\"//*[@id='subscriberFullName']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"DeltaPayment\"},\"xpath\":\"//*[@id='planPays']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PatientResponsibility\"},\"xpath\":\"//*[@id='patientPays']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"CoordinationOfBenefits\"},\"xpath\":\"//*[@id='totalCOB']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Deductible\"},\"xpath\":\"//*[@id='deductible']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"ClaimReceived\"},\"xpath\":\"//*[@id='receivedDate']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Status\"},\"xpath\":\"//*[@id='claimStatus']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PaidDate\"},\"xpath\":\"//*[@id='checkDate']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PaidTo\"},\"xpath\":\"//*[@id='paidTo']\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"CheckNumber\"},\"xpath\":\"//*[@id='checkNumber']\"}]}",
+      "IsActive": true,
+      "DataContextName": "RcmEobClaimMaster",
+      "ProductCategoryId": 2
+    },
+    {
+      "Id": 47,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 15,
+      "DataContextId": 204,
+      "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[],\"fileds\":[],\"type\":\"headless\"},\"xpath\":\"//table[@id='Detail4']\"}]}",
+      "IsActive": true,
+      "DataContextName": "RcmEobClaimDetail",
+      "ProductCategoryId": 2
+    },
+    {
+      "Id": 1,
+      "ClientId": null,
+      "EligibilityPayorInfoId": 56,
+      "DataContextId": 196,
+      "XPath":"{\"DataContextId\":\"1\",\"DataContextName\":\"EligibilityLogin\",\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//*[@id='usernameInput']\",\"PasswordXpath\":\"//*[@id='passwordInput']\",\"LoginButtonXpath\":\"//*[@id='btn-login']\",\"OtpInputXpath\":\"\",\"OtpSubmitXpath\":\"\",\"PreSteps\":[],\"PostSteps\":[],\"OtpXpath\":\"\"}]}",
+      "IsActive": true,
+      "DataContextName": "EligibilityLogin",
+      "ProductCategoryId": 2
+    }
+  ],
+  "SearchParameters": [
+    {
+      "Id": 11,
+      "EligibilityPayorInfoId": 56,
+      "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[],\"AdditonalInfo\":{\"aftersleep\":2}},\"SearchButtonXpath\":\"//input[@value='Lookup']\",\"PostSteps\":{\"Clicks\":[\"//td[text()='%s']!@BirthDate\"],\"AdditonalInfo\":{\"aftersleep\":10}},\"SearchFilter\":{\"js\":\"function sleep(ms) {return new Promise(resolve => setTimeout(resolve, ms));}; const clickxpath =arguments[0].replace('%s',arguments[1]);console.log(clickxpath); const prevyear =document.getElementById('btnPrvYear');const curryear =document.getElementById('btnCurrYear');const serviceYear = arguments[1].split('-')[2];const currentyear = new Date().getFullYear(); const total =currentyear-serviceYear;for (let i = 0; i < total; i++) {prevyear.click();};sleep(10000).then((ele)=>{console.log('cheom');try{document.evaluate(clickxpath,document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue.click();return true;}catch(err){return false;}});sleep(20000).then(()=>{(async()=>{    let a =document.querySelector('#claimDetail').querySelectorAll('tr');function sleep(ms) {   return new Promise((resolve) => setTimeout(resolve, ms)); }    for(i of a){    if(i.querySelector('.processPolicy.drkBlu').textContent !== ''){        await   i.querySelector('.processPolicy.drkBlu').click();        await sleep(3000);      let temp=  await document.querySelector('#ProcessPolicyModal > div > div > div.modal-body').textContent;        await document.querySelector('#ProcessPolicyModal > div > div > div.modal-footer > button').click();        i.querySelector('.processPolicy.drkBlu').textContent =await temp;    }              }   })()});\",\"arg1\":\"//td[text()='%s']\",\"arg2\":\"DateOfService\",\"wait\":\"\"}},\"Queries\":[{\"Data\":\"SubscriberId\",\"Xpath\":\"//*[@id='subrId']\"}]}}",
+      "IsActive": true,
+      "ProductCategoryId": 2
+    }
+  ]
+}

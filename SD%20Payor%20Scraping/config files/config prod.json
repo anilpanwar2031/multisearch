@@ -1,0 +1,11 @@
+{
+    "Eligibility": {
+        "AZURE_STORAGE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=sdeligibilityprodsa;AccountKey=bKK7G3+EqDmBUZjxXjnkvut9/eDkKHMXXAsnbtPCmdB/jmtY5aas8WkO5wAqx2Jict8skEGhpaXB+ASthgZwEA==;EndpointSuffix=core.windows.net",
+        "incomingQueueName": "sdeligibilityscrapperincoming-que",
+        "OutgoingQueueName": "sdeligibilityscrapperresponse-que",
+        "connect_str_blob": "DefaultEndpointsProtocol=https;AccountName=sdeligibilityprodsa;AccountKey=bKK7G3+EqDmBUZjxXjnkvut9/eDkKHMXXAsnbtPCmdB/jmtY5aas8WkO5wAqx2Jict8skEGhpaXB+ASthgZwEA==;EndpointSuffix=core.windows.net",
+        "container_name_blob": "sdeligibilityblob",
+        "sa_name_blob": "sdeligibilityprodsa",
+        "ApiUrl":"https://sd-scheduler-prod.azurewebsites.net/api/callback-scrapping"
+    }
+}

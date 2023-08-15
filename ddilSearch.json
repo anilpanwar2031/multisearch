@@ -1,0 +1,82 @@
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//a[text()='Patient Information']",
+                    "//p//a[text()='Patient Benefits']"
+                ],
+                "AdditonalInfo": {}
+            },
+            "SearchButtonXpath": "//input[@id='formSubmit']",
+            "PostSteps": {
+                "Clicks": [
+                    "//b[text()='SUBSCRIBER NAME:']"
+                ],
+                "ExceptionClicks": [
+                    "//table[@class='nolines']//tr//td//input[contains(@value,'%s')]!@SubscriberId",
+                    "//input[contains(@id,'formSubmit')]"
+                ],
+                "AdditonalInfo": {
+                    "sleep": 3
+                }
+            }
+        },
+        "Queries": [
+            {
+                "Data": "LastName",
+                "Xpath": "//input[@id='lastName']"
+            },
+            {
+                "Data": "FirstName",
+                "Xpath": "//input[@id='firstName']"
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//input[@id='dobOne']"
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//a[text()='Patient Information']",
+                    "//p//a[text()='Patient Benefits']"
+                ],
+                "AdditonalInfo": {}
+            },
+            "SearchButtonXpath": "//input[@id='formSubmit']",
+            "PostSteps": {
+                "Clicks": [
+                    "//b[text()='SUBSCRIBER NAME:']"
+                ],
+                "ExceptionClicks": [
+                    "//table[@class='nolines']//tr//td//input[contains(@value,'%s')]!@SubscriberId",
+                    "//input[contains(@id,'formSubmit')]"
+                ],
+                "AdditonalInfo": {
+                    "sleep": 3
+                }
+            }
+        },
+        "Queries": [
+            {
+                "Data": "SubscriberId",
+                "Xpath": "//input[@id='memberNumber']"
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//input[@id='dobTwo']"
+            }
+        ]
+    }
+}

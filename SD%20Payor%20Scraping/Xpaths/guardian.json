@@ -1,0 +1,99 @@
+{
+    "InputParameters": {
+        "PayorName": "Guardian",
+        "PayorId": 0,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "RcmClaimNumber": "234378",
+        "RcmClinicId": "41e9bf05-7b4c-46ac-8d15-8cfecd970297"
+    },
+    "PatientData": [
+        {
+            "FirstName": "Case",
+            "LastName": "Barrons",
+            "BirthDate": "07/04/1988",
+            "SubscriberID" : "627208846"
+        }
+    ],
+    "Login": {
+        "Url": "https://signin.guardianlife.com/signin",
+        "LoginId": "Payorportal@sdbmail.com",
+        "Password": "Changeme1!",
+        "OtpRequired": true,
+        "OtpEmail": "",
+        "OtpEmailPassword": "",
+        "EmailProvierUrl": ""
+    },
+    "Xpaths": [
+        {
+            "Id": 16,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 196,
+            "XPath": "{\r\n    \"Click\": null,\r\n    \"Xpaths\": [\r\n        {\r\n            \"UsernameXpath\": \"//input[@id='username']\",\r\n            \"PasswordXpath\": \"//input[@id='current-password']\",\r\n            \"LoginButtonXpath\": \"//button[@id='signin-button']\",\r\n            \"OtpInputXpath\": \"//*[@id='mfaSecurityCode']\",\r\n            \"OtpSubmitXpath\": \"//*[@id='mfaSignInButton']\",\r\n            \"PreSteps\": [],\r\n            \"PostSteps\": [\r\n                \"//*[@id='mfaChallengeButton']\"\r\n            ],\r\n            \"OtpXpath\": \"\"\r\n        }\r\n    ]\r\n}",
+            "IsActive": true,
+            "DataContextName": "EligibilityLogin",
+            "ProductCategoryId": 0
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,                      
+            "XPath": "{\r\n  \"Xpaths\": [\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Benefit period\"\r\n      },\r\n      \"xpath\": \"//div[text()='Benefit period']//following-sibling::div\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Date of birth\"\r\n      },\r\n      \"xpath\": \"//div[text()='Date of birth']//following-sibling::div\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Dependent age limit\"\r\n      },\r\n      \"xpath\": \"//div[text()='Dependent age limit']//following-sibling::div\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Student age limit\"\r\n      },\r\n      \"xpath\": \"//div[text()='Student age limit']//following-sibling::div\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Group name\"\r\n      },\r\n      \"xpath\": \"//div[text()='Group name']//following-sibling::div\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Group number\"\r\n      },\r\n      \"xpath\": \"//div[text()='Group number']//following-sibling::div\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Plan\"\r\n      },\r\n      \"xpath\": \"//div[@class='plan-info-list']//li[1]\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"Claim Address\"\r\n      },\r\n      \"xpath\": \"//*[text()='Mail us your claim']//parent::p\"\r\n    },\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": null,\r\n        \"fileds\": \"\"\r\n      },\r\n      \"xpath\": \"//h2[text()='Effective dates of coverage (by service category)']//following-sibling::div//table\"\r\n    }\r\n  ]\r\n}",
+            "IsActive": true,
+            "DataContextName": "EligibilityPatientVerification", 
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\r\n  \"Xpaths\": [\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [],\r\n        \"fileds\": \"\"\r\n      },\r\n      \"xpath\": \"//h2[text()='Plan maximums']//following-sibling::div//table\"\r\n    }\r\n  ]\r\n}",
+            "IsActive": true,
+            "DataContextName": "EligibilityMaximums",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\n  \"Xpaths\": [\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": [\n          \"Benefit\",\n          \"Amount\"\n        ],\n        \"type\": \"Type3\"\n      },\n      \"xpath\": \"//h2[text()='MaxRollover summary']//following-sibling::div//table\"\n    },\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": \"\"\n      },\n      \"xpath\": \"//h2[text()='Deductibles']//following-sibling::div//table\"\n    },\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": \"\"\n      },\n      \"xpath\": \"//h2[text()='Plan options']//following-sibling::div//table\"\n    }\n  ]\n}",
+            "IsActive": true,
+            "DataContextName": "EligibilityOtherProvisions",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\r\n  \"Xpaths\": [\r\n    {\r\n      \"AdditonalInfo\": {\r\n        \"Click\": [],\r\n        \"fileds\": \"\"\r\n      },\r\n      \"xpath\": \"//h2[text()='Deductibles']//following-sibling::div//table\"\r\n    }\r\n  ]\r\n}",
+            "IsActive": true,
+            "DataContextName": "EligibilityDeductiblesProcCode",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\n  \"MultiplElements\": {\n    \"Searchlist\": [\n      \"0150\",\n      \"0120\",\n      \"0140\",\n      \"0170\",\n      \"9110\",\n      \"0220\",\n      \"0230\",\n      \"0272\",\n      \"0274\",\n      \"0210\",\n      \"0330\",\n      \"0240\",\n      \"1110\",\n      \"1120\",\n      \"1206\",\n      \"1208\",\n      \"1351\",\n      \"1354\",\n      \"1516\",\n      \"1517\",\n      \"2140\",\n      \"2150\",\n      \"2160\",\n      \"2161\",\n      \"2391\",\n      \"2392\",\n      \"2393\",\n      \"2394\",\n      \"7140\",\n      \"3220\",\n      \"2930\",\n      \"2933\",\n      \"2934\",\n      \"9230\"\n    ],\n    \"action\": \"Sendkeys\",\n    \"InputElementsXpath\": \"//input[@name='cdtInput']\",\n    \"SearchButtonXpath\": \"//button[@id='cdt-search-button']\"\n  },\n  \"Xpaths\": [\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": \"Code\"\n      },\n      \"xpath\": \"//input[@id='cdtInput']\"\n    },\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": \"Service\"\n      },\n      \"xpath\": \"//div[@class='sc-beySbM bQCwrn cdt-search-results table-container']//tbody//td[1]\"\n    },\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": \"Network1\"\n      },\n      \"xpath\": \"//div[@class='sc-beySbM bQCwrn cdt-search-results table-container']//tbody//td[2]//div//div//div[1]\"\n    },\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": \"Network2\"\n      },\n      \"xpath\": \"//div[@class='sc-beySbM bQCwrn cdt-search-results table-container']//tbody//td[2]//div//div//div[2]\"\n    },\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": \"InNetworkCategory\"\n      },\n      \"xpath\": \"//div[@class='sc-beySbM bQCwrn cdt-search-results table-container']//tbody//td[3]//div//div//div[1]\"\n    },\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": \"InNetworkCoinsurance\"\n      },\n      \"xpath\": \"//div[@class='sc-beySbM bQCwrn cdt-search-results table-container']//tbody//td[4]//div//div//div[1]\"\n    },\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": \"OutNetworkCategory\"\n      },\n      \"xpath\": \"//div[@class='sc-beySbM bQCwrn cdt-search-results table-container']//tbody//td[3]//div//div//div[2]\"\n    },\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": \"OutNetworkCoinsurance\"\n      },\n      \"xpath\": \"//div[@class='sc-beySbM bQCwrn cdt-search-results table-container']//tbody//td[4]//div//div//div[2]\"\n    },\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": \"Message\"\n      },\n      \"xpath\": \"//div[@class='sc-beySbM bQCwrn cdt-search-results table-container']//tbody//td[5]\"\n    },\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [],\n        \"fileds\": \"Last Visit\"\n      },\n      \"xpath\": \"//div[@class='sc-beySbM bQCwrn cdt-search-results table-container']//tbody//td[6]\"\n    },\n    {\n      \"AdditonalInfo\": {\n        \"Click\": [\n          \"//button[@id='close-icon-wrapper']\"\n        ],\n        \"fileds\": []\n      },\n      \"xpath\": \"\"\n    }\n  ]\n}",
+            "IsActive": true,
+            "DataContextName": "EligibilityBenefits",
+            "ProductCategoryId": 2
+        }
+        
+    ],
+    "SearchParameters": [
+        {
+            "Id": 2,
+            "EligibilityPayorInfoId": 12,
+            "JsonSettings": "{\r\n  \"Search\": {\r\n    \"Settings\": {\r\n      \"PreSteps\": {\r\n        \"Clicks\": [],\r\n        \"AdditonalInfo\": {}\r\n      },\r\n      \"SearchFilter\": {\r\n        \"js\": \"let vale=arguments[1]\\r\\nlet newD = vale \\r\\nconsole.log(newD)          \\r\\ntry{ let nx =arguments[0].replace('%s',newD)\\r\\ndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()\\r\\nreturn true   \\r\\n}\\r\\ncatch{return false}\",\r\n        \"arg1\": \"//div[text()='%s']//parent::td//preceding::td[2]//a\",\r\n        \"arg2\": \"BirthDate\",\r\n        \"afterwait\" : \"//h2[text()='Plan information']\"\r\n      },\r\n      \"SearchButtonXpath\": \"//button[@id='member-search-submit-btn']\",\r\n      \"PostSteps\": {\r\n        \"AdditonalInfo\": {\r\n          \"aftersleep\": 5\r\n        },\r\n        \"Clicks\": []\r\n      }\r\n    },\r\n    \"Queries\": [\r\n      {\r\n        \"Data\": \"SubscriberID\",\r\n        \"Xpath\": \"//input[@name='member-id']\"\r\n      }\r\n    ]\r\n  }\r\n}",
+            "IsActive": true,
+            "ProductCategoryId": 4
+        }
+    ]
+}

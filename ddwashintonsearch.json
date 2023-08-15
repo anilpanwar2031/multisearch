@@ -1,0 +1,28 @@
+{
+    "DataContextId": "1",
+    "DataContextName": "EligibilityLogin",
+    "Click": null,
+    "Xpaths": [
+        {
+            "UsernameXpath": "//input[contains(@id,'usernameInput')]",
+            "PasswordXpath": "//input[contains(@id,'passwordInput')]",
+            "LoginButtonXpath": "//button[contains(text(),'Sign in')]",
+            "OtpInputXpath": "",
+            "OtpSubmitXpath": "",
+            "PreSteps": [
+                "//ul[@class='navbar-nav']//a[contains(text(),'Provider')]",
+                "//span[contains(text(),'Sign in')]",
+                "//a[contains(text(),'with DDPA')]"
+            ],
+            "PostSteps": [],
+            "OtpXpath": "",
+            "AdditionalInfo": {
+                "StepsAfterUsernameInput": {
+                    "Click": [
+                        "//button[contains(text(),'Next')]"
+                    ]
+                }
+            }
+        }
+    ]
+}

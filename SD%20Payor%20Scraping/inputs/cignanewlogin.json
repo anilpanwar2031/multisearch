@@ -1,0 +1,129 @@
+{
+    "InputParameters": {
+        "PayorName": "Cigna",
+        "PayorId": 20,
+        "ClientId": "857dc9bd-c432-482d-af84-437a48ccecfe",
+        "AppName": "Eligibility",
+        "WebsiteId": "2",
+        "ProcCodes": [
+            "D0150",
+            "D0120",
+            "D0140",
+            "D0170",
+            "D9110",
+            "D0220",
+            "D0230",
+            "D0272",
+            "D0274",
+            "D0210",
+            "D0330",
+            "D0240",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D7140",
+            "D3220",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D9230"
+        ],
+        "ScheduleId": 673
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 13908,
+            "PatientId": "47385",
+            "AppointmentId": "281097",
+            "AppointmentDateTime": "2023-05-12T15:15:00+00:00",
+            "LastName": "Aimsila",
+            "FirstName": "Giovanni",
+            "BirthDate": "01/31/2011",
+            "Relationship": "Child",
+            "PatientMemberId": "106091794",
+            "SubscriberId": "106091794",
+            "SubscriberFirstName": "Giovanni",
+            "SubscriberLastName": "Aimsila",
+            "SubscriberBirthDate": "01/31/2011",
+            "ClinicServerId": "bfe87f26-10ca-e07a-be99-f0b3ec5a8e7f",
+            "ClinicNum": "3"
+        },
+        {
+            "EligibilityVerificationId": 13908,
+            "PatientId": "47385",
+            "AppointmentId": "281097",
+            "AppointmentDateTime": "2023-05-12T15:15:00+00:00",
+            "LastName": "Aimsila",
+            "FirstName": "Giovanni",
+            "BirthDate": "01/31/2011",
+            "Relationship": "Child",
+            "PatientMemberId": "106091794",
+            "SubscriberId": "106091794",
+            "SubscriberFirstName": "Giovanni",
+            "SubscriberLastName": "Aimsila",
+            "SubscriberBirthDate": "01/31/2011",
+            "ClinicServerId": "bfe87f26-10ca-e07a-be99-f0b3ec5a8e7f",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://cignaforhcp.cigna.com/app/login",
+        "LoginId": "payoraccess",
+        "Password": "Changeme1!",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"Xpaths\":[{\"UsernameXpath\":\"//*[@id='username']\",\"PasswordXpath\":\"//*[@id='password']\",\"LoginButtonXpath\":\"//*[@id='login-form']/div[3]/button\",\"OtpInputXpath\":\"//*[@id='verificationCode']\",\"OtpSubmitXpath\":\"/html/body/cigna-root/cigna-layout-wrapper/cigna-layout-public/main/cigna-wrapper-code/div/cigna-verify-code/form/div[6]/button[1]\",\"PreSteps\":[],\"PostSteps\":[\"/html/body/cigna-root/cigna-layout-wrapper/cigna-layout-public/main/cigna-wrapper-code/div/cigna-verify-code/form/div[4]/label/span\"],\"OtpXpath\":\"two-step authentication code is: (\\\\d{6})!@Regex\",\"OtpRequired\":true,\"OtpInstructions\":{\"OtpEmail\":\"payorportal@sdbmail.com\",\"OtpEmailPassword\":\"\",\"FromEmail\":\"\",\"EmailTitle\":\"Your two-step authentication code\",\"tenantID\":\"e44873dc-54c1-425a-8c70-6bd6ee571de4\",\"clientID\":\"aa33b5af-9a5a-4cb3-b120-2b831663f414\",\"clientSecret\":\"K.g8Q~W6gjw-xk4IE67XzTeA7X2FIcF2ecoyJcnq\",\"SMTPAddress\":\"\",\"EncryptionType\":\"\",\"ImapType\":\"\",\"OtpWait\":10}}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"flatten\": true, \"Xpaths\": [{\"AdditonalInfo\": {\"ExceptionClick\": [\"//*[text()='No Thanks']\"], \"Click\": null, \"fileds\": []}, \"xpath\": \"//*[@id='PATIENT_PLAN']/section/div/cigna-patient-and-plan/div/div[1]/cigna-patient-detail/table\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": []}, \"xpath\": \"//*[@id='PATIENT_PLAN']/section/div/cigna-patient-and-plan/div/div[2]/cigna-plan-and-network/div/div[1]/table\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": []}, \"xpath\": \"//*[@id='PATIENT_PLAN']/section/div/cigna-patient-and-plan/div/div[2]/cigna-plan-and-network/div/div[2]/table\"}, {\"AdditonalInfo\": {\"Click\": [\"//*[@id='CONTACTS']/section/button\"], \"fileds\": \"ClaimOfficeMailingAddress\"}, \"xpath\": \"//*[@id='CONTACTS']/section/div\"}, {\"AdditonalInfo\": {\"Click\": [\"//*[@id='DENTAL_PROVIDER']/section/button\"], \"fileds\": []}, \"headingname\": \"DENTAL_PROVIDER\", \"xpath\": \"//*[@id='DENTAL_PROVIDER']/section/div/cigna-dental-provider/table\"}, {\"AdditonalInfo\": {\"Click\": [\"//*[@id='CPT_SEARCH']/section/button\"], \"fileds\": []}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Maximums\"}, \"xpath\": \"//cigna-coverage-dental-oop/div/div\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//*[@id='FREQ_AGE_LIMIT']/section/button\"], \"fileds\": []}, \"xpath\": \"//*[@id='FREQ_AGE_LIMIT']/section/div/div/cigna-freq-age-limit/table[2]\"}]}",
+            "DataContextName": "EligibilityAgeLimitation"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": null, \"ExceptionClick\": [\"//*[text()=' Patient Charge Schedule ']\"], \"fileds\": \"Deductible\"}, \"xpath\": \"//cigna-coverage-dental-deductible/div/div\"}, {\"AdditonalInfo\": {\"Click\": [\"//option[text()=' Out-of-Network ']\"], \"fileds\": \"OutofNetworkDeductible\"}, \"xpath\": \"//cigna-coverage-dental-deductible/div/div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"OutofNetworkMaximums\"}, \"xpath\": \"//cigna-coverage-dental-oop/div/div\"}]}",
+            "DataContextName": "EligibilityDeductiblesProcCode"
+        },
+        {
+            "Id": 222,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 61,
+            "DataContextId": 206,
+            "XPath": "{\"Scraping\":false,\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//*[@data-test='primary-nav-chcp.dashboard']\"],\"fileds\":[]},\"xpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "SearchDashboardFilter",
+            "ProductCategoryId": 6
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 19,
+            "EligibilityPayorInfoId": 20,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [\"//a[contains(text(),'Patients')]\"], \"AdditonalInfo\": {}}, \"SearchButtonXpath\": \"//button[contains(text(),'Search')]\", \"PostSteps\": {\"AdditonalInfo\": {\"aftersleep\": 20}, \"Clicks\": [\"//*[@id='patientIdBody_0']/button\", \"//*[contains(text(),'Confirm Patient')]\"]}}, \"Queries\": [{\"Data\": \"FirstName\", \"Xpath\": \"//*[@id='patient_FN_0']\"}, {\"Data\": \"LastName\", \"Xpath\": \"//*[@id='patient_LN_0']\"}, {\"Data\": \"BirthDate\", \"Xpath\": \"//*[@id='patient_dob_0']\"}]}}",
+            "IsActive": true
+        }
+    ]
+}

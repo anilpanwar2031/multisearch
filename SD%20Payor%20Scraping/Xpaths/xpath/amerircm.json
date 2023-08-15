@@ -1,0 +1,78 @@
+{
+    "InputParameters": {
+        "PayorName": "Ameritas",
+        "PayorId": 61,
+        "ClientId": "7aef7d39-7662-4790-bcb4-279bce95c0d7",
+        "AppName": "Revenue Cycle Management",
+        "RcmClaimNumber": "38209",
+        "RcmClinicId": "121c9cc9-801e-4182-b053-b1fe42c343c8",
+        "file": "RcmEobClaimMaster"
+    },
+    "PatientData": [
+        {
+            "PatientId": "",
+            "SubscriberId": "018232997",
+            "SubscriberBirthDate": "02/26/1979",
+            "SubscriberFirstName": "Willie",
+            "SubscriberLastName" : "Thomas",
+            "DateOfService" : "02/27/2023",
+            "FirstName": "Nevaeh",
+            "LastName": "Thomas",
+            "BirthDate": "11/12/2013",
+            "InsuranceId": "38770",
+            "EligibilityVerificationId": "44",
+            "ClinicServerId": "swe",
+            "RcmGridViewId" : "1234",
+            "PMSSubscriberId": "018232997"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.ameritas.com/applications/group/provider",
+        "LoginId": "amuz@mil1",
+        "Password": "Changeme1!",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "Id": 48,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 15,
+            "DataContextId": 202,
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"DateofService\"},\"xpath\":\"//div[@class='keyValRows claimsInfo']//span[contains(@id,'form1:dateofServicelo')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"MemberName\"},\"xpath\":\"//div[@class='keyValRows claimsInfo']//span[contains(@id,'form1:membername')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PatientName\"},\"xpath\":\"//div[@class='keyValRows claimsInfo']//span[contains(@id,'form1:patientName')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PatientDOB\"},\"xpath\":\"//div[@class='keyValRows claimsInfo']//span[contains(@id,'form1:patientDOB')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"ClaimNumber\"},\"xpath\":\"//div[@class='keyValRows claimsInfo']//span[contains(@id,'form1:claimNumber')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"ProviderName\"},\"xpath\":\"//div[@class='keyValRows claimsInfo']//span[contains(@id,'form1:provider')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PlanSponsor\"},\"xpath\":\"//div[@class='keyValRows claimsInfo']//span[contains(@id,'form1:planSponsor')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"PlanNumber\"},\"xpath\":\"//div[@class='keyValRows claimsInfo']//span[contains(@id,'form1:planNumber')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"Chargessubmitted\"},\"xpath\":\"//span[contains(@id,'form1:providerChrgAmt')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"TheNetworkAgreementReducesTheChargesTo\"},\"xpath\":\"//span[contains(@id,'form1:reduceChgAmt')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"AfterCarefullyReviewingThePatientsCoverageAndThisClaimPaymentWasSentToTheProviderFor\"},\"xpath\":\"//span[contains(@id,'form1:paymentMadeAmt')]\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":\"YouMayBillThePatient\"},\"xpath\":\"//span[contains(@id,'form1:patientRespAmt')]\"},{\"AdditonalInfo\":{\"Click\":[\"//span[contains(text(),'See how this claim was calculated')]\"],\"fileds\":[]},\"xpath\":\"//table/gofu\"},{\"AdditonalInfo\":{\"Click\":[\"//a[contains(text(),'Download PDF')]\"],\"fileds\":[]},\"xpath\":\"//table/gofu\"}]}",
+            "IsActive": true,
+            "DataContextName": "RcmEobClaimMaster",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 47,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 15,
+            "DataContextId": 204,
+            "XPath": "{\"MultiplElements\":{\"multiple_elements_type\":\"XpathBased\",\"multiple_elements_xpath\":\"//div[contains(@class,'accordionClaimHeading accordion')]//i\",\"action\":\"Click\"},\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DateOfService\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtDateOfServiceData')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"ServiceType\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtServiceTypeField')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"ToothArchQuad\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtToothField')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"SubmittedProcedureCode\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtSubmittedCodeField')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PaidProcedureCode\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtPaidProcedureCode')]//following-sibling::span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Description\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtDescField')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"ChargeSubmittedByProvider\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtChargeSubField')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"ProviderAdjustment\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtProviderAdjustmentField')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"NetworkProviderAcceptedFee\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtProviderContractFeeField')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AmountCoveredByPlan\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtAmtCoveredByPlanField')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DeductibleApplied\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtDeductibleAmt')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AmountCoveredAfterDeductible\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtAmtDeductField')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PercentagePlanPays\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtPlanPaysField')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AmountPayableByPlan\",\"type\":\"\"},\"xpath\":\"//div[@class='panel-body']//span[contains(@id,'txtAmtPayableByPlan')]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":[],\"DeleteElement\":\"//*[@class='gridContentRow'][1]\"},\"xpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "RcmEobClaimDetail",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 49,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 15,
+            "XPath": "{\"DataContextId\":\"1\",\"DataContextName\":\"EligibilityLogin\",\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//input[@id='ontUser']\",\"PasswordXpath\":\"//input[@id='ontPassword']\",\"LoginButtonXpath\":\"//input[@id='Submit']\",\"OtpInputXpath\":\"//input[@name='verify']\",\"OtpSubmitXpath\":\"//button[text()='Next']\",\"PreSteps\":[],\"PostSteps\":[],\"OtpXpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityLogin",
+            "DataContextId": 196,
+            "ProductCategoryId": 2
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 16,
+            "EligibilityPayorInfoId": 15,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//table[@class='userListTable table table-hover table-striped']//span[contains(text(),'PRECINCT LINE RD')]\",\"//li//a[contains(text(),'Find A Member')]\"],\"AdditonalInfo\":{}},\"SearchButtonXpath\":\"//input[@class='btn btn-default form-submit']\",\"PostSteps\":{\"AdditonalInfo\":{\"aftersleep\":5},\"Clicks\":[\"//span[contains(text(),'Claims')]\",\"//span[contains(text(),'more details')]\"]}},\"Queries\":[{\"Data\":\"SubscriberId\",\"Xpath\":\"//input[@type='password']\"},{\"Data\":\"SubscriberLastName\",\"Xpath\":\"//div[contains(@id,'memberidfields')]//input[contains(@id,'lastName')]\"}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 2
+        }
+    ]
+}
+

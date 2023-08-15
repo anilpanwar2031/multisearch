@@ -1,0 +1,127 @@
+{
+    "InputParameters": {
+        "PayorName": "Guardian",
+        "PayorId": 2,
+        "ClientId": "857dc9bd-c432-482d-af84-437a48ccecfe",
+        "AppName": "Eligibility",
+        "WebsiteId": "GUARDIAN_001",
+        "ProcCodes": [
+            "D0150",
+            "D0120",
+            "D0140",
+            "D0170",
+            "D9110",
+            "D0220",
+            "D0230",
+            "D0272",
+            "D0274",
+            "D0210",
+            "D0330",
+            "D0240",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D7140",
+            "D3220",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D9230"
+        ],
+        "ScheduleId": 673
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 14012,
+            "PatientId": "61343",
+            "AppointmentId": "285079",
+            "AppointmentDateTime": "2023-05-15T09:00:00+00:00",
+            "LastName": "Hagood",
+            "FirstName": "Nathan",
+            "BirthDate": "11/26/2019",
+            "Relationship": "Child",
+            "PatientMemberId": "942124650",
+            "SubscriberId": "942124650",
+            "SubscriberFirstName": "Nathan",
+            "SubscriberLastName": "Hagood",
+            "SubscriberBirthDate": "11/26/2019",
+            "ClinicServerId": "bfe87f26-10ca-e07a-be99-f0b3ec5a8e7f",
+            "ClinicNum": "3"
+        },
+        {
+            "EligibilityVerificationId": 14012,
+            "PatientId": "61343",
+            "AppointmentId": "285079",
+            "AppointmentDateTime": "2023-05-15T09:00:00+00:00",
+            "LastName": "Hagood",
+            "FirstName": "Nathan",
+            "BirthDate": "11/26/2019",
+            "Relationship": "Child",
+            "PatientMemberId": "942124650",
+            "SubscriberId": "942124650",
+            "SubscriberFirstName": "Nathan",
+            "SubscriberLastName": "Hagood",
+            "SubscriberBirthDate": "11/26/2019",
+            "ClinicServerId": "bfe87f26-10ca-e07a-be99-f0b3ec5a8e7f",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://signin.guardianlife.com/signin",
+        "LoginId": "Payorportal@sdbmail.com",
+        "Password": "Changeme1!",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//input[@id='username']\",\"AdditionalInfo\":{\"StepsAfterUsernameInput\":{\"Click\":[\"//button[@id='signin-button']\"]}},\"PasswordXpath\":\"//input[@id='current-password']\",\"LoginButtonXpath\":\"//button[@id='signin-button']\",\"OtpInputXpath\":\"//*[@id='mfaSecurityCode']\",\"OtpSubmitXpath\":\"//*[@id='mfaSignInButton']\",\"PreSteps\":[],\"PostSteps\":[\"//*[@id='mfaChallengeButton']\"],\"OtpXpath\":\"//span[@class='letter-message']\",\"OtpInstructions\":{\"OtpEmail\":\"payorportal@sdbmail.com\",\"OtpEmailPassword\":\"\",\"FromEmail\":\"\",\"EmailTitle\":\"Thank you for choosing Guardian\",\"tenantID\":\"e44873dc-54c1-425a-8c70-6bd6ee571de4\",\"clientID\":\"aa33b5af-9a5a-4cb3-b120-2b831663f414\",\"clientSecret\":\"K.g8Q~W6gjw-xk4IE67XzTeA7X2FIcF2ecoyJcnq\",\"SMTPAddress\":\"\",\"EncryptionType\":\"\",\"ImapType\":\"\",\"OtpWait\":40}}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Benefit period\"}, \"xpath\": \"//div[text()='Benefit period']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Date of birth\"}, \"xpath\": \"//div[text()='Date of birth']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Dependent age limit\"}, \"xpath\": \"//div[text()='Dependent age limit']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Student age limit\"}, \"xpath\": \"//div[text()='Student age limit']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Group name\"}, \"xpath\": \"//div[text()='Group name']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Group number\"}, \"xpath\": \"//div[text()='Group number']//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Plan\"}, \"xpath\": \"//div[@class='plan-info-list']//li[1]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Claim Address\"}, \"xpath\": \"//*[text()='Mail us your claim']//parent::p\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"\"}, \"xpath\": \"//h2[text()='Effective dates of coverage (by service category)']//following-sibling::div//table\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"\"}, \"xpath\": \"//h2[text()='Plan maximums']//following-sibling::div//table\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"Benefit\", \"Amount\"], \"type\": \"Type3\"}, \"xpath\": \"//h2[text()='MaxRollover summary']//following-sibling::div//table\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"\"}, \"xpath\": \"//h2[text()='Deductibles']//following-sibling::div//table\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"\"}, \"xpath\": \"//h2[text()='Plan options']//following-sibling::div//table\"}]}",
+            "DataContextName": "EligibilityOtherProvisions"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"\"}, \"xpath\": \"//h2[text()='Deductibles']//following-sibling::div//table\"}]}",
+            "DataContextName": "EligibilityDeductiblesProcCode"
+        },
+        {
+            "XPath": "{\"flatten\": true, \"MultiplElements\": {\"Searchlist\": [\"0150\", \"0120\", \"0140\", \"0170\", \"9110\", \"0220\", \"0230\", \"0272\", \"0274\", \"0210\", \"0330\", \"0240\", \"1110\", \"1120\", \"1206\", \"1208\", \"1351\", \"1354\", \"1516\", \"1517\", \"2140\", \"2150\", \"2160\", \"2161\", \"2391\", \"2392\", \"2393\", \"2394\", \"7140\", \"3220\", \"2930\", \"2933\", \"2934\", \"9230\"], \"action\": \"Sendkeys\", \"InputElementsXpath\": \"//input[@name='cdtInput']\", \"SearchButtonXpath\": \"//button[@id='cdt-search-button']\"}, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"Service\", \"Network 1, Network 2\", \"Category 1, Category 1\", \"Coinsurance 1, Coinsurance2\", \"Message\", \"Last visit\"], \"type\": \"Type3\", \"LoopElement\": {\"fieldName\": \"Proccode\"}}, \"xpath\": \"//div[contains(@class,'cdt-search-results table-container')]//table\"}, {\"AdditonalInfo\": {\"Click\": [\"//button[@id='close-icon-wrapper']\"], \"fileds\": []}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        },
+        {
+            "XPath": "{\"Scraping\":false,\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//*[@id='li-btn'][1]\"],\"fileds\":[]},\"xpath\":\"\"}]}",
+            "DataContextName": "SearchDashboardFilter"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 46,
+            "EligibilityPayorInfoId": 2,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [], \"AdditonalInfo\": {}}, \"SearchFilter\": {\"js\": \"let vale=arguments[1]\\r\\nlet newD = vale \\r\\nconsole.log(newD)          \\r\\ntry{ let nx =arguments[0].replace('%s',newD)\\r\\ndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()\\r\\nreturn true   \\r\\n}\\r\\ncatch{return false}\", \"arg1\": \"//div[text()='%s']//parent::td//preceding::td[2]//a\", \"arg2\": \"BirthDate\", \"afterwait\": \"//h2[text()='Plan information']\"}, \"SearchButtonXpath\": \"//button[@id='member-search-submit-btn']\", \"PostSteps\": {\"AdditonalInfo\": {\"aftersleep\": 5}, \"Clicks\": []}}, \"Queries\": [{\"Data\": \"SubscriberId\", \"Xpath\": \"//input[@name='member-id']\"}]}}",
+            "IsActive": true
+        }
+    ]
+}

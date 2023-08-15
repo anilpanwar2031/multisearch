@@ -1,0 +1,20 @@
+{
+    "Eligibility": {
+        "AZURE_STORAGE_CONNECTION_STRING": "+6ZlYnfPHPi1zZxAUJAhY2+VHr5ZtmKzXlALO4+xcBJWzlQRhwksdbZU+dZlOYe1WoV/wgzJWYBI+ASt9ugJfg==DefaultEndpointsProtocol=https;AccountName=sdeligibiltyscrappersa;AccountKey=+6ZlYnfPHPi1zZxAUJAhY2+VHr5ZtmKzXlALO4+xcBJWzlQRhwksdbZU+dZlOYe1WoV/wgzJWYBI+ASt9ugJfg==;EndpointSuffix=core.windows.net",
+        "incomingQueueName": "eligibility-scraper-incoming-queue",
+        "OutgoingQueueName": "scraperoutgoingsq",
+        "connect_str_blob": "DefaultEndpointsProtocol=https;AccountName=sdeligibiltyscrappersa;AccountKey=+6ZlYnfPHPi1zZxAUJAhY2+VHr5ZtmKzXlALO4+xcBJWzlQRhwksdbZU+dZlOYe1WoV/wgzJWYBI+ASt9ugJfg==;EndpointSuffix=core.windows.net",
+        "container_name_blob": "eligibilty-scrapper-inc-blob",
+        "sa_name_blob": "sdeligibiltyscrappersa",
+        "ApiUrl":"https://sd-scheduler-dev.azurewebsites.net/api/callback-scrapping"
+    },
+    "Revenue Cycle Management": {
+        "AZURE_STORAGE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=sdrcmclaimsscrappersa;AccountKey=PwIK0x8UZKEUn0Hw3FqLzFQAnq+pLbBNc6mGymCvEDi/yq3eowxV3VwjXrQ3kgq0v5S2KmuOFQrD+AStWwbzsg==;EndpointSuffix=core.windows.net",
+        "incomingQueueName": "sd-rcmclaims-scrapperincoming-que",
+        "OutgoingQueueName": "sd-rcmclaims-scrapper-response-que",
+        "connect_str_blob": "DefaultEndpointsProtocol=https;AccountName=sdeligibiltyscrappersa;AccountKey=+6ZlYnfPHPi1zZxAUJAhY2+VHr5ZtmKzXlALO4+xcBJWzlQRhwksdbZU+dZlOYe1WoV/wgzJWYBI+ASt9ugJfg==;EndpointSuffix=core.windows.net",
+        "container_name_blob": "eligibilty-scrapper-inc-blob",
+        "sa_name_blob": "sdeligibiltyscrappersa",
+        "ApiUrl":"https://sd-scheduler-dev.azurewebsites.net/api/callback-scrapping"
+    }
+}

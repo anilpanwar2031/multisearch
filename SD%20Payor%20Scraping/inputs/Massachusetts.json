@@ -1,0 +1,123 @@
+{
+    "InputParameters": {
+        "PayorName": "Delta Dental of Massachusetts",
+        "PayorId": 137,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "WebsiteId": null,
+        "ProcCodes": [
+            "D0150",
+            "D0120",
+            "D0140",
+            "D0170",
+            "D9110",
+            "D0220",
+            "D0230",
+            "D0272",
+            "D0274",
+            "D0210",
+            "D0330",
+            "D0240",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D7140",
+            "D3220",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D9230"
+        ],
+        "ScheduleId": 0
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 14748,
+            "PatientId": "59521",
+            "AppointmentId": "285582",
+            "AppointmentDateTime": "2023-05-01T05:51:43.74+00:00",
+            "LastName": "Tenbrook",
+            "FirstName": "Madalyn ",
+            "BirthDate": "09/25/2016",
+            "Relationship": "Child",
+            "PatientMemberId": "911651632",
+            "SubscriberId": "911651632",
+            "SubscriberFirstName": "Sheena ",
+            "SubscriberLastName": "Cain",
+            "SubscriberBirthDate": "07/16/1989",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        },
+        {
+            "EligibilityVerificationId": 14748,
+            "PatientId": "59521",
+            "AppointmentId": "285582",
+            "AppointmentDateTime": "2023-05-01T05:51:43.74+00:00",
+            "LastName": "Tenbrook",
+            "FirstName": "Madalyn ",
+            "BirthDate": "09/25/2016",
+            "Relationship": "Child",
+            "PatientMemberId": "911651632",
+            "SubscriberId": "911651632",
+            "SubscriberFirstName": "Sheena ",
+            "SubscriberLastName": "Cain",
+            "SubscriberBirthDate": "07/16/1989",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://connectsso.deltadentalma.com/provider/index.html",
+        "LoginId": "Payoraccess",
+        "Password": "BPKtech@123",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"DataContextId\": \"1\", \"DataContextName\": \"EligibilityLogin\", \"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[@name='USER']\", \"PasswordXpath\": \"//input[@name='PASSWORD']\", \"LoginButtonXpath\": \"//input[@name='submit']\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [], \"PostSteps\": [], \"OtpXpath\": \"\"}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//caption[text()=' Active ']//parent::table//td[5]//a\"], \"fileds\": \"InsuranceEffectiveDate\"}, \"xpath\": \"//table[@class='results'][2]//tbody//tr//td[4]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"TerminationDate\"}, \"xpath\": \"//table[@class='results'][2]//tbody//tr//td[5]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"PaidThroughDate\"}, \"xpath\": \"//table[@class='results'][2]//tbody//tr//td[6]\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[contains(text(),'Member Eligibility List')]\"], \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": []}, \"xpath\": \"//caption[text()=' Active ']//parent::table\"}, {\"AdditonalInfo\": {\"Click\": [\"//caption[text()=' Active ']//parent::table//td[7]//a\"], \"fileds\": \"GroupName\"}, \"xpath\": \"//td[1][contains(normalize-space(),'Group Name')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"GroupNumber\"}, \"xpath\": \"//td[1][contains(normalize-space(),'Group Number')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Product\"}, \"xpath\": \"//td[1][contains(normalize-space(),'Product')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"BenefitPeriod\"}, \"xpath\": \"//td[1][contains(normalize-space(),'Benefit Period')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"DependentCoverageAge\"}, \"xpath\": \"//td[1][contains(normalize-space(),'Dependent Coverage to Age')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"DomesticPartnerCoverage\"}, \"xpath\": \"//td[1][contains(normalize-space(),'Domestic Partner Coverage')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"CoordinationOfBenefit\"}, \"xpath\": \"//td[1][contains(normalize-space(),'Coordination of Benefits')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"AdditionalBenefits\"}, \"xpath\": \"//th[contains(text(),'Additional Benefits')]//parent::tr//parent::thead//following-sibling::tbody\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": []}, \"xpath\": \"//table[@class='results']\"}, {\"AdditonalInfo\": {\"Click\": [\"//input[@name='Cancel']\"], \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [\"//caption[text()=' Active ']//parent::table//td[5]//a\"], \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[contains(text(),' View Service History')]\"], \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"\"}, \"xpath\": \"//table[contains(@class,'results')]\"}, {\"AdditonalInfo\": {\"Click\": [\"//input[@name='Done']\"], \"fileds\": \"\"}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[contains(text(),'Member Eligibility List')]\"], \"fileds\": \"\"}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//a[text()='Usage']\"], \"fileds\": []}, \"xpath\": \"//table[@class='results']\"}, {\"AdditonalInfo\": {\"Click\": [\"//input[@name='Done']\"], \"fileds\": []}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//a[contains(text(),'Tools')]//parent::li//following-sibling::ul//li//a[contains(text(),'Contact Delta Dental of Massachusetts')]\"], \"fileds\": \"Claimaddress\"}, \"xpath\": \"//div[@class='helptext']//p//strong[contains(text(),'Claims Submission')]//parent::p\"}]}",
+            "DataContextName": "EligibilityOtherProvisions"
+        },
+        {
+            "XPath": "{\"Scraping\":false,\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//*[text()='Home'][1]\"],\"fileds\":[]},\"xpath\":\"\"}]}",
+            "DataContextName": "SearchDashboardFilter"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 91,
+            "EligibilityPayorInfoId": 137,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [\"//a[text()='Member Eligibility & Benefits']\"], \"AdditonalInfo\": {\"aftersleep\": 2}}, \"SearchButtonXpath\": \"//input[@name='Search']\", \"PostSteps\": {\"AdditonalInfo\": {\"aftersleep\": 2}, \"Clicks\": []}}, \"Queries\": [{\"Data\": \"SubscriberId\", \"Xpath\": \"//input[@id='Q061MEMBER0memberNo']\"}, {\"Data\": \"BirthDate\", \"Xpath\": \"//input[@id='Q061MEMBER0dob']\"}]}}",
+            "IsActive": true
+        }
+    ]
+}

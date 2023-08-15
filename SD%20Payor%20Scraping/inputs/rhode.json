@@ -1,0 +1,139 @@
+{
+    "InputParameters": {
+        "PayorName": "Delta Dental of Rhode Island",
+        "PayorId": 149,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "WebsiteId": "RHODEISLAND_001",
+        "ProcCodes": [
+            "D0150",
+            "D0120",
+            "D0140",
+            "D0170",
+            "D9110",
+            "D0220",
+            "D0230",
+            "D0272",
+            "D0274",
+            "D0210",
+            "D0330",
+            "D0240",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D7140",
+            "D3220",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D9230"
+        ],
+        "ScheduleId": 0
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 111375,
+            "PatientId": "28137",
+            "AppointmentId": "295996",
+            "AppointmentDateTime": "2023-05-22T09:02:18.42+00:00",
+            "LastName": "Johnson",
+            "FirstName": "Caleb ",
+            "BirthDate": "07/16/2009",
+            "Relationship": "Child",
+            "PatientMemberId": "0002527267",
+            "SubscriberId": "0002527267",
+            "SubscriberFirstName": "Trinten",
+            "SubscriberLastName": "Turney",
+            "SubscriberBirthDate": "01/10/1997",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.deltadentalri.com/",
+        "LoginId": "Payoraccess",
+        "Password": "BPKtech@123",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"Blank1\", \"Type\", \"Amount\", \"Blank2\", \"Blank3\", \"Used\", \"Usedname\", \"Remaining\", \"Remainingname\", \"Blank4\"], \"type\": \"headless\"}, \"xpath\": \"//strong[contains(text(),'Maximums')]//parent::h2//parent::div//following-sibling::table\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"blankone\", \"Codedescription\", \"FrequencyAmount\", \"FrequenciesNextElig\", \"blanktwo\"], \"type\": \"headless\"}, \"xpath\": \"//strong[contains(text(),'Time & Frequency Status')]//parent::h2//parent::div//following-sibling::table\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[contains(text(),'Tooth History')]\", \"//select[contains(@id,'StartDate')]\", \"//option[contains(text(),'0-5 Years')]\"], \"AfterClickWait\": 1, \"fileds\": []}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"flatten\": true, \"MultiplElements\": {\"Searchlist\": null, \"action\": \"Sendkeys\", \"PreClicks\": {\"Clicks\": []}, \"InputElementsXpath\": \"//input[contains(@id,'ProcedureCode')]\", \"SearchButtonXpath\": \"//input[contains(@id,'submitToothHistoryButton')]\"}, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//div[@*='procedure-lookup-control']\"], \"fileds\": null, \"LoopElement\": {\"fieldName\": \"Proccode\"}}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": []}, \"xpath\": \"//table[contains(@class,'ToothHistorySearchResults')]\"}, {\"AdditonalInfo\": {\"Click\": [\"//select[contains(@id,'StartDate')]\", \"//option[contains(text(),'0-5 Years')]\"], \"AfterClickWait\": 1, \"fileds\": \"\"}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityServiceTreatmentHistory"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\" //li[@id='benefitsButton']//a[contains(text(),'Benefits')]\"], \"fileds\": []}, \"xpath\": \"//strong[contains(text(),'Deductibles')]//parent::h2//parent::div//following-sibling::div//table\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"\"}, \"xpath\": \"//th[normalize-space()='Procedure']//parent::tr//parent::thead//parent::table\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[contains(@class,'smallButton')]\"], \"fileds\": \"\"}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityDeductiblesProcCode"
+        },
+        {
+            "XPath": "{\"flatten\": true, \"MultiplElements\": {\"Searchlist\": null, \"action\": \"Sendkeys\", \"PreClicks\": {\"Clicks\": []}, \"InputElementsXpath\": \"//input[@id='Code']\", \"SearchButtonXpath\": \"//a[@id='procCodeSearch']\"}, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//div[@*='procedure-lookup-control']\"], \"fileds\": null, \"LoopElement\": {\"fieldName\": \"Proccode\"}}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": [\"Procedurecode\", \"PrococdeDescription\", \"CoveredAt\", \"DeductibleApplies\", \"WaitingPeriod\", \"AlternateBenefitMayApply\"], \"type\": \"headless\"}, \"xpath\": \"//table[@id='ProcedureCodeSearchResult']\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"MissingToothClause\"}, \"xpath\": \"//div[@id='benefits']//strong[contains(normalize-space(),'Note:')]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"DependentAge\"}, \"xpath\": \"//div[@id='benefits']//div[contains(normalize-space(),'Dependent')]\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[text()='Contact Dentist Support']\"], \"fileds\": \"mailingAddress\"}, \"xpath\": \"//h3[normalize-space()='Mail correspondence to']//following-sibling::p\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"payorID\"}, \"xpath\": \"//p[contains(normalize-space(),'payer ID')]\"}]}",
+            "DataContextName": "EligibilityOtherProvisions"
+        },
+        {
+            "XPath": "{\"DataContextId\": \"1\", \"DataContextName\": \"EligibilityLogin\", \"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[contains(@id,'Username')]\", \"PasswordXpath\": \"//input[contains(@id,'Password')]\", \"LoginButtonXpath\": \"//fieldset[contains(@id,'login')]//a[contains(@class,'smallButton')]\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [], \"PostSteps\": [], \"OtpXpath\": \"\"}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"DataContextId\": \"1\", \"DataContextName\": \"EligibilityLogin\", \"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[contains(@id,'Username')]\", \"PasswordXpath\": \"//input[contains(@id,'Password')]\", \"LoginButtonXpath\": \"//fieldset[contains(@id,'login')]//a[contains(@class,'smallButton')]\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [], \"PostSteps\": [], \"OtpXpath\": \"\"}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//a[contains(text(),'View Details')]\"], \"fileds\": \"SubscriberName\"}, \"xpath\": \"//tr[@class='Diminished']//td[contains(text(),'Subscriber Name')]//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"SubscriberID\"}, \"xpath\": \"//tr[@class='Diminished']//td[contains(text(),'Subscriber ID')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"MemberName\"}, \"xpath\": \"//td[contains(text(),'Member Name')]//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"GroupNumber\"}, \"xpath\": \"//td[contains(text(),'Group Number')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"CoverageType\"}, \"xpath\": \"//td[contains(text(),'Coverage Type')]//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"GroupName\"}, \"xpath\": \"//td[contains(text(),'Group Name')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"ProductName\"}, \"xpath\": \"//td[contains(text(),'Product Name')]//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"GroupType\"}, \"xpath\": \"//td[contains(text(),'Group Type')]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"PlanType\"}, \"xpath\": \"//td[contains(text(),'Plan Type')]//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"CalendarYear\"}, \"xpath\": \"(//td[contains(text(),'Calendar Year')])[2]//following-sibling::td\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Relationship\"}, \"xpath\": \"//table[contains(@class,'Eligibility')]//tbody//tr//td[3]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"CoverageDate\"}, \"xpath\": \"//table[contains(@class,'Eligibility')]//tbody//tr//td[5]\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"Blank1\", \"Type\", \"Amount\", \"Blank2\", \"Blank3\", \"Used\", \"Usedname\", \"Remaining\", \"Remainingname\", \"Blank4\"], \"type\": \"headless\"}, \"xpath\": \"//strong[contains(text(),'Maximums')]//parent::h2//parent::div//following-sibling::table\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"blankone\", \"Codedescription\", \"FrequencyAmount\", \"FrequenciesNextElig\", \"blanktwo\"], \"type\": \"headless\"}, \"xpath\": \"//strong[contains(text(),'Time & Frequency Status')]//parent::h2//parent::div//following-sibling::table\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[contains(text(),'Tooth History')]\", \"//select[contains(@id,'StartDate')]\", \"//option[contains(text(),'0-5 Years')]\"], \"AfterClickWait\": 1, \"fileds\": []}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"flatten\":true,\"MultiplElements\":{\"Searchlist\":null,\"action\":\"Sendkeys\",\"PreClicks\":{\"Clicks\":[]},\"InputElementsXpath\":\"//input[contains(@id,'ProcedureCode')]\",\"SearchButtonXpath\":\"//input[contains(@id,'submitToothHistoryButton')]\"},\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//div[@*='procedure-lookup-control']\"],\"fileds\":null,\"LoopElement\":{\"fieldName\":\"Proccode\"}},\"xpath\":\"\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[],\"waitTime\":2},\"xpath\":\"//table[contains(@class,'ToothHistorySearchResults')]\"},{\"AdditonalInfo\":{\"Click\":[\"//select[contains(@id,'StartDate')]\",\"//option[contains(text(),'0-5 Years')]\"],\"AfterClickWait\":1,\"fileds\":\"\"},\"xpath\":\"\"}]}",
+            "DataContextName": "EligibilityServiceTreatmentHistory"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\" //li[@id='benefitsButton']//a[contains(text(),'Benefits')]\"], \"fileds\": []}, \"xpath\": \"//strong[contains(text(),'Deductibles')]//parent::h2//parent::div//following-sibling::div//table\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"\"}, \"xpath\": \"//th[normalize-space()='Procedure']//parent::tr//parent::thead//parent::table\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[contains(@class,'smallButton')]\"], \"fileds\": \"\"}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityDeductiblesProcCode"
+        },
+        {
+            "XPath": "{\"flatten\":true,\"MultiplElements\":{\"Searchlist\":null,\"action\":\"Sendkeys\",\"PreClicks\":{\"Clicks\":[]},\"InputElementsXpath\":\"//input[@id='Code']\",\"SearchButtonXpath\":\"//a[@id='procCodeSearch']\"},\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//div[@*='procedure-lookup-control']\"],\"fileds\":null,\"LoopElement\":{\"fieldName\":\"Proccode\"}},\"xpath\":\"\"},{\"AdditonalInfo\":{\"Click\":null,\"fileds\":[\"Procedurecode\",\"PrococdeDescription\",\"CoveredAt\",\"DeductibleApplies\",\"WaitingPeriod\",\"AlternateBenefitMayApply\"],\"waitTime\":2,\"type\":\"headless\"},\"xpath\":\"//table[@id='ProcedureCodeSearchResult']\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"MissingToothClause\"}, \"xpath\": \"//div[@id='benefits']//strong[contains(normalize-space(),'Note:')]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"DependentAge\"}, \"xpath\": \"//div[@id='benefits']//div[contains(normalize-space(),'Dependent')]\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[text()='Contact Dentist Support']\"], \"fileds\": \"mailingAddress\"}, \"xpath\": \"//h3[normalize-space()='Mail correspondence to']//following-sibling::p\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"payorID\"}, \"xpath\": \"//p[contains(normalize-space(),'payer ID')]\"}]}",
+            "DataContextName": "EligibilityOtherProvisions"
+        },
+             {
+            "XPath": "{\"Scraping\":false,\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//a[text()='Dentist']\"],\"fileds\":[]},\"xpath\":\"\"}]}",
+            "DataContextName": "SearchDashboardFilter"
+        }
+    ],
+    "SearchParameters": [
+
+        {
+            "Id": 102,
+            "EligibilityPayorInfoId": 149,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//a[contains(text(),'Benefits & Claims Information')]\"],\"AdditonalInfo\":{}},\"SearchButtonXpath\":\"//input[contains(@id,'submitPatientLookup')]\",\"PostSteps\":{\"Clicks\":[\"//*[text()='View Details']\"],\"AdditonalInfo\":{\"aftersleep\":5,\"afterwait\":\"//tr[@class='DataTableRow TR1']//td[2]\"}}},\"Queries\":[{\"Data\":\"FirstName\",\"Xpath\":\"//input[contains(@id,'FirstName')]\"},{\"Data\":\"BirthDate\",\"Xpath\":\"//input[contains(@id,'DateOfBirth')]\"},{\"Data\":\"SubscriberId\",\"Xpath\":\"//input[contains(@id,'SubscriberId')]\"}]}}",
+            "IsActive": true
+        }
+    ]
+}
