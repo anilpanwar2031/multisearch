@@ -1,0 +1,119 @@
+{
+    "InputParameters": {
+        "PayorName": "Delta Dental of New Jersey",
+        "PayorId": 111,
+        "ClientId": "857dc9bd-c432-482d-af84-437a48ccecfe",
+        "AppName": "Eligibility",
+        "WebsiteId": "NEWJERSEY_001",
+        "ProcCodes": [
+            "D0120",
+            "D0140",
+            "D0150"
+
+        ],
+        "ScheduleId": 873,
+        "ResponseMessageQueueName": "sdeligibilityscrapperresponse-que"
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 65701,
+            "PatientId": "3346",
+            "AppointmentId": "259461",
+            "AppointmentDateTime": "2023-09-16T09:30:00+00:00",
+            "LastName": "Woods",
+            "FirstName": "Tyler",
+            "BirthDate": "06/23/2009",
+            "Relationship": "Child",
+            "PatientMemberId": "499940749",
+            "SubscriberId": "499940749",
+            "SubscriberFirstName": "Susan",
+            "SubscriberLastName": "Wulf",
+            "SubscriberBirthDate": "12/20/1976",
+            "ClinicServerId": "0991b8eb-7d97-2bf1-db4e-4dbe82aff602",
+            "ClinicNum": "1",
+            "ClinicName": "St. Louis Pediatric Dentistry",
+            "ClinicLocation": "Des Peres",
+            "ClinicAddress1": "2325 Dougherty Ferry Road",
+            "ClinicAddress2": "Suite 200",
+            "ClinicZip": "63122",
+            "ProviderFirstName": "Jaime",
+            "ProviderLastName": "Orrick, DDS",
+            "SpecialityType": "Pediatrics"
+        },
+        {
+            "EligibilityVerificationId": 65703,
+            "PatientId": "18079",
+            "AppointmentId": "259463",
+            "AppointmentDateTime": "2023-09-16T10:15:00+00:00",
+            "LastName": "Woods",
+            "FirstName": "Benjamin",
+            "BirthDate": "06/25/2013",
+            "Relationship": "Other",
+            "PatientMemberId": "499940749",
+            "SubscriberId": "499940749",
+            "SubscriberFirstName": "Susan",
+            "SubscriberLastName": "Wulf",
+            "SubscriberBirthDate": "12/20/1976",
+            "ClinicServerId": "0991b8eb-7d97-2bf1-db4e-4dbe82aff602",
+            "ClinicNum": "1",
+            "ClinicName": "St. Louis Pediatric Dentistry",
+            "ClinicLocation": "Des Peres",
+            "ClinicAddress1": "2325 Dougherty Ferry Road",
+            "ClinicAddress2": "Suite 200",
+            "ClinicZip": "63122",
+            "ProviderFirstName": "Jaime",
+            "ProviderLastName": "Orrick, DDS",
+            "SpecialityType": "Pediatrics"
+        }
+    ],
+    "Login": {
+        "Url": "https://www.deltadentalnj.com/",
+        "LoginId": "PayorAccessStLouis",
+        "Password": "Changeme1!",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"DataContextId\": \"1\", \"DataContextName\": \"EligibilityLogin\", \"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[contains(@id,'usernameInput')]\", \"PasswordXpath\": \"//input[contains(@id,'passwordInput')]\", \"LoginButtonXpath\": \"//button[@id='verify-pass']\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [\"//ul[@class='navbar-nav']//a[contains(text(),'Dentist')]\", \"//span[contains(text(),'Sign in')]\", \"//a[contains(text(),'with DDPA')]\"], \"PostSteps\": [], \"OtpXpath\": \"\", \"AdditionalInfo\": {\"StepsAfterUsernameInput\": {\"Click\": [\"//button[@id='verify-user']\"]}}}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//div[contains(text(),'Request date')]//following-sibling::div\"], \"AfterClickWait\": 7, \"fileds\": \"Requestdate\"}, \"xpath\": \"//div[contains(text(),'Request date')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [\"//button[text()='No Thanks']\"], \"fileds\": \"\", \"waitTime\": 1}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Membername\"}, \"xpath\": \"//div[contains(text(),'Member name')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"MemberID\"}, \"xpath\": \"//div[contains(text(),'Member ID')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"PatientdateofBirth\"}, \"xpath\": \"//div[contains(text(),'date of birth')]//following-sibling::div//span\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Age\"}, \"xpath\": \"//div[contains(text(),'date of birth')]//following-sibling::div//span[@class='patientAge']//span[2]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Coverageis\"}, \"xpath\": \"//div[contains(text(),'Coverage is')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Effectivedate\"}, \"xpath\": \"//div[contains(text(),'Effective date')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Eligiblethrough\"}, \"xpath\": \"//div[contains(text(),'Eligible through')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Coveragelevel\"}, \"xpath\": \"//div[contains(text(),'Coverage level')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Paymentlevel\"}, \"xpath\": \"//div[contains(text(),'Payment level')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"COBcoveragetype\"}, \"xpath\": \"//div[contains(text(),'COB coverage type')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Plantype\"}, \"xpath\": \"//div[contains(text(),'Plan type')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Group\"}, \"xpath\": \"//div[contains(text(),'Group #')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Groupname\"}, \"xpath\": \"//div[contains(text(),'Group name')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Claimsubmittimelimit\"}, \"xpath\": \"//div[contains(text(),'Claim submit time limit')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Dependenteligibility\"}, \"xpath\": \"//div[contains(text(),'Dependent eligibility')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Studenteligibility\"}, \"xpath\": \"//div[contains(text(),'Student eligibility')]//following-sibling::div\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Benefitperiod\"}, \"xpath\": \"(//div[contains(text(),'Service year:')]//parent::div//following-sibling::div)[2]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"AlternativeBenefitProvision\"}, \"xpath\": \"//div[contains(text(),'Amalgam')]//parent::div//parent::div[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"OrthodonticAgeLimit\"}, \"xpath\": \"//div[contains(text(),'Orthodontics')]//parent::div//parent::div//span\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//button[text()='No Thanks']\"], \"fileds\": \"\", \"waitTime\": 1}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Individualdeductible\"}, \"xpath\": \"//div[contains(text(),'Individual deductible')]//parent::div/following-sibling::div[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Familydeductible\"}, \"xpath\": \"//div[contains(text(),'Family deductible')]//parent::div/following-sibling::div[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"OrthodonticMaximum\"}, \"xpath\": \"//span[contains(text(),'Orthodontic Maximum')]//parent::div//following-sibling::div[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"PlanMaximum\"}, \"xpath\": \"//span[contains(text(),'Plan Maximum')]//parent::div//following-sibling::div[1]\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"flatten\": true, \"MultiplElements\": {\"Searchlist\": null, \"action\": \"Sendkeys\", \"InputElementsXpath\": \"//input[contains(@class,'form-control')]\", \"SearchButtonXpath\": \"//button[@class='primaryButton treatmentBtn']\"}, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"(//input[@*='Procedure code'])[1]\"], \"fileds\": null, \"AfterClickWait\": 7, \"LoopElement\": {\"fieldName\": \"Proccode\"}}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [\"//button[text()='No Thanks']\"], \"fileds\": \"\", \"waitTime\": 1}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Procedurecode\"}, \"xpath\": \"//div[@class='procedureCode']\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"ProcedureName\"}, \"xpath\": \"//div[contains(@class,'colHeader')][1]\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Covered\"}, \"xpath\": \"//div[contains(text(),'Covered')]//parent::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"Variations\"}, \"xpath\": \"//div[contains(text(),'Variations')]//parent::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"TreatmentHistory\"}, \"xpath\": \"//div[contains(text(),'Treatment History')]//parent::div\"}, {\"AdditonalInfo\": {\"Click\": null, \"fileds\": \"MissingToothClause\"}, \"xpath\": \"//div[@class='bottomNote']\"}, {\"AdditonalInfo\": {\"AfterClickWait\": 1, \"Click\": [\"//i[@class='close fas fa-times']\"], \"fileds\": \"\"}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//button[text()='No Thanks']\"], \"fileds\": \"\", \"waitTime\": 1}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [\"(//a[text()='Contact us'])[1]\", \"//div[text()='Where do I mail my claim? ']\"], \"fileds\": \"ClaimAdress\", \"AfterClickWait\": 5}, \"xpath\": \"((//div[text()='Where do I mail my claim? ']//parent::div)[1]//following-sibling::div)[2]\"}]}",
+            "DataContextName": "EligibilityOtherProvisions"
+        },
+        {
+            "XPath": "{\"Scrapping\": false, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//button[text()='No Thanks']\"], \"fileds\": \"\", \"waitTime\": 1}, \"xpath\": \"\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[text()='Home']\"], \"fileds\": []}, \"xpath\": \"\"}]}",
+            "DataContextName": "SearchDashboardFilter"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 59,
+            "EligibilityPayorInfoId": 121,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//a[contains(text(),'Search for patient')]\",\"//a[contains(@id,'SearchBySubscriberIDTab')]\"],\"AdditonalInfo\":{\"aftersleep\":1}},\"SearchButtonXpath\":\"//div[@id='SearchBySubscriberIDContent']//button[contains(text(),'Submit')]\",\"PostSteps\":{\"AdditonalInfo\":{\"aftersleep\":2},\"Clicks\":[\"(//td[text()='Active']//parent::tr//td[contains(normalize-space(), '%s')]//parent::tr//td//a)[1]!@DOB\"]}},\"Queries\":[{\"Data\":\"SubscriberId\",\"Xpath\":\"//div[@class='container']//input[contains(@id,'MemberId')]\"}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 4
+        },
+
+        {
+            "Id": 59,
+            "EligibilityPayorInfoId": 121,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//a[contains(@id,'SearchByPatientTab')]\"],\"AdditonalInfo\":{\"aftersleep\":2}},\"SearchButtonXpath\":\"//button[contains(text(),'Submit')]\",\"PostSteps\":{\"AdditonalInfo\":{\"aftersleep\":2},\"Clicks\":[]}},\"Queries\":[{\"Data\":\"FirstName\",\"Xpath\":\"//div[@class='container']//input[contains(@id,'FirstName')]\"},{\"Data\":\"LastName\",\"Xpath\":\"//div[@class='container']//input[contains(@id,'LastName')]\"},{\"Data\":\"BirthDate\",\"Xpath\":\"//div[@class='container']//input[contains(@id,'DateOfBirth')]\"}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 4
+        }
+    ]
+}
