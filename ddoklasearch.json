@@ -1,4 +1,23 @@
 {
+    "DataContextId": "1",
+    "DataContextName": "EligibilityLogin",
+    "Click": null,
+    "Xpaths": [
+        {
+            "UsernameXpath": "//input[@id='txtUserName']",
+            "PasswordXpath": "//input[@id='txtPassword']",
+            "LoginButtonXpath": "//input[@id='btnLogin']",
+            "OtpInputXpath": "",
+            "OtpSubmitXpath": "",
+            "PreSteps": [],
+            "PostSteps": [],
+            "OtpXpath": ""
+        }
+    ]
+}
+
+
+{
     "Search": {
         "Settings": {
             "PreSteps": {

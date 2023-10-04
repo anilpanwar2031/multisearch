@@ -109,6 +109,12 @@
             "EligibilityPayorInfoId": 118,
             "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [\"//a[contains(text(),'Benefits & Claims Information')]\"], \"AdditonalInfo\": {}}, \"SearchButtonXpath\": \"//input[contains(@id,'submitPatientLookup')]\", \"PostSteps\": {\"Clicks\": [], \"AdditonalInfo\": {\"aftersleep\": 5, \"afterwait\": \"//tr[@class='DataTableRow TR1']//td[2]\"}}}, \"Queries\": [{\"Data\": \"FirstName\", \"Xpath\": \"//input[contains(@id,'FirstName')]\"}, {\"Data\": \"BirthDate\", \"Xpath\": \"//input[contains(@id,'DateOfBirth')]\"}, {\"Data\": \"SubscriberId\", \"Xpath\": \"//input[contains(@id,'SubscriberId')]\"}]}}",
             "IsActive": true
+        },
+        {
+            "Id": 97,
+            "EligibilityPayorInfoId": 118,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//a[contains(text(),'Benefits & Claims Information')]\",\"//input[@id='alternateSearch']\"],\"AdditonalInfo\":{}},\"SearchButtonXpath\":\"//input[contains(@id,'submitPatientLookup')]\",\"PostSteps\":{\"Clicks\":[],\"AdditonalInfo\":{\"aftersleep\":5,\"afterwait\":\"//tr[@class='DataTableRow TR1']//td[2]\"}}},\"Queries\":[{\"Data\":\"SubscriberLastName\",\"Xpath\":\"//input[@id='LastName']\"},{\"Data\":\"LastName\",\"Xpath\":\"//input[@id='FirstName']\"},{\"Data\":\"BirthDate\",\"Xpath\":\"//input[@id='DateOfBirth']\"}]}}",
+            "IsActive": true
         }
     ]
 }

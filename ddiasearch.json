@@ -1,0 +1,118 @@
+{
+    "DataContextId": "1",
+    "DataContextName": "EligibilityLogin",
+    "Click": null,
+    "Xpaths": [
+        {
+            "UsernameXpath": "//input[@id='usernameInput']",
+            "PasswordXpath": "//input[@id='passwordInput']",
+            "LoginButtonXpath": "//button[@id='verify-pass']",
+            "OtpInputXpath": "",
+            "OtpSubmitXpath": "",
+            "PreSteps": [],
+            "PostSteps": [],
+            "OtpXpath": "",
+            "AdditionalInfo": {
+                "StepsAfterUsernameInput": {
+                    "Click": [
+                        "//button[@id='verify-user']"
+                    ]
+                }
+            }
+        }
+    ]
+}
+
+
+
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//a[text()='Patient Information']"
+                ],
+                "AdditonalInfo": {
+                    "sleep": 5
+                }
+            },
+            "SearchButtonXpath": "//input[@value=' Search ']",
+            "PostSteps": {
+                "Clicks": [
+                    "//td[text()='%s']!@BirthDate"
+                ],
+                "AdditonalInfo": {
+                    "aftersleep": 5
+                }
+            }
+        },
+        "Queries": [
+            {
+                "Data": "LastName",
+                "Xpath": "//input[@id='member-last-name']",
+                "PostClicks": [
+                    "//input[@id='member-first-name']"
+                ],
+                "SleepAfterInput": 1,
+                "sleep": 1
+            },
+            {
+                "Data": "FirstName",
+                "Xpath": "//input[@id='member-first-name']",
+                "PostClicks": [
+                    "//input[@id='member-dob']"
+                ],
+                "SleepAfterInput": 1,
+                "sleep": 1
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//input[@id='member-dob']",
+                "SleepAfterInput": 2
+            }
+        ]
+    }
+}
+
+
+
+
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//a[text()='Patient Information']"
+                ],
+                "AdditonalInfo": {
+                    "sleep": 5
+                }
+            },
+            "SearchButtonXpath": "//input[@value=' Search ']",
+            "PostSteps": {
+                "Clicks": [
+                    "//td[text()='%s']!@BirthDate"
+                ],
+                "AdditonalInfo": {
+                    "aftersleep": 5
+                }
+            }
+        },
+        "Queries": [
+            {
+                "Data": "SubscriberId",
+                "Xpath": "//input[@id='member-id']",
+                "PostClicks": [
+                    "//input[@id='member-dob2']"
+                ],
+                "SleepAfterInput": 1,
+                "sleep": 1
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//input[@id='member-dob2']",
+                "SleepAfterInput": 2
+            }
+        ]
+    }
+}

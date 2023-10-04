@@ -1,0 +1,133 @@
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//a[@title='Eligibility & benefits' and @class='xfh']",
+                    "//*[text()='New patient']"
+                ]
+               
+            },
+            "SearchButtonXpath": "",
+            "PostSteps": {}
+        },
+        "Queries": [
+            {
+                "Data": "FirstName",
+                "Xpath": "//*[@id='template1:r1:1:r7:0:it2::content']"
+            },
+            {
+                "Data": "LastName",
+                "Xpath": "//*[@id='template1:r1:1:r7:0:it3::content']"
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//*[@id='template1:r1:1:r7:0:id1::content']",
+                "PostClicks": [
+                    "//button[contains(text(),'Find patient')]"
+                ],
+                "sleep": 3
+            },
+            {
+                "Data": "SubscriberId",
+                "Xpath": "//input[contains(@placeholder,'Member ID')]",
+                "PostClicks": [
+                    "//button[contains(text(),'Find patient')]"
+                ],
+                "sleep": 3
+            }
+        ]
+    }
+}
+
+
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//a[@title='Eligibility & benefits' and @class='xfh']",
+                    "//*[text()='New patient']",
+                    "//a[contains(text(),'Search by Member ID and DOB')]"
+                ],
+                "AdditonalInfo": {
+                    "sleep": 2,
+                    "script": {
+                        "js": "window.open('https://www.deltadentalins.com/providertools/faces/Main.jspx','_self')",
+                        "arg1": "",
+                        "arg2": "",
+                        "aftersleep": 5
+                    }
+                }
+            },
+            "SearchButtonXpath": "",
+           
+            "PostSteps": {
+                "sleep":5,
+                "Clicks": [
+                    "//*[@id='template1:r1:1:r7:0:t1:0:cl1']"
+                    
+                ]
+            }
+        },
+        "Queries": [
+            {
+                "Data": "SubscriberId",
+                "Xpath": "//input[@placeholder='Member ID']"
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//input[@placeholder='MM/DD/YYYY']",
+                "PostClicks": [
+                    "//button[contains(text(),'Find patient')]"
+                ],
+                "sleep": 5
+               
+            }
+        ]
+    }
+}
+
+
+
+EligibilityPatientVerification
+{
+    "flatten": true,
+    "Xpaths": [
+        {
+            "AdditonalInfo": {
+                "Click": null,
+                "fileds": [],
+                "mandatoryfields": [
+                    "EnrolleeName",
+                    "DateOfBirth",
+                    "EnrolleeId",
+                    "PlanName",
+                    "PlanNumber",
+                    "EffectiveDate",
+                    "EndDate",
+                    "EligibilityStatus",
+                    "ProgramType",
+                    "FamilyMemberName",
+                    "FamilyMemberEffectiveDate",
+                    "FamilyMemberId",
+                    "FamilyMemberEndDate",
+                    "FamilyMemberDateOfBirth",
+                    "FamilyMemberEligibilityStatus"
+                ]
+            },
+            "xpath": "//*[@summary='Elligibility and Benefits Summary']"
+        },
+        {
+            "AdditonalInfo": {
+                "Click": null,
+                "fileds": "Address"
+            },
+            "xpath": "//*[@id='template1:r1:1:r7:1:r1:0:pgl4']/tbody"
+        }
+    ]
+}
+
+
+
+

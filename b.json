@@ -1,0 +1,225 @@
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//a[@title='Eligibility & benefits' and @class='xfh']",
+                    "//*[text()='New patient']"
+                ],
+                "AdditonalInfo": {
+                    "sleep": 2,
+                    "script": {
+                        "js": "window.open('https://www.deltadentalins.com/providertools/faces/Main.jspx','_self')",
+                        "arg1": "",
+                        "arg2": "",
+                        "aftersleep": 5
+                    }
+                }
+            },
+            "SearchButtonXpath": "//*[@id='template1:r1:1:r7:0:cb1']",
+            "SearchFilter": {
+                "js": "let vale=arguments[1]rnlet newD = vale.split('/').map(n=>{return parseInt(n)}).join('/') rnconsole.log(newD)          rntry{ let nx =arguments[0].replace('%s',newD)rndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()rnreturn true   rn}rncatch{return false}",
+                "arg1": "//*[text()='%s']/ancestor::td/following-sibling::td[4]//*[text()='View eligibility & benefits']",
+                "arg2": "BirthDate",
+                "wait": "//*[@id='template1:r1:1:r7:0:t1:0:cl1']"
+            },
+            "PostSteps": {}
+        },
+        "Queries": [
+            {
+                "Data": "FirstName",
+                "Xpath": "//*[   @id='template1:r1:1:r7:0:it2::content' ]"
+            },
+            {
+                "Data": "LastName",
+                "Xpath": "//*[   @id='template1:r1:1:r7:0:it3::content' ]"
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//*[   @id='template1:r1:1:r7:0:id1::content' ]"
+            }
+        ]
+    }
+}
+
+
+gitins
+
+
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//a[@title='Eligibility & benefits' and @class='xfh']",
+                    "//*[text()='New patient']"
+                ],
+                "AdditonalInfo": {
+                    "sleep": 2,
+                    "script": {
+                        "js": "window.open('https://www.deltadentalins.com/providertools/faces/Main.jspx','_self')",
+                        "arg1": "",
+                        "arg2": "",
+                        "aftersleep": 5
+                    }
+                }
+            },
+            "SearchButtonXpath": "//*[@id='template1:r1:1:r7:0:cb1']",
+            "SearchFilter": {
+                "js": "let vale=arguments[1]rnlet newD = vale.split('/').map(n=>{return parseInt(n)}).join('/') rnconsole.log(newD)          rntry{ let nx =arguments[0].replace('%s',newD)rndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()rnreturn true   rn}rncatch{return false}",
+                "arg1": "//*[text()='%s']/ancestor::td/following-sibling::td[4]//*[text()='View eligibility & benefits']",
+                "arg2": "BirthDate",
+                "wait": "//*[@id='template1:r1:1:r7:0:t1:0:cl1']"
+            },
+            "PostSteps": {}
+        },
+        "Queries": [
+            {
+                "Data": "FirstName",
+                "Xpath": "//*[   @id='template1:r1:1:r7:0:it2::content' ]"
+            },
+            {
+                "Data": "LastName",
+                "Xpath": "//*[   @id='template1:r1:1:r7:0:it3::content' ]"
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//*[   @id='template1:r1:1:r7:0:id1::content' ]"
+            }
+        ]
+    }
+}
+
+
+gitins
+
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//a[@title='Eligibility & benefits' and @class='xfh']",
+                    "//*[text()='New patient']",
+                    "//a[contains(text(),'Search by Member ID and DOB')]"
+                ],
+                "AdditonalInfo": {
+                    "sleep": 2,
+                    "script": {
+                        "js": "window.open('https://www.deltadentalins.com/providertools/faces/Main.jspx','_self')",
+                        "arg1": "",
+                        "arg2": "",
+                        "aftersleep": 5
+                    }
+                }
+            },
+            "SearchButtonXpath": "//button[contains(text(),'Find patient')]",
+            "SearchFilter": {
+                "js": "let vale=arguments[1]rnlet newD = vale.split('/').map(n=>{return parseInt(n)}).join('/') rnconsole.log(newD)          rntry{ let nx =arguments[0].replace('%s',newD)rndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()rnreturn true   rn}rncatch{return false}",
+                "arg1": "//*[text()='%s']/ancestor::td/following-sibling::td[4]//*[text()='View eligibility & benefits']",
+                "arg2": "BirthDate",
+                "wait": "//*[@id='template1:r1:1:r7:0:t1:0:cl1']"
+            },
+            "PostSteps": {}
+        },
+        "Queries": [
+            {
+                "Data": "SubscriberId",
+                "Xpath": "//input[@placeholder='Member ID']"
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//input[@placeholder='MM/DD/YYYY']"
+            }
+        ]
+    }
+}
+
+
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//a[contains(text(),'Search by Member ID and DOB')]"
+                ],
+                "AdditonalInfo": {
+                    "sleep": 2,
+                    "script": {
+                        "js": "window.open('https://www.deltadentalins.com/providertools/faces/Main.jspx','_self')",
+                        "arg1": "",
+                        "arg2": "",
+                        "aftersleep": 5
+                    }
+                }
+            },
+            "SearchButtonXpath": "//button[contains(text(),'Find patient')]",
+            "SearchFilter": {
+                "js": "let vale=arguments[1]rnlet newD = vale.split('/').map(n=>{return parseInt(n)}).join('/') rnconsole.log(newD)          rntry{ let nx =arguments[0].replace('%s',newD)rndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()rnreturn true   rn}rncatch{return false}",
+                "arg1": "//*[text()='%s']/ancestor::td/following-sibling::td[4]//*[text()='View eligibility & benefits']",
+                "arg2": "BirthDate",
+                "wait": "//*[@id='template1:r1:1:r7:0:t1:0:cl1']"
+            },
+            "PostSteps": {}
+        },
+        "Queries": [
+            {
+                "Data": "SubscriberId",
+                "Xpath": "//input[@placeholder='Member ID']"
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//input[@placeholder='MM/DD/YYYY']"
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+bug
+{
+    "Search": {
+        "Settings": {
+            "PreSteps": {
+                "Clicks": [
+                    "//a[@title='Eligibility & benefits' and @class='xfh']",
+                    "//*[text()='New patient']"
+                ],
+                "AdditonalInfo": {
+                    "sleep": 2,
+                    "script": {
+                        "js": "window.open('https://www.deltadentalins.com/providertools/faces/Main.jspx','_self')",
+                        "arg1": "",
+                        "arg2": "",
+                        "aftersleep": 5
+                    }
+                }
+            },
+            "SearchButtonXpath": "//*[@id='template1:r1:1:r7:0:cb1']",
+            "SearchFilter": {
+                "js": "let vale=arguments[1]rnlet newD = vale.split('/').map(n=>{return parseInt(n)}).join('/') rnconsole.log(newD)          rntry{ let nx =arguments[0].replace('%s',newD)rndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()rnreturn true   rn}rncatch{return false}",
+                "arg1": "//*[text()='%s']/ancestor::td/following-sibling::td[4]//*[text()='View eligibility & benefits']",
+                "arg2": "BirthDate",
+                "wait": "//*[@id='template1:r1:1:r7:0:t1:0:cl1']"
+            },
+            "PostSteps": {}
+        },
+        "Queries": [
+            {
+                "Data": "FirstName",
+                "Xpath": "//*[   @id='template1:r1:1:r7:0:it2::content' ]"
+            },
+            {
+                "Data": "LastName",
+                "Xpath": "//*[   @id='template1:r1:1:r7:0:it3::content' ]"
+            },
+            {
+                "Data": "BirthDate",
+                "Xpath": "//*[   @id='template1:r1:1:r7:0:id1::content' ]"
+            }
+        ]
+    }
+}

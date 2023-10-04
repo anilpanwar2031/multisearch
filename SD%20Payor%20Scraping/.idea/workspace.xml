@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c62bd43a-7cee-4016-9d13-1deb317163f2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddwashinton.json" beforeDir="false" afterPath="$PROJECT_DIR$/ddwashinton.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/localtest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search criteria for payors.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Search criteria for payors.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aet.json" beforeDir="false" afterPath="$PROJECT_DIR$/../aet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ddil.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ddil.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ddilSearch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ddilSearch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ddins.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ddins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ddoklasearch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ddoklasearch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ddroh.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ddroh.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ddwashinton.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ddwashinton.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ddwashintonsearch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ddwashintonsearch.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,20 +27,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2TujuPuGhT6peyiWVx88Fbm1vyT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/multisearch/SD%20Payor%20Scraping"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/bug/SD%20Payor%20Scraping&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

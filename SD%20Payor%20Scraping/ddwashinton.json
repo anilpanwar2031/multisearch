@@ -1,3 +1,5 @@
+
+
 {
     "InputParameters": {
         "PayorName": "Delta Dental of Washington",
@@ -8,38 +10,8 @@
         "ProcCodes": [
             "D0120",
             "D0140",
-            "D0150",
-            "D0170",
-            "D0210",
-            "D0220",
-            "D0230",
-            "D0240",
-            "D0272",
-            "D0274",
-            "D0330",
-            "D1110",
-            "D1120",
-            "D1206",
-            "D1208",
-            "D1351",
-            "D1354",
-            "D1516",
-            "D1517",
-            "D2140",
-            "D2150",
-            "D2160",
-            "D2161",
-            "D2391",
-            "D2392",
-            "D2393",
-            "D2394",
-            "D2930",
-            "D2933",
-            "D2934",
-            "D3220",
-            "D7140",
-            "D9110",
-            "D9230"
+            "D0150"
+
         ],
         "ScheduleId": 873,
         "ResponseMessageQueueName": "sdeligibilityscrapperresponse-que"
@@ -111,6 +83,14 @@
             "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [\"//a[contains(text(),' Search For Patient')]\", \"//a[contains(@id,'SearchBySubscriberIDTab')]\"], \"AdditonalInfo\": {\"aftersleep\": 5}}, \"SearchFilter\": {\"js\": \"let vale=arguments[1]\\r\\nlet newD = vale.toUpperCase()\\r\\nconsole.log(newD)          \\r\\ntry{ let nx =arguments[0].replace('%s',vale)\\r\\ndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()\\r\\nreturn true   \\r\\n}\\r\\ncatch{return false}\", \"arg1\": \"//tr[contains(normalize-space(), '%s')]//td[1]//a\", \"arg2\": \"BirthDate\", \"Clicks\": null, \"afterwait\": \"//div[normalize-space()='Active']\"}, \"SearchButtonXpath\": \"//div[@id='SearchBySubscriberIDContent']//button[contains(text(),'Submit')]\", \"PostSteps\": {\"AdditonalInfo\": {\"aftersleep\": 5}, \"Clicks\": []}}, \"Queries\": [{\"Data\": \"SubscriberId\", \"Xpath\": \"//div[@class='container']//input[contains(@id,'MemberId')]\"}]}}",
             "IsActive": true,
             "ProductCategoryId": 4
+        },
+        {
+            "Id": 59,
+            "EligibilityPayorInfoId": 121,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//a[contains(@id,'SearchByPatientTab')]\"],\"AdditonalInfo\":{\"aftersleep\":5}},\"SearchFilter\":{\"js\":\"let vale=arguments[1]rnlet newD = vale.toUpperCase()rnconsole.log(newD)          rntry{ let nx =arguments[0].replace('%s',vale)rndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()rnreturn true   rn}rncatch{return false}\",\"arg1\":\"//tr[contains(normalize-space(), '%s')]//td[1]//a\",\"arg2\":\"BirthDate\",\"Clicks\":null,\"afterwait\":\"//div[normalize-space()='Active']\"},\"SearchButtonXpath\":\"//div[@id='SearchBySubscriberIDContent']//button[contains(text(),'Submit')]\",\"PostSteps\":{\"AdditonalInfo\":{\"aftersleep\":5},\"Clicks\":[]}},\"Queries\":[{\"Data\":\"FirstName\",\"Xpath\":\"//div[@class='container']//input[contains(@id,'FirstName')]\"},{\"Data\":\"LastName\",\"Xpath\":\"//div[@class='container']//input[contains(@id,'LastName')]\",\"PostClicks\":[\"//div[@class='container']//input[contains(@id,'DateOfBirth')]\"],\"AdditonalInfo\":{\"aftersleep\":5}},{\"Data\":\"BirthDate\",\"Xpath\":\"//div[@class='container']//input[contains(@id,'DateOfBirth')]\"}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 4
         }
+
     ]
 }

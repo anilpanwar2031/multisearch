@@ -1,0 +1,86 @@
+{
+    "EligibilityPatientVerification": [
+        {
+            "Requestdate": "Aug 16, 2023",
+            "Membername": "MARK TILLEY",
+            "MemberID": "964775799",
+            "PatientdateofBirth": "Dec 12, 2014",
+            "Age": "8",
+            "Coverageis": "Active",
+            "Effectivedate": "Nov 1, 2021",
+            "Eligiblethrough": "Dec 31, 9999",
+            "Coveragelevel": "Family",
+            "Paymentlevel": "Constant",
+            "COBcoveragetype": "Standard",
+            "Plantype": "Delta Dental PPO",
+            "Group": "09418-00010",
+            "Groupname": "Zillow Group",
+            "Claimsubmittimelimit": "180",
+            "Dependenteligibility": "Through age 25",
+            "Studenteligibility": "None",
+            "BenefitPeriod": "Jan 1, 2023 through Dec 31, 2023",
+            "AlternativeBenefitProvision": "Amalgam\n80%\nNo\nN/A\nFrequency: 1 per tooth every 2 Years"
+        }
+    ],
+    "EligibilityMaximums": [
+        {
+            "Individualannualmaximum": "$86.00 used - $3,000.00 max\n3% used - 97% max",
+            "IndividualDeductible": "",
+            "FamilyDeductible": ""
+        }
+    ],
+    "EligibilityBenefits": [
+        {
+            "Proccode": "0120",
+            "ProcedureCode": "D0120",
+            "ToothType": "",
+            "BenefitClass": "Diagnostic/Preventive",
+            "ProcedureDescription": "Periodic Oral Evaluation - established patient",
+            "Covered": "Covered\nPlan Pays 100%\nNo Deductible\n2x Per 1 Benefit Period - 1 remaining.",
+            "CoveredType": "Covered",
+            "PercentagePlanPays": "Plan Pays 100%",
+            "DeductibleYes": "",
+            "DeductibleNo": "No Deductible",
+            "FrequencyLimitation": "2x Per 1 Benefit Period - 1 remaining.",
+            "Variations": "Variations\nNo Age Limits - Paid/Covered",
+            "History": "Treatment History\n05/09/2023"
+        },
+        {
+            "Proccode": "0140",
+            "ProcedureCode": "D0140",
+            "ToothType": "",
+            "BenefitClass": "Diagnostic/Preventive",
+            "ProcedureDescription": "Limited Oral Evaluation-problem focused",
+            "Covered": "Covered\nPlan Pays 100%\nNo Deductible\n2x Per 1 Benefit Period - 2 remaining.",
+            "CoveredType": "Covered",
+            "PercentagePlanPays": "Plan Pays 100%",
+            "DeductibleYes": "",
+            "DeductibleNo": "No Deductible",
+            "FrequencyLimitation": "2x Per 1 Benefit Period - 2 remaining.",
+            "Variations": "Variations\nNo Age Limits - Paid/Covered",
+            "History": "Treatment History\nN/A"
+        },
+        {
+            "Proccode": "0150",
+            "ProcedureCode": "D0150",
+            "ToothType": "",
+            "BenefitClass": "Diagnostic/Preventive",
+            "ProcedureDescription": "Comprehensive Oral Evaluation-new/est. patient",
+            "Covered": "Covered\nPlan Pays 100%\nNo Deductible\n2x Per 1 Benefit Period - 1 remaining.",
+            "CoveredType": "Covered",
+            "PercentagePlanPays": "Plan Pays 100%",
+            "DeductibleYes": "",
+            "DeductibleNo": "No Deductible",
+            "FrequencyLimitation": "2x Per 1 Benefit Period - 1 remaining.",
+            "Variations": "Variations\nNo Age Limits - Paid/Covered",
+            "History": "Treatment History\nN/A\nRelated\n00120 - 05/09/2023"
+        }
+    ],
+    "EligibilityOtherProvisions": [
+        {
+            "ClaimAdress": "Customer Service and Claims:\nPO Box 75983\nSeattle, WA, 98175"
+        }
+    ],
+    "SearchDashboardFilter": [],
+    "EligibilityFiles": []
+}

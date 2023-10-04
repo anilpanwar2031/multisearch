@@ -510,5 +510,5 @@ def kickoff(message,message_id,inputurl):
 def kickoff(message,message_id):
     start(message,message_id,"")
 
-d=json.loads(open("ddwashinton.json","r").read())
+d=json.loads(open("ddins.json","r").read())
 kickoff(d,"8a7f3sd254221edssd")

@@ -1,3 +1,34 @@
+login 
+{
+    "DataContextId": "1",
+    "DataContextName": "EligibilityLogin",
+    "Click": null,
+    "Xpaths": [
+        {
+            "UsernameXpath": "//input[@id='index_userName']",
+            "PasswordXpath": "//input[@id='index_password']",
+            "LoginButtonXpath": "//input[@value='Log In']",
+            "OtpInputXpath": "",
+            "OtpSubmitXpath": "",
+            "PreSteps": [],
+            "PostSteps": [
+                "//input[@value='Continue']",
+                "(//a[@data-analytics-name='Helpful Links'])[1]",
+                "(//a[text()='Access electronic services'])[1]"
+            ],
+            "OtpXpath": "",
+            "AdditionalInfo": {
+                "headless": false,
+                "iframexpath": "//iframe[@id='main-iframe']",
+                "aftercaptchaxpath": "//input[@value='Continue']",
+                "IsCaptchaRequired": true,
+                "AfterloginCaptcha": true
+            }
+        }
+    ]
+}
+
+
 {
     "Search": {
         "Settings": {
@@ -101,6 +132,3 @@
         ]
     }
 }
-
-
-

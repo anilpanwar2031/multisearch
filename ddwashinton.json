@@ -111,6 +111,14 @@
             "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [\"//a[contains(text(),' Search For Patient')]\", \"//a[contains(@id,'SearchBySubscriberIDTab')]\"], \"AdditonalInfo\": {\"aftersleep\": 5}}, \"SearchFilter\": {\"js\": \"let vale=arguments[1]\\r\\nlet newD = vale.toUpperCase()\\r\\nconsole.log(newD)          \\r\\ntry{ let nx =arguments[0].replace('%s',vale)\\r\\ndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()\\r\\nreturn true   \\r\\n}\\r\\ncatch{return false}\", \"arg1\": \"//tr[contains(normalize-space(), '%s')]//td[1]//a\", \"arg2\": \"BirthDate\", \"Clicks\": null, \"afterwait\": \"//div[normalize-space()='Active']\"}, \"SearchButtonXpath\": \"//div[@id='SearchBySubscriberIDContent']//button[contains(text(),'Submit')]\", \"PostSteps\": {\"AdditonalInfo\": {\"aftersleep\": 5}, \"Clicks\": []}}, \"Queries\": [{\"Data\": \"SubscriberId\", \"Xpath\": \"//div[@class='container']//input[contains(@id,'MemberId')]\"}]}}",
             "IsActive": true,
             "ProductCategoryId": 4
+        },
+        {
+            "Id": 59,
+            "EligibilityPayorInfoId": 121,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//a[contains(@id,'SearchByPatientTab')]\"],\"AdditonalInfo\":{\"aftersleep\":5}},\"SearchFilter\":{\"js\":\"let vale=arguments[1]rnlet newD = vale.toUpperCase()rnconsole.log(newD)          rntry{ let nx =arguments[0].replace('%s',vale)rndocument.evaluate(nx, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()rnreturn true   rn}rncatch{return false}\",\"arg1\":\"//tr[contains(normalize-space(), '%s')]//td[1]//a\",\"arg2\":\"BirthDate\",\"Clicks\":null,\"afterwait\":\"//div[normalize-space()='Active']\"},\"SearchButtonXpath\":\"//div[@id='SearchBySubscriberIDContent']//button[contains(text(),'Submit')]\",\"PostSteps\":{\"AdditonalInfo\":{\"aftersleep\":5},\"Clicks\":[]}},\"Queries\":[{\"Data\":\"FirstName\",\"Xpath\":\"//div[@class='container']//input[contains(@id,'FirstName')]\"},{\"Data\":\"LastName\",\"Xpath\":\"//div[@class='container']//input[contains(@id,'LastName')]\",\"PostClicks\":[\"//div[@class='container']//input[contains(@id,'DateOfBirth')]\"],\"AdditonalInfo\":{\"aftersleep\":5}},{\"Data\":\"BirthDate\",\"Xpath\":\"//div[@class='container']//input[contains(@id,'DateOfBirth')]\"}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 4
         }
+
     ]
 }

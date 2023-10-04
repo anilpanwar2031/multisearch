@@ -1,0 +1,131 @@
+{
+    "InputParameters": {
+        "PayorName": "Delta Dental Iowa",
+        "PayorId": 438,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "WebsiteId": "IOWA_001",
+        "ProcCodes": [
+            "D0120",
+            "D0140",
+            "D0150",
+            "D0170",
+            "D0210",
+            "D0220",
+            "D0230",
+            "D0240",
+            "D0272",
+            "D0274",
+            "D0330",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D3220",
+            "D7140",
+            "D9110",
+            "D9230"
+        ],
+        "ScheduleId": 954,
+        "ResponseMessageQueueName": "scraperoutgoingsq"
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 115559,
+            "PatientId": "48824",
+            "AppointmentId": "287439",
+            "AppointmentDateTime": "2023-06-13T02:43:28.6266667+00:00",
+            "LastName": "Kooe",
+            "FirstName": "Alexanr",
+            "BirthDate": "10/08/2019",
+            "Relationship": "Child",
+            "PatientMemberId": "249754278",
+            "SubscriberId": "118888859101",
+            "SubscriberFirstName": "Sally",
+            "SubscriberLastName": "Priddy-Tutor",
+            "SubscriberBirthDate": "10/15/1972",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3",
+            "ClinicName": "The Smiley Tooth - Rockwall Ridge",
+            "ClinicLocation": "Rockwall",
+            "ClinicAddress1": "3018 Ridge Road Ste 120",
+            "ClinicAddress2": "",
+            "ClinicZip": "75032-5819",
+            "ProviderFirstName": "Velina",
+            "ProviderLastName": "Lopez",
+            "SpecialityType": "Pediatrics"
+        }
+    ],
+    "Login": {
+        "Url": "https://secure.deltadentalia.com/portal/login/dentist",
+        "LoginId": "Payoraccess",
+        "Password": "BPKtech@123",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    },
+    "Xpaths": [
+        {
+            "XPath": "{\"DataContextId\": \"1\", \"DataContextName\": \"EligibilityLogin\", \"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[@id='usernameInput']\", \"PasswordXpath\": \"//input[@id='passwordInput']\", \"LoginButtonXpath\": \"//button[@id='verify-pass']\", \"OtpInputXpath\": \"\", \"OtpSubmitXpath\": \"\", \"PreSteps\": [], \"PostSteps\": [], \"OtpXpath\": \"\", \"AdditionalInfo\": {\"StepsAfterUsernameInput\": {\"Click\": [\"//button[@id='verify-user']\"]}}}]}",
+            "DataContextName": "EligibilityLogin"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Group\"}, \"xpath\": \"//strong[text()=' Group: ']//parent::p\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"SpecialCondtion\"}, \"xpath\": \"//h2[contains(normalize-space(),'Special Conditions')]//following-sibling::p\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Coverage\"}, \"xpath\": \"//p[contains(text(),'Coverage:')]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": []}, \"xpath\": \"//caption[text()='Eligibility Information']//parent::table\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[@title='Benefits and Frequencies']\"], \"fileds\": \"ChildCoverageAge\"}, \"xpath\": \"//strong[contains(text(),'Child Coverage')]//parent::li\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"StudentCoverageAge\"}, \"xpath\": \"//strong[contains(text(),'Student Coverage')]//parent::li\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"DependentOrthoAge\"}, \"xpath\": \"//strong[contains(text(),'Dependent Orthodontic')]//parent::li\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"AdultOrthodontic\"}, \"xpath\": \"//strong[contains(normalize-space(),'Adult Orthodontic')]//parent::li\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"WaitingPeriod\"}, \"xpath\": \"//table[@id='benefits-table']//th[normalize-space()='Exams']//following-sibling::td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"CalenderYear\"}, \"xpath\": \"//p[contains(text(),'Benefit Year')]\"}]}",
+            "DataContextName": "EligibilityPatientVerification"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": [\"Type\", \"DeltaDentalPpo\", \"DeltaDentalPremier\", \"OutOfNetwork\"]}, \"xpath\": \"//table[@id='max-deduct-table']\"}]}",
+            "DataContextName": "EligibilityMaximums"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": []}, \"xpath\": \"//table[@id='limitations-table']\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[@aria-controls='limitations-table'][text()='2']\"], \"fileds\": [], \"AfterClickWait\": 3}, \"xpath\": \"//table[@id='limitations-table']\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[@aria-controls='limitations-table'][text()='3']\"], \"fileds\": [], \"AfterClickWait\": 3}, \"xpath\": \"//table[@id='limitations-table']\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[@title='Patient History']\"], \"fileds\": []}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityDeductiblesProcCode"
+        },
+        {
+            "XPath": "{\"flatten\": true, \"MultiplElements\": {\"Searchlist\": null, \"action\": \"Sendkeys\", \"PreClicks\": {\"Clicks\": []}, \"InputElementsXpath\": \"//input[@type='search']\", \"SearchButtonXpath\": \"\"}, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": null, \"fileds\": []}, \"xpath\": \"//table[@id='patient-history']\"}, {\"AdditonalInfo\": {\"Click\": [\"//input[@type='search']\"], \"fileds\": [], \"AfterClickWait\": 1}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityServiceTreatmentHistory"
+        },
+        {
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//a[@title='Benefits and Frequencies']\"], \"fileds\": [\"Benefit\", \"Used\", \"AgeLimitPP0\", \"FreqLimitPP0\", \"AgeLimitPremier\", \"FreqLimitPremier\", \"AgeLimitOutOfNetwork\", \"FreqLimitOutOfNetwork\"]}, \"xpath\": \"//table[@id='freq-table']\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[@title='Procedure Code Search']\"], \"fileds\": []}, \"xpath\": \"\"}]}",
+            "DataContextName": "TreatmentHistorySummary"
+        },
+        {
+            "XPath": "{\"flatten\": true, \"MultiplElements\": {\"Searchlist\": null, \"action\": \"Sendkeys\", \"PreClicks\": {\"Clicks\": []}, \"InputElementsXpath\": \"//input[@id='proc-code']\", \"SearchButtonXpath\": \"//input[@id='get-proc-code']\"}, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": null, \"fileds\": [\"code\", \"benefitPPO\", \"DeductiblePPO\", \"AgeLimitPPO\", \"benefitPremier\", \"DeductiblePremier\", \"AgeLimitPremier\", \"benefitOutOfNetwork\", \"DeductibleOurOfNerwork\", \"AgeLimitOutOfNerwork\"], \"type\": \"headless\", \"LoopElement\": {\"fieldName\": \"Proccode\"}}, \"xpath\": \"//caption[text()='Procedure Code Lookup Results']//parent::table\"}, {\"AdditonalInfo\": {\"Click\": [\"//a[normalize-space()='New Procedure Code Search']\"], \"fileds\": []}, \"xpath\": \"\"}]}",
+            "DataContextName": "EligibilityBenefits"
+        },
+        {
+            "XPath": "{\"Scrapping\": false, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [\"//input[@id='new-patient']\"], \"fileds\": []}, \"xpath\": \"\"}]}",
+            "DataContextName": "SearchDashboardFilter"
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 142,
+            "EligibilityPayorInfoId": 438,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [\"//a[text()='Patient Information']\"], \"AdditonalInfo\": {\"sleep\": 5}}, \"SearchButtonXpath\": \"//input[@value=' Search ']\", \"PostSteps\": {\"Clicks\": [\"//td[text()='%s']!@BirthDate\"], \"AdditonalInfo\": {\"aftersleep\": 5}}}, \"Queries\": [{\"Data\": \"LastName\", \"Xpath\": \"//input[@id='member-last-name']\", \"PostClicks\": [\"//input[@id='member-first-name']\"], \"SleepAfterInput\": 1, \"sleep\": 1}, {\"Data\": \"FirstName\", \"Xpath\": \"//input[@id='member-first-name']\", \"PostClicks\": [\"//input[@id='member-dob']\"], \"SleepAfterInput\": 1, \"sleep\": 1}, {\"Data\": \"BirthDate\", \"Xpath\": \"//input[@id='member-dob']\", \"SleepAfterInput\": 2}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 4
+        },
+        {
+            "Id": 142,
+            "EligibilityPayorInfoId": 438,
+            "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//a[text()='Patient Information']\"],\"AdditonalInfo\":{\"sleep\":5}},\"SearchButtonXpath\":\"//input[@value=' Search ']\",\"PostSteps\":{\"Clicks\":[\"//td[text()='%s']!@BirthDate\"],\"AdditonalInfo\":{\"aftersleep\":5}}},\"Queries\":[{\"Data\":\"SubscriberId\",\"Xpath\":\"//input[@id='member-id']\",\"PostClicks\":[\"//input[@id='member-dob2']\"],\"SleepAfterInput\":1,\"sleep\":1},{\"Data\":\"BirthDate\",\"Xpath\":\"//input[@id='member-dob2']\",\"SleepAfterInput\":2}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 4
+        }
+    ]
+}

@@ -1,4 +1,29 @@
 {
+    "Click": null,
+    "Xpaths": [
+        {
+            "UsernameXpath": "//input[@id='usernameInput']",
+            "PasswordXpath": "//input[@id='passwordInput']",
+            "LoginButtonXpath": "//button[contains(text(),'Sign in')]",
+            "OtpInputXpath": "",
+            "OtpSubmitXpath": "",
+            "PreSteps": [],
+            "PostSteps": [],
+            "OtpXpath": "",
+            "AdditionalInfo": {
+                "StepsAfterUsernameInput": {
+                    "Click": [
+                        "//button[contains(text(),'Next')]"
+                    ]
+                }
+            }
+        }
+    ]
+}
+
+
+
+{
     "Search": {
         "Settings": {
             "PreSteps": {
@@ -49,8 +74,7 @@
         "Settings": {
             "PreSteps": {
                 "Clicks": [
-                    "//a[text()='Patient Information']",
-                    "//p//a[text()='Patient Benefits']"
+                    "//div[@id='levelmenu']/a[1]"
                 ],
                 "AdditonalInfo": {}
             },
